@@ -2,11 +2,12 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-09-12 21:50:43
+ * @LastEditTime: 2020-09-12 21:57:57
  * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
  ⭐️ Weidow's 开发环境配置 ⭐️ 
+ 
   ---
 </h1>
 
@@ -28,7 +29,7 @@
 - [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:  
   ![样式](https://gitee.com/Weidows2984539695/Weidows/raw/master/Website/public/images/Screen/QQ截图20200822144122.jpg)
 
-- [pip](Data/pip.ini)Python 的清华源放在 C/user/default 里
+- [*pip*](Data/pip.ini)是Python 的清华源放在 C/user/default 里
 
 ---
 
@@ -38,7 +39,7 @@
 
 # `安装步骤详情`
 
-- 详细步骤可以访问我的一片文章查看具体参数和需要的配置更改,[点这里,走你](http://weidows2984539695.gitee.io/weidows/post/backup/Data/)
+- 详细步骤可以访问我的一片文章查看具体参数和需要的配置更改,[`点这里,走你`](http://weidows2984539695.gitee.io/weidows/post/backup/Data/)
 
 ---
 
