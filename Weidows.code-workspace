@@ -1,0 +1,78 @@
+{
+    "folders": [
+      {
+        "path": "."
+      },
+      {
+        "path": "..\\Github"
+      },
+      {
+        "path": "G:\\Repo"
+      }
+    ],
+    "settings": {
+        "git.ignoreLimitWarning": true,
+        "files.associations": {
+          "*.cjson": "jsonc",
+          "*.wxss": "css",
+          "*.wxs": "javascript",
+          "ostream": "cpp",
+          "iostream": "cpp",
+          "array": "cpp",
+          "*.tcc": "cpp",
+          "cctype": "cpp",
+          "clocale": "cpp",
+          "cstdint": "cpp",
+          "cstdio": "cpp",
+          "cstdlib": "cpp",
+          "cstring": "cpp",
+          "cwchar": "cpp",
+          "cwctype": "cpp",
+          "unordered_map": "cpp",
+          "vector": "cpp",
+          "exception": "cpp",
+          "fstream": "cpp",
+          "functional": "cpp",
+          "initializer_list": "cpp",
+          "iosfwd": "cpp",
+          "istream": "cpp",
+          "limits": "cpp",
+          "new": "cpp",
+          "sstream": "cpp",
+          "stdexcept": "cpp",
+          "streambuf": "cpp",
+          "system_error": "cpp",
+          "type_traits": "cpp",
+          "tuple": "cpp",
+          "typeinfo": "cpp",
+          "utility": "cpp",
+          "thread": "cpp",
+          "stdio.h": "c",
+          "cmath": "c",
+          "math.h": "c",
+          "time.h": "c"
+        },
+        "emmet.syntaxProfiles": {
+            "vue": "html",
+            "vue-html": "html"
+        },
+        "emmet.includeLanguages": {
+            "vue-html": "html",
+            "vue": "html",
+            "javascript": "javascriptreact"
+        },
+        "emmet.excludeLanguages": [
+            "markdown",
+            "less",
+            "pug"
+        ],
+        "workbench.activityBar.visible": true,
+        "commentTranslate.targetLanguage": "zh-CN",
+        "liveServer.settings.multiRootWorkspaceName": "Weidows",
+        "java.dependency.packagePresentation": "flat",
+        "java.dependency.syncWithFolderExplorer": true,
+        "maven.view": "hierarchical",
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "live2D.use": true
+    }
+}

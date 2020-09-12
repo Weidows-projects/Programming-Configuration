@@ -1,0 +1,1 @@
+for %%i in (%1) do java %%~ni.%2
