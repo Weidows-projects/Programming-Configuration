@@ -2,11 +2,11 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-09-12 21:57:57
+ * @LastEditTime: 2020-09-19 14:59:13
  * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
- ⭐️ Weidow's 开发环境配置 ⭐️ 
+ ⭐️ Weidow's 开发环境配置 ⭐️
  
   ---
 </h1>
@@ -39,13 +39,13 @@
 
 # `安装步骤详情`
 
-- 详细步骤可以访问我的一片文章查看具体参数和需要的配置更改,[`点这里,走你`](http://weidows2984539695.gitee.io/weidows/post/backup/Data/)
+- 详细步骤可以访问我的一片文章查看具体参数和需要的配置更改,[`点这里,走你`](http://weidows.gitee.io/post/backup/Data/)
 
 ---
 
 <center>
 
-# #N.[反馈 & 出处 (Aboue me & Click me)](https://weidows2984539695.gitee.io/Weidows/tags/about)
+# #N.[反馈 & 出处 (Aboue me & Click me)](https://weidows.gitee.io/tags/about)
 
     后续可能会更新,同时欢迎有兴趣的提出修改意见或共同整改!
 
