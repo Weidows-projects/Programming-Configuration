@@ -2,7 +2,7 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-09-19 14:59:13
+ * @LastEditTime: 2020-09-24 22:13:46
  * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
@@ -31,6 +31,7 @@
 
 - [*pip*](Data/pip.ini)是Python 的清华源放在 C/user/default 里
 
+- [批量获取文件名](Data/批量获取文件名.bat) 因为markdown插入图片只能一张张的插入,如果想批量插入首先需要获取批量文件名(并不想用Typora插入,路径有局限性),通过批量光标量产出合法路径.
 ---
 
 # [Java](Java)这是个 Maven 项目
@@ -47,6 +48,5 @@
 
 # #N.[反馈 & 出处 (Aboue me & Click me)](https://weidows.gitee.io/tags/about)
 
-    后续可能会更新,同时欢迎有兴趣的提出修改意见或共同整改!
-
+    后续会更新,同时欢迎有兴趣的提出修改意见或共同整改!
 </center>
