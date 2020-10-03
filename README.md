@@ -2,8 +2,8 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-09-24 22:13:46
- * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
+ * @LastEditTime: 2020-10-03 11:41:21
+ * @FilePath: \Githubg:\Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
  ⭐️ Weidow's 开发环境配置 ⭐️
@@ -13,9 +13,9 @@
 
 # [.vscode](.vscode/)目录里有我的 VScode 设置文件,已经搭建好:
 
-`C++ , Python , Java , Node.js , HTML5(与配置文件非相关)` 开发环境...
+`C++ , Python , Java , Node.js , HTML5(与配置文件非相关) , Processing` 开发环境...
 
-# [backup](backup)里面暂无内容...
+# [backup](backup)里面为安装包之类的,但是太大了...所以暂无内容...
 
 # [Data](Data)里面有不同语言的相关配置文件
 
@@ -29,9 +29,10 @@
 - [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:  
   ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/post/QQ截图20200822144122.jpg)
 
-- [*pip*](Data/pip.ini)是Python 的清华源放在 C/user/default 里
+- [_pip_](Data/pip.ini)是 Python 的清华源放在 C/user/default 里
 
-- [批量获取文件名](Data/批量获取文件名.bat) 因为markdown插入图片只能一张张的插入,如果想批量插入首先需要获取批量文件名(并不想用Typora插入,路径有局限性),通过批量光标量产出合法路径.
+- [批量获取文件名](Data/批量获取文件名.bat) 因为 markdown 插入图片只能一张张的插入,如果想批量插入首先需要获取批量文件名(并不想用 Typora 插入,路径有局限性),通过批量光标量产出合法路径.
+
 ---
 
 # [Java](Java)这是个 Maven 项目
@@ -49,4 +50,5 @@
 # #N.[反馈 & 出处 (Aboue me & Click me)](https://weidows.gitee.io/tags/about)
 
     后续会更新,同时欢迎有兴趣的提出修改意见或共同整改!
+
 </center>
