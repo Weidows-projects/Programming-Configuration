@@ -1,12 +1,11 @@
 {
     "folders": [
       {
-        "path": "."
+        "name": "Github",
+        "path": ".."
       },
       {
-        "path": "..\\Github"
-      },
-      {
+        "name": "Repo",
         "path": "G:\\Repo"
       }
     ],
@@ -50,7 +49,11 @@
           "stdio.h": "c",
           "cmath": "c",
           "math.h": "c",
-          "time.h": "c"
+          "time.h": "c",
+          "random": "c",
+          "stdlib.h": "c",
+          "string_view": "c",
+          "regex": "c"
         },
         "emmet.syntaxProfiles": {
             "vue": "html",
