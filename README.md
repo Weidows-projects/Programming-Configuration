@@ -7,8 +7,6 @@
 -->
 <h1 align="center">
  ⭐️ Weidow's 开发环境配置 ⭐️
- 
-  ---
 </h1>
 
 # [.vscode](.vscode/)目录里有我的 VScode 设置文件,已经搭建好:
@@ -19,14 +17,14 @@
 
 # [Data](Data)里面有不同语言的相关配置文件
 
-- [javaRunner](Data/javaRunner.cmd)由于 CodeRunner 只能运行单文件 java 程序,于是本人改编 CodeRunner,使其勉强可以编译一个 package(如果存在 import 包外的 package 会编译失败)  
-  下面是"code-runner.executorMap"的关于 java 的设置,如需要使用的话需要修改下面的 javaRunner 路径  
+- [javaRunner](Data/javaRunner.cmd)由于 CodeRunner 只能运行单文件 java 程序,于是本人改编 CodeRunner,使其勉强可以编译一个 package(如果存在 import 包外的 package 会编译失败)
+  下面是"code-runner.executorMap"的关于 java 的设置,如需要使用的话需要修改下面的 javaRunner 路径
   `友情提醒`:目前本人在用 Maven + debugger for java 来编译运行,更加舒适.
   这个小魔改是本码农路上爬过的树,没帮我走远,但看到了一些异常的美景.
 
   "java": "javac -encoding UTF-8 -cp ../ $fileName && cd.. && cmd /c D:\\Game\\Demo\\Weidows\\.vscode\\Data\\javaRunner.cmd $dirWithoutTrailingSlash,\$fileNameWithoutExt"
 
-- [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:  
+- [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:
   ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/post/QQ截图20200822144122.jpg)
 
 - [_pip_](Data/pip.ini)是 Python 的清华源放在 C/user/default 里
