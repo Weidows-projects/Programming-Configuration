@@ -5,12 +5,7 @@
       "path": ".."
     },
     {
-      "name": "GitHub",
-      "path": "..\\..\\Github"
-    },
-    {
-      "name": "Repo",
-      "path": "G:\\Repo"
+      "path": "..\\..\\Github\\Blog"
     }
   ],
   "settings": {
@@ -22,6 +17,7 @@
       "string.h": "c",
       "math.h": "c",
       "stdio.h": "c"
-    }
+    },
+    "liveServer.settings.multiRootWorkspaceName": "Weidows"
   }
 }

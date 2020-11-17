@@ -25,7 +25,7 @@
   "java": "javac -encoding UTF-8 -cp ../ $fileName && cd.. && cmd /c D:\\Game\\Demo\\Weidows\\.vscode\\Data\\javaRunner.cmd $dirWithoutTrailingSlash,\$fileNameWithoutExt"
 
 - [Tinacious%20Design-color-theme](./.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:
-  ![样式](./https://cdn.jsdelivr.net/gh/Weidows/Images/post/1/QQ截图20200822144122.jpg)
+  ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/Repository/screenshoot.jpeg)
 
 - [_pip_](./Data/pip.ini)是 Python 的清华源放在 C/user/default 里
 
