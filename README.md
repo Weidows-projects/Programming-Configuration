@@ -1,14 +1,9 @@
----
-title: ⭐️ Weidow's 开发环境配置 ⭐️
-top_img: https://cdn.jsdelivr.net/gh/Weidows/Images/post/1/OBS-Services-Configuration.jpg
----
-
 <!--
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-11-18 10:45:55
- * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
+ * @LastEditTime: 2020-11-18 12:54:06
+ * @FilePath: \Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
  ⭐️ Weidow's 开发环境配置 ⭐️
