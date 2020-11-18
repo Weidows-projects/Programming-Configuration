@@ -1,8 +1,13 @@
+---
+title: ⭐️ Weidow's 开发环境配置 ⭐️
+top_img: https://cdn.jsdelivr.net/gh/Weidows/Images/post/1/OBS-Services-Configuration.jpg
+---
+
 <!--
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-11-05 21:57:53
+ * @LastEditTime: 2020-11-18 10:45:55
  * @FilePath: \Weidowsg:\Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
@@ -24,10 +29,8 @@
 
   "java": "javac -encoding UTF-8 -cp ../ $fileName && cd.. && cmd /c D:\\Game\\Demo\\Weidows\\.vscode\\Data\\javaRunner.cmd $dirWithoutTrailingSlash,\$fileNameWithoutExt"
 
-- [Tinacious%20Design-color-theme](./.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:
-  ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/Repository/screenshoot.jpeg)
-
-- [_pip_](./Data/pip.ini)是 Python 的清华源放在 C/user/default 里
+- [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:
+  ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/post/1/screenshoot.jpeg)
 
 - [批量获取文件名](./Data/批量获取文件名.bat) 因为 markdown 插入图片只能一张张的插入,如果想批量插入首先需要获取批量文件名(并不想用 Typora 插入,路径有局限性),通过批量光标量产出合法路径.
 
