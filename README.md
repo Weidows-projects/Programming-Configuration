@@ -2,7 +2,7 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-11-18 12:54:06
+ * @LastEditTime: 2020-11-21 00:06:35
  * @FilePath: \Repo\Programming-Configuration\README.md
 -->
 <h1 align="center">
@@ -25,8 +25,7 @@
   "java": "javac -encoding UTF-8 -cp ../ $fileName && cd.. && cmd /c D:\\Game\\Demo\\Weidows\\.vscode\\Data\\javaRunner.cmd $dirWithoutTrailingSlash,\$fileNameWithoutExt"
 
 - [Tinacious%20Design-color-theme](.vscode/Data/Tinacious%20Design-color-theme.json) 这是结合了 Tinacious%20Design-color-theme 的代码颜色与 CyberPunk+主题布局颜色的主题 json 文件,样式图片:
-  ![样式](https://cdn.jsdelivr.net/gh/Weidows/Images/post/1/screenshoot.jpeg)
-
+  - ![screenshoot](https://i.loli.net/2020/11/21/9zsiDpx7FXB4ayc.jpg)
 - [批量获取文件名](./Data/批量获取文件名.bat) 因为 markdown 插入图片只能一张张的插入,如果想批量插入首先需要获取批量文件名(并不想用 Typora 插入,路径有局限性),通过批量光标量产出合法路径.
 
 ---

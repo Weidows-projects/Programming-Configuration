@@ -12,5 +12,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Github",
+		"rootPath": "D:\\Game\\Demo\\Github",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
