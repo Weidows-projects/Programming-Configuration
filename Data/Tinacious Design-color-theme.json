@@ -680,8 +680,8 @@
     }
   ],
   "colors": {
-    "activityBar.background": "#261d45",
-    "activityBar.border": "#1d1833",
+    "activityBar.background": "#261d45", //活动栏
+    "activityBar.border": "#6552b8",
     "activityBar.foreground": "#00ffc8",
     "activityBarBadge.background": "#00ffc8",
     "activityBarBadge.foreground": "#001107",
@@ -697,7 +697,7 @@
     "dropdown.background": "#002212ec",
     "dropdown.border": "#00ff9c",
     "dropdown.foreground": "#00ff9c",
-    "editor.background": "#1c182b80", //编辑器背景色
+    "editor.background": "#100e18", //编辑器背景色
     "editor.findMatchHighlightBackground": "#283593",
     "editor.foreground": "#00ff9c",
     "editor.hoverHighlightBackground": "#3629ec7e",
@@ -724,7 +724,7 @@
     "editorLineNumber.activeForeground": "#00ffc8",
     "editorLineNumber.foreground": "#9f5fff",
     "editorLink.activeForeground": "#3d81fe",
-    "editorRuler.foreground": "#182333",
+    "editorRuler.foreground": "#00ffff",
     "editorSuggestWidget.background": "#002212ec",
     "editorSuggestWidget.border": "#00ff9c",
     "editorSuggestWidget.highlightForeground": "#00c3ff",
@@ -797,9 +797,9 @@
     "scrollbarSlider.activeBackground": "#6a3ecf6e",
     "scrollbarSlider.background": "#5c35b154",
     "scrollbarSlider.hoverBackground": "#6a3ecf6e",
-    "sideBar.background": "#372963",
-    "sideBar.border": "#1d1833",
-    "sideBar.foreground": "#b08bff",
+    "sideBar.background": "#000000",
+    "sideBar.border": "#362c61",
+    "sideBar.foreground": "#8b55ff",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#002212ec",
     "statusBar.border": "#00ff9c",

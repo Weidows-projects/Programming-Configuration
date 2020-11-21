@@ -218,7 +218,8 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/* 行号 */
 .monaco-editor .line-numbers {
   color: #ff00cc;
-  text-shadow: 0 0 10px #0227f78e;
+  text-shadow: 0 0 15px #0227f7;
 }
