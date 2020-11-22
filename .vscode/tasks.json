@@ -1,23 +1,8 @@
 {
   "version": "2.0.0",
   "tasks": [
-    {                         //这是我的gcc环境配置
-      "type": "shell",
-      "label": "g++",
-      "command": "D:/Game/Demo/Dev-Cpp/MinGW64/bin/gcc.exe",
-      "args": [
-        "-g",
-        "${file}",
-        "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": ["$gcc"],
-      "group": "build"
-    },                          //gcc配置到这里结束
-    {                           //Processing配置从这里开始添加
+    {
+      //Processing配置从这里开始添加
       "label": "Run Sketch",
       "type": "shell",
       "group": {
@@ -45,6 +30,18 @@
           "--run"
         ]
       }
-    }                              //到这里结束
+    }, //到这里结束
+    {
+      //这是我的g++环境配置
+      "type": "shell",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "g++", //就是在shell里输入的gcc
+      "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    } //gcc配置到这里结束
   ]
 }
