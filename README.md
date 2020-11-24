@@ -2,8 +2,8 @@
  * @Author: Weidows
  * @Date: 2020-09-12 19:54:05
  * @LastEditors: Weidows
- * @LastEditTime: 2020-11-21 00:06:35
- * @FilePath: \Repo\Programming-Configuration\README.md
+ * @LastEditTime: 2020-11-25 00:52:56
+ * @FilePath: \Programming-Configuration\README.md
 -->
 <h1 align="center">
  ⭐️ Weidow's 开发环境配置 ⭐️
@@ -36,6 +36,12 @@
 - 这个配置文件修改成了阿里源,把 maven 源注释掉了,而且把 localRepository 路径修改了
   - (maven 默认下载依赖到`C:\User\username\.m2\`,我给改了,看个人需求改吧)
 - `Maven/conf/settings.xml`照着这个路径找到这个文件,替换或者修改任你选.
+
+---
+
+# PowerShell
+
+- [PowerShell](./PowerShell/)这个文件夹是 PowerShell 的所有配置,放在文档中.
 
 ---
 
