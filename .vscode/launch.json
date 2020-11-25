@@ -18,7 +18,7 @@
       "stopAtEntry": false, // 设为true时程序将暂停在程序入口处，一般设置为false
       "cwd": "${workspaceFolder}", // 调试程序时的工作目录，一般为${workspaceRoot}即代码所在目录 workspaceRoot已被弃用，现改为workspaceFolder
       "environment": [],
-      "externalConsole": true, // 调试时是否显示控制台窗口，一般设置为true显示控制台
+      "externalConsole": false, // 调试时是否显示控制台窗口，一般设置为true显示控制台
       "MIMode": "gdb",
       "miDebuggerPath": "gdb.exe", // miDebugger的路径，注意这里要与MinGw的路径对应
       "preLaunchTask": "C/C++: gcc.exe build active file",

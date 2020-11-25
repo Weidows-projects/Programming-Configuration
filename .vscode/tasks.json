@@ -36,7 +36,12 @@
       "type": "shell",
       "label": "C/C++: gcc.exe build active file",
       "command": "g++", //就是在shell里输入的gcc
-      "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
       "problemMatcher": ["$gcc"],
       "group": {
         "kind": "build",

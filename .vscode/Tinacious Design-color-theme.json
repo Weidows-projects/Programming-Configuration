@@ -5,14 +5,14 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#F781D8"
+        "foreground": "#61e2ff"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#FFCC66"
+        "foreground": "#FFCC00"
       }
     },
     // Generated JSON - START

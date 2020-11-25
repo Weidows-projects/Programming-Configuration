@@ -21,8 +21,9 @@
       "string_view": "c",
       "initializer_list": "c",
       "utility": "c",
-      "string": "c"
+      "string": "c",
+      "stdc++.h": "c"
     },
-    "liveServer.settings.multiRootWorkspaceName": "Weidows",
+    "liveServer.settings.multiRootWorkspaceName": "Blog"
   }
 }

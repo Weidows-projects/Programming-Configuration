@@ -7,15 +7,9 @@
   .mtk19 标签属性/css选择器
 */
 
-.mtk1,
-.mtk19 {
-  text-shadow: 0 0 7px #61e2ff;
-}
-
 /* 注释颜色 */
 .mtk3,
 .mtk5 {
-  color: #61e2ff;
   text-shadow: 0 0 10px #f92aad;
 }
 
@@ -23,7 +17,6 @@
   color: #6071cc;
 }
 
-.mtk4,
 .mtk15 {
   color: #fc199a;
   text-shadow: 0 0 8px #fc199a;
@@ -33,7 +26,7 @@
 .mtk6,
 .mtk14 {
   color: #9963ff;
-  text-shadow: 0 0 2px #fc199a, 0 0 8px #fc199a58;
+  text-shadow: 0 0 8px #fc199a;
 }
 
 .mtk7 {
@@ -50,6 +43,10 @@
   text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099,
     0 0 10px #ffaa0099;
   font-style: italic;
+}
+
+.mtk19 {
+  text-shadow: 0 0 7px #61e2ff;
 }
 
 .monaco-editor .margin,
