@@ -46,12 +46,12 @@
     "body": [
       "---",
       "title: ",
-      "# categories:",
-      "#   - ",
-      "# tags:",
-      "#   - ",
-      "# cover: ",
-      "top_img: ",
+      "categories:",
+      "  - ",
+      "tags:",
+      "  - ",
+      "cover: ",
+      "# top_img: ",
       "---",
       ""
     ]
