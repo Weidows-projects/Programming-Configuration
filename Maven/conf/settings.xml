@@ -8,9 +8,7 @@ regarding copyright ownership.  The ASF licenses this file
 to you under the Apache License, Version 2.0 (the
 "License"); you may not use this file except in compliance
 with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing,
 software distributed under the License is distributed on an
 "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -51,7 +49,7 @@ under the License.
    |
    | Default: ${user.home}/.m2/repository
   -->
-  <localRepository> D:\Game\Demo\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3\mvn-repository </localRepository>
+  <localRepository> D:\Game\Scoop\apps\idea-ultimate\current\plugins\maven\mvn-repository </localRepository>
 
   <!-- interactiveMode
    | This will determine whether maven prompts you when it needs input. If set to false,
@@ -224,11 +222,9 @@ under the License.
      | This profile example uses the JDK version to trigger activation, and provides a JDK-specific repo.
     <profile>
       <id>jdk-1.4</id>
-
       <activation>
         <jdk>1.4</jdk>
       </activation>
-
       <repositories>
         <repository>
           <id>jdk14</id>
@@ -262,14 +258,12 @@ under the License.
      |
     <profile>
       <id>env-dev</id>
-
       <activation>
         <property>
           <name>target-env</name>
           <value>dev</value>
         </property>
       </activation>
-
       <properties>
         <tomcatPath>/path/to/tomcat/instance</tomcatPath>
       </properties>

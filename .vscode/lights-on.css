@@ -217,6 +217,5 @@
 
 /* 行号 */
 .monaco-editor .line-numbers {
-  color: #ff00cc;
   text-shadow: 0 0 15px #0227f7;
 }

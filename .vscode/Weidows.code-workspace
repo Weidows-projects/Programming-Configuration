@@ -5,7 +5,8 @@
       "path": ".."
     },
     {
-      "path": "..\\..\\Github\\Blog"
+      "name": "Blog-private",
+      "path": "..\\..\\Github\\Blog-private"
     }
   ],
   "settings": {
@@ -22,8 +23,9 @@
       "initializer_list": "c",
       "utility": "c",
       "string": "c",
-      "stdc++.h": "c"
+      "stdc++.h": "c",
+      "ctype.h": "c",
+      "bitset": "c"
     },
-    "liveServer.settings.multiRootWorkspaceName": "Blog"
   }
 }
