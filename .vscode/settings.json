@@ -1,6 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "Enabled",
-    "python.linting.enabled": true,
-    "python.formatting.provider": "autopep8"
-    
-}

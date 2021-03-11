@@ -2,6 +2,7 @@
 
 set HOME_PATH=C:\Users\29845
 set BACKUP_DIR=D:\Game\Github\Programming-Configuration
+mkdir %BACKUP_DIR% %BACKUP_DIR%\Scoop backup\.ssh User_config
 
 @REM 备份Scoop
 cd %BACKUP_DIR%\Scoop
@@ -17,7 +18,6 @@ copy D:\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 PowerShell
 copy C:\Windows\System32\drivers\etc\hosts hosts
 
 @REM 备份 ~\
-mkdir backup\.ssh
 copy %HOME_PATH%\.ssh\* backup\.ssh
 copy %HOME_PATH%\.gitconfig User_config
 copy %HOME_PATH%\.npmrc User_config

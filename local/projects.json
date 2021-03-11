@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Weidows",
+    "rootPath": "D:\\Game\\Weidows\\.vscode\\Weidows.code-workspace",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "Github",
+    "rootPath": "D:\\Game\\Github",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  },
+  {
+    "name": "Repo",
+    "rootPath": "E:\\Repo",
+    "paths": [],
+    "group": "",
+    "enabled": true
+  }
+]
