@@ -27,5 +27,10 @@
       "ctype.h": "c",
       "bitset": "c"
     },
+    "live2D.use": false,
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.syncWithFolderExplorer": true,
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "sqltools.connections": [],
   }
 }

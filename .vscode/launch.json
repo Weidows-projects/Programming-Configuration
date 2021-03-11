@@ -2,6 +2,321 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch GetURL",
+      "request": "launch",
+      "mainClass": "twenty_one.net.GetURL",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Student",
+      "request": "launch",
+      "mainClass": "twenty_one.net.chat.Student",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Teacher",
+      "request": "launch",
+      "mainClass": "twenty_one.net.chat.Teacher",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Talk",
+      "request": "launch",
+      "mainClass": "twenty_one.net.chat.Talk",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client2",
+      "request": "launch",
+      "mainClass": "twenty_one.net._udp_connect.Client2",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server2",
+      "request": "launch",
+      "mainClass": "twenty_one.net._udp_connect.Server2",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client",
+      "request": "launch",
+      "mainClass": "twenty_one.net._udp_connect.Client",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server",
+      "request": "launch",
+      "mainClass": "twenty_one.net._udp_connect.Server",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client",
+      "request": "launch",
+      "mainClass": "twenty_one.net.file_upload.Client",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server",
+      "request": "launch",
+      "mainClass": "twenty_one.net.file_upload.Server",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Server",
+      "request": "launch",
+      "mainClass": "twenty_one.net.tcp_connect.Server",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client",
+      "request": "launch",
+      "mainClass": "twenty_one.net.tcp_connect.Client",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Port",
+      "request": "launch",
+      "mainClass": "twenty_one.net.Port",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ip",
+      "request": "launch",
+      "mainClass": "twenty_one.net.Ip",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Annotation",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Annotation",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Generic",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Generic",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch PerformanceInfluence",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.PerformanceInfluence",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo6",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo6",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo5",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo5",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo4",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo4",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo3",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo3",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo2",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo2",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Demo1",
+      "request": "launch",
+      "mainClass": "twenty_one.reflection.Demo1",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestThreadPool",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.prime.TestThreadPool",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestLock",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.prime.TestLock",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeadLock",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.sync.DeadLock",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch JUC",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.sync.JUC",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestList",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.sync.TestList",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Bank",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.sync.Bank",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ticket",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.sync.Ticket",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestDaemon",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestDaemon",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestState",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestState",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestJoin",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestJoin",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestYield",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestYield",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestSleep",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestSleep",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestStop",
+      "request": "launch",
+      "mainClass": "twenty_one.multi_thread.TestStop",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch ForEach",
+      "request": "launch",
+      "mainClass": "twenty_one.lambda.ForEach",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lambda",
+      "request": "launch",
+      "mainClass": "twenty_one.lambda.Lambda",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch StaticProxy",
+      "request": "launch",
+      "mainClass": "twenty.november.proxy.static_proxy.StaticProxy",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Downloader2",
+      "request": "launch",
+      "mainClass": "twenty.november.thread.downloader.Downloader2",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Downloader",
+      "request": "launch",
+      "mainClass": "twenty.november.thread.downloader.Downloader",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "twenty.november.thread.producer_and_customer.Test",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "twenty.november.thread.bank.Test",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "twenty.november.thread.Test",
+      "projectName": "Java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "test.Test",
+      "projectName": "Java"
+    },
+    {
       "name": "Python: 当前文件",
       "type": "python",
       "request": "launch",
@@ -9,18 +324,17 @@
       "console": "integratedTerminal"
     },
     {
-      //C/C++配置开始
-      "name": "C/C++", // 配置名称，将会在启动配置的下拉菜单中显示
-      "type": "cppdbg", // 配置类型，这里只能为cppdbg
-      "request": "launch", // 请求配置类型，可以为launch（启动）或attach（附加）
-      "program": "${fileDirname}//${fileBasenameNoExtension}.exe", // 将要进行调试的程序的路径
-      "args": [], // 程序调试时传递给程序的命令行参数，一般设为空即可
-      "stopAtEntry": false, // 设为true时程序将暂停在程序入口处，一般设置为false
-      "cwd": "${workspaceFolder}", // 调试程序时的工作目录，一般为${workspaceRoot}即代码所在目录 workspaceRoot已被弃用，现改为workspaceFolder
+      "name": "C/C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": false, // 调试时是否显示控制台窗口，一般设置为true显示控制台
+      "externalConsole": false,
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb.exe", // miDebugger的路径，注意这里要与MinGw的路径对应
+      "miDebuggerPath": "gdb.exe",
       "preLaunchTask": "C/C++: gcc.exe build active file",
       "setupCommands": [
         {
@@ -29,6 +343,6 @@
           "ignoreFailures": true
         }
       ]
-    } //配置结束
+    }
   ]
 }

@@ -1,6 +1,16 @@
-Import-Module oh-my-posh
-Import-Module posh-git
+# Import-Module oh-my-posh
+
+# PoShFuck
 Import-Module PoShFuck
+
+# scoop-completion
+Import-Module D:\Game\Scoop\modules\scoop-completion
+
+# Tab自动补全
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-Set-Theme Powerlevel10k-Classic
+
+# 设置主题
+Set-PoshPrompt -Theme powerlevel10k_classic
+
+# 清屏
 clear

@@ -1,0 +1,11 @@
+[core]
+	autocrlf = true
+	longpaths = true
+	editor = code.exe
+[user]
+	name = Weidows
+	email = utsuko27@qq.com
+[http]
+	proxy = localhost://127.0.0.1:7890
+[https]
+	proxy = localhost://127.0.0.1:7890

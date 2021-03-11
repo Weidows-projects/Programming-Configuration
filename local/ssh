@@ -1,0 +1,11 @@
+Host 树莓派
+  HostName 192.168.2.106
+  User pi
+
+Host Deepin
+  HostName 192.168.2.101
+  User weidows
+
+Host Manjaro
+  HostName 192.168.2.102
+  User weidows
