@@ -2,7 +2,7 @@
 
 set HOME_PATH=C:\Users\29845
 set BACKUP_DIR=D:\Game\Github\Programming-Configuration
-mkdir %BACKUP_DIR% %BACKUP_DIR%\Scoop backup\.ssh User_config
+mkdir %BACKUP_DIR%\Scoop %BACKUP_DIR%\backup\.ssh %BACKUP_DIR%\User_config
 
 @REM 备份Scoop
 cd %BACKUP_DIR%\Scoop

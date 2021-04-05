@@ -1,3 +1,4 @@
+# pwsh配置文件
 # Import-Module oh-my-posh
 
 # PoShFuck
@@ -11,6 +12,9 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # 设置主题
 Set-PoshPrompt -Theme powerlevel10k_classic
+
+# scoop search -> scoop-search
+Invoke-Expression (&scoop-search --hook)
 
 # 清屏
 clear
