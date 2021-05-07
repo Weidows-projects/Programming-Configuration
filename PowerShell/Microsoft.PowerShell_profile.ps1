@@ -14,7 +14,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PoshPrompt -Theme powerlevel10k_classic
 
 # scoop search -> scoop-search
-Invoke-Expression (&scoop-search --hook)
+# Invoke-Expression (&scoop-search --hook)
 
 # 清屏
 clear
