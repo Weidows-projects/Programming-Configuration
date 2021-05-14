@@ -3,8 +3,8 @@
 ' @Author: Weidows
 ' @Date: 2021-01-29 12:10:11
 ' @LastEditors: Weidows
-' @LastEditTime: 2021-04-19 20:00:32
-' @FilePath: \Programming-Configuration\local\start.vbs
+' @LastEditTime: 2021-05-13 20:29:21
+' @FilePath: \Weidowsd:\Game\Github\Programming-Configuration\local\start.vbs
 ' @Description:
 ' @!: *********************************************************************
 '
@@ -21,3 +21,6 @@ CreateObject("WScript.Shell").Run "Rainmeter",0
 
 ' 鼠标手势
 CreateObject("WScript.Shell").Run "D:\Software\Useful\PCMaster\MouseInc.exe",0
+
+' 尾随星星
+CreateObject("WScript.Shell").Run "D:\Software\Beautify\鼠标星星\Star Cursor.exe",0
