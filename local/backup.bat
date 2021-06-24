@@ -29,5 +29,3 @@ xcopy %HOME_PATH%\.npmrc . /y/d
 xcopy %HOME_PATH%\.yarnrc . /y/d
 xcopy %HOME_PATH%\.condarc . /y/d
 xcopy %HOME_PATH%\.gitconfig . /y/d
-
-pause
