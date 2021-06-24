@@ -4,6 +4,9 @@
 # PoShFuck
 Import-Module PoShFuck
 
+# DockerCompletion
+Import-Module D:\Game\Scoop\modules\DockerCompletion
+
 # scoop-completion
 Import-Module D:\Game\Scoop\modules\scoop-completion
 
@@ -14,7 +17,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PoshPrompt -Theme powerlevel10k_classic
 
 # scoop search -> scoop-search
-# Invoke-Expression (&scoop-search --hook)
+Invoke-Expression (&scoop-search --hook)
 
 # 清屏
 clear

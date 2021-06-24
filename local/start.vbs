@@ -3,13 +3,12 @@
 ' @Author: Weidows
 ' @Date: 2021-01-29 12:10:11
 ' @LastEditors: Weidows
-' @LastEditTime: 2021-05-13 20:29:21
-' @FilePath: \Weidowsd:\Game\Github\Programming-Configuration\local\start.vbs
-' @Description:
+' @LastEditTime: 2021-06-24 17:20:58
+' @FilePath: \Programming-Configuration\local\start.vbs
+' @Description: 开机运行
 ' @!: *********************************************************************
 '
 
-' 开机运行
 ' 备份
 CreateObject("WScript.Shell").Run "backup",0
 
@@ -23,4 +22,4 @@ CreateObject("WScript.Shell").Run "Rainmeter",0
 CreateObject("WScript.Shell").Run "D:\Software\Useful\PCMaster\MouseInc.exe",0
 
 ' 尾随星星
-CreateObject("WScript.Shell").Run "D:\Software\Beautify\鼠标星星\Star Cursor.exe",0
+' CreateObject("WScript.Shell").Run "D:\Software\Beautify\star\Star-Cursor.exe",0

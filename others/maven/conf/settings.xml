@@ -49,7 +49,7 @@ under the License.
    |
    | Default: ${user.home}/.m2/repository
   -->
-  <localRepository> D:\Game\Scoop\apps\idea-ultimate\current\plugins\maven\mvn-repository </localRepository>
+  <localRepository> D:\Game\Scoop\persist\maven\mvn-repository </localRepository>
 
   <!-- interactiveMode
    | This will determine whether maven prompts you when it needs input. If set to false,

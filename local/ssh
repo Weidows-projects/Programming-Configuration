@@ -9,3 +9,7 @@ Host Deepin
 Host Manjaro
   HostName 192.168.2.102
   User weidows
+
+Host openWrt
+  HostName 192.168.1.1
+  User root
