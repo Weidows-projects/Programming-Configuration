@@ -13,6 +13,7 @@ call scoop list > scoop-apps.bak
 call scoop bucket list > scoop-buckets.bak
 call yarn global list > yarn-global.bak
 call npm -g list > npm-global.bak
+call choco list -l > choco-list-local.bak
 
 @REM 备份其他
 mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others

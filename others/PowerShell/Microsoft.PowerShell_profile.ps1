@@ -1,4 +1,7 @@
-# pwsh配置文件
+# ======================================================================== #
+#                               pwsh配置文件
+# ======================================================================== #
+
 # Import-Module oh-my-posh
 
 # PoShFuck
@@ -18,6 +21,12 @@ Set-PoshPrompt -Theme powerlevel10k_classic
 
 # scoop search -> scoop-search
 Invoke-Expression (&scoop-search --hook)
+
+# Enable Prediction History
+Set-PSReadLineOption -PredictionSource History
+# Advanced Autocompletion for arrow keys
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 # 清屏
 clear
