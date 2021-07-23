@@ -20,4 +20,4 @@ info "vue-cli@2.9.6" has binaries:
    - vue-list
 info "webpack@5.45.1" has binaries:
    - webpack
-Done in 1.19s.
+Done in 0.77s.
