@@ -1,8 +1,23 @@
 yarn global v1.22.5
+info "create-vite@2.5.1" has binaries:
+   - create-vite
+   - cva
+info "eslint@7.30.0" has binaries:
+   - eslint
 info "hexo-cli@4.2.0" has binaries:
    - hexo
 info "tldr@3.3.7" has binaries:
    - tldr
+info "uglify-es@3.3.9" has binaries:
+   - uglifyjs
+info "vite-cli@1.0.0" has binaries:
+   - vite-cli
 info "vsce@1.84.0" has binaries:
    - vsce
-Done in 0.56s.
+info "vue-cli@2.9.6" has binaries:
+   - vue
+   - vue-init
+   - vue-list
+info "webpack@5.45.1" has binaries:
+   - webpack
+Done in 1.19s.

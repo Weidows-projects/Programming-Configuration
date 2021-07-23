@@ -1,3 +1,371 @@
-D:\Game\Scoop\persist\nodejs\bin
-`-- eslint@7.18.0
+D:\Game\Scoop\persist\nodejs-lts\bin
+`-- npm-check@5.9.2
+  +-- babel-runtime@6.26.0
+  | +-- core-js@2.6.12
+  | `-- regenerator-runtime@0.11.1
+  +-- callsite-record@3.2.2
+  | +-- callsite@1.0.0
+  | +-- chalk@1.1.3 deduped
+  | +-- error-stack-parser@1.3.6
+  | | `-- stackframe@0.3.1
+  | +-- highlight-es@1.0.3
+  | | +-- chalk@2.4.2
+  | | | +-- ansi-styles@3.2.1
+  | | | | `-- color-convert@1.9.3 deduped
+  | | | +-- escape-string-regexp@1.0.5 deduped
+  | | | `-- supports-color@5.5.0
+  | | |   `-- has-flag@3.0.0 deduped
+  | | +-- is-es2016-keyword@1.0.0
+  | | `-- js-tokens@3.0.2
+  | +-- lodash@4.17.21 deduped
+  | `-- pinkie-promise@2.0.1
+  |   `-- pinkie@2.0.4
+  +-- chalk@1.1.3
+  | +-- ansi-styles@2.2.1
+  | +-- escape-string-regexp@1.0.5
+  | +-- has-ansi@2.0.0
+  | | `-- ansi-regex@2.1.1 deduped
+  | +-- strip-ansi@3.0.1
+  | | `-- ansi-regex@2.1.1 deduped
+  | `-- supports-color@2.0.0
+  +-- co@4.6.0
+  +-- depcheck@0.8.3
+  | +-- @babel/parser@7.14.7
+  | +-- @babel/traverse@7.14.7
+  | | +-- @babel/code-frame@7.14.5
+  | | | `-- @babel/highlight@7.14.5
+  | | |   +-- @babel/helper-validator-identifier@7.14.5 deduped
+  | | |   +-- chalk@2.4.2
+  | | |   | +-- ansi-styles@3.2.1
+  | | |   | | `-- color-convert@1.9.3 deduped
+  | | |   | +-- escape-string-regexp@1.0.5 deduped
+  | | |   | `-- supports-color@5.5.0
+  | | |   |   `-- has-flag@3.0.0 deduped
+  | | |   `-- js-tokens@4.0.0
+  | | +-- @babel/generator@7.14.5
+  | | | +-- @babel/types@7.14.5 deduped
+  | | | +-- jsesc@2.5.2
+  | | | `-- source-map@0.5.7
+  | | +-- @babel/helper-function-name@7.14.5
+  | | | +-- @babel/helper-get-function-arity@7.14.5
+  | | | | `-- @babel/types@7.14.5 deduped
+  | | | +-- @babel/template@7.14.5
+  | | | | +-- @babel/code-frame@7.14.5 deduped
+  | | | | +-- @babel/parser@7.14.7 deduped
+  | | | | `-- @babel/types@7.14.5 deduped
+  | | | `-- @babel/types@7.14.5 deduped
+  | | +-- @babel/helper-hoist-variables@7.14.5
+  | | | `-- @babel/types@7.14.5 deduped
+  | | +-- @babel/helper-split-export-declaration@7.14.5
+  | | | `-- @babel/types@7.14.5 deduped
+  | | +-- @babel/parser@7.14.7 deduped
+  | | +-- @babel/types@7.14.5
+  | | | +-- @babel/helper-validator-identifier@7.14.5
+  | | | `-- to-fast-properties@2.0.0
+  | | +-- debug@4.3.2
+  | | | `-- ms@2.1.2
+  | | `-- globals@11.12.0
+  | +-- builtin-modules@3.2.0
+  | +-- deprecate@1.1.1
+  | +-- deps-regex@0.1.4
+  | +-- js-yaml@3.14.1
+  | | +-- argparse@1.0.10
+  | | | `-- sprintf-js@1.0.3
+  | | `-- esprima@4.0.1
+  | +-- lodash@4.17.21 deduped
+  | +-- minimatch@3.0.4 deduped
+  | +-- node-sass-tilde-importer@1.0.2
+  | | `-- find-parent-dir@0.3.1
+  | +-- please-upgrade-node@3.2.0
+  | | `-- semver-compare@1.0.0
+  | +-- require-package-name@2.0.1
+  | +-- resolve@1.20.0
+  | | +-- is-core-module@2.5.0
+  | | | `-- has@1.0.3
+  | | |   `-- function-bind@1.1.1
+  | | `-- path-parse@1.0.7
+  | +-- vue-template-compiler@2.6.14
+  | | +-- de-indent@1.0.2
+  | | `-- he@1.2.0
+  | +-- walkdir@0.3.2
+  | `-- yargs@13.3.2
+  |   +-- cliui@5.0.0
+  |   | +-- string-width@3.1.0 deduped
+  |   | +-- strip-ansi@5.2.0
+  |   | | `-- ansi-regex@4.1.0
+  |   | `-- wrap-ansi@5.1.0
+  |   |   +-- ansi-styles@3.2.1
+  |   |   | `-- color-convert@1.9.3 deduped
+  |   |   +-- string-width@3.1.0 deduped
+  |   |   `-- strip-ansi@5.2.0
+  |   |     `-- ansi-regex@4.1.0
+  |   +-- find-up@3.0.0
+  |   | `-- locate-path@3.0.0
+  |   |   +-- p-locate@3.0.0
+  |   |   | `-- p-limit@2.3.0
+  |   |   |   `-- p-try@2.2.0
+  |   |   `-- path-exists@3.0.0
+  |   +-- get-caller-file@2.0.5
+  |   +-- require-directory@2.1.1
+  |   +-- require-main-filename@2.0.0
+  |   +-- set-blocking@2.0.0
+  |   +-- string-width@3.1.0
+  |   | +-- emoji-regex@7.0.3
+  |   | +-- is-fullwidth-code-point@2.0.0
+  |   | `-- strip-ansi@5.2.0
+  |   |   `-- ansi-regex@4.1.0
+  |   +-- which-module@2.0.0
+  |   +-- y18n@4.0.3
+  |   `-- yargs-parser@13.1.2
+  |     +-- camelcase@5.3.1
+  |     `-- decamelize@1.2.0 deduped
+  +-- execa@0.2.2
+  | +-- cross-spawn-async@2.2.5
+  | | +-- lru-cache@4.1.5
+  | | | +-- pseudomap@1.0.2
+  | | | `-- yallist@2.1.2
+  | | `-- which@1.3.1
+  | |   `-- isexe@2.0.0
+  | +-- npm-run-path@1.0.0
+  | | `-- path-key@1.0.0 deduped
+  | +-- object-assign@4.1.1
+  | +-- path-key@1.0.0
+  | `-- strip-eof@1.0.0
+  +-- giturl@1.0.1
+  +-- global-modules@1.0.0
+  | +-- global-prefix@1.0.2
+  | | +-- expand-tilde@2.0.2
+  | | | `-- homedir-polyfill@1.0.3 deduped
+  | | +-- homedir-polyfill@1.0.3
+  | | | `-- parse-passwd@1.0.0
+  | | +-- ini@1.3.8
+  | | +-- is-windows@1.0.2 deduped
+  | | `-- which@1.3.1 deduped
+  | +-- is-windows@1.0.2
+  | `-- resolve-dir@1.0.1
+  |   +-- expand-tilde@2.0.2 deduped
+  |   `-- global-modules@1.0.0 deduped
+  +-- globby@4.1.0
+  | +-- array-union@1.0.2
+  | | `-- array-uniq@1.0.3
+  | +-- arrify@1.0.1
+  | +-- glob@6.0.4
+  | | +-- inflight@1.0.6
+  | | | +-- once@1.4.0 deduped
+  | | | `-- wrappy@1.0.2
+  | | +-- inherits@2.0.4
+  | | +-- minimatch@3.0.4 deduped
+  | | +-- once@1.4.0
+  | | | `-- wrappy@1.0.2 deduped
+  | | `-- path-is-absolute@1.0.1
+  | +-- object-assign@4.1.1 deduped
+  | +-- pify@2.3.0
+  | `-- pinkie-promise@2.0.1 deduped
+  +-- inquirer@0.12.0
+  | +-- ansi-escapes@1.4.0
+  | +-- ansi-regex@2.1.1
+  | +-- chalk@1.1.3 deduped
+  | +-- cli-cursor@1.0.2
+  | | `-- restore-cursor@1.0.1
+  | |   +-- exit-hook@1.1.1
+  | |   `-- onetime@1.1.0
+  | +-- cli-width@2.2.1
+  | +-- figures@1.7.0
+  | | +-- escape-string-regexp@1.0.5 deduped
+  | | `-- object-assign@4.1.1 deduped
+  | +-- lodash@4.17.21 deduped
+  | +-- readline2@1.0.1
+  | | +-- code-point-at@1.1.0 deduped
+  | | +-- is-fullwidth-code-point@1.0.0
+  | | | `-- number-is-nan@1.0.1 deduped
+  | | `-- mute-stream@0.0.5
+  | +-- run-async@0.1.0
+  | | `-- once@1.4.0 deduped
+  | +-- rx-lite@3.1.2
+  | +-- string-width@1.0.2
+  | | +-- code-point-at@1.1.0
+  | | +-- is-fullwidth-code-point@1.0.0
+  | | | `-- number-is-nan@1.0.1
+  | | `-- strip-ansi@3.0.1 deduped
+  | +-- strip-ansi@3.0.1 deduped
+  | `-- through@2.3.8
+  +-- is-ci@1.2.1
+  | `-- ci-info@1.6.0
+  +-- lodash@4.17.21
+  +-- meow@3.7.0
+  | +-- camelcase-keys@2.1.0
+  | | +-- camelcase@2.1.1
+  | | `-- map-obj@1.0.1 deduped
+  | +-- decamelize@1.2.0
+  | +-- loud-rejection@1.6.0
+  | | +-- currently-unhandled@0.4.1
+  | | | `-- array-find-index@1.0.2
+  | | `-- signal-exit@3.0.3
+  | +-- map-obj@1.0.1
+  | +-- minimist@1.2.5
+  | +-- normalize-package-data@2.5.0
+  | | +-- hosted-git-info@2.8.9
+  | | +-- resolve@1.20.0 deduped
+  | | +-- semver@5.7.1 deduped
+  | | `-- validate-npm-package-license@3.0.4
+  | |   +-- spdx-correct@3.1.1
+  | |   | +-- spdx-expression-parse@3.0.1 deduped
+  | |   | `-- spdx-license-ids@3.0.9
+  | |   `-- spdx-expression-parse@3.0.1
+  | |     +-- spdx-exceptions@2.3.0
+  | |     `-- spdx-license-ids@3.0.9 deduped
+  | +-- object-assign@4.1.1 deduped
+  | +-- read-pkg-up@1.0.1
+  | | +-- find-up@1.1.2
+  | | | +-- path-exists@2.1.0 deduped
+  | | | `-- pinkie-promise@2.0.1 deduped
+  | | `-- read-pkg@1.1.0
+  | |   +-- load-json-file@1.1.0
+  | |   | +-- graceful-fs@4.2.6 deduped
+  | |   | +-- parse-json@2.2.0
+  | |   | | `-- error-ex@1.3.2
+  | |   | |   `-- is-arrayish@0.2.1
+  | |   | +-- pify@2.3.0 deduped
+  | |   | +-- pinkie-promise@2.0.1 deduped
+  | |   | `-- strip-bom@2.0.0
+  | |   |   `-- is-utf8@0.2.1
+  | |   +-- normalize-package-data@2.5.0 deduped
+  | |   `-- path-type@1.1.0
+  | |     +-- graceful-fs@4.2.6 deduped
+  | |     +-- pify@2.3.0 deduped
+  | |     `-- pinkie-promise@2.0.1 deduped
+  | +-- redent@1.0.0
+  | | +-- indent-string@2.1.0
+  | | | `-- repeating@2.0.1
+  | | |   `-- is-finite@1.1.0
+  | | `-- strip-indent@1.0.1
+  | |   `-- get-stdin@4.0.1
+  | `-- trim-newlines@1.0.0
+  +-- minimatch@3.0.4
+  | `-- brace-expansion@1.1.11
+  |   +-- balanced-match@1.0.2
+  |   `-- concat-map@0.0.1
+  +-- node-emoji@1.10.0
+  | `-- lodash.toarray@4.4.0
+  +-- ora@0.2.3
+  | +-- chalk@1.1.3 deduped
+  | +-- cli-cursor@1.0.2 deduped
+  | +-- cli-spinners@0.1.2
+  | `-- object-assign@4.1.1 deduped
+  +-- package-json@4.0.1
+  | +-- got@6.7.1
+  | | +-- create-error-class@3.0.2
+  | | | `-- capture-stack-trace@1.0.1
+  | | +-- duplexer3@0.1.4
+  | | +-- get-stream@3.0.0
+  | | +-- is-redirect@1.0.0
+  | | +-- is-retry-allowed@1.2.0
+  | | +-- is-stream@1.1.0
+  | | +-- lowercase-keys@1.0.1
+  | | +-- safe-buffer@5.2.1
+  | | +-- timed-out@4.0.1
+  | | +-- unzip-response@2.0.1
+  | | `-- url-parse-lax@1.0.0
+  | |   `-- prepend-http@1.0.4
+  | +-- registry-auth-token@3.4.0
+  | | +-- rc@1.2.8
+  | | | +-- deep-extend@0.6.0
+  | | | +-- ini@1.3.8 deduped
+  | | | +-- minimist@1.2.5 deduped
+  | | | `-- strip-json-comments@2.0.1
+  | | `-- safe-buffer@5.2.1 deduped
+  | +-- registry-url@3.1.0
+  | | `-- rc@1.2.8 deduped
+  | `-- semver@5.7.1 deduped
+  +-- path-exists@2.1.0
+  | `-- pinkie-promise@2.0.1 deduped
+  +-- pkg-dir@1.0.0
+  | `-- find-up@1.1.2
+  |   +-- path-exists@2.1.0 deduped
+  |   `-- pinkie-promise@2.0.1 deduped
+  +-- preferred-pm@1.0.1
+  | +-- path-exists@3.0.0
+  | `-- which-pm@1.1.0
+  |   +-- load-yaml-file@0.1.1
+  |   | +-- graceful-fs@4.2.6 deduped
+  |   | +-- js-yaml@3.14.1 deduped
+  |   | +-- pify@2.3.0 deduped
+  |   | `-- strip-bom@3.0.0
+  |   `-- path-exists@3.0.0
+  +-- semver@5.7.1
+  +-- semver-diff@2.1.0
+  | `-- semver@5.7.1 deduped
+  +-- text-table@0.2.0
+  +-- throat@2.0.2
+  +-- update-notifier@2.5.0
+  | +-- boxen@1.3.0
+  | | +-- ansi-align@2.0.0
+  | | | `-- string-width@2.1.1
+  | | |   +-- is-fullwidth-code-point@2.0.0 deduped
+  | | |   `-- strip-ansi@4.0.0
+  | | |     `-- ansi-regex@3.0.0
+  | | +-- camelcase@4.1.0
+  | | +-- chalk@2.4.2
+  | | | +-- ansi-styles@3.2.1
+  | | | | `-- color-convert@1.9.3 deduped
+  | | | +-- escape-string-regexp@1.0.5 deduped
+  | | | `-- supports-color@5.5.0
+  | | |   `-- has-flag@3.0.0 deduped
+  | | +-- cli-boxes@1.0.0
+  | | +-- string-width@2.1.1
+  | | | +-- is-fullwidth-code-point@2.0.0 deduped
+  | | | `-- strip-ansi@4.0.0
+  | | |   `-- ansi-regex@3.0.0
+  | | +-- term-size@1.2.0
+  | | | `-- execa@0.7.0
+  | | |   +-- cross-spawn@5.1.0
+  | | |   | +-- lru-cache@4.1.5 deduped
+  | | |   | +-- shebang-command@1.2.0
+  | | |   | | `-- shebang-regex@1.0.0
+  | | |   | `-- which@1.3.1 deduped
+  | | |   +-- get-stream@3.0.0 deduped
+  | | |   +-- is-stream@1.1.0 deduped
+  | | |   +-- npm-run-path@2.0.2
+  | | |   | `-- path-key@2.0.1
+  | | |   +-- p-finally@1.0.0
+  | | |   +-- signal-exit@3.0.3 deduped
+  | | |   `-- strip-eof@1.0.0 deduped
+  | | `-- widest-line@2.0.1
+  | |   `-- string-width@2.1.1
+  | |     +-- is-fullwidth-code-point@2.0.0 deduped
+  | |     `-- strip-ansi@4.0.0
+  | |       `-- ansi-regex@3.0.0
+  | +-- chalk@2.4.2
+  | | +-- ansi-styles@3.2.1
+  | | | `-- color-convert@1.9.3
+  | | |   `-- color-name@1.1.3
+  | | +-- escape-string-regexp@1.0.5 deduped
+  | | `-- supports-color@5.5.0
+  | |   `-- has-flag@3.0.0
+  | +-- configstore@3.1.5
+  | | +-- dot-prop@4.2.1
+  | | | `-- is-obj@1.0.1
+  | | +-- graceful-fs@4.2.6
+  | | +-- make-dir@1.3.0
+  | | | `-- pify@3.0.0
+  | | +-- unique-string@1.0.0
+  | | | `-- crypto-random-string@1.0.0
+  | | +-- write-file-atomic@2.4.3
+  | | | +-- graceful-fs@4.2.6 deduped
+  | | | +-- imurmurhash@0.1.4
+  | | | `-- signal-exit@3.0.3 deduped
+  | | `-- xdg-basedir@3.0.0 deduped
+  | +-- import-lazy@2.1.0
+  | +-- is-ci@1.2.1 deduped
+  | +-- is-installed-globally@0.1.0
+  | | +-- global-dirs@0.1.1
+  | | | `-- ini@1.3.8 deduped
+  | | `-- is-path-inside@1.0.1
+  | |   `-- path-is-inside@1.0.2
+  | +-- is-npm@1.0.0
+  | +-- latest-version@3.1.0
+  | | `-- package-json@4.0.1 deduped
+  | +-- semver-diff@2.1.0 deduped
+  | `-- xdg-basedir@3.0.0
+  `-- xtend@4.0.2
 
