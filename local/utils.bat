@@ -40,8 +40,12 @@ goto :eof
 @REM 开机后设置备份,使用start是在新的终端同时进行的,call是按顺序依次
 @REM ==================================================================
 :backup
-  set HOME_PATH = C:\Users\29845
-  set BACKUP_DIR = D:\Game\Github\Programming-Configuration
+  @REM !!!!一定要注意等号'='前后不要加空格!!!!
+  set HOME_PATH=C:\Users\29845
+  set BACKUP_DIR=D:\Game\Github\Programming-Configuration
+
+  @REM cmd 默认是在 HOME_PATH 下启动,需要跳到 BACKUP_DIR 所属盘符
+  d:
 
   @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
   mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
@@ -66,10 +70,13 @@ goto :eof
   xcopy %HOME_PATH%\.conda\ .conda\ /e/y/d
   xcopy %HOME_PATH%\.config\ .config\ /e/y/d
   xcopy %HOME_PATH%\pip\ pip\ /e/y/d
+  xcopy %HOME_PATH%\.continuum\ .continuum\ /e/y/d
   xcopy %HOME_PATH%\.npmrc . /y/d
   xcopy %HOME_PATH%\.yarnrc . /y/d
   xcopy %HOME_PATH%\.condarc . /y/d
   xcopy %HOME_PATH%\.gitconfig . /y/d
+  xcopy %HOME_PATH%\.bashrc.bat . /y/d
+  xcopy %HOME_PATH%\.wakatime.cfg . /y/d
 
   pause
 goto :eof

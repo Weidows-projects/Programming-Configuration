@@ -9,3 +9,5 @@
 	proxy = localhost://127.0.0.1:7890
 [https]
 	proxy = localhost://127.0.0.1:7890
+[credential "helperselector"]
+	selected = <no helper>
