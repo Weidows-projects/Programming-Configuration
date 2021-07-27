@@ -1,23 +1,44 @@
 [
-  {
-    "name": "Weidows",
-    "rootPath": "D:\\Game\\Weidows\\.vscode\\Weidows.code-workspace",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "Github",
-    "rootPath": "D:\\Game\\Github",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  },
-  {
-    "name": "Repo",
-    "rootPath": "E:\\Repo",
-    "paths": [],
-    "group": "",
-    "enabled": true
-  }
+	{
+		"name": "Github",
+		"rootPath": "D:\\Game\\Github",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Repo",
+		"rootPath": "E:\\Repo",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Blog-private",
+		"rootPath": "D:\\Game\\Blog-private",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Images",
+		"rootPath": "E:\\Repo\\Weidows\\Images",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Keeper",
+		"rootPath": "E:\\Repo\\Weidows\\Keeper",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Programming-Configuration",
+		"rootPath": "D:\\Game\\Github\\Programming-Configuration",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	}
 ]

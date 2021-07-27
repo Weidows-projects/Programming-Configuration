@@ -10,7 +10,7 @@
 '
 
 ' 备份
-CreateObject("WScript.Shell").Run "utils.bat b",0
+' CreateObject("WScript.Shell").Run "utils.bat b",0
 
 ' aria2
 CreateObject("WScript.Shell").Run "aria2c --conf-path=D:\Game\Scoop\persist\aria2\conf",0
