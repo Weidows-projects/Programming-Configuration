@@ -16,23 +16,24 @@ exit
   pause
 
   @REM 文件管理
-  start explorer
-  start D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
+  start /b explorer
+  start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
 
   @REM IDE
-  start code
-  start idea64.exe
+  start /b code
+  start /b idea64.exe
+  start /b pycharm64.exe
 
   @REM 浏览器
-  start microsoft-edge:
+  start /b microsoft-edge:
 
   @REM 通讯
-  start D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
-  start D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
-  start D:\Game\Scoop\apps\wechat\current\WeChat.exe
+  start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
+  start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
+  start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
 
   @REM 音乐
-  start D:\Software\KGMusic\KuGou.exe
+  start /b D:\Software\KGMusic\KuGou.exe
 goto :eof
 
 
@@ -50,6 +51,7 @@ goto :eof
   @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
   mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
   xcopy %HOME_PATH%\.ssh\ .ssh\ /e/y/d
+    xcopy C:\root\ root\ /e/y/d
 
   @REM 备份lists
   mkdir %BACKUP_DIR%\lists & cd %BACKUP_DIR%\lists
@@ -64,6 +66,7 @@ goto :eof
   xcopy C:\Windows\System32\drivers\etc\hosts hosts\ /e/y/d
   xcopy D:\Game\Scoop\persist\maven\conf\settings.xml maven\conf\ /e/y/d
   xcopy D:\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 .\PowerShell\ /e/y/d
+
 
   @REM 备份 ~\
   mkdir %BACKUP_DIR%\user-config & cd %BACKUP_DIR%\user-config

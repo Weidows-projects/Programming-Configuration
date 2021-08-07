@@ -1,4 +1,6 @@
 yarn global v1.22.5
+info "cnpm@7.0.0" has binaries:
+   - cnpm
 info "create-vite@2.5.1" has binaries:
    - create-vite
    - cva
@@ -20,4 +22,4 @@ info "vue-cli@2.9.6" has binaries:
    - vue-list
 info "webpack@5.45.1" has binaries:
    - webpack
-Done in 0.92s.
+Done in 1.66s.

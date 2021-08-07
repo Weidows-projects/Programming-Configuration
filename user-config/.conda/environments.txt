@@ -1,1 +1,2 @@
 D:\Game\Scoop\apps\anaconda3\current
+D:\Game\Scoop\apps\anaconda3\current\envs\python
