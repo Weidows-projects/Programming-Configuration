@@ -40,5 +40,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "python",
+		"rootPath": "D:\\Game\\Github\\python",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]

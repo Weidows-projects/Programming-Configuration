@@ -15,6 +15,9 @@ exit
   echo "Confirm if to open?"
   pause
 
+  @REM 备份
+  call :backup
+
   @REM 文件管理
   start /b explorer
   start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
@@ -51,7 +54,7 @@ goto :eof
   @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
   mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
   xcopy %HOME_PATH%\.ssh\ .ssh\ /e/y/d
-    xcopy C:\root\ root\ /e/y/d
+  xcopy C:\root\ root\ /e/y/d
 
   @REM 备份lists
   mkdir %BACKUP_DIR%\lists & cd %BACKUP_DIR%\lists
