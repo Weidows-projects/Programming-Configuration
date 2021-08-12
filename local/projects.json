@@ -17,35 +17,36 @@
 		"name": "Blog-private",
 		"rootPath": "D:\\Game\\Blog-private",
 		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "Images",
-		"rootPath": "E:\\Repo\\Weidows\\Images",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "Keeper",
-		"rootPath": "E:\\Repo\\Weidows\\Keeper",
-		"paths": [],
-		"tags": [],
+		"tags": [
+			"Personal"
+		],
 		"enabled": true
 	},
 	{
 		"name": "Programming-Configuration",
 		"rootPath": "D:\\Game\\Github\\Programming-Configuration",
 		"paths": [],
-		"tags": [],
+		"tags": [
+			"Personal"
+		],
 		"enabled": true
 	},
 	{
 		"name": "python",
 		"rootPath": "D:\\Game\\Github\\python",
 		"paths": [],
-		"tags": [],
+		"tags": [
+			"Work"
+		],
+		"enabled": true
+	},
+	{
+		"name": "tim-web",
+		"rootPath": "D:\\Game\\work\\tim-web",
+		"paths": [],
+		"tags": [
+			"Work"
+		],
 		"enabled": true
 	}
 ]

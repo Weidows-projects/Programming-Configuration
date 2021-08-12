@@ -1,43 +1,49 @@
-@REM @echo off
 @REM ==================================================================
-@REM main入口,使用前需要添加环境变量:                     D:\Game\Github\Programming-Configuration\local
+@REM main入口
 @REM ==================================================================
+@echo off
+  echo backup
+  pause
+  call :backup
 
-if /i %1 == s call :devenv-starter
-if /i %1 == b call :backup
+  echo boot-starter
+  pause
+  call :boot-starter
+
+  echo devenv-starter
+  pause
+  call :devenv-starter
+
+
+
+@REM ==================================================================
+@REM 终止脚本 && 防止误入函数
+@REM ==================================================================
+pause
 exit
 
 
+
 @REM ==================================================================
-@REM 启动dev环境
+@REM 开机启动软件
 @REM ==================================================================
-:devenv-starter
-  echo "Confirm if to open?"
-  pause
+:boot-starter
+  @REM 雨滴桌面
+  start /b Rainmeter
 
-  @REM 备份
-  call :backup
+  @REM 鼠标手势
+  start /b D:\Software\Useful\PCMaster\MouseInc.exe
 
-  @REM 文件管理
-  start /b explorer
-  start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
+  @REM 尾随星星
+  @REM start /b D:\Software\Beautify\star\Star-Cursor.exe
 
-  @REM IDE
-  start /b code
-  start /b idea64.exe
-  start /b pycharm64.exe
+  @REM aria2
+  cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
 
-  @REM 浏览器
-  start /b microsoft-edge:
-
-  @REM 通讯
-  start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
-  start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
-  start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
-
-  @REM 音乐
+  @REM 酷狗
   start /b D:\Software\KGMusic\KuGou.exe
 goto :eof
+
 
 
 @REM ==================================================================
@@ -83,6 +89,31 @@ goto :eof
   xcopy %HOME_PATH%\.gitconfig . /y/d
   xcopy %HOME_PATH%\.bashrc.bat . /y/d
   xcopy %HOME_PATH%\.wakatime.cfg . /y/d
+goto :eof
 
-  pause
+
+
+@REM ==================================================================
+@REM 启动dev环境
+@REM ==================================================================
+:devenv-starter
+  @REM 备份
+  call :backup
+
+  @REM 文件管理
+  start /b explorer
+  start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
+
+  @REM IDE
+  start /b code
+  start /b idea64.exe
+  @REM start /b pycharm64.exe
+
+  @REM 浏览器
+  start /b microsoft-edge:
+
+  @REM 通讯
+  start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
+  start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
+  start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
 goto :eof
