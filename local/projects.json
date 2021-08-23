@@ -48,5 +48,12 @@
 			"Work"
 		],
 		"enabled": true
+	},
+	{
+		"name": "Realtime-Voice-Clone-Chinese",
+		"rootPath": "D:\\Game\\Github\\Realtime-Voice-Clone-Chinese",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]

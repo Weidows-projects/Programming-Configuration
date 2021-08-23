@@ -97,9 +97,6 @@ goto :eof
 @REM 启动dev环境
 @REM ==================================================================
 :devenv-starter
-  @REM 备份
-  call :backup
-
   @REM 文件管理
   start /b explorer
   start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
@@ -116,4 +113,7 @@ goto :eof
   start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
   start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
   start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
+
+  @REM 虚拟机
+  start /b vmware
 goto :eof
