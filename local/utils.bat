@@ -1,26 +1,32 @@
+@echo off
 @REM ==================================================================
 @REM main入口
 @REM ==================================================================
-@echo off
-  echo backup
-  pause
-  call :backup
+:circle
+  echo ==================================================================
+  echo "backup(1) | boot-starter(2) | devenv-starter(3) | exit(4)"
+  @REM 注意下面不能写成这样:  num = Please...
+  set /p num=Please input function num:
 
-  echo boot-starter
-  pause
-  call :boot-starter
+  if %num%==1 (
+    echo "==============================backup===================================="
+    call :backup
+  )
+  if %num%==2 (
+    echo "==============================boot-starter===================================="
+    call :boot-starter
+  )
+  if %num%==3 (
+    echo "==============================devenv-starter===================================="
+    call :devenv-starter
+  )
+  if %num%==4 (
+    exit
+  )
 
-  echo devenv-starter
-  pause
-  call :devenv-starter
-
-
-
-@REM ==================================================================
-@REM 终止脚本 && 防止误入函数
-@REM ==================================================================
-pause
-exit
+  @REM 自循环
+  call :circle
+goto :eof
 
 
 
@@ -32,7 +38,10 @@ exit
   start /b Rainmeter
 
   @REM 鼠标手势
-  start /b D:\Software\Useful\PCMaster\MouseInc.exe
+  start /b MouseInc
+
+  @REM Dock
+  start d:\Software\Beautify\MyDock\Dock_64.exe
 
   @REM 尾随星星
   @REM start /b D:\Software\Beautify\star\Star-Cursor.exe
