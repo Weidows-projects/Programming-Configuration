@@ -43,9 +43,6 @@ goto :eof
   @REM Dock
   start d:\Software\Beautify\MyDock\Dock_64.exe
 
-  @REM 尾随星星
-  @REM start /b D:\Software\Beautify\star\Star-Cursor.exe
-
   @REM aria2
   cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
 
@@ -107,8 +104,7 @@ goto :eof
 @REM ==================================================================
 :devenv-starter
   @REM 文件管理
-  start /b explorer
-  start /b D:\Game\Scoop\apps\OneCommander\current\OneCommanderPortable\OneCommanderV2.exe
+  start /b xyplorerfree
 
   @REM IDE
   start /b code
@@ -120,8 +116,8 @@ goto :eof
 
   @REM 通讯
   start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
-  start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
   start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
+  @REM start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
 
   @REM 虚拟机
   start /b vmware

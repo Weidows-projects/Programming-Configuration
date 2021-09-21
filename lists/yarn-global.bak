@@ -1,2 +1,34 @@
 yarn global v1.22.5
-终止批处理操作吗(Y/N)? 
+info "cnpm@7.0.0" has binaries:
+   - cnpm
+info "create-vite@2.5.1" has binaries:
+   - create-vite
+   - cva
+info "cross-env@7.0.3" has binaries:
+   - cross-env
+   - cross-env-shell
+info "eslint@7.30.0" has binaries:
+   - eslint
+info "hexo-cli@4.2.0" has binaries:
+   - hexo
+info "npm-check@5.9.2" has binaries:
+   - npm-check
+info "release-it@14.11.5" has binaries:
+   - release-it
+info "tldr@3.3.7" has binaries:
+   - tldr
+info "uglify-es@3.3.9" has binaries:
+   - uglifyjs
+info "vite-cli@1.0.0" has binaries:
+   - vite-cli
+info "vsce@1.84.0" has binaries:
+   - vsce
+info "vue-cli@2.9.6" has binaries:
+   - vue
+   - vue-init
+   - vue-list
+info "webpack@5.45.1" has binaries:
+   - webpack
+info "webpack-cli@4.8.0" has binaries:
+   - webpack-cli
+Done in 3.82s.
