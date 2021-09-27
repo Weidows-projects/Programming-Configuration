@@ -1,3 +1,16 @@
 {
-  "C_Cpp.errorSquiggles": "Enabled"
+  "C_Cpp.errorSquiggles": "Enabled",
+  "files.associations": {
+    "stdlib.h": "c",
+    "stdio.h": "c",
+    "string.h": "c",
+    "math.h": "c",
+    "glut.h": "c",
+    "windows.h": "c"
+  },
+  "code-runner.executorMap": {
+    "c": "chcp 65001 && gcc *.c -o $fileNameWithoutExt -l glut32 -l glu32 -l opengl32 && ./$fileNameWithoutExt",
+    "cpp": "chcp 65001 && g++ *.cpp -o $fileNameWithoutExt -l glut32 -l glu32 -l opengl32 && ./$fileNameWithoutExt",
+    "pde": "processing-java --force --sketch=$dir --output=$dir/out --run"
+  }
 }

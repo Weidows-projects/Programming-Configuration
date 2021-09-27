@@ -40,7 +40,10 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "-l",  "glut32",                     // 使用glut
+        "-l",  "glu32",
+        "-l",  "opengl32"
       ],
       "problemMatcher": ["$gcc"],
       "group": {

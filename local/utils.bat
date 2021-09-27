@@ -78,10 +78,10 @@ goto :eof
 
   @REM 备份其他
   mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others
+  xcopy D:\Game\Github\C++\.vscode .vscode\ /e/y/d
   xcopy C:\Windows\System32\drivers\etc\hosts hosts\ /e/y/d
   xcopy D:\Game\Scoop\persist\maven\conf\settings.xml maven\conf\ /e/y/d
   xcopy D:\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 .\PowerShell\ /e/y/d
-
 
   @REM 备份 ~\
   mkdir %BACKUP_DIR%\user-config & cd %BACKUP_DIR%\user-config
