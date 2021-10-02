@@ -3,27 +3,23 @@
 @REM main入口
 @REM ==================================================================
 :circle
-  echo ==================================================================
-  echo "backup(1) | boot-starter(2) | devenv-starter(3) | exit(4)"
+  echo =============================================================================
+  echo "exit(0) | backup(1) | boot-starter(2) | devenv-starter(3) | bilibili-helper(4)"
+  echo "dir(5)"
+
   @REM 注意下面不能写成这样:  num = Please...
   set /p num=Please input function num:
+  echo =============================================================================
 
-  if %num%==1 (
-    echo "==============================backup===================================="
-    call :backup
-  )
-  if %num%==2 (
-    echo "==============================boot-starter===================================="
-    call :boot-starter
-  )
-  if %num%==3 (
-    echo "==============================devenv-starter===================================="
-    call :devenv-starter
-  )
-  if %num%==4 (
-    exit
-  )
+  if %num%==0 exit
+  if %num%==1 call :backup
+  if %num%==2 call :boot-starter
+  if %num%==3 call :devenv-starter
+  if %num%==4 call :bilibili-helper
+  if %num%==5 call :dir
 
+  pause
+  cls
   @REM 自循环
   call :circle
 goto :eof
@@ -66,7 +62,6 @@ goto :eof
   @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
   mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
   xcopy %HOME_PATH%\.ssh\ .ssh\ /e/y/d
-  xcopy C:\root\ root\ /e/y/d
 
   @REM 备份lists
   mkdir %BACKUP_DIR%\lists & cd %BACKUP_DIR%\lists
@@ -75,6 +70,7 @@ goto :eof
   call yarn global list > yarn-global.bak
   call npm -g list > npm-global.bak
   call choco list -l > choco-list-local.bak
+  call dir /b E:\mystream > dir-mystream.bak
 
   @REM 备份其他
   mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others
@@ -121,4 +117,25 @@ goto :eof
 
   @REM 虚拟机
   start /b vmware
+goto :eof
+
+
+
+@REM ==================================================================
+@REM Bilibili-helper
+@REM ==================================================================
+:bilibili-helper
+  chcp 65001
+  d:&& cd D:\Game\Github\Java\others\BILIBILI-HELPER-v2.0.9
+  java -jar BILIBILI-HELPER.jar
+goto :eof
+
+
+
+@REM ==================================================================
+@REM 批量获取文件名
+@REM ==================================================================
+:dir
+  set /p path=Please input the path:
+  DIR /B %path%
 goto :eof

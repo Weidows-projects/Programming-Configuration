@@ -41,7 +41,7 @@
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "-l",  "glut32",                     // 使用glut
+        "-l",  "glut32",
         "-l",  "glu32",
         "-l",  "opengl32"
       ],
