@@ -37,7 +37,7 @@ goto :eof
   start /b MouseInc
 
   @REM Dock
-  start d:\Software\Beautify\MyDock\Dock_64.exe
+  start d:\Software\MyDock\Dock_64.exe
 
   @REM aria2
   cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
@@ -65,12 +65,17 @@ goto :eof
 
   @REM 备份lists
   mkdir %BACKUP_DIR%\lists & cd %BACKUP_DIR%\lists
-  call scoop list > scoop-apps.bak
-  call scoop bucket list > scoop-buckets.bak
-  call yarn global list > yarn-global.bak
-  call npm -g list > npm-global.bak
-  call choco list -l > choco-list-local.bak
-  call dir /b E:\mystream > dir-mystream.bak
+  call scoop list > scoop\scoop-apps.bak
+  call scoop bucket list > scoop\scoop-buckets.bak
+  call choco list -l > scoop\choco-list-local.bak
+  call npm -g list > node\npm-global.bak
+  call yarn global list > node\yarn-global.bak
+  call dir /b D:\Musics\Local > dir\dir-music.bak
+  call dir /b D:\Software > dir\dir-software.bak
+  call dir /b E:\mystream > dir\dir-mystream.bak
+  call conda list > conda-list.bak
+  @REM 重装系统/重装wallpaper engine,所有壁纸会木大,所以备份
+  xcopy D:\Game\Scoop\persist\steam\steamapps\common\wallpaper_engine\config.json .\wallpaper_engine\ /y/d
 
   @REM 备份其他
   mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others
@@ -89,8 +94,6 @@ goto :eof
   xcopy %HOME_PATH%\.yarnrc . /y/d
   xcopy %HOME_PATH%\.condarc . /y/d
   xcopy %HOME_PATH%\.gitconfig . /y/d
-  xcopy %HOME_PATH%\.bashrc.bat . /y/d
-  xcopy %HOME_PATH%\.wakatime.cfg . /y/d
 goto :eof
 
 
@@ -126,7 +129,8 @@ goto :eof
 @REM ==================================================================
 :bilibili-helper
   chcp 65001
-  d:&& cd D:\Game\Github\Java\others\BILIBILI-HELPER-v2.0.9
+  d:&& cd D:\Game\Github\Programming-Configuration\backup\BILIBILI-HELPER*\
+  ren .\BILIBILI-HELPER*.jar BILIBILI-HELPER.jar
   java -jar BILIBILI-HELPER.jar
 goto :eof
 
