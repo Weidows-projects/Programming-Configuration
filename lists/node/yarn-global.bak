@@ -1,4 +1,4 @@
-yarn global v1.22.5
+yarn global v1.22.15
 info "cnpm@7.0.0" has binaries:
    - cnpm
 info "create-vite@2.5.1" has binaries:
@@ -31,4 +31,4 @@ info "webpack@5.45.1" has binaries:
    - webpack
 info "webpack-cli@4.8.0" has binaries:
    - webpack-cli
-Done in 2.22s.
+Done in 2.28s.

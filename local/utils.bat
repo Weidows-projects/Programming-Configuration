@@ -1,4 +1,7 @@
 @echo off
+@REM 执行时涉及到中文,cmd 默认按照 GBK/GB2312 解析(VScode强行按UTF-8),所以不开启的话会出现:显示没错但存储时乱码
+chcp 65001
+
 @REM ==================================================================
 @REM main入口
 @REM ==================================================================
@@ -70,12 +73,13 @@ goto :eof
   call choco list -l > scoop\choco-list-local.bak
   call npm -g list > node\npm-global.bak
   call yarn global list > node\yarn-global.bak
-  call dir /b D:\Musics\Local > dir\dir-music.bak
+  call dir D:\Musics\Local > dir\dir-music.bak
   call dir /b D:\Software > dir\dir-software.bak
   call dir /b E:\mystream > dir\dir-mystream.bak
   call conda list > conda-list.bak
   @REM 重装系统/重装wallpaper engine,所有壁纸会木大,所以备份
   xcopy D:\Game\Scoop\persist\steam\steamapps\common\wallpaper_engine\config.json .\wallpaper_engine\ /y/d
+  call gh repo list > github\repo-list.bak
 
   @REM 备份其他
   mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others
@@ -94,6 +98,7 @@ goto :eof
   xcopy %HOME_PATH%\.yarnrc . /y/d
   xcopy %HOME_PATH%\.condarc . /y/d
   xcopy %HOME_PATH%\.gitconfig . /y/d
+  xcopy %HOME_PATH%\.minttyrc . /y/d
 goto :eof
 
 
@@ -128,7 +133,6 @@ goto :eof
 @REM Bilibili-helper
 @REM ==================================================================
 :bilibili-helper
-  chcp 65001
   d:&& cd D:\Game\Github\Programming-Configuration\backup\BILIBILI-HELPER*\
   ren .\BILIBILI-HELPER*.jar BILIBILI-HELPER.jar
   java -jar BILIBILI-HELPER.jar
@@ -140,6 +144,6 @@ goto :eof
 @REM 批量获取文件名
 @REM ==================================================================
 :dir
-  set /p path=Please input the path:
+  set /p path=Please input the path (blank for current path):
   DIR /B %path%
 goto :eof
