@@ -33,6 +33,9 @@ goto :eof
 @REM 开机启动软件
 @REM ==================================================================
 :boot-starter
+  @REM 内存整理
+  start /b %SCOOP%\apps\PCmaster\current\memorymaster.exe
+
   @REM 雨滴桌面
   start /b Rainmeter
 
@@ -40,7 +43,10 @@ goto :eof
   start /b MouseInc
 
   @REM Dock
-  start d:\Software\MyDock\Dock_64.exe
+  start %SCOOP%\apps\MyDockFinder\current\Dock_64.exe
+
+  @REM 人工桌面
+  start /b %SCOOP%\apps\N0vaDesktop\current\N0vaDesktop.exe
 
   @REM aria2
   cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
@@ -56,15 +62,14 @@ goto :eof
 @REM ==================================================================
 :backup
   @REM !!!!一定要注意等号'='前后不要加空格!!!!
-  set HOME_PATH=C:\Users\29845
   set BACKUP_DIR=D:\Game\Github\Programming-Configuration
 
-  @REM cmd 默认是在 HOME_PATH 下启动,需要跳到 BACKUP_DIR 所属盘符
+  @REM cmd 默认是在 HOME 下启动,需要跳到 BACKUP_DIR 所属盘符
   d:
 
   @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
   mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
-  xcopy %HOME_PATH%\.ssh\ .ssh\ /e/y/d
+  xcopy %HOME%\.ssh\ .ssh\ /e/y/d
 
   @REM 备份lists
   mkdir %BACKUP_DIR%\lists & cd %BACKUP_DIR%\lists
@@ -78,27 +83,27 @@ goto :eof
   call dir /b E:\mystream > dir\dir-mystream.bak
   call conda list > conda-list.bak
   @REM 重装系统/重装wallpaper engine,所有壁纸会木大,所以备份
-  xcopy D:\Game\Scoop\persist\steam\steamapps\common\wallpaper_engine\config.json .\wallpaper_engine\ /y/d
+  xcopy %SCOOP%\persist\steam\steamapps\common\wallpaper_engine\config.json .\wallpaper_engine\ /y/d
   call gh repo list > github\repo-list.bak
 
   @REM 备份其他
   mkdir %BACKUP_DIR%\others & cd %BACKUP_DIR%\others
   xcopy D:\Game\Github\C++\.vscode .vscode\ /e/y/d
   xcopy C:\Windows\System32\drivers\etc\hosts hosts\ /e/y/d
-  xcopy D:\Game\Scoop\persist\maven\conf\settings.xml maven\conf\ /e/y/d
+  xcopy %SCOOP%\persist\maven\conf\settings.xml maven\conf\ /e/y/d
   xcopy D:\Documents\PowerShell\Microsoft.PowerShell_profile.ps1 .\PowerShell\ /e/y/d
 
   @REM 备份 ~\
   mkdir %BACKUP_DIR%\user-config & cd %BACKUP_DIR%\user-config
-  xcopy %HOME_PATH%\.conda\ .conda\ /e/y/d
-  xcopy %HOME_PATH%\.config\ .config\ /e/y/d
-  xcopy %HOME_PATH%\pip\ pip\ /e/y/d
-  xcopy %HOME_PATH%\.continuum\ .continuum\ /e/y/d
-  xcopy %HOME_PATH%\.npmrc . /y/d
-  xcopy %HOME_PATH%\.yarnrc . /y/d
-  xcopy %HOME_PATH%\.condarc . /y/d
-  xcopy %HOME_PATH%\.gitconfig . /y/d
-  xcopy %HOME_PATH%\.minttyrc . /y/d
+  xcopy %HOME%\.conda\ .conda\ /e/y/d
+  xcopy %HOME%\.config\ .config\ /e/y/d
+  xcopy %HOME%\pip\ pip\ /e/y/d
+  xcopy %HOME%\.continuum\ .continuum\ /e/y/d
+  xcopy %HOME%\.npmrc . /y/d
+  xcopy %HOME%\.yarnrc . /y/d
+  xcopy %HOME%\.condarc . /y/d
+  xcopy %HOME%\.gitconfig . /y/d
+  xcopy %HOME%\.minttyrc . /y/d
 goto :eof
 
 
@@ -119,9 +124,9 @@ goto :eof
   start /b microsoft-edge:
 
   @REM 通讯
-  start /b D:\Game\Scoop\apps\TIM\current\Bin\TIM.exe
-  start /b D:\Game\Scoop\apps\wechat\current\WeChat.exe
-  @REM start /b D:\Game\Scoop\apps\dingtalk\current\DingtalkLauncher.exe
+  start /b %SCOOP%\apps\TIM\current\Bin\TIM.exe
+  start /b %SCOOP%\apps\wechat\current\WeChat.exe
+  @REM start /b %SCOOP%\apps\dingtalk\current\DingtalkLauncher.exe
 
   @REM 虚拟机
   start /b vmware
