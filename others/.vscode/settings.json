@@ -6,7 +6,8 @@
     "windows.h": "c",
     "stdio.h": "c",
     "math.h": "c",
-    "glaux.h": "c"
+    "glaux.h": "c",
+    "string.h": "c"
   },
   "code-runner.executorMap": {
     "c": "chcp 65001 && gcc $fileName -o $fileNameWithoutExt -l glut32 -l glu32 -l opengl32 && ./$fileNameWithoutExt",

@@ -33,20 +33,11 @@ goto :eof
 @REM 开机启动软件
 @REM ==================================================================
 :boot-starter
-  @REM 内存整理
-  start /b %SCOOP%\apps\PCmaster\current\memorymaster.exe
-
-  @REM 雨滴桌面
   start /b Rainmeter
-
-  @REM 鼠标手势
   start /b MouseInc
-
-  @REM Dock
-  start %SCOOP%\apps\MyDockFinder\current\Dock_64.exe
-
-  @REM 人工桌面
+  start /b %SCOOP%\apps\MyDockFinder\current\Dock_64.exe
   start /b %SCOOP%\apps\N0vaDesktop\current\N0vaDesktop.exe
+  start /b %SCOOP%\apps\utools\current\uTools.exe
 
   @REM aria2
   cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
@@ -81,7 +72,8 @@ goto :eof
   call dir D:\Musics\Local > dir\dir-music.bak
   call dir /b D:\Software > dir\dir-software.bak
   call dir /b E:\mystream > dir\dir-mystream.bak
-  call conda list > conda-list.bak
+  call conda list -e > python\conda-list.bak
+  call pip freeze > python\pip-list.bak
   @REM 重装系统/重装wallpaper engine,所有壁纸会木大,所以备份
   xcopy %SCOOP%\persist\steam\steamapps\common\wallpaper_engine\config.json .\wallpaper_engine\ /y/d
   call gh repo list > github\repo-list.bak
@@ -95,6 +87,7 @@ goto :eof
 
   @REM 备份 ~\
   mkdir %BACKUP_DIR%\user-config & cd %BACKUP_DIR%\user-config
+  xcopy %HOME%\.conan\ .conan\ /e/y/d
   xcopy %HOME%\.conda\ .conda\ /e/y/d
   xcopy %HOME%\.config\ .config\ /e/y/d
   xcopy %HOME%\pip\ pip\ /e/y/d
