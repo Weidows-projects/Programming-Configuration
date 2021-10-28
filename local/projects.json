@@ -62,5 +62,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "C++",
+		"rootPath": "D:\\Game\\Github\\C++",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]

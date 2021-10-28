@@ -1,9 +1,0 @@
-{
-  "remotes": [
-    {
-      "name": "conancenter",
-      "url": "https://center.conan.io",
-      "verify_ssl": true
-    }
-  ]
-}
