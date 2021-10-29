@@ -1,0 +1,137 @@
+
+
+    目录: D:\Documents\PowerShell\Modules
+
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                                              
+---------- -------    ----                                ----------------                                                                                                                                              
+Script     5.16.2     oh-my-posh                          {Get-PoshThemes, Set-PoshPrompt, Get-PoshInfoForV2Users}                                                                                                      
+Script     0.0        PoShFuck                            {Get-FuckingHelp, fuck!, Invoke-TheFuck, Get-Fucked}                                                                                                          
+Script     1.0.0      posh-git                            {Add-PoshGitToProfile, Expand-GitCommand, Format-GitBranchName, Get-GitBranchStatusColor...}                                                                  
+
+
+    目录: D:\game\scoop\apps\pwsh\current\Modules
+
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                                              
+---------- -------    ----                                ----------------                                                                                                                                              
+Manifest   7.0.0.0    CimCmdlets                          {Get-CimAssociatedInstance, Get-CimClass, Get-CimInstance, Get-CimSession...}                                                                                 
+Manifest   1.2.5      Microsoft.PowerShell.Archive        {Compress-Archive, Expand-Archive}                                                                                                                            
+Manifest   7.0.0.0    Microsoft.PowerShell.Diagnostics    {Get-WinEvent, New-WinEvent, Get-Counter}                                                                                                                     
+Manifest   7.0.0.0    Microsoft.PowerShell.Host           {Start-Transcript, Stop-Transcript}                                                                                                                           
+Manifest   7.0.0.0    Microsoft.PowerShell.Management     {Add-Content, Clear-Content, Get-Clipboard, Set-Clipboard...}                                                                                                 
+Manifest   7.0.0.0    Microsoft.PowerShell.Security       {Get-Acl, Set-Acl, Get-PfxCertificate, Get-Credential...}                                                                                                     
+Manifest   7.0.0.0    Microsoft.PowerShell.Utility        {Export-Alias, Get-Alias, Import-Alias, New-Alias...}                                                                                                         
+Manifest   7.0.0.0    Microsoft.WSMan.Management          {Disable-WSManCredSSP, Enable-WSManCredSSP, Get-WSManCredSSP, Set-WSManQuickConfig...}                                                                        
+Script     1.4.7      PackageManagement                   {Find-Package, Get-Package, Get-PackageProvider, Get-PackageSource...}                                                                                        
+Script     2.2.5      PowerShellGet                       {Find-Command, Find-DSCResource, Find-Module, Find-RoleCapability...}                                                                                         
+Manifest   0.0        PSDesiredStateConfiguration                                                                                                                                                                       
+Script     7.0.0.0    PSDiagnostics                       {Disable-PSTrace, Disable-PSWSManCombinedTrace, Disable-WSManTrace, Enable-PSTrace...}                                                                        
+Script     2.1.0      PSReadLine                          {Get-PSReadLineKeyHandler, Set-PSReadLineKeyHandler, Remove-PSReadLineKeyHandler, Get-PSReadLineOption...}                                                    
+Binary     2.0.3      ThreadJob                           Start-ThreadJob                                                                                                                                               
+
+
+    目录: D:\Game\Scoop\modules
+
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                                              
+---------- -------    ----                                ----------------                                                                                                                                              
+Script     0.2.3      scoop-completion                    TabExpansion                                                                                                                                                  
+
+
+    目录: C:\Program Files\WindowsPowerShell\Modules
+
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                                              
+---------- -------    ----                                ----------------                                                                                                                                              
+Script     1.0.1      Microsoft.PowerShell.Operation.V... {Get-OperationValidation, Invoke-OperationValidation}                                                                                                         
+Binary     1.0.0.1    PackageManagement                   {Find-Package, Get-Package, Get-PackageProvider, Get-PackageSource...}                                                                                        
+Script     3.4.0      Pester                              {Describe, Context, It, Should...}                                                                                                                            
+Script     1.0.0.1    PowerShellGet                       {Install-Module, Find-Module, Save-Module, Update-Module...}                                                                                                  
+Script     2.0.0      PSReadline                          {Get-PSReadLineKeyHandler, Set-PSReadLineKeyHandler, Remove-PSReadLineKeyHandler, Get-PSReadLineOption...}                                                    
+
+
+    目录: C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                                              
+---------- -------    ----                                ----------------                                                                                                                                              
+Manifest   1.0.0.0    AppBackgroundTask                   {Disable-AppBackgroundTaskDiagnosticLog, Enable-AppBackgroundTaskDiagnosticLog, Set-AppBackgroundTaskResourcePolicy, Unregister-AppBackgroundTask...}         
+Manifest   2.0.0.0    AppLocker                           {Get-AppLockerFileInformation, Get-AppLockerPolicy, New-AppLockerPolicy, Set-AppLockerPolicy...}                                                              
+Manifest   1.0.0.0    AppvClient                          {Add-AppvClientConnectionGroup, Add-AppvClientPackage, Add-AppvPublishingServer, Disable-Appv...}                                                             
+Manifest   2.0.1.0    Appx                                {Add-AppxPackage, Get-AppxPackage, Get-AppxPackageAutoUpdateSettings, Get-AppxPackageManifest...}                                                             
+Script     1.0.0.0    AssignedAccess                      {Clear-AssignedAccess, Get-AssignedAccess, Set-AssignedAccess}                                                                                                
+Manifest   1.0.0.0    BitLocker                           {Unlock-BitLocker, Suspend-BitLocker, Resume-BitLocker, Remove-BitLockerKeyProtector...}                                                                      
+Manifest   2.0.0.0    BitsTransfer                        {Add-BitsFile, Complete-BitsTransfer, Get-BitsTransfer, Remove-BitsTransfer...}                                                                               
+Manifest   1.0.0.0    BranchCache                         {Add-BCDataCacheExtension, Clear-BCCache, Disable-BC, Disable-BCDowngrading...}                                                                               
+Manifest   1.0.0.0    CimCmdlets                          {Get-CimAssociatedInstance, Get-CimClass, Get-CimInstance, Get-CimSession...}                                                                                 
+Manifest   1.0        ConfigCI                            {Get-SystemDriver, New-CIPolicyRule, New-CIPolicy, Get-CIPolicy...}                                                                                           
+Manifest   1.0        ConfigDefender                      {Get-MpPreference, Set-MpPreference, Add-MpPreference, Remove-MpPreference...}                                                                                
+Manifest   1.0        Defender                            {Get-MpPreference, Set-MpPreference, Add-MpPreference, Remove-MpPreference...}                                                                                
+Manifest   1.0.3.0    DeliveryOptimization                {Get-DeliveryOptimizationLog, Get-DeliveryOptimizationLogAnalysis, Delete-DeliveryOptimizationCache, Disable-DeliveryOptimizationVerboseLogs...}              
+Manifest   1.0.0.0    DirectAccessClientComponents        {Disable-DAManualEntryPointSelection, Enable-DAManualEntryPointSelection, Get-DAClientExperienceConfiguration, Get-DAEntryPointTableItem...}                  
+Script     3.0        Dism                                {Add-AppProvisionedSharedPackageContainer, Add-AppxProvisionedPackage, Add-WindowsDriver, Add-WindowsCapability...}                                           
+Manifest   1.0.0.0    DnsClient                           {Resolve-DnsName, Clear-DnsClientCache, Get-DnsClient, Get-DnsClientCache...}                                                                                 
+Manifest   1.0.0.0    EventTracingManagement              {Start-EtwTraceSession, New-EtwTraceSession, Get-EtwTraceSession, Update-EtwTraceSession...}                                                                  
+Script     2021.3.... Get-NetView                         Get-NetView                                                                                                                                                   
+Manifest   2.1.0.0    International                       {Copy-UserInternationalSettingsToSystem, Get-WinDefaultInputMethodOverride, Set-WinDefaultInputMethodOverride, Get-WinHomeLocation...}                        
+Manifest   1.0.0.0    iSCSI                               {Get-IscsiTargetPortal, New-IscsiTargetPortal, Remove-IscsiTargetPortal, Update-IscsiTargetPortal...}                                                         
+Script     1.0.0.0    ISE                                 {New-IseSnippet, Import-IseSnippet, Get-IseSnippet}                                                                                                           
+Manifest   1.0.0.0    Kds                                 {Add-KdsRootKey, Get-KdsRootKey, Test-KdsRootKey, Set-KdsConfiguration...}                                                                                    
+Manifest   1.0.1.0    Microsoft.PowerShell.Archive        {Compress-Archive, Expand-Archive}                                                                                                                            
+Manifest   3.0.0.0    Microsoft.PowerShell.Diagnostics    {Get-WinEvent, Get-Counter, Import-Counter, Export-Counter...}                                                                                                
+Manifest   3.0.0.0    Microsoft.PowerShell.Host           {Start-Transcript, Stop-Transcript}                                                                                                                           
+Manifest   1.0.0.0    Microsoft.PowerShell.LocalAccounts  {Add-LocalGroupMember, Disable-LocalUser, Enable-LocalUser, Get-LocalGroup...}                                                                                
+Manifest   3.1.0.0    Microsoft.PowerShell.Management     {Add-Content, Clear-Content, Clear-ItemProperty, Join-Path...}                                                                                                
+Script     1.0        Microsoft.PowerShell.ODataUtils     Export-ODataEndpointProxy                                                                                                                                     
+Manifest   3.0.0.0    Microsoft.PowerShell.Security       {Get-Acl, Set-Acl, Get-PfxCertificate, Get-Credential...}                                                                                                     
+Manifest   3.1.0.0    Microsoft.PowerShell.Utility        {Format-List, Format-Custom, Format-Table, Format-Wide...}                                                                                                    
+Manifest   1.0.0      Microsoft.Windows.Bcd.Cmdlets       {Copy-BcdEntry, Disable-BcdElementBootDebug, Disable-BcdElementBootEms, Disable-BcdElementDebug...}                                                           
+Manifest   3.0.0.0    Microsoft.WSMan.Management          {Disable-WSManCredSSP, Enable-WSManCredSSP, Get-WSManCredSSP, Set-WSManQuickConfig...}                                                                        
+Manifest   1.0        MMAgent                             {Disable-MMAgent, Enable-MMAgent, Set-MMAgent, Get-MMAgent...}                                                                                                
+Manifest   1.0.0.0    MsDtc                               {New-DtcDiagnosticTransaction, Complete-DtcDiagnosticTransaction, Join-DtcDiagnosticResourceManager, Receive-DtcDiagnosticTransaction...}                     
+Manifest   2.0.0.0    NetAdapter                          {Disable-NetAdapter, Disable-NetAdapterBinding, Disable-NetAdapterChecksumOffload, Disable-NetAdapterEncapsulatedPacketTaskOffload...}                        
+Manifest   1.0.0.0    NetConnection                       {Get-NetConnectionProfile, Set-NetConnectionProfile}                                                                                                          
+Manifest   1.0.0.0    NetEventPacketCapture               {New-NetEventSession, Remove-NetEventSession, Get-NetEventSession, Set-NetEventSession...}                                                                    
+Manifest   2.0.0.0    NetLbfo                             {Add-NetLbfoTeamMember, Add-NetLbfoTeamNic, Get-NetLbfoTeam, Get-NetLbfoTeamMember...}                                                                        
+Manifest   1.0.0.0    NetNat                              {Get-NetNat, Get-NetNatExternalAddress, Get-NetNatStaticMapping, Get-NetNatSession...}                                                                        
+Manifest   2.0.0.0    NetQos                              {Get-NetQosPolicy, Set-NetQosPolicy, Remove-NetQosPolicy, New-NetQosPolicy}                                                                                   
+Manifest   2.0.0.0    NetSecurity                         {Get-DAPolicyChange, New-NetIPsecAuthProposal, New-NetIPsecMainModeCryptoProposal, New-NetIPsecQuickModeCryptoProposal...}                                    
+Manifest   1.0.0.0    NetSwitchTeam                       {New-NetSwitchTeam, Remove-NetSwitchTeam, Get-NetSwitchTeam, Rename-NetSwitchTeam...}                                                                         
+Manifest   1.0.0.0    NetTCPIP                            {Get-NetIPAddress, Get-NetIPInterface, Get-NetIPv4Protocol, Get-NetIPv6Protocol...}                                                                           
+Manifest   1.0.0.0    NetworkConnectivityStatus           {Get-DAConnectionStatus, Get-NCSIPolicyConfiguration, Reset-NCSIPolicyConfiguration, Set-NCSIPolicyConfiguration}                                             
+Manifest   1.0.0.0    NetworkSwitchManager                {Disable-NetworkSwitchEthernetPort, Enable-NetworkSwitchEthernetPort, Get-NetworkSwitchEthernetPort, Remove-NetworkSwitchEthernetPortIPAddress...}            
+Manifest   1.0.0.0    NetworkTransition                   {Add-NetIPHttpsCertBinding, Disable-NetDnsTransitionConfiguration, Disable-NetIPHttpsProfile, Disable-NetNatTransitionConfiguration...}                       
+Manifest   1.0.0.0    PcsvDevice                          {Get-PcsvDevice, Start-PcsvDevice, Stop-PcsvDevice, Restart-PcsvDevice...}                                                                                    
+Binary     1.0.0.0    PersistentMemory                    {Get-PmemDisk, Get-PmemPhysicalDevice, Get-PmemUnusedRegion, New-PmemDisk...}                                                                                 
+Manifest   1.0.0.0    PKI                                 {Add-CertificateEnrollmentPolicyServer, Export-Certificate, Export-PfxCertificate, Get-CertificateAutoEnrollmentPolicy...}                                    
+Manifest   1.0.0.0    PnpDevice                           {Get-PnpDevice, Get-PnpDeviceProperty, Enable-PnpDevice, Disable-PnpDevice}                                                                                   
+Manifest   1.1        PrintManagement                     {Add-Printer, Add-PrinterDriver, Add-PrinterPort, Get-PrintConfiguration...}                                                                                  
+Binary     1.0.12     ProcessMitigations                  {Get-ProcessMitigation, Set-ProcessMitigation, ConvertTo-ProcessMitigationPolicy}                                                                             
+Script     3.0        Provisioning                        {Install-ProvisioningPackage, Export-ProvisioningPackage, Install-TrustedProvisioningCertificate, Export-Trace...}                                            
+Manifest   1.1        PSDesiredStateConfiguration         {Set-DscLocalConfigurationManager, Start-DscConfiguration, Test-DscConfiguration, Publish-DscConfiguration...}                                                
+Script     1.0.0.0    PSDiagnostics                       {Disable-PSTrace, Disable-PSWSManCombinedTrace, Disable-WSManTrace, Enable-PSTrace...}                                                                        
+Binary     1.1.0.0    PSScheduledJob                      {New-JobTrigger, Add-JobTrigger, Remove-JobTrigger, Get-JobTrigger...}                                                                                        
+Manifest   2.0.0.0    PSWorkflow                          {New-PSWorkflowExecutionOption, New-PSWorkflowSession, nwsn}                                                                                                  
+Manifest   1.0.0.0    PSWorkflowUtility                   Invoke-AsWorkflow                                                                                                                                             
+Manifest   1.0.0.0    ScheduledTasks                      {Get-ScheduledTask, Set-ScheduledTask, Register-ScheduledTask, Unregister-ScheduledTask...}                                                                   
+Manifest   2.0.0.0    SecureBoot                          {Confirm-SecureBootUEFI, Set-SecureBootUEFI, Get-SecureBootUEFI, Format-SecureBootUEFI...}                                                                    
+Manifest   2.0.0.0    SmbShare                            {Get-SmbShare, Remove-SmbShare, Set-SmbShare, Block-SmbShareAccess...}                                                                                        
+Manifest   2.0.0.0    SmbWitness                          {Get-SmbWitnessClient, Move-SmbWitnessClient, gsmbw, msmbw...}                                                                                                
+Manifest   1.0.0.1    StartLayout                         {Export-StartLayout, Import-StartLayout, Export-StartLayoutEdgeAssets, Get-StartApps}                                                                         
+Manifest   2.0.0.0    Storage                             {Add-InitiatorIdToMaskingSet, Add-PartitionAccessPath, Add-PhysicalDisk, Add-StorageFaultDomain...}                                                           
+Manifest   1.0.0.0    StorageBusCache                     {Clear-StorageBusDisk, Disable-StorageBusCache, Disable-StorageBusDisk, Enable-StorageBusCache...}                                                            
+Manifest   2.0.0.0    TLS                                 {New-TlsSessionTicketKey, Enable-TlsSessionTicketKey, Disable-TlsSessionTicketKey, Export-TlsSessionTicketKey...}                                             
+Manifest   1.0.0.0    TroubleshootingPack                 {Get-TroubleshootingPack, Invoke-TroubleshootingPack}                                                                                                         
+Manifest   2.0.0.0    TrustedPlatformModule               {Get-Tpm, Initialize-Tpm, Clear-Tpm, Unblock-Tpm...}                                                                                                          
+Binary     2.1.639.0  UEV                                 {Clear-UevConfiguration, Clear-UevAppxPackage, Restore-UevBackup, Set-UevTemplateProfile...}                                                                  
+Script     1.0.0.0    VMDirectStorage                     {Get-VMDirectVirtualDisk, Add-VMDirectVirtualDisk, Remove-VMDirectVirtualDisk, Initialize-Volume...}                                                          
+Manifest   2.0.0.0    VpnClient                           {Add-VpnConnection, Set-VpnConnection, Remove-VpnConnection, Get-VpnConnection...}                                                                            
+Manifest   1.0.0.0    Wdac                                {Get-OdbcDriver, Set-OdbcDriver, Get-OdbcDsn, Add-OdbcDsn...}                                                                                                 
+Manifest   2.0.0.0    Whea                                {Get-WheaMemoryPolicy, Set-WheaMemoryPolicy}                                                                                                                  
+Manifest   1.0.0.0    WindowsDeveloperLicense             {Get-WindowsDeveloperLicense, Unregister-WindowsDeveloperLicense, Show-WindowsDeveloperLicenseRegistration}                                                   
+Script     1.0        WindowsErrorReporting               {Enable-WindowsErrorReporting, Disable-WindowsErrorReporting, Get-WindowsErrorReporting}                                                                      
+Manifest   1.0.0.0    WindowsSearch                       {Get-WindowsSearchSetting, Set-WindowsSearchSetting}                                                                                                          
+Manifest   1.0.0.0    WindowsUpdate                       Get-WindowsUpdateLog                                                                                                                                          
+
+

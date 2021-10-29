@@ -9,6 +9,9 @@
   @REM !!!!一定要注意等号'='前后不要加空格!!!!
   set BACKUP_DIR=D:\Game\Github\Programming-Configuration
 
+  @REM 初始化 choice
+  set choice=0
+
 
 
 
@@ -35,16 +38,14 @@
   echo             ..::::::::::::.
   echo           ``::::::::::::::::
   echo            ::::``:::::::::'        .:::.
-  echo           ::::'   ':::::'       .::::::::.
+  echo           ::::'   ':::::'       .::::::::.(6)test
   echo         .::::'    ::::::     .:::::::'::::. (5)dir
   echo        .:::'     :::::::  .:::::::::' ':::::. (4)bilibili/miHoYo-helper
   echo       .::'       ::::::.:::::::::'      ':::::. (3)devenv-starter
   echo      .::'        :::::::::::::::'         ``::::. (2)boot-starter
   echo  ...:::          :::::::::::::'              ``::. (1)backup
-  echo  ````':.          ':::::::::'                  ::::.. (0)exit
+  echo  ````':.          ':::::::::'                  ::::.. [0]exit
   set /p choice=输入选项:           '.:::::'                    ':'```:..
-
-
   echo =============================================================================
 
 
@@ -54,14 +55,13 @@
   if %choice%==3 call :devenv-starter
   if %choice%==4 call :bilibili-helper
   if %choice%==5 call :dir
+  if %choice%==6 call :test
+  @REM [0]exit
+  set choice=0
 
 
-  @REM 暂停,查看程序输出
-    pause
-
-
-  @REM 自循环
-    call :circle
+  @REM 暂停-查看程序输出-自循环
+    pause && call :circle
 goto :eof
 
 
@@ -111,6 +111,8 @@ goto :eof
 
     call npm -g list > node\npm-global.bak
     call yarn global list > node\yarn-global.bak
+
+    call powershell Get-Module -ListAvailable > pwsh\modules-list.bak
 
     call conda env export -n base > python\conda-env-base.yaml
     call pip freeze > python\pip-list.bak
@@ -200,4 +202,16 @@ goto :eof
 :dir
   set /p specifiedPath=输入路径 (留空取当前路径):
   DIR /B %specifiedPath%
+goto :eof
+
+
+
+
+
+
+@REM ==================================================================
+@REM 测试
+@REM ==================================================================
+:test
+
 goto :eof

@@ -5,21 +5,21 @@
 # PoShFuck
 Import-Module PoShFuck
 
-# Tab自动补全
-Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-# DockerCompletion
-Import-Module D:\Game\Scoop\modules\DockerCompletion
-# scoop-completion
-Import-Module D:\Game\Scoop\modules\scoop-completion
+# git-tab补全
+Import-Module posh-git
 
 # 设置主题
-Set-PoshPrompt -Theme powerlevel10k_classic
+Set-PoshPrompt -Theme powerlevel10k_rainbow
 
+# scoop-completion
+Import-Module D:\Game\Scoop\modules\scoop-completion
 # scoop search -> scoop-search
 Invoke-Expression (&scoop-search --hook)
 
 # Enable Prediction History
 Set-PSReadLineOption -PredictionSource History
+# Tab自动补全
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 # Advanced Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
