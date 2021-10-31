@@ -1,11 +1,4 @@
 Chocolatey v0.10.15
-2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
-
-Validation Warnings:
- - A pending system reboot request has been detected, however, this is
-   being ignored due to the current command being used 'list'.
-   It is recommended that you reboot at your earliest convenience.
-
 chocolatey 0.10.15
 chocolatey-core.extension 1.3.5.1
 chocolatey-fastanswers.extension 0.0.2

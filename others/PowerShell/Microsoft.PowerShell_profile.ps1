@@ -8,6 +8,9 @@ Import-Module PoShFuck
 # git-tab补全
 Import-Module posh-git
 
+# terminal-icons
+Import-Module terminal-icons
+
 # 设置主题
 Set-PoshPrompt -Theme powerlevel10k_rainbow
 

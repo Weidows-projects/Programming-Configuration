@@ -9,12 +9,6 @@
   @REM !!!!一定要注意等号'='前后不要加空格!!!!
   set BACKUP_DIR=D:\Game\Github\Programming-Configuration
 
-  @REM 初始化 choice
-  set choice=0
-
-
-
-
 
 
 
@@ -26,6 +20,14 @@
 :circle
   @REM 清屏
     cls
+
+
+  @REM 改色
+    set /a a=%random%%%10
+    color 0%a%
+
+  @REM 初始化 choice
+    set choice=-1
 
 
   echo                    .::::.
@@ -44,9 +46,10 @@
   echo       .::'       ::::::.:::::::::'      ':::::. (3)devenv-starter
   echo      .::'        :::::::::::::::'         ``::::. (2)boot-starter
   echo  ...:::          :::::::::::::'              ``::. (1)backup
-  echo  ````':.          ':::::::::'                  ::::.. [0]exit
+  echo  ````':.          ':::::::::'                  ::::.. (0)exit
   set /p choice=输入选项:           '.:::::'                    ':'```:..
   echo =============================================================================
+
 
 
   if %choice%==0 exit
@@ -56,32 +59,10 @@
   if %choice%==4 call :bilibili-helper
   if %choice%==5 call :dir
   if %choice%==6 call :test
-  @REM [0]exit
-  set choice=0
 
 
   @REM 暂停-查看程序输出-自循环
-    pause && call :circle
-goto :eof
-
-
-
-
-
-
-@REM ==================================================================
-@REM 开机启动软件
-@REM ==================================================================
-:boot-starter
-  start /b Rainmeter
-  start /b MouseInc
-  start /b %SCOOP%\apps\N0vaDesktop\current\N0vaDesktop.exe
-
-  @REM aria2
-  cscript //Nologo "d:\Game\Github\Programming-Configuration\local\start.vbs"
-
-  @REM 酷狗
-  start /b D:\Software\KGMusic\KuGou.exe
+    pause & goto :circle
 goto :eof
 
 
@@ -94,7 +75,7 @@ goto :eof
 @REM ==================================================================
 :backup
   @REM 备份 backup/ , mkdir 不会覆盖已存dir
-    d: && mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
+    d: & mkdir %BACKUP_DIR%\backup & cd %BACKUP_DIR%\backup
 
     @REM 备份ssh 目录后都必须加个'\' (比如.ssh有可能是目录,也可能是文件,而.ssh\只可能是目录)
     xcopy %HOME%\.ssh\ .ssh\ /e/y/d
@@ -105,14 +86,12 @@ goto :eof
 
     call xrepo scan > cpp\xrepo-scan.bak
 
-    call dir D:\Musics\Local > dir\dir-music.bak
-    call dir /b D:\Software > dir\dir-software.bak
-    call dir /b E:\mystream > dir\dir-mystream.bak
+    dir /b D:\Musics\Local > dir\dir-music.bak
+    dir /b D:\Software > dir\dir-software.bak
+    dir /b E:\mystream > dir\dir-mystream.bak
 
     call npm -g list > node\npm-global.bak
     call yarn global list > node\yarn-global.bak
-
-    call powershell Get-Module -ListAvailable > pwsh\modules-list.bak
 
     call conda env export -n base > python\conda-env-base.yaml
     call pip freeze > python\pip-list.bak
@@ -152,27 +131,45 @@ goto :eof
 
 
 @REM ==================================================================
+@REM 开机启动软件
+@REM ==================================================================
+:boot-starter
+  start Rainmeter
+  start MouseInc
+  start %SCOOP%\apps\N0vaDesktop\current\N0vaDesktop.exe
+
+  @REM aria2
+  cscript //Nologo %BACKUP_DIR%\local\start.vbs
+
+  @REM 酷狗
+  start D:\Software\KGMusic\KuGou.exe
+goto :eof
+
+
+
+
+
+
+@REM ==================================================================
 @REM 启动dev环境
 @REM ==================================================================
 :devenv-starter
   @REM 文件管理
-  start /b xyplorerfree
+  start xyplorerfree
 
   @REM IDE
-  start /b code
-  start /b idea64.exe
-  @REM start /b pycharm64.exe
+  start code
+  start idea64.exe
 
   @REM 浏览器
-  start /b microsoft-edge:
+  start microsoft-edge:
 
   @REM 通讯
-  start /b %SCOOP%\apps\TIM\current\Bin\TIM.exe
-  start /b %SCOOP%\apps\wechat\current\WeChat.exe
-  @REM start /b %SCOOP%\apps\dingtalk\current\DingtalkLauncher.exe
+  start %SCOOP%\apps\TIM\current\Bin\TIM.exe
+  start %SCOOP%\apps\wechat\current\WeChat.exe
 
   @REM 虚拟机
-  start /b vmware
+  start vmware
 goto :eof
 
 
@@ -184,11 +181,15 @@ goto :eof
 @REM Bilibili/miHoYo-helper
 @REM ==================================================================
 :bilibili-helper
-  d:&& cd %BACKUP_DIR%\backup
+  d:& cd %BACKUP_DIR%\backup
 
-  cd BILIBILI-HELPER && java -jar BILIBILI-HELPER.jar && cd ..
+  call conda activate base
+  start /b python AutoMihoyoBBS/main.py
 
-  conda activate base && python AutoMihoyoBBS/main.py
+  cd BILIBILI-HELPER
+  start /b java -jar BILIBILI-HELPER.jar
+  cd ..
+
 goto :eof
 
 
@@ -213,5 +214,7 @@ goto :eof
 @REM 测试
 @REM ==================================================================
 :test
+  echo Testing...
+
 
 goto :eof
