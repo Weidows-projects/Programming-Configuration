@@ -15,7 +15,7 @@ Import-Module terminal-icons
 Set-PoshPrompt -Theme powerlevel10k_rainbow
 
 # scoop-completion
-Import-Module D:\Game\Scoop\modules\scoop-completion
+Import-Module 'D:\Game\Scoop\apps\scoop\current\supporting\completion\Scoop-Completion.psd1' -ErrorAction SilentlyContinue
 # scoop search -> scoop-search
 Invoke-Expression (&scoop-search --hook)
 

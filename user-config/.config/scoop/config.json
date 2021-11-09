@@ -1,7 +1,7 @@
 {
-  "lastupdate": "2021-10-29T10:03:07.7385631+08:00",
-  "SCOOP_REPO": "https://gitee.com/squallliu/scoop",
-  "SCOOP_BRANCH": "master",
+  "lastupdate": "258|2021-11-08 17:32:22",
+  "SCOOP_REPO": "https://gitee.com/glsnames/Scoop-Core.git",
+  "SCOOP_BRANCH": "main",
   "aria2-enabled": true,
   "proxy": "localhost:7890"
 }

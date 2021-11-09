@@ -46,10 +46,11 @@ conda-repo-cli @ file:///tmp/build/80754af9/conda-repo-cli_1620168426516/work
 conda-token @ file:///tmp/build/80754af9/conda-token_1620076980546/work
 conda-verify==3.4.2
 contextlib2==0.6.0.post1
-cryptography @ file:///C:/ci/cryptography_1616769344312/work
+cryptography==3.2.1
 cycler==0.10.0
 Cython @ file:///C:/ci/cython_1618435363327/work
 cytoolz==0.11.0
+dailycheckin==0.3.2
 dask @ file:///tmp/build/80754af9/dask-core_1617390489108/work
 decorator @ file:///tmp/build/80754af9/decorator_1617916966915/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
@@ -149,6 +150,7 @@ paramiko @ file:///tmp/build/80754af9/paramiko_1598886428689/work
 parso==0.7.0
 partd @ file:///tmp/build/80754af9/partd_1618000087440/work
 path @ file:///C:/ci/path_1614022440181/work
+pathlib==1.0.1
 pathlib2 @ file:///C:/ci/pathlib2_1607025069150/work
 pathspec==0.7.0
 patsy==0.5.1
@@ -164,6 +166,7 @@ prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
 psutil @ file:///C:/ci/psutil_1612298324802/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///tmp/build/80754af9/py_1607971587848/work
+pyasn1==0.4.8
 pycodestyle @ file:///home/ktietz/src/ci_mi/pycodestyle_1612807597675/work
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
@@ -201,8 +204,11 @@ regex @ file:///C:/ci/regex_1617569893741/work
 requests==2.26.0
 rfc3986 @ file:///home/conda/feedstock_root/build_artifacts/rfc3986_1620442452971/work
 rope @ file:///tmp/build/80754af9/rope_1602264064449/work
+rsa==4.7.2
 Rtree @ file:///C:/ci/rtree_1618421009405/work
 ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016967756/work
+ruamel.yaml==0.17.17
+ruamel.yaml.clib==0.2.6
 scikit-image==0.18.1
 scikit-learn @ file:///C:/ci/scikit-learn_1614446896245/work
 scipy @ file:///C:/ci/scipy_1618856128765/work

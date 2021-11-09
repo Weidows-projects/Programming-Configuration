@@ -63,7 +63,6 @@ dependencies:
   - conda-verify=3.4.2=py_1
   - console_shortcut=0.1.1=4
   - contextlib2=0.6.0.post1=py_0
-  - cryptography=3.4.7=py38h71e12ea_0
   - curl=7.71.1=h2a8f88b_1
   - cycler=0.10.0=py38_0
   - cython=0.29.23=py38hd77b12b_0
@@ -352,5 +351,12 @@ dependencies:
   - zope.interface=5.3.0=py38h2bbff1b_0
   - zstd=1.4.5=h04227a9_0
   - pip:
+    - cryptography==3.2.1
+    - dailycheckin==0.3.2
+    - pathlib==1.0.1
+    - pyasn1==0.4.8
     - requests==2.26.0
+    - rsa==4.7.2
+    - ruamel-yaml==0.17.17
+    - ruamel-yaml-clib==0.2.6
 prefix: D:\Game\Scoop\apps\anaconda3\current

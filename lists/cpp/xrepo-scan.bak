@@ -4,8 +4,12 @@ scanning packages ..
 [0m[35;1mfreeglut-3.2.1[0m:[0m
 [0m  -> [33mcbc8e3db70c6435d86ba4175ff35fd08[0m: [32m, [0m[0m, [31mempty[0m
 [0m  -> [33md94034aeeec744bfb8b794a8d1fb78d6[0m: [32mwindows, x64[0m
-    -> {vs_runtime="MT",pic=true,debug=false,shared=true}
+    -> {pic=true,debug=false,vs_runtime="MT",shared=true}
 [0m  -> [33me1032c0752c44b5e8f993f511dea8271[0m: [32m, [0m[0m, [31mempty[0m
+[0m[35;1mglew-2.2.0[0m:[0m
+[0m  -> [33m618c7b92c819453eaa1a00a41d1d32e3[0m: [32mwindows, x64[0m
+    -> {pic=true,debug=false,vs_runtime="MT",shared=false}
+[0m[35;1mglfw-3.3.4[0m:[0m
 [0m[35;1mglu-latest[0m:[0m
 [0m  -> [33m4e0143c97b65425b855ad5fd03038b6a[0m: [32m, [0m[0m, [31mempty[0m
 [0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m
@@ -33,6 +37,9 @@ scanning packages ..
 [0m  -> [33m806dec0aad544e9fa6b0f10142c5441d[0m: [32m, [0m[0m, [31mempty[0m
 [0m[35;1mlibxxf86vm-1.1.4[0m:[0m
 [0m  -> [33m6cc740179a4348be89ec13598e62ddb8[0m: [32m, [0m[0m, [31mempty[0m
+[0m[35;1mopencv-4.5.3[0m:[0m
+[0m  -> [33m75ec219c46d04bed8008ee97aa566488[0m: [32mwindows, x64[0m
+    -> {quirc=true,webp=true,openexr=false,png=true,tbb=false,cuda=false,itt=false,protobuf=true,gtk=false,halide=false,bundled=true,dynamic_parallel=false,["1394"]=true,vtk=false,eigen=true,shared=false,opengl=true,ipp=false,vulkan=false,jasper=false,pic=true,jpeg=true,tiff=true,ffmpeg=true,gstreamer=false,vs_runtime="MT",debug=false,openjpeg=false}
 [0m[35;1mopengl-latest[0m:[0m
 [0m  -> [33m4e0143c97b65425b855ad5fd03038b6a[0m: [32m, [0m[0m, [31mempty[0m
 [0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m
