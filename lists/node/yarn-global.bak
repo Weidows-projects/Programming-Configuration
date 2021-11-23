@@ -1,6 +1,8 @@
 yarn global v1.22.15
 info "cnpm@7.0.0" has binaries:
    - cnpm
+info "composerize@1.0.6" has binaries:
+   - composerize
 info "create-vite@2.5.1" has binaries:
    - create-vite
    - cva
@@ -31,4 +33,4 @@ info "webpack@5.45.1" has binaries:
    - webpack
 info "webpack-cli@4.8.0" has binaries:
    - webpack-cli
-Done in 1.85s.
+Done in 1.59s.
