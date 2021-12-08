@@ -13,6 +13,8 @@ info "eslint@7.30.0" has binaries:
    - eslint
 info "hexo-cli@4.2.0" has binaries:
    - hexo
+info "logo.svg@1.0.1" has binaries:
+   - logo
 info "npm-check@5.9.2" has binaries:
    - npm-check
 info "release-it@14.11.5" has binaries:
@@ -33,4 +35,4 @@ info "webpack@5.45.1" has binaries:
    - webpack
 info "webpack-cli@4.8.0" has binaries:
    - webpack-cli
-Done in 2.21s.
+Done in 3.06s.
