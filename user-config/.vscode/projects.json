@@ -44,5 +44,12 @@
 			"Personal"
 		],
 		"enabled": true
+	},
+	{
+		"name": "scoop-3rd",
+		"rootPath": "D:\\Repo\\Weidows-projects\\scoop-3rd",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
