@@ -3,23 +3,23 @@ scanning packages ..
 [0m  -> [33mb14e2ab395d54ecd9721929979be4a98[0m: [32m, [0m[0m, [31mempty[0m
 [0m[35;1mfreeglut-3.2.1[0m:[0m
 [0m  -> [33mcbc8e3db70c6435d86ba4175ff35fd08[0m: [32m, [0m[0m, [31mempty[0m
-[0m  -> [33md94034aeeec744bfb8b794a8d1fb78d6[0m: [32mwindows, x64[0m
-    -> {pic=true,vs_runtime="MT",shared=true,debug=false}
-[0m  -> [33me1032c0752c44b5e8f993f511dea8271[0m: [32mwindows, x64[0m
-    -> {debug=false,vs_runtime="MT",shared=false,pic=true}
+[0m  -> [33md94034aeeec744bfb8b794a8d1fb78d6[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {debug=false,vs_runtime="MT",pic=true,shared=true}
+[0m  -> [33me1032c0752c44b5e8f993f511dea8271[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {debug=false,vs_runtime="MT",pic=true,shared=false}
 [0m[35;1mglad-v0.1.34[0m:[0m
-[0m  -> [33m2cb082a712a04167aa58cc4c948cbd67[0m: [32mwindows, x64[0m
-    -> {debug=false,vs_runtime="MT",shared=false,pic=true}
+[0m  -> [33m2cb082a712a04167aa58cc4c948cbd67[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {debug=false,vs_runtime="MT",pic=true,shared=false}
 [0m[35;1mglew-2.2.0[0m:[0m
-[0m  -> [33m618c7b92c819453eaa1a00a41d1d32e3[0m: [32mwindows, x64[0m
-    -> {debug=false,vs_runtime="MT",shared=false,pic=true}
+[0m  -> [33m618c7b92c819453eaa1a00a41d1d32e3[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {debug=false,vs_runtime="MT",pic=true,shared=false}
 [0m[35;1mglfw-3.3.4[0m:[0m
 [0m[35;1mglfw-3.3.5[0m:[0m
-[0m  -> [33m5a54018c9b914be8a809d0ebe5dab85a[0m: [32mwindows, x64[0m
-    -> {pic=true,vs_runtime="MT",debug=false,shared=false,glfw_include="none"}
+[0m  -> [33m5a54018c9b914be8a809d0ebe5dab85a[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {vs_runtime="MT",shared=false,debug=false,pic=true,glfw_include="none"}
 [0m[35;1mglm-0.9.9+8[0m:[0m
-[0m  -> [33m8335bab7c0314ab9921440de58961aac[0m: [32mwindows, x64[0m
-    -> {pic=true,vs_runtime="MT",shared=false,debug=false}
+[0m  -> [33m8335bab7c0314ab9921440de58961aac[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {debug=false,vs_runtime="MT",pic=true,shared=false}
 [0m[35;1mglu-latest[0m:[0m
 [0m  -> [33m4e0143c97b65425b855ad5fd03038b6a[0m: [32m, [0m[0m, [31mempty[0m
 [0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m
@@ -51,10 +51,10 @@ scanning packages ..
 [0m  -> [33m6cc740179a4348be89ec13598e62ddb8[0m: [32m, [0m[0m, [31mempty[0m
 [0m[35;1mopencv-4.5.3[0m:[0m
 [0m  -> [33m75ec219c46d04bed8008ee97aa566488[0m: [32mwindows, x64[0m[0m, [31munused[0m
-    -> {jpeg=true,vs_runtime="MT",gtk=false,webp=true,vulkan=false,openexr=false,tbb=false,["1394"]=true,debug=false,tiff=true,shared=false,gstreamer=false,bundled=true,ffmpeg=true,ipp=false,vtk=false,cuda=false,png=true,openjpeg=false,dynamic_parallel=false,pic=true,halide=false,itt=false,jasper=false,opengl=true,quirc=true,protobuf=true,eigen=true}
+    -> {halide=false,gstreamer=false,debug=false,["1394"]=true,openjpeg=false,quirc=true,jpeg=true,itt=false,vs_runtime="MT",shared=false,tbb=false,jasper=false,bundled=true,ffmpeg=true,eigen=true,opengl=true,tiff=true,webp=true,pic=true,openexr=false,dynamic_parallel=false,protobuf=true,gtk=false,vulkan=false,ipp=false,png=true,vtk=false,cuda=false}
 [0m[35;1mopencv-4.5.4[0m:[0m
-[0m  -> [33m127e535b821149b8ad151f7a6c4cb2ee[0m: [32mwindows, x64[0m
-    -> {jpeg=true,ipp=false,gtk=false,webp=true,vulkan=false,openexr=false,tbb=false,opengl=true,gstreamer=false,tiff=true,shared=false,quirc=true,openjpeg=false,ffmpeg=true,itt=false,vtk=false,cuda=false,png=true,bundled=true,pic=true,["1394"]=true,debug=false,halide=false,jasper=false,vs_runtime="MT",dynamic_parallel=false,protobuf=true,eigen=true}
+[0m  -> [33m127e535b821149b8ad151f7a6c4cb2ee[0m: [32mwindows, x64[0m[0m, [31munused[0m
+    -> {halide=false,gstreamer=false,debug=false,jpeg=true,openexr=false,quirc=true,tbb=false,shared=false,["1394"]=true,vs_runtime="MT",vtk=false,jasper=false,tiff=true,ffmpeg=true,openjpeg=false,opengl=true,png=true,webp=true,pic=true,eigen=true,dynamic_parallel=false,cuda=false,gtk=false,vulkan=false,ipp=false,itt=false,protobuf=true,bundled=true}
 [0m[35;1mopengl-latest[0m:[0m
 [0m  -> [33m4e0143c97b65425b855ad5fd03038b6a[0m: [32m, [0m[0m, [31mempty[0m
 [0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m

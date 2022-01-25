@@ -367,4 +367,4 @@ dependencies:
   - zope.event=4.5.0=py39haa95532_0
   - zope.interface=5.4.0=py39h2bbff1b_0
   - zstd=1.4.9=h19a0ad4_0
-prefix: D:\Game\Scoop\apps\anaconda3\current
+prefix: D:\Scoop\apps\anaconda3\current
