@@ -35,4 +35,4 @@ info "webpack@5.45.1" has binaries:
    - webpack
 info "webpack-cli@4.8.0" has binaries:
    - webpack-cli
-Done in 1.42s.
+Done in 0.94s.
