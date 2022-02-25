@@ -41,7 +41,7 @@ cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
 clyent==1.2.2
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 comtypes==1.1.10
-conda==4.10.3
+conda==4.11.0
 conda-build==3.21.6
 conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
 conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
@@ -108,12 +108,14 @@ jupyterlab @ file:///tmp/build/80754af9/jupyterlab_1635799997693/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1633419203660/work
 jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
+keyboard==0.13.5
 keyring @ file:///C:/ci/keyring_1629321702436/work
 kiwisolver @ file:///C:/ci/kiwisolver_1612282555033/work
 lazy-object-proxy @ file:///C:/ci/lazy-object-proxy_1616529288960/work
 libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
 llvmlite==0.37.0
 locket==0.2.1
+loguru==0.6.0
 lxml @ file:///C:/ci/lxml_1616443418777/work
 MarkupSafe @ file:///C:/ci/markupsafe_1607027406824/work
 matplotlib @ file:///C:/ci/matplotlib-suite_1634667159685/work
@@ -126,6 +128,7 @@ mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
 mkl-service==2.4.0
 mock @ file:///tmp/build/80754af9/mock_1607622725907/work
 more-itertools @ file:///tmp/build/80754af9/more-itertools_1635423142362/work
+MouseInfo==0.1.3
 mpmath==1.2.1
 msgpack @ file:///C:/ci/msgpack-python_1612287350784/work
 multipledispatch @ file:///C:/ci/multipledispatch_1607574329826/work
@@ -143,9 +146,10 @@ nose @ file:///tmp/build/80754af9/nose_1606773131901/work
 notebook @ file:///C:/ci/notebook_1635393701545/work
 numba @ file:///C:/ci/numba_1635186062888/work
 numexpr @ file:///C:/ci/numexpr_1618856728739/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1626271900803/work
+numpy==1.19.5
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
 olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+opencv-python==4.5.5.62
 openpyxl @ file:///tmp/build/80754af9/openpyxl_1632777717936/work
 packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
 pandas @ file:///C:/ci/pandas_1635506685681/work
@@ -170,6 +174,7 @@ prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
 psutil @ file:///C:/ci/psutil_1612298199233/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///tmp/build/80754af9/py_1607971587848/work
+PyAutoGUI==0.9.53
 pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1615748559966/work
 pycosat==0.6.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
@@ -177,16 +182,22 @@ pycurl==7.44.1
 pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1621600989141/work
 pyerfa @ file:///C:/ci/pyerfa_1621560974055/work
 pyflakes @ file:///tmp/build/80754af9/pyflakes_1617200973297/work
+PyGetWindow==0.0.9
 Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
 PyJWT @ file:///C:/ci/pyjwt_1619682721924/work
 pylint @ file:///C:/ci/pylint_1627536884966/work
 pyls-spyder==0.4.0
+PyMouse==1.0
+PyMsgBox==1.0.9
 PyNaCl @ file:///C:/ci/pynacl_1607612759007/work
 pyodbc===4.0.0-unsupported
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
 pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyperclip==1.8.2
 pyreadline==2.1
+PyRect==0.1.4
 pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
+PyScreeze==0.1.28
 PySocks @ file:///C:/ci/pysocks_1605307512533/work
 pytest==6.2.4
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
@@ -194,6 +205,7 @@ python-lsp-black @ file:///tmp/build/80754af9/python-lsp-black_1634232156041/wor
 python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.2.4
 python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
+pytweening==1.0.4
 pytz==2021.3
 PyWavelets @ file:///C:/ci/pywavelets_1607645631519/work
 pywin32==228
@@ -240,6 +252,7 @@ SQLAlchemy @ file:///C:/ci/sqlalchemy_1626948551162/work
 statsmodels==0.12.2
 sympy @ file:///C:/ci/sympy_1635219088507/work
 tables==3.6.1
+tabulate==0.8.9
 TBB==0.2
 tblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work
 terminado==0.9.4
@@ -252,6 +265,9 @@ tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
 tinycss @ file:///tmp/build/80754af9/tinycss_1617713798712/work
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 toolz @ file:///home/linux1/recipes/ci/toolz_1610987900194/work
+torch==1.10.2
+torchaudio==0.10.2
+torchvision==0.11.3
 tornado @ file:///C:/ci/tornado_1606924294691/work
 tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
 traitlets @ file:///tmp/build/80754af9/traitlets_1632522747050/work
@@ -269,6 +285,7 @@ whichcraft @ file:///tmp/build/80754af9/whichcraft_1617751293875/work
 widgetsnbextension @ file:///C:/ci/widgetsnbextension_1607531582688/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
 win-unicode-console==0.5
+win32-setctime==1.1.0
 wincertstore==0.2
 wrapt @ file:///C:/ci/wrapt_1607574570428/work
 xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
