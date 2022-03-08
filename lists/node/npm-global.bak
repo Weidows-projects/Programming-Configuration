@@ -1,4 +1,22 @@
-D:\Scoop\apps\nvm\current\nodejs\nodejs
-+-- corepack@0.10.0
-`-- npm@8.3.0
+D:\Scoop\apps\nvm\current\nodejs\nodejs -> .\
+├── cnpm@7.1.1
+├── composerize@1.0.6
+├── corepack@0.10.0
+├── create-vite@2.8.0
+├── cross-env@7.0.3
+├── eslint@8.10.0
+├── hexo-cli@4.3.0
+├── logo.svg@1.0.1
+├── npm-check@5.9.2
+├── npm@8.5.1
+├── release-it@14.12.5
+├── tldr@3.3.7
+├── uglify-es@3.3.9
+├── vite-cli@1.0.0
+├── vsce@2.6.7
+├── vue-cli@2.9.6
+├── vue-router@4.0.13
+├── webpack-cli@4.9.2
+├── webpack@5.70.0
+└── yrm@1.0.6
 
