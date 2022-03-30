@@ -1,34 +1,29 @@
-127.0.0.1 localhost
-23.32.241.73 media.steampowered.com #UHE_
-52.69.186.44 github.com #UHE_
-151.101.88.133 raw.githubusercontent.com #UHE_
-151.101.88.133 raw.github.com #UHE_
-151.101.88.133 camo.githubusercontent.com #UHE_
-151.101.88.133 cloud.githubusercontent.com #UHE_
-151.101.88.133 avatars.githubusercontent.com #UHE_
-151.101.88.133 avatars0.githubusercontent.com #UHE_
-151.101.88.133 avatars1.githubusercontent.com #UHE_
-151.101.88.133 avatars2.githubusercontent.com #UHE_
-151.101.88.133 avatars3.githubusercontent.com #UHE_
-151.101.88.133 user-images.githubusercontent.com #UHE_
-20.205.243.168 api.github.com #UHE_
-39.107.134.35 steamcloud-ugc-hkg.oss-accelerate.aliyuncs.com #UHE_
-104.17.32.100 s.deepl.com #UHE_
-104.17.32.100 static.deepl.com #UHE_
-104.17.32.100 www.deepl.com #UHE_
-104.17.32.100 www2.deepl.com #UHE_
-104.17.32.100 appdownload.deepl.com #UHE_
-23.206.253.62 store.steampowered.com #UHE_
-23.2.136.50 api.steampowered.com #UHE_
-184.50.87.124 steamstore-a.akamaihd.net #UHE_
-
-184.50.87.124 steamusercontent-a.akamaihd.net #UHE_
-
-184.50.87.124 steamcommunity-a.akamaihd.net #UHE_
-
-184.50.87.124 steamcdn-a.akamaihd.net #UHE_
-
-184.50.87.124 steamuserimages-a.akamaihd.net #UHE_
-
-184.50.87.124 community.akamai.steamstatic.com #UHE_
-
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+151.101.88.133 github-releases.githubusercontent.com #UHE_
+151.101.88.133 objects.githubusercontent.com #UHE_
+23.42.182.65 store.steampowered.com #UHE_
+104.255.106.49 ps-rgl-prod.ros.rockstargames.com #UHE_
+104.255.106.49 prs-rgl-prod.ros.rockstargames.com #UHE_
+104.255.106.49 prod.ros.rockstargames.com #UHE_
+104.255.106.49 auth-rgl-prod.ros.rockstargames.com #UHE_
+104.255.106.49 rgl-prod.ros.rockstargames.com #UHE_
+104.255.106.49 app-rgl-prod.ros.rockstargames.com #UHE_

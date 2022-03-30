@@ -15,9 +15,7 @@ Import-Module terminal-icons
 Set-PoshPrompt -Theme powerlevel10k_rainbow
 
 # scoop-completion
-Import-Module 'D:\Game\Scoop\apps\scoop\current\supporting\completion\Scoop-Completion.psd1' -ErrorAction SilentlyContinue
-# scoop search -> scoop-search
-Invoke-Expression (&scoop-search --hook)
+Import-Module $env:SCOOP\apps\scoop\current\supporting\completion\Scoop-Completion.psd1 -ErrorAction SilentlyContinue
 
 # Enable Prediction History
 Set-PSReadLineOption -PredictionSource History
@@ -26,6 +24,9 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 # Advanced Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# 设置终端代理 (终端默认不会走代理)
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 
 # 清屏
 # clear
