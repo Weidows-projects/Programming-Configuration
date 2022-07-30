@@ -1,15 +1,119 @@
 "AppWorkshop"
 {
 	"appid"		"1325860"
-	"SizeOnDisk"		"0"
+	"SizeOnDisk"		"105354461"
 	"NeedsUpdate"		"0"
 	"NeedsDownload"		"0"
-	"TimeLastUpdated"		"1651851589"
-	"TimeLastAppRan"		"0"
+	"TimeLastUpdated"		"1658339969"
+	"TimeLastAppRan"		"1655316817"
 	"WorkshopItemsInstalled"
 	{
+		"2795389494"
+		{
+			"size"		"41707"
+			"timeupdated"		"1650135315"
+			"manifest"		"8741531618555804754"
+		}
+		"2795535194"
+		{
+			"size"		"31372000"
+			"timeupdated"		"1650154323"
+			"manifest"		"5052308098732184798"
+		}
+		"2797217734"
+		{
+			"size"		"40275643"
+			"timeupdated"		"1651851589"
+			"manifest"		"4928694486570799638"
+		}
+		"2797248809"
+		{
+			"size"		"927264"
+			"timeupdated"		"1650470842"
+			"manifest"		"8122518726551225798"
+		}
+		"2801403746"
+		{
+			"size"		"5411616"
+			"timeupdated"		"1651269481"
+			"manifest"		"1187392656815167622"
+		}
+		"2802653785"
+		{
+			"size"		"18214003"
+			"timeupdated"		"1651474746"
+			"manifest"		"5138770383777683832"
+		}
+		"2810738485"
+		{
+			"size"		"6631052"
+			"timeupdated"		"1653129741"
+			"manifest"		"7243486958815973931"
+		}
+		"2814639666"
+		{
+			"size"		"2481176"
+			"timeupdated"		"1653889805"
+			"manifest"		"2496578526140136157"
+		}
 	}
 	"WorkshopItemDetails"
 	{
+		"2795389494"
+		{
+			"manifest"		"8741531618555804754"
+			"timeupdated"		"1650135315"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2795535194"
+		{
+			"manifest"		"5052308098732184798"
+			"timeupdated"		"1650154323"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2797217734"
+		{
+			"manifest"		"4928694486570799638"
+			"timeupdated"		"1651851589"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2797248809"
+		{
+			"manifest"		"8122518726551225798"
+			"timeupdated"		"1650470842"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2801403746"
+		{
+			"manifest"		"1187392656815167622"
+			"timeupdated"		"1651269481"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2802653785"
+		{
+			"manifest"		"5138770383777683832"
+			"timeupdated"		"1651474746"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2810738485"
+		{
+			"manifest"		"7243486958815973931"
+			"timeupdated"		"1653129741"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2814639666"
+		{
+			"manifest"		"2496578526140136157"
+			"timeupdated"		"1653889805"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
 	}
 }

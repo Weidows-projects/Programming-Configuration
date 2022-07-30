@@ -19,8 +19,7 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
-
-# custom Host Start
+# Custom Host Start
 127.0.0.1 localhost
-# custom Host End
+# ====================== Custom Host End ====================== 
 

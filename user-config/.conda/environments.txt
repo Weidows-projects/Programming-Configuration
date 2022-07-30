@@ -1,2 +1,1 @@
-D:\Game\Scoop\apps\miniconda3\2021.11
-D:\Game\Scoop\apps\anaconda3\2021.11
+D:\Scoop\apps\anaconda3\current

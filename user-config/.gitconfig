@@ -13,3 +13,5 @@
 	helper = !D:\\Game\\Scoop\\apps\\Github-CLI\\current\\bin\\gh.exe auth git-credential
 [pull]
 	rebase = false
+[safe]
+	directory = *
