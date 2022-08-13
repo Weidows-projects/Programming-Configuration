@@ -1,10 +1,10 @@
 "AppWorkshop"
 {
 	"appid"		"431960"
-	"SizeOnDisk"		"26360886838"
+	"SizeOnDisk"		"26291059626"
 	"NeedsUpdate"		"0"
 	"NeedsDownload"		"0"
-	"TimeLastUpdated"		"1659185172"
+	"TimeLastUpdated"		"1660376004"
 	"TimeLastAppRan"		"1659009552"
 	"WorkshopItemsInstalled"
 	{
@@ -2420,12 +2420,6 @@
 			"timeupdated"		"1638184589"
 			"manifest"		"8411690465361314154"
 		}
-		"2667459772"
-		{
-			"size"		"69773066"
-			"timeupdated"		"1638129913"
-			"manifest"		"3198124892690820779"
-		}
 		"2669836995"
 		{
 			"size"		"27475870"
@@ -2668,9 +2662,9 @@
 		}
 		"2775393423"
 		{
-			"size"		"39275424"
-			"timeupdated"		"1649566303"
-			"manifest"		"864615238036864297"
+			"size"		"39256492"
+			"timeupdated"		"1659769606"
+			"manifest"		"8484022538061372017"
 		}
 		"2776863386"
 		{
@@ -2716,9 +2710,9 @@
 		}
 		"2792901569"
 		{
-			"size"		"1816249"
-			"timeupdated"		"1657972204"
-			"manifest"		"6949094785907083888"
+			"size"		"1781035"
+			"timeupdated"		"1660022101"
+			"manifest"		"7474511847483407073"
 		}
 		"2794098047"
 		{
@@ -5693,13 +5687,6 @@
 			"timetouched"		"1659009516"
 			"subscribedby"		"360833984"
 		}
-		"2667459772"
-		{
-			"manifest"		"3198124892690820779"
-			"timeupdated"		"1638129913"
-			"timetouched"		"1659009515"
-			"subscribedby"		"360833984"
-		}
 		"2669836995"
 		{
 			"manifest"		"5038256045216111987"
@@ -5982,8 +5969,8 @@
 		}
 		"2775393423"
 		{
-			"manifest"		"864615238036864297"
-			"timeupdated"		"1649566303"
+			"manifest"		"8484022538061372017"
+			"timeupdated"		"1659769606"
 			"timetouched"		"1659009515"
 			"subscribedby"		"360833984"
 		}
@@ -6038,8 +6025,8 @@
 		}
 		"2792901569"
 		{
-			"manifest"		"6949094785907083888"
-			"timeupdated"		"1657972204"
+			"manifest"		"7474511847483407073"
+			"timeupdated"		"1660022101"
 			"timetouched"		"1659009516"
 			"subscribedby"		"360833984"
 		}

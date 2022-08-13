@@ -23,3 +23,7 @@
 127.0.0.1 localhost
 # ====================== Custom Host End ====================== 
 
+
+# aimage.service.contract.contract.go
+127.0.0.1 aimage-service-svc
+

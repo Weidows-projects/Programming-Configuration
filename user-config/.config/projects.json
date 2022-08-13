@@ -1,0 +1,69 @@
+[
+	{
+		"name": "Blog-private",
+		"rootPath": "D:\\Repos\\Weidows\\Blog-private",
+		"paths": [],
+		"tags": [
+			"Personal"
+		],
+		"enabled": true
+	},
+	{
+		"name": "python",
+		"rootPath": "D:\\Repos\\Weidows\\python",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Web",
+		"rootPath": "D:\\Repos\\Weidows\\Web",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Java",
+		"rootPath": "D:\\Repos\\Weidows\\Java",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "C++",
+		"rootPath": "D:\\Repos\\Weidows\\C++",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Keeper",
+		"rootPath": "D:\\Repos\\Weidows-projects\\Keeper",
+		"paths": [],
+		"tags": [
+			"Personal"
+		],
+		"enabled": true
+	},
+	{
+		"name": "Golang",
+		"rootPath": "D:\\Repos\\Weidows\\Golang",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "scoop-3rd",
+		"rootPath": "d:\\Scoop\\buckets\\3rd",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Blog-private-remote",
+		"rootPath": "vscode-remote://codespaces+weidows-blog-private-jxww7j5v3q4vv/workspaces/Blog-private",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	}
+]

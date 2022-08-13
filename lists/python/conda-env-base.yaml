@@ -24,6 +24,7 @@ dependencies:
   - astroid=2.6.6=py39haa95532_0
   - astropy=5.0.4=py39h080aedc_0
   - asttokens=2.0.5=pyhd3eb1b0_0
+  - async-timeout=4.0.2=pyhd8ed1ab_0
   - atomicwrites=1.4.0=py_0
   - attrs=21.4.0=pyhd3eb1b0_0
   - automat=20.2.0=py_0
@@ -102,8 +103,10 @@ dependencies:
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.4.8=h39d44d4_0
   - filelock=3.6.0=pyhd3eb1b0_0
+  - fire=0.4.0=pyh44b312d_0
   - flake8=3.9.2=pyhd3eb1b0_0
   - flask=1.1.2=pyhd3eb1b0_0
+  - fonttools=4.34.4=py39hb82d6ee_0
   - freetype=2.10.4=hd328e21_0
   - fsspec=2022.3.0=py39haa95532_0
   - future=0.18.2=py39haa95532_1
@@ -171,6 +174,7 @@ dependencies:
   - jupyterlab_server=2.10.3=pyhd3eb1b0_1
   - jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
   - keyring=23.4.0=py39haa95532_0
+  - kiwisolver=1.4.4=py39h2e07f2f_0
   - lazy-object-proxy=1.6.0=py39h2bbff1b_0
   - lcms2=2.12=h83e58a3_0
   - lerc=3.0=hd77b12b_0
@@ -207,6 +211,7 @@ dependencies:
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markdown=3.3.4=py39haa95532_0
   - markupsafe=2.0.1=py39h2bbff1b_0
+  - matplotlib-base=3.5.1=py39hd77b12b_1
   - matplotlib-inline=0.1.2=pyhd3eb1b0_2
   - mccabe=0.6.1=py39haa95532_1
   - menuinst=1.4.18=py39h59b6b97_0
@@ -219,6 +224,7 @@ dependencies:
   - mpmath=1.2.1=py39haa95532_0
   - msgpack-python=1.0.3=py39h59b6b97_0
   - msys2-conda-epoch=20160418=1
+  - multidict=6.0.2=py39hb82d6ee_1
   - multipledispatch=0.6.0=py39haa95532_0
   - munkres=1.1.4=py_0
   - mypy_extensions=0.4.3=py39haa95532_1
@@ -236,6 +242,7 @@ dependencies:
   - notebook=6.4.8=py39haa95532_0
   - numba=0.55.1=py39hf11a4ad_0
   - numexpr=2.8.1=py39hb80d3ca_0
+  - numpy-base=1.21.5=py39hca35cd5_1
   - numpydoc=1.2=pyhd3eb1b0_0
   - olefile=0.46=pyhd3eb1b0_0
   - openjpeg=2.4.0=h4fc8c34_0
@@ -293,6 +300,7 @@ dependencies:
   - pynacl=1.4.0=py39hbd8134f_1
   - pyodbc=4.0.32=py39hd77b12b_1
   - pyopenssl=21.0.0=pyhd3eb1b0_1
+  - pyparsing=3.0.9=pyhd8ed1ab_0
   - pyqt=5.9.2=py39hd77b12b_6
   - pyreadline=2.1=py39haa95532_1
   - pyrsistent=0.18.0=py39h196d8e1_0
@@ -368,6 +376,7 @@ dependencies:
   - tbb4py=2021.5.0=py39h59b6b97_0
   - tblib=1.7.0=pyhd3eb1b0_0
   - tenacity=8.0.1=py39haa95532_0
+  - termcolor=1.1.0=pyhd8ed1ab_3
   - terminado=0.13.1=py39haa95532_0
   - testpath=0.5.0=pyhd3eb1b0_0
   - text-unidecode=1.3=pyhd3eb1b0_0
@@ -392,6 +401,7 @@ dependencies:
   - typing_extensions=4.1.1=pyh06a4308_0
   - tzdata=2022a=hda174b7_0
   - ujson=5.1.0=py39hd77b12b_0
+  - unicodedata2=14.0.0=py39hb82d6ee_1
   - unidecode=1.2.0=pyhd3eb1b0_0
   - urllib3=1.26.9=py39haa95532_0
   - utfcpp=3.2.1=h57928b3_0
@@ -418,6 +428,7 @@ dependencies:
   - xz=5.2.5=h8cc25b3_1
   - yaml=0.2.5=he774522_0
   - yapf=0.31.0=pyhd3eb1b0_0
+  - yarl=1.7.2=py39hb82d6ee_2
   - zfp=0.5.5=hd77b12b_6
   - zict=2.0.0=pyhd3eb1b0_0
   - zipp=3.8.0=py39haa95532_0
@@ -429,7 +440,6 @@ dependencies:
     - absl-py==0.15.0
     - addict==2.4.0
     - astunparse==1.6.3
-    - async-timeout==4.0.2
     - audioread==2.1.9
     - charset-normalizer==2.0.12
     - clang==5.0
@@ -437,7 +447,6 @@ dependencies:
     - configobj==5.0.6
     - deprecation==2.1.0
     - flatbuffers==1.12
-    - fonttools==4.34.4
     - frozenlist==1.3.0
     - gast==0.4.0
     - google-auth-oauthlib==0.4.6
@@ -446,14 +455,12 @@ dependencies:
     - jupyter-packaging==0.12.2
     - keras==2.6.0
     - keras-preprocessing==1.1.2
-    - kiwisolver==1.4.4
     - librosa==0.8.1
     - matplotlib==3.5.2
     - mayavi==4.8.0
     - mmconfig==0.0.4
     - mmcv-full==1.6.0
     - model-index==0.1.11
-    - multidict==6.0.2
     - numpy==1.19.5
     - oauthlib==3.2.0
     - open3d==0.15.1
@@ -463,7 +470,6 @@ dependencies:
     - pathlib==1.0.1
     - pillow==9.2.0
     - pooch==1.6.0
-    - pyparsing==3.0.9
     - pypcd==0.1.1
     - python-lzf==0.2.4
     - pywinpty==1.1.6
@@ -478,7 +484,6 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - tensorflow-estimator==2.9.0
-    - termcolor==1.1.0
     - tomlkit==0.11.1
     - tqdm==4.62.1
     - traitlets==5.2.2.post1
@@ -486,5 +491,4 @@ dependencies:
     - typing-extensions==3.7.4.3
     - vtk==9.1.0
     - wslink==1.6.6
-    - yarl==1.7.2
 prefix: D:\Scoop\apps\anaconda3\current

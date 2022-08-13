@@ -15,3 +15,5 @@
 	rebase = false
 [safe]
 	directory = *
+[url "git@codeup.aliyun.com:"]
+	insteadOf = https://codeup.aliyun.com/
