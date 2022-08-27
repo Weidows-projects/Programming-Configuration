@@ -143,7 +143,6 @@ dependencies:
   - inflection=0.5.1=py39haa95532_0
   - iniconfig=1.1.1=pyhd3eb1b0_0
   - intake=0.6.5=pyhd3eb1b0_0
-  - intel-openmp=2021.4.0=haa95532_3556
   - intervaltree=3.1.0=pyhd3eb1b0_0
   - ipykernel=6.9.1=py39haa95532_0
   - ipython=8.2.0=py39haa95532_0
@@ -322,7 +321,7 @@ dependencies:
   - pytz=2022.1=py39haa95532_0
   - pyviz_comms=2.0.2=pyhd3eb1b0_0
   - pywavelets=1.3.0=py39h2bbff1b_0
-  - pywin32=302=py39h2bbff1b_2
+  - pywin32=303=py39hb82d6ee_0
   - pywin32-ctypes=0.2.0=py39haa95532_1000
   - pyyaml=6.0=py39h2bbff1b_1
   - qdarkstyle=3.0.2=pyhd3eb1b0_0
@@ -452,6 +451,7 @@ dependencies:
     - google-auth-oauthlib==0.4.6
     - google-pasta==0.2.0
     - h5py==3.1.0
+    - intel-openmp==2022.1.0
     - jupyter-packaging==0.12.2
     - keras==2.6.0
     - keras-preprocessing==1.1.2

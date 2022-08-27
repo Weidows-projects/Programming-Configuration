@@ -1,3 +1,5 @@
+#-------- 公共配置 --------
+
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
 # This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
@@ -19,11 +21,22 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
-# Custom Host Start
+
+# ====================== Custom Host Start =====================
 127.0.0.1 localhost
+
 # ====================== Custom Host End ====================== 
 
 
-# aimage.service.contract.contract.go
-127.0.0.1 aimage-service-svc
 
+
+#-------- 局域网Mac机 --------
+
+# aimage.service.contract.contract.go
+# 192.168.1.36 aimage-service-svc
+127.0.0.1 aimage-service-svc
+# pollen
+192.168.1.36 pollen-svc
+
+# simswap.service
+192.168.1.36 simswap-service-svc

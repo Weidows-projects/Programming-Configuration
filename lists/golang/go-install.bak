@@ -1,0 +1,13 @@
+dlv.exe
+go-outline.exe
+goctl.exe
+golint.exe
+gopkgs.exe
+goplay.exe
+gopls.exe
+gopls.exe~
+gotests.exe
+protoc-gen-auxo.exe
+protoc-gen-go.exe
+revive.exe
+staticcheck.exe
