@@ -65,5 +65,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "Master-Mind",
+		"rootPath": "d:\\Repos\\Weidows\\Master-Mind",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]

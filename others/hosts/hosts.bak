@@ -30,13 +30,14 @@
 
 
 
-#-------- 局域网Mac机 --------
+#-------- 本机服务 --------
 
 # aimage.service.contract.contract.go
-# 192.168.1.36 aimage-service-svc
 127.0.0.1 aimage-service-svc
+127.0.0.1 aimage-api-svc
+
 # pollen
-192.168.1.36 pollen-svc
+127.0.0.1 pollen-svc
 
 # simswap.service
-192.168.1.36 simswap-service-svc
+127.0.0.1 simswap-service-svc

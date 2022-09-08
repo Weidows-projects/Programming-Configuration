@@ -1,10 +1,10 @@
 "AppWorkshop"
 {
 	"appid"		"241100"
-	"SizeOnDisk"		"66637"
+	"SizeOnDisk"		"220981"
 	"NeedsUpdate"		"0"
 	"NeedsDownload"		"0"
-	"TimeLastUpdated"		"1661570755"
+	"TimeLastUpdated"		"1662628747"
 	"TimeLastAppRan"		"0"
 	"WorkshopItemsInstalled"
 	{
@@ -105,6 +105,41 @@
 			"manifest"		"-1"
 			"ugchandle"		"1803131951837978406"
 		}
+		"2800519523"
+		{
+			"size"		"29064"
+			"timeupdated"		"1651087910"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242229412"
+		}
+		"2800577770"
+		{
+			"size"		"43426"
+			"timeupdated"		"1651097250"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242694364"
+		}
+		"2800581356"
+		{
+			"size"		"27036"
+			"timeupdated"		"1651097857"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242724061"
+		}
+		"2804310206"
+		{
+			"size"		"27552"
+			"timeupdated"		"1651806362"
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168921067"
+		}
+		"2804313527"
+		{
+			"size"		"27266"
+			"timeupdated"		"1651807310"
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168968692"
+		}
 	}
 	"WorkshopItemDetails"
 	{
@@ -113,7 +148,7 @@
 			"manifest"		"-1"
 			"ugchandle"		"583575122149538999"
 			"timeupdated"		"1447123872"
-			"timetouched"		"1661420004"
+			"timetouched"		"1662513311"
 			"subscribedby"		"360833984"
 		}
 		"650764041"
@@ -136,7 +171,7 @@
 			"manifest"		"-1"
 			"ugchandle"		"818937737353552570"
 			"timeupdated"		"1494363154"
-			"timetouched"		"1661571049"
+			"timetouched"		"1662628783"
 			"subscribedby"		"360833984"
 		}
 		"922639654"
@@ -217,6 +252,46 @@
 			"ugchandle"		"1803131951837978406"
 			"timeupdated"		"1644607421"
 			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"2800519523"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242229412"
+			"timeupdated"		"1651087910"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2800577770"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242694364"
+			"timeupdated"		"1651097250"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2800581356"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242724061"
+			"timeupdated"		"1651097857"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2804310206"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168921067"
+			"timeupdated"		"1651806362"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2804313527"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168968692"
+			"timeupdated"		"1651807310"
+			"timetouched"		"1661992116"
 			"subscribedby"		"360833984"
 		}
 	}

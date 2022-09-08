@@ -10,7 +10,7 @@
 [https]
 	proxy = localhost://127.0.0.1:7890
 [credential "https://github.com"]
-	helper = !D:\\Game\\Scoop\\apps\\Github-CLI\\current\\bin\\gh.exe auth git-credential
+	helper = !D:/Game/Scoop/apps/Github-CLI/current/bin/gh.exe auth git-credential
 [pull]
 	rebase = false
 [safe]

@@ -12,7 +12,9 @@ Import-Module posh-git
 Import-Module terminal-icons
 
 # 设置主题
-Set-PoshPrompt -Theme powerlevel10k_rainbow
+# Set-PoshPrompt -Theme powerlevel10k_rainbow
+# Set-PoshPrompt -Theme blueish
+Set-PoshPrompt -Theme atomic
 
 # scoop-completion
 Import-Module $env:SCOOP\apps\scoop\current\supporting\completion\Scoop-Completion.psd1 -ErrorAction SilentlyContinue
