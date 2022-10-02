@@ -1,3 +1,5 @@
+#-------- 公共配置 --------
+
 ##
 # Host Database
 #
@@ -8,9 +10,13 @@
 255.255.255.255	broadcasthost
 ::1             localhost
 
-127.0.0.1 aimage-service-svc
-127.0.0.1 pollen-svc
 # Added by Docker Desktop
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section
+
+
+#-------- 开发环境 --------
+
+127.0.0.1 aimage-service-svc
+127.0.0.1 pollen-svc
