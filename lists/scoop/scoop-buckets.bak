@@ -1,8 +1,6 @@
 3rd
 apps
-extras
 main
 https://github.com/Weidows-projects/scoop-3rd.git
 https://github.com/kkzzhizhou/scoop-apps.git
-https://github.com/ScoopInstaller/Extras
 https://e.coding.net/glimmer/scoop/scoopMain.git

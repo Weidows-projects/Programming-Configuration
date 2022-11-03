@@ -17,11 +17,11 @@ set GOPATH=D:\Scoop\apps\go-cn\current\global_path
 set GOPRIVATE=codeup.aliyun.com
 set GOPROXY=https://goproxy.io,direct
 set GOROOT=D:\Scoop\apps\go-cn\current
-set GOSUMDB=https://sum.golang.org
+set GOSUMDB=sum.golang.org
 set GOTMPDIR=
 set GOTOOLDIR=D:\Scoop\apps\go-cn\current\pkg\tool\windows_amd64
 set GOVCS=
-set GOVERSION=go1.19.1
+set GOVERSION=go1.19.2
 set GCCGO=gccgo
 set GOAMD64=v1
 set AR=ar
@@ -36,4 +36,4 @@ set CGO_CXXFLAGS=-g -O2
 set CGO_FFLAGS=-g -O2
 set CGO_LDFLAGS=-g -O2
 set PKG_CONFIG=pkg-config
-set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build3151470300=/tmp/go-build -gno-record-gcc-switches
+set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build3671237080=/tmp/go-build -gno-record-gcc-switches

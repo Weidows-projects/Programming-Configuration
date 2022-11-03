@@ -26,7 +26,6 @@
 # oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/thecyberden.omp.json" | Invoke-Expression
 oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/wholespace.omp.json" | Invoke-Expression
 
-# PoShFuck: https://github.com/mattparkes/PoShFuck
 # Import-Module PoShFuck
 
 # 设置终端代理 (终端默认不会走代理)
@@ -47,10 +46,12 @@ function e{echo $args}
 function ..{cd ..}
 function ...{cd ../..}
 function ....{cd ../../..}
-function .....{cd ../../../..}
 function ~{cd $env:USERPROFILE}
 function /{cd \}
 function \{cd \}
+function utils{D:\Repos\Weidows-projects\Keeper\utils.bat}
+
+
 
 
 # ======================================================================== #
@@ -80,11 +81,9 @@ function sci{
 function scin{scoop info $args}
 
 # terminal-icons
-# Import-Module terminal-icons
 Import-Module $env:SCOOP\modules\Terminal-Icons
 # git-tab补全
-# Import-Module posh-git
-# Import-Module $env:SCOOP\modules\posh-git
+Import-Module $env:SCOOP\modules\posh-git
 # Import-Module $env:SCOOP\modules\posh-docker
 
 

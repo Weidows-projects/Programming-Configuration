@@ -1,10 +1,10 @@
 "AppWorkshop"
 {
 	"appid"		"241100"
-	"SizeOnDisk"		"220981"
+	"SizeOnDisk"		"301143"
 	"NeedsUpdate"		"0"
 	"NeedsDownload"		"0"
-	"TimeLastUpdated"		"1664801561"
+	"TimeLastUpdated"		"1667449277"
 	"TimeLastAppRan"		"0"
 	"WorkshopItemsInstalled"
 	{
@@ -91,6 +91,13 @@
 			"manifest"		"-1"
 			"ugchandle"		"964221567924526114"
 		}
+		"1683828678"
+		{
+			"size"		"80162"
+			"timeupdated"		"1552689665"
+			"manifest"		"-1"
+			"ugchandle"		"1005898314634466227"
+		}
 		"2708119868"
 		{
 			"size"		"5678"
@@ -148,7 +155,7 @@
 			"manifest"		"-1"
 			"ugchandle"		"583575122149538999"
 			"timeupdated"		"1447123872"
-			"timetouched"		"1662904578"
+			"timetouched"		"1666282140"
 			"subscribedby"		"360833984"
 		}
 		"650764041"
@@ -171,7 +178,7 @@
 			"manifest"		"-1"
 			"ugchandle"		"818937737353552570"
 			"timeupdated"		"1494363154"
-			"timetouched"		"1664785592"
+			"timetouched"		"1667437575"
 			"subscribedby"		"360833984"
 		}
 		"922639654"
@@ -238,6 +245,14 @@
 			"timetouched"		"1660924929"
 			"subscribedby"		"360833984"
 		}
+		"1683828678"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1005898314634466227"
+			"timeupdated"		"1552689665"
+			"timetouched"		"1664972255"
+			"subscribedby"		"360833984"
+		}
 		"2708119868"
 		{
 			"manifest"		"-1"
@@ -275,7 +290,7 @@
 			"manifest"		"-1"
 			"ugchandle"		"1859433736242724061"
 			"timeupdated"		"1651097857"
-			"timetouched"		"1664690213"
+			"timetouched"		"1666610464"
 			"subscribedby"		"360833984"
 		}
 		"2804310206"

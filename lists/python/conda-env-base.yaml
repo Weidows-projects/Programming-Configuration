@@ -5,20 +5,41 @@ channels:
   - pytorch
   - defaults
 dependencies:
+  - blas=2.106=mkl
   - brotlipy=0.7.0=py39h2bbff1b_1003
-  - ca-certificates=2022.3.29=haa95532_1
-  - certifi=2021.10.8=py39haa95532_2
+  - ca-certificates=2022.9.24=h5b45459_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
   - cffi=1.15.0=py39h2bbff1b_1
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - colorama=0.4.4=pyhd3eb1b0_0
-  - conda=4.12.0=py39haa95532_0
+  - conda=22.9.0=py39hcbf5309_1
   - conda-content-trust=0.1.1=pyhd3eb1b0_0
   - conda-package-handling=1.8.1=py39h8cc25b3_0
   - console_shortcut=0.1.1=4
   - cryptography=36.0.0=py39h21b164f_0
+  - cudatoolkit=11.3.1=h59b6b97_2
+  - freetype=2.10.4=h546665d_1
   - idna=3.3=pyhd3eb1b0_0
+  - intel-openmp=2022.1.0=h57928b3_3787
+  - jpeg=9e=h8ffe710_2
+  - libblas=3.9.0=6_mkl
+  - libcblas=3.9.0=6_mkl
+  - liblapack=3.9.0=6_mkl
+  - liblapacke=3.9.0=6_mkl
+  - libpng=1.6.37=h2a8f88b_0
+  - libtiff=4.0.9=h36446d0_1002
+  - libuv=1.44.2=h8ffe710_0
+  - libwebp=1.2.4=h8ffe710_0
+  - libwebp-base=1.2.4=h8ffe710_0
+  - m2w64-gcc-libgfortran=5.3.0=6
+  - m2w64-gcc-libs=5.3.0=7
+  - m2w64-gcc-libs-core=5.3.0=7
+  - m2w64-gmp=6.1.0=2
+  - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - menuinst=1.4.18=py39h59b6b97_0
-  - openssl=1.1.1n=h2bbff1b_0
+  - mkl=2020.4=hb70f87d_311
+  - msys2-conda-epoch=20160418=1
+  - openssl=1.1.1q=h8ffe710_0
   - pip=21.2.4=py39haa95532_0
   - powershell_shortcut=0.0.1=3
   - pycosat=0.6.3=py39h2bbff1b_0
@@ -26,13 +47,20 @@ dependencies:
   - pyopenssl=22.0.0=pyhd3eb1b0_0
   - pysocks=1.7.1=py39haa95532_0
   - python=3.9.12=h6244533_0
+  - python_abi=3.9=2_cp39
+  - pytorch=1.12.1=py3.9_cuda11.3_cudnn8_0
+  - pytorch-mutex=1.0=cuda
   - pywin32=302=py39h2bbff1b_2
   - requests=2.27.1=pyhd3eb1b0_0
   - ruamel_yaml=0.15.100=py39h2bbff1b_0
-  - setuptools=61.2.0=py39haa95532_0
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.38.2=h2bbff1b_0
+  - tk=8.6.12=h8ffe710_0
+  - toolz=0.12.0=pyhd8ed1ab_0
+  - torchaudio=0.12.1=py39_cu113
+  - torchvision=0.13.1=py39_cu113
   - tqdm=4.63.0=pyhd3eb1b0_0
+  - typing_extensions=4.4.0=pyha770c72_0
   - tzdata=2022a=hda174b7_0
   - urllib3=1.26.8=pyhd3eb1b0_0
   - vc=14.2=h21ff451_1
@@ -41,6 +69,7 @@ dependencies:
   - win_inet_pton=1.1.0=py39haa95532_0
   - wincertstore=0.2=py39haa95532_2
   - yaml=0.2.5=he774522_0
+  - zlib=1.2.11=h8d14728_1011
   - pip:
     - anyio==3.6.1
     - argon2-cffi==21.3.0
@@ -96,6 +125,7 @@ dependencies:
     - pandocfilters==1.5.0
     - parso==0.8.3
     - pickleshare==0.7.5
+    - pillow==9.2.0
     - prometheus-client==0.14.1
     - prompt-toolkit==3.0.31
     - psutil==5.9.1
@@ -114,7 +144,9 @@ dependencies:
     - pywinpty==2.0.7
     - pyyaml==6.0
     - pyzmq==23.2.1
+    - qtpy==2.2.1
     - send2trash==1.8.0
+    - setuptools==59.8.0
     - shopifyapi==12.0.0
     - sniffio==1.3.0
     - soupsieve==2.3.2.post1
