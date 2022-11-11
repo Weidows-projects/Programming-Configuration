@@ -1,4 +1,3 @@
-
-D:\Scoop\apps\miniconda-cn\current\envs\pycharm
 D:\Scoop\apps\miniconda-cn\current\envs\centerpoint
 D:\Scoop\apps\miniconda-cn\current
+D:\Scoop\apps\miniconda-cn\current\envs\pycharm

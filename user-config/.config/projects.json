@@ -9,22 +9,8 @@
 		"enabled": true
 	},
 	{
-		"name": "python",
-		"rootPath": "D:\\Repos\\Weidows\\python",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
 		"name": "Web",
 		"rootPath": "D:\\Repos\\Weidows\\Web",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "Java",
-		"rootPath": "D:\\Repos\\Weidows\\Java",
 		"paths": [],
 		"tags": [],
 		"enabled": true
@@ -46,13 +32,6 @@
 		"enabled": true
 	},
 	{
-		"name": "Golang",
-		"rootPath": "D:\\Repos\\Weidows\\Golang",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
 		"name": "scoop-3rd",
 		"rootPath": "d:\\Scoop\\buckets\\3rd",
 		"paths": [],
@@ -62,13 +41,6 @@
 	{
 		"name": "Blog-private-remote",
 		"rootPath": "vscode-remote://codespaces+weidows-blog-private-jxww7j5v3q4vv/workspaces/Blog-private",
-		"paths": [],
-		"tags": [],
-		"enabled": true
-	},
-	{
-		"name": "Master-Mind",
-		"rootPath": "d:\\Repos\\Weidows\\Master-Mind",
 		"paths": [],
 		"tags": [],
 		"enabled": true

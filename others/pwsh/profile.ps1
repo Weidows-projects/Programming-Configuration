@@ -58,11 +58,16 @@ function utils{D:\Repos\Weidows-projects\Keeper\utils.bat}
 #                               scoop
 # ======================================================================== #
 # scoop-completion
-Import-Module $env:SCOOP\apps\scoop\current\supporting\completion\Scoop-Completion.psd1 -ErrorAction SilentlyContinue
-Invoke-Expression (&scoop-search-multisource --hook)
+Invoke-Expression (&scoop-search-multisource --hook) -ErrorAction SilentlyContinue
 
 function sct{scoop status}
 function scl{scoop list}
+function sccl{
+  Foreach($argv in $args) {
+    scoop cleanup $argv
+    echo ========================================================================
+  }
+}
 function scu{
   Foreach($argv in $args) {
     scoop update $argv
@@ -80,6 +85,7 @@ function sci{
 }
 function scin{scoop info $args}
 
+Import-Module $env:SCOOP\modules\scoop-completion
 # terminal-icons
 Import-Module $env:SCOOP\modules\Terminal-Icons
 # git-tab补全

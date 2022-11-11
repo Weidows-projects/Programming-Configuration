@@ -1,7 +1,7 @@
 {
-    "lastupdate":  "258|2022-11-03 11:45:09",
-    "aria2-enabled":  true,
-    "proxy":  "localhost:7890",
-    "SCOOP_REPO":  "https://gitee.com/glsnames/Scoop-Core",
-    "SCOOP_BRANCH":  "main"
+  "aria2-enabled": true,
+  "proxy": "localhost:7890",
+  "last_update": "2022-11-10T12:20:09.0406232+08:00",
+  "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
+  "scoop_branch": "master"
 }
