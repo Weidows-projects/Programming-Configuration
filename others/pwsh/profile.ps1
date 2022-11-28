@@ -93,5 +93,8 @@ Import-Module $env:SCOOP\modules\posh-git
 # Import-Module $env:SCOOP\modules\posh-docker
 
 
-# 清屏
-# clear
+
+
+# ======================================================================== #
+                                clear
+# ======================================================================== #

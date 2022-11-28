@@ -39,6 +39,10 @@
 
 # simswap.service
 127.0.0.1 simswap-service-svc
+127.0.0.1 simswap-api-svc
+
+# vine
+127.0.0.1 vine-svc
 
 
 #-------- github520 --------

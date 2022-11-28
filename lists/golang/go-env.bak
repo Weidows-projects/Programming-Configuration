@@ -36,4 +36,4 @@ set CGO_CXXFLAGS=-g -O2
 set CGO_FFLAGS=-g -O2
 set CGO_LDFLAGS=-g -O2
 set PKG_CONFIG=pkg-config
-set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build256278749=/tmp/go-build -gno-record-gcc-switches
+set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build3757954821=/tmp/go-build -gno-record-gcc-switches
