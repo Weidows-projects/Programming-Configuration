@@ -70,7 +70,7 @@ function sccl{
 }
 function scu{
   Foreach($argv in $args) {
-    scoop update $argv
+    scoop update $argv -s
     scoop cleanup $argv
     echo ========================================================================
   }
@@ -92,6 +92,13 @@ Import-Module $env:SCOOP\modules\Terminal-Icons
 Import-Module $env:SCOOP\modules\posh-git
 # Import-Module $env:SCOOP\modules\posh-docker
 
+# -f, --force               Force update even when there isn't a newer version
+# -g, --global              Update a globally installed app
+# -i, --independent         Don't install dependencies automatically
+# -k, --no-cache            Don't use the download cache
+# -s, --skip                Skip hash validation (use with caution!)
+# -q, --quiet               Hide extraneous messages
+# -a, --all                 Update all apps (alternative to '*')
 
 
 

@@ -15,3 +15,5 @@ custom_channels:
   pytorch: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch-lts: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+envs_dirs:
+  - D:\Scoop\apps\miniconda-cn\current\envs
