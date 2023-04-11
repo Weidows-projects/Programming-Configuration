@@ -1,0 +1,591 @@
+"AppWorkshop"
+{
+	"appid"		"241100"
+	"SizeOnDisk"		"1138729"
+	"NeedsUpdate"		"0"
+	"NeedsDownload"		"0"
+	"TimeLastUpdated"		"1681185672"
+	"TimeLastAppRan"		"0"
+	"WorkshopItemsInstalled"
+	{
+		"523605115"
+		{
+			"size"		"2140"
+			"timeupdated"		"1447123872"
+			"manifest"		"-1"
+			"ugchandle"		"583575122149538999"
+		}
+		"650764041"
+		{
+			"size"		"2101"
+			"timeupdated"		"1458694286"
+			"manifest"		"1536838824338945129"
+		}
+		"759217323"
+		{
+			"size"		"4468"
+			"timeupdated"		"1473184976"
+			"manifest"		"-1"
+			"ugchandle"		"259342887838709315"
+		}
+		"922638163"
+		{
+			"size"		"391"
+			"timeupdated"		"1494363154"
+			"manifest"		"-1"
+			"ugchandle"		"818937737353552570"
+		}
+		"922639654"
+		{
+			"size"		"387"
+			"timeupdated"		"1494363327"
+			"manifest"		"-1"
+			"ugchandle"		"818937737353561140"
+		}
+		"922641257"
+		{
+			"size"		"7338"
+			"timeupdated"		"1494363527"
+			"manifest"		"-1"
+			"ugchandle"		"818937737353570967"
+		}
+		"922641941"
+		{
+			"size"		"7342"
+			"timeupdated"		"1494363603"
+			"manifest"		"-1"
+			"ugchandle"		"818937737353574822"
+		}
+		"936992122"
+		{
+			"size"		"4504"
+			"timeupdated"		"1496266504"
+			"manifest"		"-1"
+			"ugchandle"		"767148481031558670"
+		}
+		"936992996"
+		{
+			"size"		"4576"
+			"timeupdated"		"1496266627"
+			"manifest"		"-1"
+			"ugchandle"		"767148481031564973"
+		}
+		"1369745183"
+		{
+			"size"		"2087"
+			"timeupdated"		"1524617754"
+			"manifest"		"-1"
+			"ugchandle"		"919174772917841929"
+		}
+		"1382168439"
+		{
+			"size"		"1704"
+			"timeupdated"		"1525912121"
+			"manifest"		"-1"
+			"ugchandle"		"919176129625260183"
+		}
+		"1491395418"
+		{
+			"size"		"5087"
+			"timeupdated"		"1535137230"
+			"manifest"		"-1"
+			"ugchandle"		"964221567924526114"
+		}
+		"1683828678"
+		{
+			"size"		"80162"
+			"timeupdated"		"1552689665"
+			"manifest"		"-1"
+			"ugchandle"		"1005898314634466227"
+		}
+		"1988837698"
+		{
+			"size"		"13102"
+			"timeupdated"		"1580862255"
+			"manifest"		"-1"
+			"ugchandle"		"786377565411567643"
+		}
+		"2054734467"
+		{
+			"size"		"8599"
+			"timeupdated"		"1586468650"
+			"manifest"		"-1"
+			"ugchandle"		"1013815051542473029"
+		}
+		"2054736681"
+		{
+			"size"		"7496"
+			"timeupdated"		"1586468784"
+			"manifest"		"-1"
+			"ugchandle"		"1013815051542481128"
+		}
+		"2063315457"
+		{
+			"size"		"27530"
+			"timeupdated"		"1587059275"
+			"manifest"		"-1"
+			"ugchandle"		"1013815828870570214"
+		}
+		"2069766148"
+		{
+			"size"		"109289"
+			"timeupdated"		"1587512430"
+			"manifest"		"-1"
+			"ugchandle"		"1013816320899196331"
+		}
+		"2125212995"
+		{
+			"size"		"23704"
+			"timeupdated"		"1591728485"
+			"manifest"		"-1"
+			"ugchandle"		"1047597681317066766"
+		}
+		"2146395204"
+		{
+			"size"		"113466"
+			"timeupdated"		"1593390390"
+			"manifest"		"-1"
+			"ugchandle"		"1296423329419110196"
+		}
+		"2237960510"
+		{
+			"size"		"19574"
+			"timeupdated"		"1600977975"
+			"manifest"		"-1"
+			"ugchandle"		"1555388126467285432"
+		}
+		"2237961735"
+		{
+			"size"		"20296"
+			"timeupdated"		"1600978060"
+			"manifest"		"-1"
+			"ugchandle"		"1555388126467290571"
+		}
+		"2493059399"
+		{
+			"size"		"61190"
+			"timeupdated"		"1621562945"
+			"manifest"		"-1"
+			"ugchandle"		"1783967370548038086"
+		}
+		"2708119868"
+		{
+			"size"		"5678"
+			"timeupdated"		"1641336298"
+			"manifest"		"-1"
+			"ugchandle"		"1816638643730414849"
+		}
+		"2749087993"
+		{
+			"size"		"117877"
+			"timeupdated"		"1644505037"
+			"manifest"		"-1"
+			"ugchandle"		"1860552759645176510"
+		}
+		"2750300962"
+		{
+			"size"		"18834"
+			"timeupdated"		"1644607421"
+			"manifest"		"-1"
+			"ugchandle"		"1803131951837978406"
+		}
+		"2753492051"
+		{
+			"size"		"110363"
+			"timeupdated"		"1644846566"
+			"manifest"		"-1"
+			"ugchandle"		"1852671462363499958"
+		}
+		"2753494203"
+		{
+			"size"		"109661"
+			"timeupdated"		"1644846746"
+			"manifest"		"-1"
+			"ugchandle"		"1852671462363509222"
+		}
+		"2761844143"
+		{
+			"size"		"19937"
+			"timeupdated"		"1645560737"
+			"manifest"		"-1"
+			"ugchandle"		"1813265500233133847"
+		}
+		"2761895335"
+		{
+			"size"		"19249"
+			"timeupdated"		"1645564547"
+			"manifest"		"-1"
+			"ugchandle"		"1821147036171683462"
+		}
+		"2761896635"
+		{
+			"size"		"26621"
+			"timeupdated"		"1645564656"
+			"manifest"		"-1"
+			"ugchandle"		"1813265500233333905"
+		}
+		"2800519523"
+		{
+			"size"		"29064"
+			"timeupdated"		"1651087910"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242229412"
+		}
+		"2800577770"
+		{
+			"size"		"43426"
+			"timeupdated"		"1651097250"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242694364"
+		}
+		"2800581356"
+		{
+			"size"		"27036"
+			"timeupdated"		"1651097857"
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242724061"
+		}
+		"2804310206"
+		{
+			"size"		"27552"
+			"timeupdated"		"1651806362"
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168921067"
+		}
+		"2804313527"
+		{
+			"size"		"27266"
+			"timeupdated"		"1651807310"
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168968692"
+		}
+		"2886672456"
+		{
+			"size"		"6847"
+			"timeupdated"		"1668056682"
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744249934"
+		}
+		"2886673196"
+		{
+			"size"		"7648"
+			"timeupdated"		"1668056873"
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744259310"
+		}
+		"2886673721"
+		{
+			"size"		"15137"
+			"timeupdated"		"1668056980"
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744264674"
+		}
+	}
+	"WorkshopItemDetails"
+	{
+		"523605115"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"583575122149538999"
+			"timeupdated"		"1447123872"
+			"timetouched"		"1678266311"
+			"subscribedby"		"360833984"
+		}
+		"650764041"
+		{
+			"manifest"		"1536838824338945129"
+			"timeupdated"		"1458694286"
+			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"759217323"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"259342887838709315"
+			"timeupdated"		"1473184976"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"922638163"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"818937737353552570"
+			"timeupdated"		"1494363154"
+			"timetouched"		"1681185672"
+			"subscribedby"		"360833984"
+		}
+		"922639654"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"818937737353561140"
+			"timeupdated"		"1494363327"
+			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"922641257"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"818937737353570967"
+			"timeupdated"		"1494363527"
+			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"922641941"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"818937737353574822"
+			"timeupdated"		"1494363603"
+			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"936992122"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"767148481031558670"
+			"timeupdated"		"1496266504"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"936992996"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"767148481031564973"
+			"timeupdated"		"1496266627"
+			"timetouched"		"1660925652"
+			"subscribedby"		"360833984"
+		}
+		"1369745183"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"919174772917841929"
+			"timeupdated"		"1524617754"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"1382168439"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"919176129625260183"
+			"timeupdated"		"1525912121"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"1491395418"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"964221567924526114"
+			"timeupdated"		"1535137230"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"1683828678"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1005898314634466227"
+			"timeupdated"		"1552689665"
+			"timetouched"		"1668487156"
+			"subscribedby"		"360833984"
+		}
+		"1988837698"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"786377565411567643"
+			"timeupdated"		"1580862255"
+			"timetouched"		"1675449786"
+		}
+		"2054734467"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1013815051542473029"
+			"timeupdated"		"1586468650"
+			"timetouched"		"1675449786"
+		}
+		"2054736681"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1013815051542481128"
+			"timeupdated"		"1586468784"
+			"timetouched"		"1675449786"
+		}
+		"2063315457"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1013815828870570214"
+			"timeupdated"		"1587059275"
+			"timetouched"		"1675449786"
+		}
+		"2069766148"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1013816320899196331"
+			"timeupdated"		"1587512430"
+			"timetouched"		"1675449786"
+		}
+		"2125212995"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1047597681317066766"
+			"timeupdated"		"1591728485"
+			"timetouched"		"1675449786"
+		}
+		"2146395204"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1296423329419110196"
+			"timeupdated"		"1593390390"
+			"timetouched"		"1675449786"
+		}
+		"2237960510"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1555388126467285432"
+			"timeupdated"		"1600977975"
+			"timetouched"		"1672219566"
+			"subscribedby"		"360833984"
+		}
+		"2237961735"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1555388126467290571"
+			"timeupdated"		"1600978060"
+			"timetouched"		"1672219566"
+			"subscribedby"		"360833984"
+		}
+		"2493059399"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1783967370548038086"
+			"timeupdated"		"1621562945"
+			"timetouched"		"1672219566"
+			"subscribedby"		"360833984"
+		}
+		"2708119868"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1816638643730414849"
+			"timeupdated"		"1641336298"
+			"timetouched"		"1660924929"
+			"subscribedby"		"360833984"
+		}
+		"2749087993"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1860552759645176510"
+			"timeupdated"		"1644505037"
+			"timetouched"		"1668392455"
+			"subscribedby"		"360833984"
+		}
+		"2750300962"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1803131951837978406"
+			"timeupdated"		"1644607421"
+			"timetouched"		"1660924905"
+			"subscribedby"		"360833984"
+		}
+		"2753492051"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1852671462363499958"
+			"timeupdated"		"1644846566"
+			"timetouched"		"1668392455"
+			"subscribedby"		"360833984"
+		}
+		"2753494203"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1852671462363509222"
+			"timeupdated"		"1644846746"
+			"timetouched"		"1668392456"
+			"subscribedby"		"360833984"
+		}
+		"2761844143"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1813265500233133847"
+			"timeupdated"		"1645560737"
+			"timetouched"		"1672252368"
+			"subscribedby"		"360833984"
+		}
+		"2761895335"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1821147036171683462"
+			"timeupdated"		"1645564547"
+			"timetouched"		"1678895662"
+			"subscribedby"		"360833984"
+		}
+		"2761896635"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1813265500233333905"
+			"timeupdated"		"1645564656"
+			"timetouched"		"1672219566"
+			"subscribedby"		"360833984"
+		}
+		"2800519523"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242229412"
+			"timeupdated"		"1651087910"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2800577770"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242694364"
+			"timeupdated"		"1651097250"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2800581356"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859433736242724061"
+			"timeupdated"		"1651097857"
+			"timetouched"		"1681183800"
+			"subscribedby"		"360833984"
+		}
+		"2804310206"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168921067"
+			"timeupdated"		"1651806362"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2804313527"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1859434388168968692"
+			"timeupdated"		"1651807310"
+			"timetouched"		"1661992116"
+			"subscribedby"		"360833984"
+		}
+		"2886672456"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744249934"
+			"timeupdated"		"1668056682"
+			"timetouched"		"1668655105"
+			"subscribedby"		"360833984"
+		}
+		"2886673196"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744259310"
+			"timeupdated"		"1668056873"
+			"timetouched"		"1668655105"
+			"subscribedby"		"360833984"
+		}
+		"2886673721"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"1904487592744264674"
+			"timeupdated"		"1668056980"
+			"timetouched"		"1668655105"
+			"subscribedby"		"360833984"
+		}
+	}
+}

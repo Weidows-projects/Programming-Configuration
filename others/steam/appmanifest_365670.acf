@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"365670"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Blender"
+	"StateFlags"		"4"
+	"installdir"		"Blender"
+	"LastUpdated"		"1681183577"
+	"SizeOnDisk"		"1025700346"
+	"StagingSize"		"0"
+	"buildid"		"10880929"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"166208784"
+	"BytesDownloaded"		"166208784"
+	"BytesToStage"		"938936065"
+	"BytesStaged"		"938936065"
+	"TargetBuildID"		"10880929"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"365671"
+		{
+			"manifest"		"619765333516827315"
+			"size"		"1025700346"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

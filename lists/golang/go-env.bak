@@ -21,7 +21,7 @@ set GOSUMDB=sum.golang.org
 set GOTMPDIR=
 set GOTOOLDIR=D:\Scoop\apps\go-cn\current\pkg\tool\windows_amd64
 set GOVCS=
-set GOVERSION=go1.19.5
+set GOVERSION=go1.20
 set GCCGO=gccgo
 set GOAMD64=v1
 set AR=ar
@@ -30,10 +30,10 @@ set CXX=g++
 set CGO_ENABLED=1
 set GOMOD=NUL
 set GOWORK=
-set CGO_CFLAGS=-g -O2
+set CGO_CFLAGS=-O2 -g
 set CGO_CPPFLAGS=
-set CGO_CXXFLAGS=-g -O2
-set CGO_FFLAGS=-g -O2
-set CGO_LDFLAGS=-g -O2
+set CGO_CXXFLAGS=-O2 -g
+set CGO_FFLAGS=-O2 -g
+set CGO_LDFLAGS=-O2 -g
 set PKG_CONFIG=pkg-config
-set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build1636381303=/tmp/go-build -gno-record-gcc-switches
+set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -fdebug-prefix-map=C:\Users\Administrator\AppData\Local\Temp\go-build1625405916=/tmp/go-build -gno-record-gcc-switches

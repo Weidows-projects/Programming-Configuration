@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"2088250"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"瘟疫清零计划 Project Zero"
+	"StateFlags"		"4"
+	"installdir"		"Project Zero"
+	"LastUpdated"		"1666281206"
+	"SizeOnDisk"		"1084915506"
+	"StagingSize"		"0"
+	"buildid"		"9136590"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"887949696"
+	"BytesDownloaded"		"887949696"
+	"BytesToStage"		"1084915506"
+	"BytesStaged"		"1084915506"
+	"TargetBuildID"		"9136590"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"2088251"
+		{
+			"manifest"		"3372087974299844283"
+			"size"		"1084915506"
+		}
+	}
+	"SharedDepots"
+	{
+		"228989"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

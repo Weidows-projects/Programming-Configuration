@@ -1,1 +1,0 @@
-D:\Scoop\apps\miniconda-cn\current\envs\python

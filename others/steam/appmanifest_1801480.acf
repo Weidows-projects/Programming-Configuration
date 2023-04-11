@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1801480"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"VTmini"
+	"StateFlags"		"4"
+	"installdir"		"VTmini"
+	"LastUpdated"		"1672067787"
+	"SizeOnDisk"		"4311769805"
+	"StagingSize"		"0"
+	"buildid"		"10062728"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"277523616"
+	"BytesDownloaded"		"277523616"
+	"BytesToStage"		"687347701"
+	"BytesStaged"		"687347701"
+	"TargetBuildID"		"10062728"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1801481"
+		{
+			"manifest"		"1754153416506341432"
+			"size"		"4311769805"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

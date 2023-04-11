@@ -1,0 +1,49 @@
+"AppState"
+{
+	"appid"		"404790"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Godot Engine"
+	"StateFlags"		"6"
+	"installdir"		"Godot Engine"
+	"LastUpdated"		"1664499258"
+	"SizeOnDisk"		"1072261474"
+	"StagingSize"		"0"
+	"buildid"		"9607312"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"783383424"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"1260574051"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"10665318"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"1678823019"
+	"InstalledDepots"
+	{
+		"404797"
+		{
+			"manifest"		"2398389590368778670"
+			"size"		"76443536"
+		}
+		"404794"
+		{
+			"manifest"		"7231825078060187495"
+			"size"		"775440499"
+		}
+		"404795"
+		{
+			"manifest"		"6197944690156863939"
+			"size"		"220377439"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

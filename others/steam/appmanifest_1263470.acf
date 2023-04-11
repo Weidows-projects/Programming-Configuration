@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"1263470"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"ATRI -My Dear Moments- Demo"
+	"StateFlags"		"4"
+	"installdir"		"ATRI -My Dear Moments- Demo"
+	"LastUpdated"		"1676015237"
+	"SizeOnDisk"		"4095024086"
+	"StagingSize"		"0"
+	"buildid"		"4963356"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"3501110656"
+	"BytesDownloaded"		"3501110656"
+	"BytesToStage"		"4095024086"
+	"BytesStaged"		"4095024086"
+	"TargetBuildID"		"4963356"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1263471"
+		{
+			"manifest"		"1499138915508039011"
+			"size"		"4095024086"
+		}
+	}
+	"SharedDepots"
+	{
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"382490"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Relic Hunters Zero: Remix"
+	"StateFlags"		"4"
+	"installdir"		"Relic Hunters Zero"
+	"LastUpdated"		"1664972424"
+	"SizeOnDisk"		"116044468"
+	"StagingSize"		"0"
+	"buildid"		"6232733"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"69224224"
+	"BytesDownloaded"		"69224224"
+	"BytesToStage"		"116044468"
+	"BytesStaged"		"116044468"
+	"TargetBuildID"		"6232733"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"382491"
+		{
+			"manifest"		"353932104447754421"
+			"size"		"116044468"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

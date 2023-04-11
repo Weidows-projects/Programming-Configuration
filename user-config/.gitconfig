@@ -1,3 +1,4 @@
+# https://zhuanlan.zhihu.com/p/157751660
 [core]
 	autocrlf = true
 	longpaths = true
@@ -6,9 +7,9 @@
 	name = Weidows
 	email = utsuko27@qq.com
 [http]
-	proxy = localhost://127.0.0.1:7890
+	proxy = http://127.0.0.1:7890
 [https]
-	proxy = localhost://127.0.0.1:7890
+	proxy = http://127.0.0.1:7890
 [credential "https://github.com"]
 	helper = !D:/Game/Scoop/apps/Github-CLI/current/bin/gh.exe auth git-credential
 [pull]
@@ -17,3 +18,5 @@
 	directory = *
 [url "git@codeup.aliyun.com:"]
 	insteadOf = https://codeup.aliyun.com/
+[credential "helperselector"]
+	selected = wincred

@@ -1,0 +1,41 @@
+"AppState"
+{
+	"appid"		"431960"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Wallpaper Engine"
+	"StateFlags"		"4"
+	"installdir"		"wallpaper_engine"
+	"LastUpdated"		"1666401565"
+	"SizeOnDisk"		"551802448"
+	"StagingSize"		"0"
+	"buildid"		"9772094"
+	"LastOwner"		"76561198321099712"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"431961"
+		{
+			"manifest"		"1331544969901301958"
+			"size"		"551802448"
+		}
+	}
+	"InstallScripts"
+	{
+		"431961"		"distribution\\bin\\installscript.vdf"
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+		"optionaldlc"		""
+		"DisabledDLC"		"1790230"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+		"optionaldlc"		""
+		"DisabledDLC"		"1790230"
+	}
+}

@@ -1,0 +1,90 @@
+"AppState"
+{
+	"appid"		"346110"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"ARK: Survival Evolved"
+	"StateFlags"		"1046"
+	"installdir"		"ARK"
+	"LastUpdated"		"1462700984"
+	"SizeOnDisk"		"43257255385"
+	"StagingSize"		"0"
+	"buildid"		"1115641"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"4"
+	"BytesToDownload"		"76635649808"
+	"BytesDownloaded"		"6874511792"
+	"BytesToStage"		"352012832131"
+	"BytesStaged"		"19979976691"
+	"TargetBuildID"		"10922177"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"FullValidateAfterNextUpdate"		"1"
+	"InstalledDepots"
+	{
+	}
+	"InstallScripts"
+	{
+		"0"		"_CommonRedist\\vcredist\\2010\\installscript.vdf"
+		"1"		"_CommonRedist\\vcredist\\2012\\installscript.vdf"
+		"2"		"_CommonRedist\\vcredist\\2013\\installscript.vdf"
+		"3"		"_CommonRedist\\DirectX\\Jun2010\\installscript.vdf"
+	}
+	"SharedDepots"
+	{
+		"228983"		"228980"
+		"228984"		"228980"
+		"228985"		"228980"
+		"228990"		"228980"
+	}
+	"StagedDepots"
+	{
+		"346111"
+		{
+			"manifest"		"5799303963351723997"
+			"size"		"137333241731"
+			"dlcappid"		"0"
+		}
+	}
+	"DlcDownloads"
+	{
+		"473850"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"1791853344"
+		}
+		"642250"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"3274884752"
+		}
+		"1100810"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"3079118448"
+		}
+		"1270830"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"5877886656"
+		}
+		"1691800"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"11859863568"
+		}
+		"1887560"
+		{
+			"BytesDownloaded"		"0"
+			"BytesToDownload"		"6352608256"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"tchinese"
+	}
+	"MountedConfig"
+	{
+	}
+}

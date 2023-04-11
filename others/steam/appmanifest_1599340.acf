@@ -1,0 +1,57 @@
+"AppState"
+{
+	"appid"		"1599340"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Lost Ark"
+	"StateFlags"		"1030"
+	"installdir"		"Lost Ark"
+	"LastUpdated"		"1676741509"
+	"SizeOnDisk"		"79618135202"
+	"StagingSize"		"1222787068"
+	"buildid"		"10543655"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"4"
+	"BytesToDownload"		"331082624"
+	"BytesDownloaded"		"9306800"
+	"BytesToStage"		"1223297090"
+	"BytesStaged"		"144560521"
+	"TargetBuildID"		"10608846"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"FullValidateAfterNextUpdate"		"1"
+	"InstalledDepots"
+	{
+		"1599341"
+		{
+			"manifest"		"6643227259079312420"
+			"size"		"79618135202"
+		}
+	}
+	"InstallScripts"
+	{
+		"1599341"		"Binaries\\Win64\\installscript.vdf"
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+	}
+	"StagedDepots"
+	{
+		"1599341"
+		{
+			"manifest"		"6516826914674184246"
+			"size"		"79617085882"
+			"dlcappid"		"0"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

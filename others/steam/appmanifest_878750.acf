@@ -1,0 +1,35 @@
+"AppState"
+{
+	"appid"		"878750"
+	"Universe"		"1"
+	"LauncherPath"		"d:\\scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Hentai Girl"
+	"StateFlags"		"36"
+	"installdir"		"HentaiGirl"
+	"LastUpdated"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"0"
+	"buildid"		"7538437"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"7538437"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"FullValidateAfterNextUpdate"		"1"
+	"InstalledDepots"
+	{
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

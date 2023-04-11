@@ -1,0 +1,53 @@
+"AppState"
+{
+	"appid"		"1325860"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"VTube Studio"
+	"StateFlags"		"4"
+	"installdir"		"VTube Studio"
+	"LastUpdated"		"1681183824"
+	"SizeOnDisk"		"2430557111"
+	"StagingSize"		"0"
+	"buildid"		"10787805"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"2115040"
+	"BytesDownloaded"		"2115040"
+	"BytesToStage"		"228677750"
+	"BytesStaged"		"228677750"
+	"TargetBuildID"		"10787805"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1325861"
+		{
+			"manifest"		"133679893047132800"
+			"size"		"867857225"
+		}
+		"2178540"
+		{
+			"manifest"		"8677448384437677794"
+			"size"		"1562699886"
+			"dlcappid"		"2178540"
+		}
+	}
+	"InstallScripts"
+	{
+		"1325861"		"installscript.vdf"
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

@@ -1,0 +1,62 @@
+"AppState"
+{
+	"appid"		"644560"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Mirror"
+	"StateFlags"		"4"
+	"installdir"		"Mirror"
+	"LastUpdated"		"1643366940"
+	"SizeOnDisk"		"7676347685"
+	"StagingSize"		"0"
+	"buildid"		"6722797"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"53513840"
+	"BytesDownloaded"		"53513840"
+	"BytesToStage"		"61693121"
+	"BytesStaged"		"61693121"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"644561"
+		{
+			"manifest"		"4070001346154308761"
+			"size"		"2580607847"
+		}
+		"774041"
+		{
+			"manifest"		"9021555567850477121"
+			"size"		"2245210562"
+			"dlcappid"		"774041"
+		}
+		"844190"
+		{
+			"manifest"		"5124797400938664495"
+			"size"		"731753831"
+			"dlcappid"		"844190"
+		}
+		"1011900"
+		{
+			"manifest"		"5876040460803207388"
+			"size"		"61693121"
+			"dlcappid"		"1011900"
+		}
+		"1011890"
+		{
+			"manifest"		"4408302898616918848"
+			"size"		"2057082324"
+			"dlcappid"		"1011890"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}

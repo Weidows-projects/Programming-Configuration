@@ -1,0 +1,54 @@
+"AppState"
+{
+	"appid"		"400"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Portal"
+	"StateFlags"		"4"
+	"installdir"		"Portal"
+	"LastUpdated"		"1672124851"
+	"SizeOnDisk"		"4184287691"
+	"StagingSize"		"0"
+	"buildid"		"9970151"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"9970151"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"402"
+		{
+			"manifest"		"2535652127986385917"
+			"size"		"154940489"
+		}
+		"409"
+		{
+			"manifest"		"5984360824509444405"
+			"size"		"3693457142"
+		}
+		"410"
+		{
+			"manifest"		"106212190778449766"
+			"size"		"8574"
+		}
+		"401"
+		{
+			"manifest"		"5882167507999820297"
+			"size"		"4029341322"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

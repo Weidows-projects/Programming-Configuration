@@ -1,0 +1,171 @@
+"AppWorkshop"
+{
+	"appid"		"1281930"
+	"SizeOnDisk"		"667637611"
+	"NeedsUpdate"		"0"
+	"NeedsDownload"		"0"
+	"TimeLastUpdated"		"1681180507"
+	"TimeLastAppRan"		"1673027168"
+	"WorkshopItemsInstalled"
+	{
+		"2563309347"
+		{
+			"size"		"1859874"
+			"timeupdated"		"1675289599"
+			"manifest"		"6216320356608198129"
+		}
+		"2565639705"
+		{
+			"size"		"536350"
+			"timeupdated"		"1681012755"
+			"manifest"		"9123045566413741186"
+		}
+		"2619954303"
+		{
+			"size"		"611101"
+			"timeupdated"		"1677927464"
+			"manifest"		"1766071638978080167"
+		}
+		"2824688072"
+		{
+			"size"		"121196394"
+			"timeupdated"		"1680850343"
+			"manifest"		"5822925680681780306"
+		}
+		"2824688266"
+		{
+			"size"		"370068566"
+			"timeupdated"		"1677731093"
+			"manifest"		"5981369593081265288"
+		}
+		"2825151264"
+		{
+			"size"		"10854332"
+			"timeupdated"		"1680527727"
+			"manifest"		"5777860493038155200"
+		}
+		"2850199955"
+		{
+			"size"		"76328615"
+			"timeupdated"		"1676098285"
+			"manifest"		"5548105709534507419"
+		}
+		"2877850919"
+		{
+			"size"		"21068"
+			"timeupdated"		"1669949752"
+			"manifest"		"5968929678944549255"
+		}
+		"2906178094"
+		{
+			"size"		"84914836"
+			"timeupdated"		"1672287375"
+			"manifest"		"2219031536626684065"
+		}
+		"2917091521"
+		{
+			"size"		"22421"
+			"timeupdated"		"1673628852"
+			"manifest"		"5733180423091792385"
+		}
+		"2923689066"
+		{
+			"size"		"1165811"
+			"timeupdated"		"1680951515"
+			"manifest"		"4153288428758280807"
+		}
+		"2952618675"
+		{
+			"size"		"58243"
+			"timeupdated"		"1679808165"
+			"manifest"		"1702535407464236234"
+		}
+	}
+	"WorkshopItemDetails"
+	{
+		"2563309347"
+		{
+			"manifest"		"6216320356608198129"
+			"timeupdated"		"1675289599"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2565639705"
+		{
+			"manifest"		"9123045566413741186"
+			"timeupdated"		"1681012755"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2619954303"
+		{
+			"manifest"		"1766071638978080167"
+			"timeupdated"		"1677927464"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2824688072"
+		{
+			"manifest"		"5822925680681780306"
+			"timeupdated"		"1680850343"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2824688266"
+		{
+			"manifest"		"5981369593081265288"
+			"timeupdated"		"1677731093"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2825151264"
+		{
+			"manifest"		"5777860493038155200"
+			"timeupdated"		"1680527727"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2850199955"
+		{
+			"manifest"		"5548105709534507419"
+			"timeupdated"		"1676098285"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2877850919"
+		{
+			"manifest"		"5968929678944549255"
+			"timeupdated"		"1669949752"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2906178094"
+		{
+			"manifest"		"2219031536626684065"
+			"timeupdated"		"1672287375"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2917091521"
+		{
+			"manifest"		"5733180423091792385"
+			"timeupdated"		"1673628852"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2923689066"
+		{
+			"manifest"		"4153288428758280807"
+			"timeupdated"		"1680951515"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2952618675"
+		{
+			"manifest"		"1702535407464236234"
+			"timeupdated"		"1679808165"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+	}
+}

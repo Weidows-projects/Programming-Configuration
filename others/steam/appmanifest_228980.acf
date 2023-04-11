@@ -1,0 +1,103 @@
+"AppState"
+{
+	"appid"		"228980"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Steamworks Common Redistributables"
+	"StateFlags"		"1030"
+	"installdir"		"Steamworks Shared"
+	"LastUpdated"		"1654770411"
+	"SizeOnDisk"		"471760764"
+	"StagingSize"		"0"
+	"buildid"		"8899267"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"8899267"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"1681843066"
+	"InstalledDepots"
+	{
+		"228983"
+		{
+			"manifest"		"8124929965194586177"
+			"size"		"19265607"
+		}
+		"228984"
+		{
+			"manifest"		"2547553897526095397"
+			"size"		"13742505"
+		}
+		"228985"
+		{
+			"manifest"		"3966345552745568756"
+			"size"		"13699237"
+		}
+		"228986"
+		{
+			"manifest"		"8782296191957114623"
+			"size"		"29759921"
+		}
+		"228987"
+		{
+			"manifest"		"4302102680580581867"
+			"size"		"29664201"
+		}
+		"228988"
+		{
+			"manifest"		"6645201662696499616"
+			"size"		"29212173"
+		}
+		"228989"
+		{
+			"manifest"		"8457487755951768435"
+			"size"		"39042092"
+		}
+		"228990"
+		{
+			"manifest"		"1829726630299308803"
+			"size"		"102931551"
+		}
+		"229004"
+		{
+			"manifest"		"5220958916987797232"
+			"size"		"70000464"
+		}
+		"229007"
+		{
+			"manifest"		"4477590687906973371"
+			"size"		"117381405"
+		}
+		"229012"
+		{
+			"manifest"		"4353723233161159493"
+			"size"		"7061608"
+		}
+	}
+	"InstallScripts"
+	{
+		"228983"		"_CommonRedist\\vcredist\\2010\\installscript.vdf"
+		"228984"		"_CommonRedist\\vcredist\\2012\\installscript.vdf"
+		"228985"		"_CommonRedist\\vcredist\\2013\\installscript.vdf"
+		"228986"		"_CommonRedist\\vcredist\\2015\\installscript.vdf"
+		"228987"		"_CommonRedist\\vcredist\\2017\\installscript.vdf"
+		"228988"		"_CommonRedist\\vcredist\\2019\\installscript.vdf"
+		"228989"		"_CommonRedist\\vcredist\\2022\\installscript.vdf"
+		"228990"		"_CommonRedist\\DirectX\\Jun2010\\installscript.vdf"
+		"229004"		"_CommonRedist\\DotNet\\4.5.2\\installscript.vdf"
+		"229007"		"_CommonRedist\\DotNet\\4.8\\installscript.vdf"
+		"229012"		"_CommonRedist\\XNA\\4.0\\installscript.vdf"
+	}
+	"UserConfig"
+	{
+		"BetaKey"		"public"
+	}
+	"MountedConfig"
+	{
+		"BetaKey"		"public"
+	}
+}

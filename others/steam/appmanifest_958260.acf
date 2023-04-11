@@ -1,0 +1,37 @@
+"AppState"
+{
+	"appid"		"958260"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"DEAD OR ALIVE Xtreme Venus Vacation"
+	"StateFlags"		"6"
+	"installdir"		"DEAD OR ALIVE Xtreme Venus Vacation"
+	"LastUpdated"		"1672252367"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"0"
+	"buildid"		"0"
+	"LastOwner"		"0"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"16476155568"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"21358933828"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"10944649"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"1682206947"
+	"InstalledDepots"
+	{
+	}
+	"SharedDepots"
+	{
+		"228987"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
+}

@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1207050"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"VUP"
+	"StateFlags"		"4"
+	"installdir"		"VUP"
+	"LastUpdated"		"1681183718"
+	"SizeOnDisk"		"1282599027"
+	"StagingSize"		"0"
+	"buildid"		"10783652"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"178206960"
+	"BytesDownloaded"		"178206960"
+	"BytesToStage"		"607751751"
+	"BytesStaged"		"607751751"
+	"TargetBuildID"		"10783652"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1207051"
+		{
+			"manifest"		"4871636749335881734"
+			"size"		"1282599027"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

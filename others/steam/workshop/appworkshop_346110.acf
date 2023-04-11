@@ -1,0 +1,106 @@
+"AppWorkshop"
+{
+	"appid"		"346110"
+	"SizeOnDisk"		"2197009757"
+	"NeedsUpdate"		"1"
+	"NeedsDownload"		"0"
+	"TimeLastUpdated"		"1681185621"
+	"TimeLastAppRan"		"1678101709"
+	"WorkshopItemsInstalled"
+	{
+		"751991809"
+		{
+			"size"		"1992801"
+			"timeupdated"		"1649449534"
+			"manifest"		"71780834767483991"
+		}
+		"761535755"
+		{
+			"size"		"1704546"
+			"timeupdated"		"1598141957"
+			"manifest"		"8543999861093486334"
+		}
+		"821530042"
+		{
+			"size"		"245780544"
+			"timeupdated"		"1517787644"
+			"manifest"		"6283024847481935052"
+		}
+		"1404697612"
+		{
+			"size"		"3418407"
+			"timeupdated"		"1593646441"
+			"manifest"		"5185782480851125555"
+		}
+		"1998877847"
+		{
+			"size"		"61049835"
+			"timeupdated"		"1631262563"
+			"manifest"		"7930877379294996460"
+		}
+		"2627481742"
+		{
+			"size"		"1232543120"
+			"timeupdated"		"1670352493"
+			"manifest"		"6106503054456518421"
+		}
+		"2939003073"
+		{
+			"size"		"650520504"
+			"timeupdated"		"1678210643"
+			"manifest"		"1261785204970582454"
+		}
+	}
+	"WorkshopItemDetails"
+	{
+		"751991809"
+		{
+			"manifest"		"71780834767483991"
+			"timeupdated"		"1649449534"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"761535755"
+		{
+			"manifest"		"8543999861093486334"
+			"timeupdated"		"1598141957"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"821530042"
+		{
+			"manifest"		"6283024847481935052"
+			"timeupdated"		"1517787644"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"1404697612"
+		{
+			"manifest"		"5185782480851125555"
+			"timeupdated"		"1593646441"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"1998877847"
+		{
+			"manifest"		"7930877379294996460"
+			"timeupdated"		"1631262563"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2627481742"
+		{
+			"manifest"		"6106503054456518421"
+			"timeupdated"		"1670352493"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+		"2939003073"
+		{
+			"manifest"		"2855390021582695468"
+			"timeupdated"		"1678836427"
+			"timetouched"		"0"
+			"subscribedby"		"360833984"
+		}
+	}
+}

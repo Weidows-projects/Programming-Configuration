@@ -33,11 +33,15 @@ $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 
 # Enable Prediction History
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+
 # Tab自动补全
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
 # Advanced Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+
 
 # https://github.com/yuk7/dotfiles/blob/main/_pwsh/profile.ps1
 function x{exit}
@@ -49,7 +53,7 @@ function ....{cd ../../..}
 function ~{cd $env:USERPROFILE}
 function /{cd \}
 function \{cd \}
-function utils{D:\Repos\Weidows-projects\Keeper\utils.bat}
+function killer{taskkill /F /im $args}
 
 
 
@@ -85,12 +89,12 @@ function sci{
 }
 function scin{scoop info $args}
 
-Import-Module $env:SCOOP\modules\scoop-completion
-# terminal-icons
-Import-Module $env:SCOOP\modules\Terminal-Icons
-# git-tab补全
-Import-Module $env:SCOOP\modules\posh-git
-# Import-Module $env:SCOOP\modules\posh-docker
+# Import-Module $env:SCOOP\modules\scoop-completion
+Import-Module scoop-completion
+Import-Module Terminal-Icons
+Import-Module posh-git
+Import-Module posh-docker
+Import-Module PowerShellAI
 
 # -f, --force               Force update even when there isn't a newer version
 # -g, --global              Update a globally installed app

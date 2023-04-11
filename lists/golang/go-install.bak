@@ -11,6 +11,7 @@ goplay.exe
 gopls.exe
 gopls.exe~
 gotests.exe
+jpu.exe
 protoc-gen-auxo.exe
 protoc-gen-go.exe
 revive.exe

@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"1903370"
+	"Universe"		"1"
+	"LauncherPath"		"d:\\scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"daydream 白日夢"
+	"StateFlags"		"1026"
+	"installdir"		"daydream 白日夢"
+	"LastUpdated"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"1340924654"
+	"buildid"		"0"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"642571408"
+	"BytesDownloaded"		"78435472"
+	"BytesToStage"		"1353178068"
+	"BytesStaged"		"81447001"
+	"TargetBuildID"		"8558069"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+	}
+	"StagedDepots"
+	{
+		"1903371"
+		{
+			"manifest"		"1892089815482775104"
+			"size"		"1353178068"
+			"dlcappid"		"0"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}

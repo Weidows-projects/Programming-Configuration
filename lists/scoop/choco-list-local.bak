@@ -1,9 +1,3 @@
-Chocolatey v0.10.15
-chocolatey-compatibility.extension 1.0.0
-chocolatey-core.extension 1.4.0
-chocolatey-fastanswers.extension 0.0.2
-chocolatey-npm.extension 1.0.0
-chocolatey-preinstaller-checks.extension 0.0.2.2
-chocolatey-windowsupdate.extension 1.0.4
-PowerShell 5.1.14409.20180811
-7 packages installed.
+Chocolatey v1.2.1
+Directory 'D:\Scoop\apps\WingetUI\current\choco-cli\lib' does not exist.
+0 packages installed.
