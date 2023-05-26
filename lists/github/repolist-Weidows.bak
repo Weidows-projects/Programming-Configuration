@@ -1,6 +1,8 @@
-Weidows/Weidows.github.io	⭐️Weidow's の Blog⭐️ 作为GitHub+Gitee-Pages主体仓库	public	2023-03-31T14:50:15Z
-Weidows/Blog-private	博客私有文件.	private	2023-03-31T14:41:41Z
-Weidows/hexo-theme-butterfly	🦋 A Hexo Theme: Butterfly	public, fork	2023-03-31T14:41:19Z
+Weidows/news		public	2023-05-23T01:45:40Z
+Weidows/biliup	全自动录播、直播录制、分p投稿工具，支持twitch、ytb频道搬运。	public, fork	2023-05-10T07:43:59Z
+Weidows/Weidows.github.io	⭐️Weidow's の Blog⭐️ 作为GitHub+Gitee-Pages主体仓库	public	2023-04-20T11:39:45Z
+Weidows/Blog-private	博客私有文件.	private	2023-04-20T11:37:20Z
+Weidows/hexo-theme-butterfly	🦋 A Hexo Theme: Butterfly	public, fork	2023-04-20T11:23:16Z
 Weidows/Weidows		public	2023-03-31T13:53:00Z
 Weidows/Web		public	2023-03-06T10:27:35Z
 Weidows/Golang	Some demos and utils in learning & developing golang.	public	2023-02-25T02:07:23Z
@@ -17,7 +19,6 @@ Weidows/bitwarden-ssh-agent	Small python script to load bitwarden-store ssh keys
 Weidows/Database		private	2022-10-12T03:44:21Z
 Weidows/Master-Mind	With operating ones data, you can master ones mind.	private	2022-08-29T06:32:25Z
 Weidows/waka-box-go	📊 Update profile README / pinned gist to contain your weekly WakaTime stats. This is a Golang implementation, see the original version https://github.com/matchai/waka-box. 将你的 WakaTime 每周语言使用统计显示在 profile README / pined gist。	public, fork	2022-07-18T13:53:39Z
-Weidows/news		public	2022-07-11T12:26:28Z
 Weidows/scoop-apps-1	使用Github Action每天自动合并其他scoop仓库的更新，仓库地址：https://github.com/kkzzhizhou/scoop-apps	public, fork	2022-07-01T16:29:12Z
 Weidows/C--	🤔一些C/C++代码, 使用xmake管理依赖.	public	2022-07-01T03:35:01Z
 Weidows/SinGlow	SinGlow is a part of my Singing voice synthesis system. It can extract features of sound, particularly songs and musics. Then we can use these features (or perfect encoding) for feature migrating tasks. For example migrate features of real singers' song to those virtual singers' songs.	public, fork	2022-06-08T17:48:17Z
@@ -27,4 +28,3 @@ Weidows/weidows-net	用于在 Heroku 上部署 V2Ray WebSocket。	public, fork	2
 Weidows/hexo-filter-fenced-code	🎨 Extend syntax for the native fenced code block.	public, fork	2022-02-22T18:54:47Z
 Weidows/scoop-apps	A Scoop bucket.	public, fork	2022-02-05T17:19:47Z
 Weidows/match-you	【您配吗】配你吗	public, fork	2021-12-01T13:03:15Z
-Weidows/Main	📦 The default bucket for Scoop.	public, fork	2021-11-30T14:38:49Z

@@ -1,22 +1,1473 @@
 {
+    "apps": [
+        {
+            "Updated": "2023-04-15T11:54:01.5512533+08:00",
+            "Source": "apps",
+            "Name": "115",
+            "Info": "",
+            "Version": "2.0.5.5"
+        },
+        {
+            "Updated": "2023-05-03T12:55:25.5467092+08:00",
+            "Source": "3rd",
+            "Name": "360zip",
+            "Info": "",
+            "Version": "2021.04.16"
+        },
+        {
+            "Updated": "2023-05-25T01:13:06.850141+08:00",
+            "Source": "3rd",
+            "Name": "7zip",
+            "Info": "",
+            "Version": "v22.01-v1.5.5-R2"
+        },
+        {
+            "Updated": "2023-05-25T01:13:06.850141+08:00",
+            "Source": "3rd",
+            "Name": "7zip-zstd-4scoop",
+            "Info": "",
+            "Version": "v22.01-v1.5.5-R2"
+        },
+        {
+            "Updated": "2023-05-21T00:11:37.1123918+08:00",
+            "Source": "apps",
+            "Name": "AdguardHome",
+            "Info": "",
+            "Version": "0.107.29"
+        },
+        {
+            "Updated": "2023-03-31T17:36:43.690815+08:00",
+            "Source": "3rd",
+            "Name": "AdvancedWgetGUI-Portable",
+            "Info": "",
+            "Version": "0.6.0"
+        },
+        {
+            "Updated": "2023-05-17T17:44:27.7364089+08:00",
+            "Source": "3rd",
+            "Name": "Adwaita-for-Steam",
+            "Info": "",
+            "Version": "0.38"
+        },
+        {
+            "Updated": "2021-11-20T22:48:45.0741855+08:00",
+            "Source": "3rd",
+            "Name": "AIO-Boot",
+            "Info": "",
+            "Version": "0.9.9.19"
+        },
+        {
+            "Updated": "2023-04-27T11:27:00.1973402+08:00",
+            "Source": "apps",
+            "Name": "aliyundrive_wzv5",
+            "Info": "",
+            "Version": "4.3.0"
+        },
+        {
+            "Updated": "2022-01-25T12:24:15.0377369+08:00",
+            "Source": "main",
+            "Name": "aria2",
+            "Info": "",
+            "Version": "1.36.0-1"
+        },
+        {
+            "Updated": "2023-01-12T19:33:29.8783018+08:00",
+            "Source": "apps",
+            "Name": "auto-unlocker",
+            "Info": "",
+            "Version": "2.0.0a"
+        },
+        {
+            "Updated": "2021-12-24T02:17:29.9128115+08:00",
+            "Source": "3rd",
+            "Name": "AutumnBox",
+            "Info": "",
+            "Version": "2021.2.22.1-canary"
+        },
+        {
+            "Updated": "2023-03-21T12:08:07.5037417+08:00",
+            "Source": "apps",
+            "Name": "BaiduNetdisk",
+            "Info": "",
+            "Version": "7.26.0.10"
+        },
+        {
+            "Updated": "2022-02-28T21:12:41.5169262+08:00",
+            "Source": "apps",
+            "Name": "bat2exe",
+            "Info": "",
+            "Version": "2.0"
+        },
+        {
+            "Updated": "2023-04-27T11:25:34.5544622+08:00",
+            "Source": "apps",
+            "Name": "bcut",
+            "Info": "",
+            "Version": "3.3.7"
+        },
+        {
+            "Updated": "2023-05-21T00:14:11.0512691+08:00",
+            "Source": "apps",
+            "Name": "bilibili-livehime",
+            "Info": "",
+            "Version": "4.43.0.4843"
+        },
+        {
+            "Updated": "2023-02-15T21:02:28.7988018+08:00",
+            "Source": "apps",
+            "Name": "bililive-recorder",
+            "Info": "",
+            "Version": "2.6.2"
+        },
+        {
+            "Updated": "2023-05-10T11:56:35.3625291+08:00",
+            "Source": "3rd",
+            "Name": "biliup-app",
+            "Info": "",
+            "Version": "0.4.1"
+        },
+        {
+            "Updated": "2023-05-03T13:35:00.359451+08:00",
+            "Source": "main",
+            "Name": "bitwarden-cli",
+            "Info": "",
+            "Version": "2023.4.0"
+        },
+        {
+            "Updated": "2022-02-20T01:37:58.9653805+08:00",
+            "Source": "3rd",
+            "Name": "Bongocat-Mver",
+            "Info": "",
+            "Version": "0.1.6"
+        },
+        {
+            "Updated": "2022-11-10T13:28:09.2869605+08:00",
+            "Source": "apps",
+            "Name": "bootice",
+            "Info": "",
+            "Version": "1.332"
+        },
+        {
+            "Updated": "2022-10-08T11:43:05.3433039+08:00",
+            "Source": "apps",
+            "Name": "bytedance-microapp-ide",
+            "Info": "",
+            "Version": "3.3.6"
+        },
+        {
+            "Updated": "2023-01-11T20:38:34.7367528+08:00",
+            "Source": "main",
+            "Name": "cacert",
+            "Info": "",
+            "Version": "2023-01-10"
+        },
+        {
+            "Updated": "2023-04-15T12:34:53.803223+08:00",
+            "Source": "3rd",
+            "Name": "CefDetectorX",
+            "Info": "",
+            "Version": "0.1.0"
+        },
+        {
+            "Updated": "2023-03-19T12:36:10.1535416+08:00",
+            "Source": "3rd",
+            "Name": "ChatBox",
+            "Info": "",
+            "Version": "0.1.7"
+        },
+        {
+            "Updated": "2023-04-09T17:44:07.0035162+08:00",
+            "Source": "apps",
+            "Name": "cheat-engine",
+            "Info": "",
+            "Version": "7.5"
+        },
+        {
+            "Updated": "2023-04-14T18:39:49.2319131+08:00",
+            "Source": "3rd",
+            "Name": "Clash-for-Windows_Chinese",
+            "Info": "",
+            "Version": "0.20.20"
+        },
+        {
+            "Updated": "2022-05-16T15:46:44.796332+08:00",
+            "Source": "3rd",
+            "Name": "clash.net",
+            "Info": "",
+            "Version": "1.2.8"
+        },
+        {
+            "Updated": "2022-08-02T00:49:54.398+08:00",
+            "Source": "apps",
+            "Name": "CloudCompare",
+            "Info": "",
+            "Version": "2.13.alpha"
+        },
+        {
+            "Updated": "2023-03-17T18:05:59.2027337+08:00",
+            "Source": "apps",
+            "Name": "CompactGUI-Portable",
+            "Info": "",
+            "Version": "3.0.0"
+        },
+        {
+            "Updated": "2022-01-30T17:05:19.6414449+08:00",
+            "Source": "apps",
+            "Name": "copyplusplus",
+            "Info": "",
+            "Version": "5.0"
+        },
+        {
+            "Updated": "2022-06-12T00:29:20.039+08:00",
+            "Source": "apps",
+            "Name": "cuda11.3",
+            "Info": "",
+            "Version": "11.3.1"
+        },
+        {
+            "Updated": "2022-06-12T00:23:27.5658252+08:00",
+            "Source": "3rd",
+            "Name": "cudnn",
+            "Info": "",
+            "Version": "8.4.0"
+        },
+        {
+            "Updated": "2023-05-21T00:17:48.7189376+08:00",
+            "Source": "apps",
+            "Name": "cursor",
+            "Info": "",
+            "Version": "0.2.17"
+        },
+        {
+            "Updated": "2022-01-19T17:32:27.3381401+08:00",
+            "Source": "main",
+            "Name": "dark",
+            "Info": "",
+            "Version": "3.11.2"
+        },
+        {
+            "Updated": "2023-05-21T00:14:46.0212557+08:00",
+            "Source": "apps",
+            "Name": "dbeaver",
+            "Info": "",
+            "Version": "23.0.4"
+        },
+        {
+            "Updated": "2022-07-28T13:16:29.8266576+08:00",
+            "Source": "3rd",
+            "Name": "Dependency-Walker",
+            "Info": "",
+            "Version": "2.2"
+        },
+        {
+            "Updated": "2022-03-16T11:02:29.6798261+08:00",
+            "Source": "3rd",
+            "Name": "dev-sidecar",
+            "Info": "",
+            "Version": "1.7.3"
+        },
+        {
+            "Updated": "2023-05-21T00:37:32.6971677+08:00",
+            "Source": "apps",
+            "Name": "dingtalk",
+            "Info": "",
+            "Version": "7.0.20.5109101"
+        },
+        {
+            "Updated": "2023-05-19T00:24:32.6691667+08:00",
+            "Source": "apps",
+            "Name": "dnschooser",
+            "Info": "",
+            "Version": "0.0.0.9"
+        },
+        {
+            "Updated": "2023-01-14T23:45:01.2457677+08:00",
+            "Source": "apps",
+            "Name": "DuplicateCleanerFree",
+            "Info": "",
+            "Version": "4.1.2"
+        },
+        {
+            "Updated": "2023-05-25T01:13:06.850141+08:00",
+            "Source": "3rd",
+            "Name": "EasySpider",
+            "Info": "",
+            "Version": "0.3.0"
+        },
+        {
+            "Updated": "2023-01-11T20:42:58.5373674+08:00",
+            "Source": "apps",
+            "Name": "ecloud",
+            "Info": "",
+            "Version": "6.5.4"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "edex-ui",
+            "Info": "",
+            "Version": "2.2.8"
+        },
+        {
+            "Updated": "2023-04-30T18:49:49.0954272+08:00",
+            "Source": "3rd",
+            "Name": "Edge-Webdriver",
+            "Info": "",
+            "Version": "114.0.1791.0"
+        },
+        {
+            "Updated": "2023-03-03T23:29:05.6800833+08:00",
+            "Source": "apps",
+            "Name": "etcher",
+            "Info": "",
+            "Version": "1.18.4"
+        },
+        {
+            "Updated": "2023-03-18T18:20:59.94566+08:00",
+            "Source": "apps",
+            "Name": "eudic",
+            "Info": "",
+            "Version": "2023-03-09"
+        },
+        {
+            "Updated": "2023-04-17T15:38:41.5964436+08:00",
+            "Source": "apps",
+            "Name": "fehviewer",
+            "Info": "",
+            "Version": "1.3.11+501"
+        },
+        {
+            "Updated": "2023-05-21T00:38:19.8100444+08:00",
+            "Source": "apps",
+            "Name": "feishu",
+            "Info": "",
+            "Version": "6.4.4"
+        },
+        {
+            "Updated": "2023-05-25T01:41:59.9661127+08:00",
+            "Source": "apps",
+            "Name": "Fido-PSScript",
+            "Info": "",
+            "Version": "1.48"
+        },
+        {
+            "Updated": "2023-05-21T00:15:08.621249+08:00",
+            "Source": "apps",
+            "Name": "FiraCode-NF-Mono",
+            "Info": "",
+            "Version": "3.0.1"
+        },
+        {
+            "Updated": "2023-05-21T00:15:28.3383365+08:00",
+            "Source": "apps",
+            "Name": "firefox-developer-zh-cn",
+            "Info": "",
+            "Version": "114.0b6"
+        },
+        {
+            "Updated": "2022-08-31T14:03:34.6121298+08:00",
+            "Source": "apps",
+            "Name": "FLiNGTrainer",
+            "Info": "",
+            "Version": "1.0.0.16658"
+        },
+        {
+            "Updated": "2023-03-21T14:16:13.5439338+08:00",
+            "Source": "3rd",
+            "Name": "Fluent-for-Steam",
+            "Info": "",
+            "Version": "0.4.4.2fix"
+        },
+        {
+            "Updated": "2022-12-26T23:14:35.0287725+08:00",
+            "Source": "apps",
+            "Name": "fontbase",
+            "Info": "",
+            "Version": "2.18.1"
+        },
+        {
+            "Updated": "2023-03-18T11:28:03.5812189+08:00",
+            "Source": "apps",
+            "Name": "format-factory_ScoopInstaller",
+            "Info": "",
+            "Version": "5.8.1.0"
+        },
+        {
+            "Updated": "2023-02-08T18:17:59.376042+08:00",
+            "Source": "apps",
+            "Name": "Foxmail",
+            "Info": "",
+            "Version": "7.2.25.213"
+        },
+        {
+            "Updated": "2023-05-03T13:32:33.1992416+08:00",
+            "Source": "main",
+            "Name": "fzf",
+            "Info": "",
+            "Version": "0.40.0"
+        },
+        {
+            "Updated": "2023-04-02T23:09:21.1505117+08:00",
+            "Source": "apps",
+            "Name": "git-all",
+            "Info": "",
+            "Version": "2.40.0.windows.1"
+        },
+        {
+            "Updated": "2023-05-17T17:34:02.0195055+08:00",
+            "Source": "apps",
+            "Name": "Github-CLI",
+            "Info": "",
+            "Version": "2.29.0"
+        },
+        {
+            "Updated": "2023-02-03T01:00:30.3957527+08:00",
+            "Source": "apps",
+            "Name": "go-cn",
+            "Info": "",
+            "Version": "1.20"
+        },
+        {
+            "Updated": "2023-02-15T21:07:18.6094967+08:00",
+            "Source": "main",
+            "Name": "gradle",
+            "Info": "",
+            "Version": "8.0"
+        },
+        {
+            "Updated": "2022-10-28T12:34:28.3460404+08:00",
+            "Source": "main",
+            "Name": "grex",
+            "Info": "",
+            "Version": "1.4.1"
+        },
+        {
+            "Updated": "2023-05-21T00:48:17.2021928+08:00",
+            "Source": "main",
+            "Name": "groovy",
+            "Info": "",
+            "Version": "4.0.12"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "hakuneko",
+            "Info": "",
+            "Version": "6.1.7"
+        },
+        {
+            "Updated": "2023-02-15T21:01:36.5853568+08:00",
+            "Source": "3rd",
+            "Name": "He3",
+            "Info": "",
+            "Version": "1.2.9"
+        },
+        {
+            "Updated": "2023-01-02T02:24:18.4595771+08:00",
+            "Source": "apps",
+            "Name": "hellofont",
+            "Info": "",
+            "Version": "2.6.1.0"
+        },
+        {
+            "Updated": "2023-05-21T00:40:09.7835223+08:00",
+            "Source": "apps",
+            "Name": "hitomi-downloader",
+            "Info": "",
+            "Version": "3.8c"
+        },
+        {
+            "Updated": "2023-04-15T15:17:58.5426959+08:00",
+            "Source": "apps",
+            "Name": "imhex",
+            "Info": "",
+            "Version": "1.28.0"
+        },
+        {
+            "Updated": "2022-01-19T19:33:37.6213432+08:00",
+            "Source": "main",
+            "Name": "innounp",
+            "Info": "",
+            "Version": "0.50"
+        },
+        {
+            "Updated": "2023-04-16T12:18:05.2905642+08:00",
+            "Source": "3rd",
+            "Name": "IoBitDriverBooster",
+            "Info": "",
+            "Version": "10.3.0.124"
+        },
+        {
+            "Updated": "2023-05-10T19:09:49.0915948+08:00",
+            "Source": "3rd",
+            "Name": "jetbrains-toolbox",
+            "Info": "",
+            "Version": "1.28.1.15219"
+        },
+        {
+            "Updated": "2022-10-01T22:47:27.1813816+08:00",
+            "Source": "3rd",
+            "Name": "jianyingpro-with-ffmpeg",
+            "Info": "",
+            "Version": "3.4.1.9179"
+        },
+        {
+            "Updated": "2023-05-09T22:10:35.1472524+08:00",
+            "Source": "apps",
+            "Name": "JMComic-qt",
+            "Info": "",
+            "Version": "1.0.9"
+        },
+        {
+            "Updated": "2023-01-11T19:36:10.8376192+08:00",
+            "Source": "apps",
+            "Name": "KeymouseGo",
+            "Info": "",
+            "Version": "5.1"
+        },
+        {
+            "Updated": "2023-04-15T12:35:10.4660681+08:00",
+            "Source": "3rd",
+            "Name": "KikoPlay",
+            "Info": "",
+            "Version": "0.9.3"
+        },
+        {
+            "Updated": "2022-08-25T15:22:32.1609846+08:00",
+            "Source": "3rd",
+            "Name": "KitX",
+            "Info": "",
+            "Version": "3.22.04.6235"
+        },
+        {
+            "Updated": "2023-01-07T19:34:25.6037617+08:00",
+            "Source": "apps",
+            "Name": "krita",
+            "Info": "",
+            "Version": "5.1.5"
+        },
+        {
+            "Updated": "2023-03-03T23:29:17.6181053+08:00",
+            "Source": "3rd",
+            "Name": "KugouMusic",
+            "Info": "",
+            "Version": "10.1.37"
+        },
+        {
+            "Updated": "2023-04-27T11:28:29.2895711+08:00",
+            "Source": "main",
+            "Name": "latex",
+            "Info": "",
+            "Version": "23.4"
+        },
+        {
+            "Updated": "2023-03-10T10:24:22.871242+08:00",
+            "Source": "apps",
+            "Name": "lbry-desktop",
+            "Info": "",
+            "Version": "0.53.9"
+        },
+        {
+            "Updated": "2023-03-20T18:09:50.1525142+08:00",
+            "Source": "apps",
+            "Name": "LDPlayer-Portable",
+            "Info": "",
+            "Version": "9.0.40"
+        },
+        {
+            "Updated": "2022-01-19T19:10:52.6702808+08:00",
+            "Source": "main",
+            "Name": "lessmsi",
+            "Info": "",
+            "Version": "1.10.0"
+        },
+        {
+            "Updated": "2023-03-31T23:46:30.0295233+08:00",
+            "Source": "apps",
+            "Name": "listen1desktop",
+            "Info": "",
+            "Version": "2.28.0"
+        },
+        {
+            "Updated": "2022-02-11T00:44:10.4441654+08:00",
+            "Source": "apps",
+            "Name": "lmms",
+            "Info": "",
+            "Version": "1.2.2"
+        },
+        {
+            "Updated": "2022-08-25T09:22:24.1093518+08:00",
+            "Source": "3rd",
+            "Name": "login_bili_go",
+            "Info": "",
+            "Version": "0.0.1"
+        },
+        {
+            "Updated": "2023-01-24T22:39:36.1729703+08:00",
+            "Source": "apps",
+            "Name": "mactype-np",
+            "Info": "",
+            "Version": "2021.1-rc1"
+        },
+        {
+            "Updated": "2023-05-21T00:39:52.8386389+08:00",
+            "Source": "apps",
+            "Name": "manictime",
+            "Info": "",
+            "Version": "2023.1.1.0"
+        },
+        {
+            "Updated": "2023-05-03T13:35:50.4825784+08:00",
+            "Source": "apps",
+            "Name": "maple-mono-nerd",
+            "Info": "",
+            "Version": "6.3"
+        },
+        {
+            "Updated": "2023-02-08T18:28:21.7152468+08:00",
+            "Source": "main",
+            "Name": "maven",
+            "Info": "",
+            "Version": "3.9.0"
+        },
+        {
+            "Updated": "2022-08-29T17:01:49.8041601+08:00",
+            "Source": "apps",
+            "Name": "memreduct",
+            "Info": "",
+            "Version": "3.4"
+        },
+        {
+            "Updated": "2023-05-25T01:20:15.5827575+08:00",
+            "Source": "apps",
+            "Name": "miniconda3",
+            "Info": "",
+            "Version": "23.3.1-0"
+        },
+        {
+            "Updated": "2022-12-04T14:47:15.3623339+08:00",
+            "Source": "3rd",
+            "Name": "ModOrganizer",
+            "Info": "",
+            "Version": "2.4.4"
+        },
+        {
+            "Updated": "2023-02-02T17:35:41.3740864+08:00",
+            "Source": "apps",
+            "Name": "mouseinc",
+            "Info": "",
+            "Version": "2.13.4"
+        },
+        {
+            "Updated": "2022-01-19T20:42:08.9471529+08:00",
+            "Source": "apps",
+            "Name": "MsiAfterBurner",
+            "Info": "",
+            "Version": "4.6.4"
+        },
+        {
+            "Updated": "2022-08-17T09:45:05.2729047+08:00",
+            "Source": "3rd",
+            "Name": "MyJoy",
+            "Info": "",
+            "Version": "2.2"
+        },
+        {
+            "Updated": "2022-09-19T11:11:25.5594594+08:00",
+            "Source": "apps",
+            "Name": "n_m3u8dl-cli_hoilc",
+            "Info": "",
+            "Version": "3.0.2"
+        },
+        {
+            "Updated": "2022-10-25T09:57:19.6154813+08:00",
+            "Source": "3rd",
+            "Name": "N0vaDesktop",
+            "Info": "",
+            "Version": "2.2.1.3"
+        },
+        {
+            "Updated": "2022-01-19T19:27:48.6405223+08:00",
+            "Source": "main",
+            "Name": "neofetch",
+            "Info": "",
+            "Version": "7.1.0"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "netch",
+            "Info": "",
+            "Version": "1.9.7"
+        },
+        {
+            "Updated": "2023-05-21T00:41:58.3342209+08:00",
+            "Source": "apps",
+            "Name": "neteaseuu",
+            "Info": "",
+            "Version": "4.54.1.4088"
+        },
+        {
+            "Updated": "2023-05-21T00:41:45.5170508+08:00",
+            "Source": "apps",
+            "Name": "netron",
+            "Info": "",
+            "Version": "6.8.9"
+        },
+        {
+            "Updated": "2023-05-21T00:41:19.7358552+08:00",
+            "Source": "apps",
+            "Name": "notion",
+            "Info": "",
+            "Version": "2.0.45"
+        },
+        {
+            "Updated": "2023-01-02T16:30:31.7640017+08:00",
+            "Source": "apps",
+            "Name": "nunustudio",
+            "Info": "",
+            "Version": "0.9.6"
+        },
+        {
+            "Updated": "2023-04-15T12:36:11.0638544+08:00",
+            "Source": "3rd",
+            "Name": "nvm",
+            "Info": "",
+            "Version": "1.1.11"
+        },
+        {
+            "Updated": "2023-03-15T17:44:01.8326709+08:00",
+            "Source": "3rd",
+            "Name": "Nyushu-font",
+            "Info": "",
+            "Version": "1.002"
+        },
+        {
+            "Updated": "2023-01-24T02:35:50.1425395+08:00",
+            "Source": "3rd",
+            "Name": "obs-plugin-auto-subtitle",
+            "Info": "",
+            "Version": "0.5.0"
+        },
+        {
+            "Updated": "2023-01-23T22:30:53.2784595+08:00",
+            "Source": "3rd",
+            "Name": "obs-plugin-backgroundremoval",
+            "Info": "",
+            "Version": "0.4.0"
+        },
+        {
+            "Updated": "2023-05-17T17:34:11.7691398+08:00",
+            "Source": "3rd",
+            "Name": "obs-plugin-droidcam_fixed",
+            "Info": "",
+            "Version": "2.1.0"
+        },
+        {
+            "Updated": "2023-01-24T02:52:26.4166767+08:00",
+            "Source": "3rd",
+            "Name": "obs-plugin-scale-to-sound",
+            "Info": "",
+            "Version": "1.2.2"
+        },
+        {
+            "Updated": "2023-05-25T01:40:32.4745472+08:00",
+            "Source": "apps",
+            "Name": "obsidian",
+            "Info": "",
+            "Version": "1.3.3"
+        },
+        {
+            "Updated": "2023-02-08T18:21:44.2217945+08:00",
+            "Source": "3rd",
+            "Name": "OBSStudio-Portable",
+            "Info": "",
+            "Version": "29.0.2"
+        },
+        {
+            "Updated": "2023-05-21T00:22:42.5082933+08:00",
+            "Source": "main",
+            "Name": "octave",
+            "Info": "",
+            "Version": "8.2.0"
+        },
+        {
+            "Updated": "2023-03-10T10:24:52.1228074+08:00",
+            "Source": "apps",
+            "Name": "officetoolplus",
+            "Info": "",
+            "Version": "10.0.5.2"
+        },
+        {
+            "Updated": "2023-05-12T11:46:16.7762412+08:00",
+            "Source": "main",
+            "Name": "oh-my-posh",
+            "Info": "",
+            "Version": "16.4.0"
+        },
+        {
+            "Updated": "2023-05-21T00:17:10.9839092+08:00",
+            "Source": "apps",
+            "Name": "OneCommander",
+            "Info": "",
+            "Version": "3.44.1.0"
+        },
+        {
+            "Updated": "2023-05-21T00:16:49.5841305+08:00",
+            "Source": "apps",
+            "Name": "openjdk",
+            "Info": "",
+            "Version": "20.0.1-9"
+        },
+        {
+            "Updated": "2022-10-17T12:16:12.845998+08:00",
+            "Source": "apps",
+            "Name": "openjdk8-redhat",
+            "Info": "",
+            "Version": "8u342-b07"
+        },
+        {
+            "Updated": "2023-05-21T00:42:12.2370905+08:00",
+            "Source": "main",
+            "Name": "pandoc",
+            "Info": "",
+            "Version": "3.1.2"
+        },
+        {
+            "Updated": "2021-12-21T12:38:08.4785109+08:00",
+            "Source": "3rd",
+            "Name": "PanJi-GreenTools",
+            "Info": "",
+            "Version": "1.1"
+        },
+        {
+            "Updated": "2023-04-10T17:05:02.5969261+08:00",
+            "Source": "apps",
+            "Name": "paperlib",
+            "Info": "",
+            "Version": "2.2.1"
+        },
+        {
+            "Updated": "2023-04-13T22:35:42.9775163+08:00",
+            "Source": "apps",
+            "Name": "PartAssist_zhoujin7",
+            "Info": "",
+            "Version": "9.13"
+        },
+        {
+            "Updated": "2021-10-17T14:40:49.7677421+08:00",
+            "Source": "3rd",
+            "Name": "PCmaster",
+            "Info": "",
+            "Version": "6.25"
+        },
+        {
+            "Updated": "2022-01-19T20:13:45.6597609+08:00",
+            "Source": "3rd",
+            "Name": "pcstory",
+            "Info": "",
+            "Version": "5.0"
+        },
+        {
+            "Updated": "2023-04-26T14:07:14.2304023+08:00",
+            "Source": "3rd",
+            "Name": "pipx-poetry",
+            "Info": "",
+            "Version": "1.2.0"
+        },
+        {
+            "Updated": "2022-01-19T20:11:32.7108743+08:00",
+            "Source": "3rd",
+            "Name": "Pixeval",
+            "Info": "",
+            "Version": "3.1.3"
+        },
+        {
+            "Updated": "2022-09-09T18:09:16.3207217+08:00",
+            "Source": "main",
+            "Name": "pkg-config",
+            "Info": "",
+            "Version": "0.26-1"
+        },
+        {
+            "Updated": "2023-05-18T22:58:12.151434+08:00",
+            "Source": "apps",
+            "Name": "playnite",
+            "Info": "",
+            "Version": "10.16"
+        },
+        {
+            "Updated": "2023-04-08T14:06:41.7477891+08:00",
+            "Source": "apps",
+            "Name": "posh-docker",
+            "Info": "",
+            "Version": "0.7.0"
+        },
+        {
+            "Updated": "2023-04-08T14:06:43.1576024+08:00",
+            "Source": "apps",
+            "Name": "posh-git",
+            "Info": "",
+            "Version": "1.1.0"
+        },
+        {
+            "Updated": "2022-01-19T19:22:22.6639982+08:00",
+            "Source": "apps",
+            "Name": "processing",
+            "Info": "",
+            "Version": "3.5.4"
+        },
+        {
+            "Updated": "2023-05-25T00:28:49.2464632+08:00",
+            "Source": "apps",
+            "Name": "protobuf",
+            "Info": "",
+            "Version": "23.1"
+        },
+        {
+            "Updated": "2023-05-25T01:40:37.5227142+08:00",
+            "Source": "3rd",
+            "Name": "psmodule-PowerShellAI",
+            "Info": "",
+            "Version": "0.7.4"
+        },
+        {
+            "Updated": "2023-04-16T17:46:24.7984963+08:00",
+            "Source": "main",
+            "Name": "pwsh",
+            "Info": "",
+            "Version": "7.3.4"
+        },
+        {
+            "Updated": "2023-03-18T11:29:14.4354009+08:00",
+            "Source": "apps",
+            "Name": "qq",
+            "Info": "",
+            "Version": "9.7.5.28965"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "qqplayer",
+            "Info": "",
+            "Version": "4.6.3.1104"
+        },
+        {
+            "Updated": "2023-03-16T22:23:42.2632016+08:00",
+            "Source": "apps",
+            "Name": "quarkpan",
+            "Info": "",
+            "Version": "2.5.14"
+        },
+        {
+            "Updated": "2023-03-08T21:09:38.6085581+08:00",
+            "Source": "apps",
+            "Name": "Quicker",
+            "Info": "",
+            "Version": "1.37.9.0"
+        },
+        {
+            "Updated": "2023-01-01T19:48:23.6876393+08:00",
+            "Source": "apps",
+            "Name": "quicklook",
+            "Info": "",
+            "Version": "3.7.3"
+        },
+        {
+            "Updated": "2022-12-26T23:25:14.4219451+08:00",
+            "Source": "apps",
+            "Name": "rainmeter",
+            "Info": "",
+            "Version": "4.5.17.3700"
+        },
+        {
+            "Updated": "2023-01-11T21:23:44.3628926+08:00",
+            "Source": "3rd",
+            "Name": "Remix-desktop",
+            "Info": "",
+            "Version": "1.3.6"
+        },
+        {
+            "Updated": "2022-08-30T10:08:31.0361476+08:00",
+            "Source": "3rd",
+            "Name": "RM-ATKtools",
+            "Info": "",
+            "Version": "nightly-20220830"
+        },
+        {
+            "Updated": "2023-01-13T00:08:39.4724586+08:00",
+            "Source": "3rd",
+            "Name": "RunCat-zhiyin",
+            "Info": "",
+            "Version": "2.0"
+        },
+        {
+            "Updated": "2023-05-10T11:31:13.8714889+08:00",
+            "Source": "main",
+            "Name": "rustup",
+            "Info": "",
+            "Version": "1.26.0"
+        },
+        {
+            "Updated": "2023-05-21T00:23:49.4250347+08:00",
+            "Source": "apps",
+            "Name": "ryujinx-ava",
+            "Info": "",
+            "Version": "1.1.808"
+        },
+        {
+            "Updated": "2023-05-21T00:23:59.9187113+08:00",
+            "Source": "apps",
+            "Name": "sakurafrp-launcher",
+            "Info": "",
+            "Version": "2.0.6.1"
+        },
+        {
+            "Updated": "2023-05-21T00:24:12.8488692+08:00",
+            "Source": "apps",
+            "Name": "SandboxiePlus-Portable",
+            "Info": "",
+            "Version": "1.9.3"
+        },
+        {
+            "Updated": "2023-04-08T14:06:45.1698148+08:00",
+            "Source": "apps",
+            "Name": "scoop-completion",
+            "Info": "",
+            "Version": "0.2.4"
+        },
+        {
+            "Updated": "2023-05-25T01:41:33.7079344+08:00",
+            "Source": "apps",
+            "Name": "scoop-search-multisource",
+            "Info": "",
+            "Version": "0.1.20230520"
+        },
+        {
+            "Updated": "2023-01-08T20:35:34.2109513+08:00",
+            "Source": "apps",
+            "Name": "shadowSocksR",
+            "Info": "",
+            "Version": "6.1.0"
+        },
+        {
+            "Updated": "2023-01-21T00:22:24.8862248+08:00",
+            "Source": "apps",
+            "Name": "ShimakazeGO",
+            "Info": "",
+            "Version": "2.0.16"
+        },
+        {
+            "Updated": "2023-04-27T12:26:23.7825907+08:00",
+            "Source": "apps",
+            "Name": "simple-dnscrypt",
+            "Info": "",
+            "Version": "0.7.1"
+        },
+        {
+            "Updated": "2023-05-17T17:46:52.2976294+08:00",
+            "Source": "3rd",
+            "Name": "SmartSystemMenu",
+            "Info": "",
+            "Version": "2.23.0"
+        },
+        {
+            "Updated": "2022-10-28T09:41:36.6568329+08:00",
+            "Source": "apps",
+            "Name": "Snap.Genshin",
+            "Info": "",
+            "Version": "2022.10.25.10000"
+        },
+        {
+            "Updated": "2023-04-15T15:11:56.9147441+08:00",
+            "Source": "apps",
+            "Name": "sourcetree",
+            "Info": "",
+            "Version": "3.4.12"
+        },
+        {
+            "Updated": "2022-01-19T21:35:14.2299515+08:00",
+            "Source": "apps",
+            "Name": "steam",
+            "Info": "",
+            "Version": "nightly-20220119"
+        },
+        {
+            "Updated": "2022-12-26T23:25:42.5315344+08:00",
+            "Source": "apps",
+            "Name": "steampp",
+            "Info": "",
+            "Version": "2.8.6"
+        },
+        {
+            "Updated": "2022-12-26T23:27:45.5371702+08:00",
+            "Source": "apps",
+            "Name": "stellarium",
+            "Info": "",
+            "Version": "1.2"
+        },
+        {
+            "Updated": "2023-05-03T12:14:35.5615564+08:00",
+            "Source": "main",
+            "Name": "sudo",
+            "Info": "",
+            "Version": "0.2020.01.26"
+        },
+        {
+            "Updated": "2023-04-11T13:21:54.1279251+08:00",
+            "Source": "3rd",
+            "Name": "tbtool",
+            "Info": "",
+            "Version": "2022.11"
+        },
+        {
+            "Updated": "2023-05-21T00:17:20.5655419+08:00",
+            "Source": "3rd",
+            "Name": "tdl",
+            "Info": "",
+            "Version": "0.8.6"
+        },
+        {
+            "Updated": "2023-05-03T13:34:34.7733606+08:00",
+            "Source": "apps",
+            "Name": "telegram",
+            "Info": "",
+            "Version": "4.8.1"
+        },
+        {
+            "Updated": "2023-04-16T11:11:42.8114674+08:00",
+            "Source": "apps",
+            "Name": "teracopy_naderi",
+            "Info": "",
+            "Version": "3.9.7"
+        },
+        {
+            "Updated": "2023-04-08T14:06:46.1318018+08:00",
+            "Source": "apps",
+            "Name": "Terminal-Icons",
+            "Info": "",
+            "Version": "0.10.0"
+        },
+        {
+            "Updated": "2023-05-25T00:42:53.1602012+08:00",
+            "Source": "3rd",
+            "Name": "test",
+            "Info": "",
+            "Version": "1.0.0"
+        },
+        {
+            "Updated": "2023-01-02T02:24:12.8407401+08:00",
+            "Source": "3rd",
+            "Name": "thief",
+            "Info": "",
+            "Version": "6.6"
+        },
+        {
+            "Updated": "2022-11-07T17:09:58.220882+08:00",
+            "Source": "apps",
+            "Name": "Thunder_kkzzhizhou",
+            "Info": "",
+            "Version": "11.1.12.1692"
+        },
+        {
+            "Updated": "2022-02-14T03:18:58.8337706+08:00",
+            "Source": "apps",
+            "Name": "tickeys",
+            "Info": "",
+            "Version": "1.1.1"
+        },
+        {
+            "Updated": "2023-03-10T23:09:14.6270565+08:00",
+            "Source": "3rd",
+            "Name": "TinyHand",
+            "Info": "",
+            "Version": "1.1"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "tor-browser-zh-cn",
+            "Info": "",
+            "Version": "11.5.7"
+        },
+        {
+            "Updated": "2023-05-16T02:54:39.9687268+08:00",
+            "Source": "apps",
+            "Name": "typora",
+            "Info": "",
+            "Version": "1.5.12"
+        },
+        {
+            "Updated": "2022-01-19T19:24:47.0976998+08:00",
+            "Source": "apps",
+            "Name": "unetbootin",
+            "Info": "",
+            "Version": "702"
+        },
+        {
+            "Updated": "2022-06-21T20:53:06.7602311+08:00",
+            "Source": "3rd",
+            "Name": "UsbEAm-Hosts-Editor",
+            "Info": "",
+            "Version": "3.63"
+        },
+        {
+            "Updated": "2022-02-24T16:48:22.042153+08:00",
+            "Source": "apps",
+            "Name": "util-linux-ng",
+            "Info": "",
+            "Version": "2.14.1"
+        },
+        {
+            "Updated": "2022-12-23T17:35:49.8047312+08:00",
+            "Source": "3rd",
+            "Name": "utools-persist",
+            "Info": "",
+            "Version": "3.3.0"
+        },
+        {
+            "Updated": "2023-04-15T15:10:03.1853198+08:00",
+            "Source": "main",
+            "Name": "v2ray",
+            "Info": "",
+            "Version": "5.4.1"
+        },
+        {
+            "Updated": "2023-04-10T11:15:01.2039624+08:00",
+            "Source": "apps",
+            "Name": "v2rayn",
+            "Info": "",
+            "Version": "6.21"
+        },
+        {
+            "Updated": "2023-03-01T09:50:29.5948931+08:00",
+            "Source": "main",
+            "Name": "vcpkg",
+            "Info": "",
+            "Version": "2023.02.24"
+        },
+        {
+            "Updated": "2022-12-10T15:00:04.16179+08:00",
+            "Source": "apps",
+            "Name": "vmware-workstation-pro",
+            "Info": "",
+            "Version": "17.0.0-20800274"
+        },
+        {
+            "Updated": "2023-04-15T15:09:53.6785414+08:00",
+            "Source": "apps",
+            "Name": "vncviewer",
+            "Info": "",
+            "Version": "7.1.0"
+        },
+        {
+            "Updated": "2023-05-21T00:25:11.9859392+08:00",
+            "Source": "3rd",
+            "Name": "vscode-portable-association",
+            "Info": "",
+            "Version": "1.78.2"
+        },
+        {
+            "Updated": "2023-05-21T00:29:00.8038859+08:00",
+            "Source": "3rd",
+            "Name": "Waifu2x-Extension-GUI",
+            "Info": "",
+            "Version": "3.101.01"
+        },
+        {
+            "Updated": "2023-04-11T22:16:03.3784761+08:00",
+            "Source": "apps",
+            "Name": "WeChat",
+            "Info": "",
+            "Version": "3.9.2.23"
+        },
+        {
+            "Updated": "2023-01-11T21:23:08.6651566+08:00",
+            "Source": "apps",
+            "Name": "wechatwork_ivaquero",
+            "Info": "",
+            "Version": "4.1.0"
+        },
+        {
+            "Updated": "2023-01-05T03:12:28.3589764+08:00",
+            "Source": "apps",
+            "Name": "wepe",
+            "Info": "",
+            "Version": "2.2"
+        },
+        {
+            "Updated": "2022-01-19T16:40:22.8962231+08:00",
+            "Source": "apps",
+            "Name": "whois",
+            "Info": "",
+            "Version": "1.21"
+        },
+        {
+            "Updated": "2022-02-03T18:14:21.4015883+08:00",
+            "Source": "apps",
+            "Name": "win-aio",
+            "Info": "",
+            "Version": "1.3"
+        },
+        {
+            "Updated": "2023-01-24T22:35:09.4056651+08:00",
+            "Source": "apps",
+            "Name": "win-dynamic-desktop",
+            "Info": "",
+            "Version": "5.2.0"
+        },
+        {
+            "Updated": "2022-01-19T20:21:09.9472373+08:00",
+            "Source": "apps",
+            "Name": "Windows10Manager",
+            "Info": "",
+            "Version": "3.3.5"
+        },
+        {
+            "Updated": "2022-08-13T10:05:28.0789754+08:00",
+            "Source": "apps",
+            "Name": "WindTerm",
+            "Info": "",
+            "Version": "2.5.0"
+        },
+        {
+            "Updated": "2023-05-03T12:14:23.7252323+08:00",
+            "Source": "3rd",
+            "Name": "WingetUI",
+            "Info": "",
+            "Version": "1.7.1"
+        },
+        {
+            "Updated": "2023-05-17T17:36:13.2157558+08:00",
+            "Source": "apps",
+            "Name": "winlibs-mingw-llvm-msvcrt",
+            "Info": "",
+            "Version": "13.1.0-16.0.2-11.0.0-msvcrt-r1"
+        },
+        {
+            "Updated": "2022-02-23T01:23:31.5314744+08:00",
+            "Source": "3rd",
+            "Name": "winxray",
+            "Info": "",
+            "Version": "4.4"
+        },
+        {
+            "Updated": "2023-05-24T18:30:24.8069404+08:00",
+            "Source": "apps",
+            "Name": "wodeabc",
+            "Info": "",
+            "Version": "6.40.1"
+        },
+        {
+            "Updated": "2022-01-19T20:20:30.9379075+08:00",
+            "Source": "3rd",
+            "Name": "WondershareUniconverter",
+            "Info": "",
+            "Version": "13.5.2.126"
+        },
+        {
+            "Updated": "2023-05-17T17:34:53.5192941+08:00",
+            "Source": "apps",
+            "Name": "WSL2DistroManager-Portable",
+            "Info": "",
+            "Version": "1.8.4"
+        },
+        {
+            "Updated": "2022-02-19T02:51:31.8689962+08:00",
+            "Source": "3rd",
+            "Name": "x-studio",
+            "Info": "",
+            "Version": "2022.1.3"
+        },
+        {
+            "Updated": "2022-06-19T15:12:52.9846311+08:00",
+            "Source": "apps",
+            "Name": "xiaowan",
+            "Info": "",
+            "Version": "R236"
+        },
+        {
+            "Updated": "2023-05-21T00:30:12.8976304+08:00",
+            "Source": "main",
+            "Name": "xmake",
+            "Info": "",
+            "Version": "2.7.9"
+        },
+        {
+            "Updated": "2023-02-12T03:38:45.5543589+08:00",
+            "Source": "main",
+            "Name": "xray",
+            "Info": "",
+            "Version": "1.7.5"
+        },
+        {
+            "Updated": "2022-03-07T12:14:03.7878926+08:00",
+            "Source": "3rd",
+            "Name": "XStudio",
+            "Info": "",
+            "Version": "Beta"
+        },
+        {
+            "Updated": "2022-02-06T14:58:17.8066223+08:00",
+            "Source": "3rd",
+            "Name": "xyplorer",
+            "Info": "",
+            "Version": "22.80.0000"
+        },
+        {
+            "Updated": "2023-04-15T15:10:15.2353034+08:00",
+            "Source": "3rd",
+            "Name": "yas",
+            "Info": "",
+            "Version": "0.1.13"
+        },
+        {
+            "Updated": "2023-01-02T02:40:22.9655531+08:00",
+            "Source": "apps",
+            "Name": "you-get",
+            "Info": "",
+            "Version": "0.4.1650"
+        },
+        {
+            "Updated": "2022-02-02T16:45:23.4484664+08:00",
+            "Source": "3rd",
+            "Name": "YUMI-UEFIPortable",
+            "Info": "",
+            "Version": "0.0.4.4"
+        },
+        {
+            "Updated": "2023-05-21T00:30:29.9484231+08:00",
+            "Source": "apps",
+            "Name": "zoom",
+            "Info": "",
+            "Version": "5.14.8.16213"
+        },
+        {
+            "Updated": "2023-04-27T11:28:59.8371828+08:00",
+            "Source": "apps",
+            "Name": "zotero",
+            "Info": "",
+            "Version": "6.0.26"
+        }
+    ],
     "buckets": [
         {
             "Name": "3rd",
             "Source": "https://github.com/Weidows-projects/scoop-3rd.git",
-            "Updated": "2023-04-10T08:35:47+08:00",
-            "Manifests": 75
+            "Updated": "2023-05-25T16:42:48+08:00",
+            "Manifests": 83
         },
         {
             "Name": "apps",
             "Source": "https://github.com/kkzzhizhou/scoop-apps.git",
-            "Updated": "2023-04-10T12:53:18+08:00",
-            "Manifests": 10281
+            "Updated": "2023-05-25T12:42:55+08:00",
+            "Manifests": 10499
         },
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2023-04-10T16:26:06+08:00",
-            "Manifests": 1188
+            "Updated": "2023-05-25T16:26:12+08:00",
+            "Manifests": 1198
         }
     ],
     "config": {
@@ -26,1388 +1477,8 @@
         "aria2-split": "16",
         "aria2-max-connection-per-server": "16",
         "aria2-min-split-size": "4M",
+        "aria2-warning-enabled": false,
         "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
         "scoop_branch": "master"
-    },
-    "apps": [
-        {
-            "Updated": "2023-03-16T11:26:01.8585618+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "115",
-            "Version": "2.0.3.6"
-        },
-        {
-            "Updated": "2022-08-15T09:47:23.7295063+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "7zip",
-            "Version": "22.01"
-        },
-        {
-            "Updated": "2023-04-10T11:52:01.6038909+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "7zip-zstd",
-            "Version": "v22.01-v1.5.5-R2"
-        },
-        {
-            "Updated": "2023-03-01T09:43:41.890657+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "AdguardHome",
-            "Version": "0.107.25"
-        },
-        {
-            "Updated": "2023-03-31T17:36:43.690815+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "AdvancedWgetGUI-Portable",
-            "Version": "0.6.0"
-        },
-        {
-            "Updated": "2023-04-10T11:51:55.2900035+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Adwaita-for-Steam",
-            "Version": "0.37"
-        },
-        {
-            "Updated": "2021-11-20T22:48:45.0741855+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "AIO-Boot",
-            "Version": "0.9.9.19"
-        },
-        {
-            "Updated": "2023-03-31T23:40:07.0965852+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "aliyundrive_wzv5",
-            "Version": "4.2.0"
-        },
-        {
-            "Updated": "2023-04-10T11:52:01.6038909+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "anaconda3",
-            "Version": "2023.03"
-        },
-        {
-            "Updated": "2023-03-16T11:25:18.0073953+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "apifox",
-            "Version": "2.2.27"
-        },
-        {
-            "Updated": "2022-01-25T12:24:15.0377369+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "aria2",
-            "Version": "1.36.0-1"
-        },
-        {
-            "Updated": "2023-01-12T19:33:29.8783018+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "auto-unlocker",
-            "Version": "2.0.0a"
-        },
-        {
-            "Updated": "2021-12-24T02:17:29.9128115+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "AutumnBox",
-            "Version": "2021.2.22.1-canary"
-        },
-        {
-            "Updated": "2023-03-21T12:08:07.5037417+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "BaiduNetdisk",
-            "Version": "7.26.0.10"
-        },
-        {
-            "Updated": "2022-02-28T21:12:41.5169262+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bat2exe",
-            "Version": "2.0"
-        },
-        {
-            "Updated": "2023-03-27T23:37:29.8808274+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bcut",
-            "Version": "3.3.6"
-        },
-        {
-            "Updated": "2022-11-25T22:05:17.7827169+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bilibili-livehime",
-            "Version": "4.24.1.3811"
-        },
-        {
-            "Updated": "2023-02-15T21:02:28.7988018+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bililive-recorder",
-            "Version": "2.6.2"
-        },
-        {
-            "Updated": "2023-03-26T21:47:10.3256983+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "bitwarden-cli",
-            "Version": "2023.3.0"
-        },
-        {
-            "Updated": "2022-02-20T01:37:58.9653805+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Bongocat-Mver",
-            "Version": "0.1.6"
-        },
-        {
-            "Updated": "2022-11-10T13:28:09.2869605+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bootice",
-            "Version": "1.332"
-        },
-        {
-            "Updated": "2022-10-08T11:43:05.3433039+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "bytedance-microapp-ide",
-            "Version": "3.3.6"
-        },
-        {
-            "Updated": "2023-01-11T20:38:34.7367528+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "cacert",
-            "Version": "2023-01-10"
-        },
-        {
-            "Updated": "2023-02-02T16:03:12.8673458+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "CefDetectorX",
-            "Version": "0.0.4"
-        },
-        {
-            "Updated": "2023-03-19T12:36:10.1535416+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "ChatBox",
-            "Version": "0.1.7"
-        },
-        {
-            "Updated": "2023-04-09T17:44:07.0035162+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "cheat-engine",
-            "Version": "7.5"
-        },
-        {
-            "Updated": "2023-01-01T18:21:52.7306477+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Clash-for-Windows_Chinese",
-            "Version": "0.20.12"
-        },
-        {
-            "Updated": "2022-05-16T15:46:44.796332+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "clash.net",
-            "Version": "1.2.8"
-        },
-        {
-            "Updated": "2022-08-02T00:49:54.398+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "CloudCompare",
-            "Version": "2.13.alpha"
-        },
-        {
-            "Updated": "2023-03-17T18:05:59.2027337+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "CompactGUI-Portable",
-            "Version": "3.0.0"
-        },
-        {
-            "Updated": "2022-01-30T17:05:19.6414449+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "copyplusplus",
-            "Version": "5.0"
-        },
-        {
-            "Updated": "2022-06-12T00:29:20.039+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "cuda11.3",
-            "Version": "11.3.1"
-        },
-        {
-            "Updated": "2022-06-12T00:23:27.5658252+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "cudnn",
-            "Version": "8.4.0"
-        },
-        {
-            "Updated": "2023-03-26T21:37:37.6343636+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "cursor",
-            "Version": "0.1.3"
-        },
-        {
-            "Updated": "2022-01-19T17:32:27.3381401+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "dark",
-            "Version": "3.11.2"
-        },
-        {
-            "Updated": "2023-02-12T18:46:02.5834518+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "dbeaver",
-            "Version": "22.3.4"
-        },
-        {
-            "Updated": "2022-07-28T13:16:29.8266576+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Dependency-Walker",
-            "Version": "2.2"
-        },
-        {
-            "Updated": "2022-03-16T11:02:29.6798261+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "dev-sidecar",
-            "Version": "1.7.3"
-        },
-        {
-            "Updated": "2023-01-24T22:36:24.6826739+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "dingtalk",
-            "Version": "7.0.0.1129102"
-        },
-        {
-            "Updated": "2023-01-14T23:45:01.2457677+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "DuplicateCleanerFree",
-            "Version": "4.1.2"
-        },
-        {
-            "Updated": "2023-01-11T20:42:58.5373674+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "ecloud",
-            "Version": "6.5.4"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "edex-ui",
-            "Version": "2.2.8"
-        },
-        {
-            "Updated": "2023-03-18T18:16:30.6068258+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Edge-Webdriver-Stable",
-            "Version": "111.0.1661.44"
-        },
-        {
-            "Updated": "2023-03-03T23:29:05.6800833+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "etcher",
-            "Version": "1.18.4"
-        },
-        {
-            "Updated": "2023-03-18T18:20:59.94566+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "eudic",
-            "Version": "2023-03-09"
-        },
-        {
-            "Updated": "2023-03-21T11:09:41.595+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "feishu",
-            "Version": "6.0.5"
-        },
-        {
-            "Updated": "2023-03-08T21:11:01.6229528+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Fido-PSScript",
-            "Version": "1.44"
-        },
-        {
-            "Updated": "2023-03-18T18:16:24.4610001+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "firefox-developer-zh-cn",
-            "Version": "112.0b3"
-        },
-        {
-            "Updated": "2022-08-31T14:03:34.6121298+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "FLiNGTrainer",
-            "Version": "1.0.0.16658"
-        },
-        {
-            "Updated": "2023-03-21T14:16:13.5439338+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Fluent-for-Steam",
-            "Version": "0.4.4.2fix"
-        },
-        {
-            "Updated": "2022-12-26T23:14:35.0287725+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "fontbase",
-            "Version": "2.18.1"
-        },
-        {
-            "Updated": "2023-03-18T11:28:03.5812189+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "format-factory_ScoopInstaller",
-            "Version": "5.8.1.0"
-        },
-        {
-            "Updated": "2023-02-08T18:17:59.376042+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Foxmail",
-            "Version": "7.2.25.213"
-        },
-        {
-            "Updated": "2023-04-09T17:40:35.3168902+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "fzf",
-            "Version": "0.39.0"
-        },
-        {
-            "Updated": "2023-04-02T23:09:21.1505117+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "git-all",
-            "Version": "2.40.0.windows.1"
-        },
-        {
-            "Updated": "2023-03-26T21:48:29.8222219+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Github-CLI",
-            "Version": "2.25.1"
-        },
-        {
-            "Updated": "2023-02-03T01:00:30.3957527+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "go-cn",
-            "Version": "1.20"
-        },
-        {
-            "Updated": "2023-03-21T11:09:50.1570599+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "gptcommit",
-            "Version": "0.4.1"
-        },
-        {
-            "Updated": "2023-02-15T21:07:18.6094967+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "gradle",
-            "Version": "8.0"
-        },
-        {
-            "Updated": "2022-10-28T12:34:28.3460404+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "grex",
-            "Version": "1.4.1"
-        },
-        {
-            "Updated": "2023-01-24T23:29:13.6420936+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "groovy",
-            "Version": "4.0.8"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "hakuneko",
-            "Version": "6.1.7"
-        },
-        {
-            "Updated": "2023-02-15T21:01:36.5853568+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "He3",
-            "Version": "1.2.9"
-        },
-        {
-            "Updated": "2023-01-02T02:24:18.4595771+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "hellofont",
-            "Version": "2.6.1.0"
-        },
-        {
-            "Updated": "2023-01-12T04:22:18.8431802+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "hitomi-downloader",
-            "Version": "3.8a"
-        },
-        {
-            "Updated": "2023-01-11T21:21:47.5042504+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "imhex",
-            "Version": "1.26.2"
-        },
-        {
-            "Updated": "2022-01-19T19:33:37.6213432+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "innounp",
-            "Version": "0.50"
-        },
-        {
-            "Updated": "2023-03-21T11:09:03.9934068+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "IoBitDriverBooster",
-            "Version": "10.3.0.124"
-        },
-        {
-            "Updated": "2023-03-03T23:28:13.7096827+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "jetbrains-toolbox",
-            "Version": "1.27.3.14493"
-        },
-        {
-            "Updated": "2022-10-01T22:47:27.1813816+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "jianyingpro-with-ffmpeg",
-            "Version": "3.4.1.9179"
-        },
-        {
-            "Updated": "2023-01-11T19:36:10.8376192+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "KeymouseGo",
-            "Version": "5.1"
-        },
-        {
-            "Updated": "2023-02-15T21:01:53.848927+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "KikoPlay",
-            "Version": "0.9.2"
-        },
-        {
-            "Updated": "2022-08-25T15:22:32.1609846+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "KitX",
-            "Version": "3.22.04.6235"
-        },
-        {
-            "Updated": "2023-01-07T19:34:25.6037617+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "krita",
-            "Version": "5.1.5"
-        },
-        {
-            "Updated": "2023-03-03T23:29:17.6181053+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "KugouMusic",
-            "Version": "10.1.37"
-        },
-        {
-            "Updated": "2022-10-28T12:37:55.7849591+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "latex",
-            "Version": "22.10"
-        },
-        {
-            "Updated": "2023-03-10T10:24:22.871242+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "lbry-desktop",
-            "Version": "0.53.9"
-        },
-        {
-            "Updated": "2023-03-20T18:09:50.1525142+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "LDPlayer-Portable",
-            "Version": "9.0.40"
-        },
-        {
-            "Updated": "2022-01-19T19:10:52.6702808+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "lessmsi",
-            "Version": "1.10.0"
-        },
-        {
-            "Updated": "2023-03-31T23:46:30.0295233+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "listen1desktop",
-            "Version": "2.28.0"
-        },
-        {
-            "Updated": "2022-02-11T00:44:10.4441654+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "lmms",
-            "Version": "1.2.2"
-        },
-        {
-            "Updated": "2022-08-25T09:22:24.1093518+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "login_bili_go",
-            "Version": "0.0.1"
-        },
-        {
-            "Updated": "2023-01-24T22:39:36.1729703+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "mactype-np",
-            "Version": "2021.1-rc1"
-        },
-        {
-            "Updated": "2023-01-27T17:52:13.5848203+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "manictime",
-            "Version": "5.2.6.0"
-        },
-        {
-            "Updated": "2023-02-26T16:54:36.1417206+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "maple-mono-nerd",
-            "Version": "6.2"
-        },
-        {
-            "Updated": "2023-02-08T18:28:21.7152468+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "maven",
-            "Version": "3.9.0"
-        },
-        {
-            "Updated": "2022-08-29T17:01:49.8041601+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "memreduct",
-            "Version": "3.4"
-        },
-        {
-            "Updated": "2022-12-04T14:47:15.3623339+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "ModOrganizer",
-            "Version": "2.4.4"
-        },
-        {
-            "Updated": "2023-02-02T17:35:41.3740864+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "mouseinc",
-            "Version": "2.13.4"
-        },
-        {
-            "Updated": "2022-01-19T20:42:08.9471529+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "MsiAfterBurner",
-            "Version": "4.6.4"
-        },
-        {
-            "Updated": "2022-08-17T09:45:05.2729047+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "MyJoy",
-            "Version": "2.2"
-        },
-        {
-            "Updated": "2022-09-19T11:11:25.5594594+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "n_m3u8dl-cli_hoilc",
-            "Version": "3.0.2"
-        },
-        {
-            "Updated": "2022-10-25T09:57:19.6154813+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "N0vaDesktop",
-            "Version": "2.2.1.3"
-        },
-        {
-            "Updated": "2022-01-19T19:27:48.6405223+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "neofetch",
-            "Version": "7.1.0"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "netch",
-            "Version": "1.9.7"
-        },
-        {
-            "Updated": "2023-03-18T11:29:22.1258951+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "neteaseuu",
-            "Version": "4.50.0.4079"
-        },
-        {
-            "Updated": "2023-03-08T21:10:09.1654929+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "netron",
-            "Version": "6.7.2"
-        },
-        {
-            "Updated": "2022-12-26T23:19:24.8683635+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "notion",
-            "Version": "2.0.39"
-        },
-        {
-            "Updated": "2023-01-02T16:30:31.7640017+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "nunustudio",
-            "Version": "0.9.6"
-        },
-        {
-            "Updated": "2023-01-19T03:09:22.0941006+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "nvm",
-            "Version": "1.1.10"
-        },
-        {
-            "Updated": "2023-03-15T17:44:01.8326709+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Nyushu-font",
-            "Version": "1.002"
-        },
-        {
-            "Updated": "2023-01-24T02:35:50.1425395+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "obs-plugin-auto-subtitle",
-            "Version": "0.5.0"
-        },
-        {
-            "Updated": "2023-01-23T22:30:53.2784595+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "obs-plugin-backgroundremoval",
-            "Version": "0.4.0"
-        },
-        {
-            "Updated": "2023-01-23T22:30:53.7206302+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "obs-plugin-droidcam_fixed",
-            "Version": "2.0.1"
-        },
-        {
-            "Updated": "2023-01-24T02:52:26.4166767+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "obs-plugin-scale-to-sound",
-            "Version": "1.2.2"
-        },
-        {
-            "Updated": "2023-03-10T10:24:45.2301431+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "obsidian",
-            "Version": "1.1.16"
-        },
-        {
-            "Updated": "2023-02-08T18:21:44.2217945+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "OBSStudio-Portable",
-            "Version": "29.0.2"
-        },
-        {
-            "Updated": "2022-12-26T23:23:41.208+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "octave",
-            "Version": "7.3.0"
-        },
-        {
-            "Updated": "2023-03-10T10:24:52.1228074+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "officetoolplus",
-            "Version": "10.0.5.2"
-        },
-        {
-            "Updated": "2023-02-18T23:14:07.1583685+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "oh-my-posh",
-            "Version": "14.5.0"
-        },
-        {
-            "Updated": "2023-03-08T21:09:28.5050467+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "OneCommander",
-            "Version": "3.35.1.0"
-        },
-        {
-            "Updated": "2023-01-24T22:40:35.6341425+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "openjdk",
-            "Version": "19.0.2-7"
-        },
-        {
-            "Updated": "2022-10-17T12:16:12.845998+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "openjdk8-redhat",
-            "Version": "8u342-b07"
-        },
-        {
-            "Updated": "2023-02-12T03:43:57.0716997+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "pandoc",
-            "Version": "3.1"
-        },
-        {
-            "Updated": "2021-12-21T12:38:08.4785109+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "PanJi-GreenTools",
-            "Version": "1.1"
-        },
-        {
-            "Updated": "2023-04-10T17:05:02.5969261+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "paperlib",
-            "Version": "2.2.1"
-        },
-        {
-            "Updated": "2023-03-31T23:33:33.6971143+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "PartAssist",
-            "Version": "9.13"
-        },
-        {
-            "Updated": "2021-10-17T14:40:49.7677421+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "PCmaster",
-            "Version": "6.25"
-        },
-        {
-            "Updated": "2022-01-19T20:13:45.6597609+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "pcstory",
-            "Version": "5.0"
-        },
-        {
-            "Updated": "2022-01-19T20:11:32.7108743+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Pixeval",
-            "Version": "3.1.3"
-        },
-        {
-            "Updated": "2022-09-09T18:09:16.3207217+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "pkg-config",
-            "Version": "0.26-1"
-        },
-        {
-            "Updated": "2023-04-08T14:06:41.7477891+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "posh-docker",
-            "Version": "0.7.0"
-        },
-        {
-            "Updated": "2023-04-08T14:06:43.1576024+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "posh-git",
-            "Version": "1.1.0"
-        },
-        {
-            "Updated": "2022-01-19T19:22:22.6639982+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "processing",
-            "Version": "3.5.4"
-        },
-        {
-            "Updated": "2023-03-18T18:22:07.9483659+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "protobuf",
-            "Version": "22.2"
-        },
-        {
-            "Updated": "2023-04-10T17:05:10.8451334+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "psmodule-PowerShellAI",
-            "Version": "0.5.6"
-        },
-        {
-            "Updated": "2023-03-03T23:30:31.6887256+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "pwsh",
-            "Version": "7.3.3"
-        },
-        {
-            "Updated": "2023-03-18T11:29:14.4354009+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "qq",
-            "Version": "9.7.5.28965"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "qqplayer",
-            "Version": "4.6.3.1104"
-        },
-        {
-            "Updated": "2023-03-16T22:23:42.2632016+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "quarkpan",
-            "Version": "2.5.14"
-        },
-        {
-            "Updated": "2023-03-08T21:09:38.6085581+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Quicker",
-            "Version": "1.37.9.0"
-        },
-        {
-            "Updated": "2023-01-01T19:48:23.6876393+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "quicklook",
-            "Version": "3.7.3"
-        },
-        {
-            "Updated": "2022-12-26T23:25:14.4219451+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "rainmeter",
-            "Version": "4.5.17.3700"
-        },
-        {
-            "Updated": "2023-01-11T21:23:44.3628926+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Remix-desktop",
-            "Version": "1.3.6"
-        },
-        {
-            "Updated": "2022-08-30T10:08:31.0361476+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "RM-ATKtools",
-            "Version": "nightly-20220830"
-        },
-        {
-            "Updated": "2023-01-13T00:08:39.4724586+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "RunCat-zhiyin",
-            "Version": "2.0"
-        },
-        {
-            "Updated": "2023-03-22T21:44:45.102185+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "ryujinx-ava",
-            "Version": "1.1.675"
-        },
-        {
-            "Updated": "2023-01-31T00:23:11.5925124+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "sakurafrp-launcher",
-            "Version": "2.0.6.0"
-        },
-        {
-            "Updated": "2023-02-26T16:18:32.410151+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "SandboxiePlus-Portable",
-            "Version": "1.7.2"
-        },
-        {
-            "Updated": "2023-04-08T14:06:45.1698148+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "scoop-completion",
-            "Version": "0.2.4"
-        },
-        {
-            "Updated": "2022-09-14T11:41:08.2280595+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "scoop-search-multisource",
-            "Version": "0.1.20220804"
-        },
-        {
-            "Updated": "2023-01-08T20:35:34.2109513+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "shadowSocksR",
-            "Version": "6.1.0"
-        },
-        {
-            "Updated": "2023-01-21T00:22:24.8862248+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "ShimakazeGO",
-            "Version": "2.0.16"
-        },
-        {
-            "Updated": "2023-01-15T15:38:13.9839362+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "SmartSystemMenu",
-            "Version": "2.21.2"
-        },
-        {
-            "Updated": "2022-10-28T09:41:36.6568329+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Snap.Genshin",
-            "Version": "2022.10.25.10000"
-        },
-        {
-            "Updated": "2023-01-12T04:21:38.0797879+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "sourcetree",
-            "Version": "3.4.11"
-        },
-        {
-            "Updated": "2022-01-19T21:35:14.2299515+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "steam",
-            "Version": "nightly-20220119"
-        },
-        {
-            "Updated": "2022-12-26T23:25:42.5315344+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "steampp",
-            "Version": "2.8.6"
-        },
-        {
-            "Updated": "2022-12-26T23:27:45.5371702+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "stellarium",
-            "Version": "1.2"
-        },
-        {
-            "Updated": "2023-04-10T11:51:16.4158967+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "tdl",
-            "Version": "0.8.0"
-        },
-        {
-            "Updated": "2023-03-22T13:12:22.5333398+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "telegram",
-            "Version": "4.7.1"
-        },
-        {
-            "Updated": "2023-04-08T14:06:46.1318018+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Terminal-Icons",
-            "Version": "0.10.0"
-        },
-        {
-            "Updated": "2023-02-03T02:21:30.831405+08:00",
-            "Info": "",
-            "Source": "D:\\Scoop\\buckets\\3rd\\bucket\\test.json",
-            "Name": "test",
-            "Version": "1.0.0"
-        },
-        {
-            "Updated": "2023-01-02T02:24:12.8407401+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "thief",
-            "Version": "6.6"
-        },
-        {
-            "Updated": "2022-11-07T17:09:58.220882+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Thunder_kkzzhizhou",
-            "Version": "11.1.12.1692"
-        },
-        {
-            "Updated": "2022-02-14T03:18:58.8337706+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "tickeys",
-            "Version": "1.1.1"
-        },
-        {
-            "Updated": "2023-03-10T23:09:14.6270565+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "TinyHand",
-            "Version": "1.1"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "tor-browser-zh-cn",
-            "Version": "11.5.7"
-        },
-        {
-            "Updated": "2022-02-09T19:20:28.8978787+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "tubatool",
-            "Version": "2022.01"
-        },
-        {
-            "Updated": "2022-01-19T19:24:47.0976998+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "unetbootin",
-            "Version": "702"
-        },
-        {
-            "Updated": "2022-06-21T20:53:06.7602311+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "UsbEAm-Hosts-Editor",
-            "Version": "3.63"
-        },
-        {
-            "Updated": "2022-02-24T16:48:22.042153+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "util-linux-ng",
-            "Version": "2.14.1"
-        },
-        {
-            "Updated": "2022-12-23T17:35:49.8047312+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "utools-persist",
-            "Version": "3.3.0"
-        },
-        {
-            "Updated": "2023-02-12T03:44:04.5617162+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "v2ray",
-            "Version": "5.3.0"
-        },
-        {
-            "Updated": "2023-04-10T11:15:01.2039624+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "v2rayn",
-            "Version": "6.21"
-        },
-        {
-            "Updated": "2023-03-01T09:50:29.5948931+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "vcpkg",
-            "Version": "2023.02.24"
-        },
-        {
-            "Updated": "2022-07-28T00:19:31.4916752+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "vcxsrv",
-            "Version": "1.20.14.0"
-        },
-        {
-            "Updated": "2022-12-10T15:00:04.16179+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "vmware-workstation-pro",
-            "Version": "17.0.0-20800274"
-        },
-        {
-            "Updated": "2023-02-08T19:12:06.3231471+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "vncviewer",
-            "Version": "7.0.1"
-        },
-        {
-            "Updated": "2023-03-18T11:30:25.3823289+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "vscode-portable-association",
-            "Version": "1.76.2"
-        },
-        {
-            "Updated": "2023-01-09T17:11:54.810771+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "Waifu2x-Extension-GUI",
-            "Version": "3.98.01"
-        },
-        {
-            "Updated": "2023-02-10T02:05:50.558612+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "WeChat",
-            "Version": "3.9.0.28"
-        },
-        {
-            "Updated": "2023-01-11T21:23:08.6651566+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "wechatwork_ivaquero",
-            "Version": "4.1.0"
-        },
-        {
-            "Updated": "2023-01-05T03:12:28.3589764+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "wepe",
-            "Version": "2.2"
-        },
-        {
-            "Updated": "2022-01-19T16:40:22.8962231+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "whois",
-            "Version": "1.21"
-        },
-        {
-            "Updated": "2022-02-03T18:14:21.4015883+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "win-aio",
-            "Version": "1.3"
-        },
-        {
-            "Updated": "2023-01-24T22:35:09.4056651+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "win-dynamic-desktop",
-            "Version": "5.2.0"
-        },
-        {
-            "Updated": "2022-01-19T20:21:09.9472373+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "Windows10Manager",
-            "Version": "3.3.5"
-        },
-        {
-            "Updated": "2022-08-13T10:05:28.0789754+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "WindTerm",
-            "Version": "2.5.0"
-        },
-        {
-            "Updated": "2023-04-09T17:38:44.1651367+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "WingetUI",
-            "Version": "1.6.5"
-        },
-        {
-            "Updated": "2023-01-24T23:28:58.3264396+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "winlibs-mingw-llvm-msvcrt",
-            "Version": "12.2.0-15.0.7-10.0.0-msvcrt-r4"
-        },
-        {
-            "Updated": "2022-02-23T01:23:31.5314744+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "winxray",
-            "Version": "4.4"
-        },
-        {
-            "Updated": "2023-03-10T10:22:11.0638323+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "wodeabc",
-            "Version": "6.37.0"
-        },
-        {
-            "Updated": "2022-01-19T20:20:30.9379075+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "WondershareUniconverter",
-            "Version": "13.5.2.126"
-        },
-        {
-            "Updated": "2023-02-19T00:27:34.0898801+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "WSL2DistroManager-Portable",
-            "Version": "1.6.0"
-        },
-        {
-            "Updated": "2022-02-19T02:51:31.8689962+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "x-studio",
-            "Version": "2022.1.3"
-        },
-        {
-            "Updated": "2022-06-19T15:12:52.9846311+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "xiaowan",
-            "Version": "R236"
-        },
-        {
-            "Updated": "2023-01-28T00:36:08.4020594+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "xmake",
-            "Version": "2.7.6"
-        },
-        {
-            "Updated": "2023-02-12T03:38:45.5543589+08:00",
-            "Info": "",
-            "Source": "main",
-            "Name": "xray",
-            "Version": "1.7.5"
-        },
-        {
-            "Updated": "2022-03-07T12:14:03.7878926+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "XStudio",
-            "Version": "Beta"
-        },
-        {
-            "Updated": "2022-02-06T14:58:17.8066223+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "xyplorer",
-            "Version": "22.80.0000"
-        },
-        {
-            "Updated": "2023-01-07T19:33:54.184262+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "yas",
-            "Version": "0.1.11"
-        },
-        {
-            "Updated": "2023-01-02T02:40:22.9655531+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "you-get",
-            "Version": "0.4.1650"
-        },
-        {
-            "Updated": "2022-02-02T16:45:23.4484664+08:00",
-            "Info": "",
-            "Source": "3rd",
-            "Name": "YUMI-UEFIPortable",
-            "Version": "0.0.4.4"
-        },
-        {
-            "Updated": "2023-02-08T18:28:45.1069017+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "zoom",
-            "Version": "5.13.7.12602"
-        },
-        {
-            "Updated": "2023-03-21T11:08:37.5285335+08:00",
-            "Info": "",
-            "Source": "apps",
-            "Name": "zotero",
-            "Version": "6.0.23"
-        },
-        {
-            "Updated": "2023-01-26T01:31:47.6741959+08:00",
-            "Info": "Global install",
-            "Source": "apps",
-            "Name": "FiraCode-NF-Mono",
-            "Version": "2.3.3"
-        }
-    ]
+    }
 }

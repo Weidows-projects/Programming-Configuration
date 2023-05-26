@@ -2,6 +2,8 @@ theme: 3
 proxyOrder: 0
 showNewVersionIcon: false
 bypassText: |
+  # 系统代理跳过列表 cfw-bypass, 下面不能有注释, 注释下面的内容会无效
+  # https://github.com/Fndroid/clash_for_windows_pkg/issues/1360
   bypass:
     - localhost
     - 127.*
@@ -23,24 +25,22 @@ bypassText: |
     - 172.30.*
     - 172.31.*
     - 192.168.*
-    - <local>
-    - '*.sharepoint.com'
+    - '*sharepoint.com'
     - 'web.lpan.cc'
-    # - '*.epicgames.com'
-    # - '*.epicgames.dev'
-    - '*.helloimg.com'
+    - '*helloimg.com'
     - "login.microsoftonline.com"
-    - "*.cygames.jp"
-    - "*.epicgames.com"
-    # - "*.notion.so"
-    - "*.imagehub.cc"
+    - "*cygames.jp"
+    - "*epicgames.com"
+    - "*imagehub.cc"
+    - "*jm-comic.org"
+    - <local>
 connProfile: true
-showNotifications: true
+showNotifications: false
 connProxy: 0
 connMode: true
 hideAfterStartup: true
 randomControllerPort: false
-editor: 1
+editor: 0
 iconSpeed: false
 systemProxyTypeIndex: 0
 pacContentText: >-
@@ -51,8 +51,28 @@ shortcutSystemProxy: ""
 specifyHttpProxyProtocol: false
 runTimeFormat: "hh : mm : ss"
 interfaceName: WLAN
-childProcessText: |
-  processes: # array
+childProcessText: >
+  processes:
+    # - command: bark-helper-go.exe # 程序名称
+    #   args:
+    #     - "-t" # 运行参数1
+    #     - "abcdefghijk" # 运行参数2
+    #   options:
+    #     cwd: C:\bark-helper # 子进程工作目录
+    #   log: true # 将在 cwd 目录生成输出日志
+
+    # 开机软件
+    - command: D:\Scoop\apps\steam\current\steamapps\common\MyDockFinder\Dock_64.exe
+    - command: D:\Scoop\apps\mouseinc\current\MouseInc.exe
+    - command: D:\Scoop\apps\utools-persist\current\uTools.exe
+    - command: D:\Scoop\apps\RunCat-zhiyin\current\RunCat.exe
+    - command: D:\Scoop\apps\PanJi-GreenTools\current\ACGTools\bLend.exe
+    - command: D:\Scoop\apps\Foxmail\current\Foxmail.exe
+    - command: D:\Scoop\apps\tickeys\current\TicKeys.exe
+    - command: memreduct.exe
+    - command: dsg.exe
+      args:
+        - "F:"
 trayColorTransparent: true
 latencyUrl: ""
 lightweightMode: true
@@ -64,8 +84,64 @@ trayOrders:
   - - status
     - traffic
     - text
-mixinText: |
+mixinText: >
   mixin: # object
+    # https://github.com/txyyh/ClashFiles
+    # 1. clash DNS 请求逻辑：
+    #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+    #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
+    #   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+    #
+    #   因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
+    #   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
+    #
+    # 2. clash DNS 配置注意事项：
+    #   (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 或 https:// 开头的 DNS 服务器，但是通常对于国内域名没有必要。
+    #   (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
+    #
+    # 3. 关于 DNS over HTTPS (DoH) 和 DNS over TLS (DoT) 的选择：
+    #   对于两项技术双方各执一词，而且会无休止的争论，各有利弊。各位请根据具体需求自行选择，但是配置文件内默认启用 DoT，因为目前国内没有封锁或管制。
+    #   DoH: 以 https:// 开头的 DNS 服务器。拥有更好的伪装性，且几乎不可能被运营商或网络管理封锁，但查询效率和安全性可能略低。
+    #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
+    #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
+    dns:
+      enable: true # 是否启用dns false
+      ipv6: false
+      enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+      fake-ip-range: 198.18.0.1/16
+      fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+        - '*.lan'
+        - localhost.ptlogin2.qq.com
+      default-nameserver:
+        - 223.5.5.5 # 阿里DNS
+        - 119.29.29.29 # 腾讯DNS
+        #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
+      nameserver:
+        #- 180.76.76.76 # 百度DNS
+        #- 119.29.29.29 # 腾讯DNS
+        #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
+        #- 114.114.114.114 # 114DNS
+        - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+        - https://doh.pub/dns-query #腾讯DNSPod DOH
+        #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
+        #- https://dns.nextdns.io/dns-query # NextDNS DOH
+        #- https://doh.360.cn/dns-query # 360 DoH DNS
+      fallback:
+        #- 8.8.8.8 # Google DNS
+        #- 1.1.1.1 # Cloudflare DNS
+        #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
+        #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
+        #- https://dns.nextdns.io/dns-query # NextDNS DOH
+        #- https://cloudflare-dns.com/dns-query # Cloudflare DoH DNS
+        - tls://b.iqiq.io:853              # iQDNS DoT
+        - https://i.233py.com/dns-query    # GEEKDNS China DoH
+        - https://doh.opendns.com/dns-query # OpenDNS DoH
+        #- https://doh.dns.sb/dns-query # DNS.sb DoH
+        #- https://dns.google/dns-query # Google DoH DNS
+      fallback-filter:
+        geoip: true # 默认
+        ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+          - 240.0.0.0/4
 profileParsersText: >
   # https://docs.cfw.lbyczf.com/contents/parser.html
 
@@ -74,12 +150,192 @@ profileParsersText: >
     - reg: ^.*$
       # 删除服务商提供的策略组和规则
       code: |
-        module.exports.parse = (raw, { yaml }) => {
-          const rawObj = yaml.parse(raw)
-          const groups = []
-          const rules = []
-          return yaml.stringify({ ...rawObj, 'proxy-groups': groups, rules })
-        }
+        module.exports.parse = async (raw, { axios, yaml, notify, console }) => {
+          // raw = raw.replace(
+          //   /# upload=\d*; download=\d*; total=\d*; expire=\d*;*\n/gm,
+          //   ""
+          // );
+          const rawObj = yaml.parse(raw);
+
+          // {
+          //   port: 7890,
+          //   'socks-port': 7891,
+          //   'allow-lan': true,
+          //   mode: 'Rule',
+          //   'log-level': 'info',
+          //   'external-controller': '127.0.0.1:9090',
+          //   dns: {
+          //     enable: true,
+          //     nameserver: [ '223.5.5.5', '119.29.29.29' ],
+          //     fallback: [
+          //       'https://doh.buzz:8000/dns-query',
+          //       'https://doh.beauty:8000/dns-query',
+          //       'https://cloudflare-dns.com/dns-query',
+          //       'tls://1.1.1.1:853',
+          //       'tls://1.0.0.1:853',
+          //       'https://1.1.1.1/dns-query',
+          //       'https://1.0.0.1/dns-query',
+          //       'tls://8.8.8.8:853',
+          //       'tls://8.8.4.4:853',
+          //       'https://dns.google/dns-query',
+          //       'https://dns.twnic.tw/dns-query'
+          //     ],
+          //     'fallback-filter': {
+          //       geoip: true,
+          //       'geoip-code': 'CN',
+          //       ipcidr: [Array],
+          //       domain: [Array]
+          //     },
+          //     'nameserver-policy': null
+          //   },
+          //   proxies: [
+          //     {
+          //       name: '🇯🇵',
+          //       server: 'example.com',
+          //       port: 21581,
+          //       type: 'vmess',
+          //       uuid: '4f05a0f9-83a1-3574-97f5-691ed7422c7a',
+          //       alterId: 1,
+          //       cipher: 'auto',
+          //       tls: true,
+          //       'skip-cert-verify': false,
+          //       udp: true
+          //     }
+          //   ],
+          //   'proxy-groups': [
+          //     { name: '🔰 选择节点', type: 'select', proxies: [Array] },
+          //     { name: '🐟 漏网之鱼', type: 'select', proxies: [Array] }
+          //   ],
+          //   rules: [
+          //     'DOMAIN-SUFFIX,bilibili.com,🌏 爱奇艺&哔哩哔哩',
+          //     'DOMAIN-SUFFIX,bilibili.tv,🌏 爱奇艺&哔哩哔哩',
+          //     ... 9290 more items
+          //   ]
+          // }
+          // console.log(rawObj);
+
+          const groups = [];
+          const rules = [];
+          var hosts = {};
+
+          await axios
+            .get("https://raw.hellogithub.com/hosts.json")
+            .then(function (response) {
+              // 200
+              // console.log(response.status);
+
+              // [
+              //   ["140.82.112.26", "alive.github.com"],
+              //   ["140.82.113.5", "api.github.com"],
+              // ]
+              // console.log(response.data);
+
+              // OK
+              // console.log(response.statusText);
+
+              // {
+              //   'accept-ranges': 'bytes',
+              //   'cache-control': 'no-cache',
+              //   'content-length': '1931',
+              //   'content-type': 'application/json',
+              //   date: 'Fri, 26 May 2023 03:51:41 GMT',
+              //   etag: '"64701ee1-78b"',
+              //   expires: 'Fri, 26 May 2023 03:51:40 GMT',
+              //   'last-modified': 'Fri, 26 May 2023 02:52:17 GMT',
+              //   server: 'nginx/1.14.0 (Ubuntu)'
+              // }
+              // console.log(response.headers);
+
+              // {
+              //   transitional: {
+              //     silentJSONParsing: true,
+              //     forcedJSONParsing: true,
+              //     clarifyTimeoutError: false
+              //   },
+              //   adapter: [Function: xhrAdapter],
+              //   transformRequest: [ [Function: transformRequest] ],
+              //   transformResponse: [ [Function: transformResponse] ],
+              //   timeout: 0,
+              //   xsrfCookieName: 'XSRF-TOKEN',
+              //   xsrfHeaderName: 'X-XSRF-TOKEN',
+              //   maxContentLength: -1,
+              //   maxBodyLength: -1,
+              //   env: {
+              //     FormData: [Function: FormData] {
+              //       LINE_BREAK: '\r\n',
+              //       DEFAULT_CONTENT_TYPE: 'application/octet-stream'
+              //     }
+              //   },
+              //   validateStatus: [Function: validateStatus],
+              //   headers: { Accept: 'application/json, text/plain, */*' },
+              //   method: 'get',
+              //   url: 'https://raw.hellogithub.com/hosts.json',
+              //   data: undefined
+              // }
+              // console.log(response.config);
+
+              // notify(response.status, response.data, false);
+              response.data.forEach((element) => {
+                let ip = element[0];
+                let domain = element[1];
+                hosts[domain] = ip;
+              });
+            });
+
+          // {
+          //   'alive.github.com': '140.82.112.26',
+          //   'api.github.com': '140.82.113.5',
+          //   'assets-cdn.github.com': '185.199.110.153',
+          //   'avatars.githubusercontent.com': '185.199.108.133',
+          //   'avatars0.githubusercontent.com': '185.199.108.133',
+          //   'avatars1.githubusercontent.com': '185.199.108.133',
+          //   'avatars2.githubusercontent.com': '185.199.108.133',
+          //   'avatars3.githubusercontent.com': '185.199.108.133',
+          //   'avatars4.githubusercontent.com': '185.199.108.133',
+          //   'avatars5.githubusercontent.com': '185.199.108.133',
+          //   'camo.githubusercontent.com': '185.199.108.133',
+          //   'central.github.com': '140.82.113.22',
+          //   'cloud.githubusercontent.com': '185.199.108.133',
+          //   'codeload.github.com': '140.82.114.9',
+          //   'collector.github.com': '140.82.113.21',
+          //   'desktop.githubusercontent.com': '185.199.108.133',
+          //   'favicons.githubusercontent.com': '185.199.108.133',
+          //   'gist.github.com': '140.82.113.4',
+          //   'github-cloud.s3.amazonaws.com': '54.231.236.113',
+          //   'github-com.s3.amazonaws.com': '52.217.138.81',
+          //   'github-production-release-asset-2e65be.s3.amazonaws.com': '52.216.164.187',
+          //   'github-production-repository-file-5c1aeb.s3.amazonaws.com': '52.217.139.193',
+          //   'github-production-user-asset-6210df.s3.amazonaws.com': '52.216.176.171',
+          //   'github.blog': '192.0.66.2',
+          //   'github.com': '140.82.112.3',
+          //   'github.community': '140.82.113.18',
+          //   'github.githubassets.com': '185.199.109.154',
+          //   'github.global.ssl.fastly.net': '151.101.129.194',
+          //   'github.io': '185.199.110.153',
+          //   'github.map.fastly.net': '185.199.108.133',
+          //   'githubstatus.com': '185.199.109.153',
+          //   'live.github.com': '140.82.113.26',
+          //   'media.githubusercontent.com': '185.199.108.133',
+          //   'objects.githubusercontent.com': '185.199.108.133',
+          //   'pipelines.actions.githubusercontent.com': '13.107.42.16',
+          //   'raw.githubusercontent.com': '185.199.108.133',
+          //   'user-images.githubusercontent.com': '185.199.108.133',
+          //   'vscode.dev': '13.107.253.40',
+          //   'education.github.com': '140.82.113.21'
+          // }
+          // console.log(hosts);
+
+          let finConfig = yaml.stringify({
+            ...rawObj,
+            "proxy-groups": groups,
+            rules,
+            hosts,
+          });
+          // console.log(finConfig);
+
+          return finConfig;
+        };
+
       # 建立自己的配置
       yaml:
         prepend-proxy-groups: # 建立策略组
@@ -99,14 +355,10 @@ profileParsersText: >
             url: http://www.gstatic.com/generate_204
             interval: 86400
             proxies:
+              - DIRECT
               - 🤖自动选择
               - 💯负载均衡
-
-          - name: 🔯代理模式(漏网之鱼)
-            type: select
-            proxies:
-              - 🔰选择节点 # 白名单模式，意为「没有命中规则的网络流量，统统使用代理」
-              - DIRECT # 黑名单模式，意为「只有命中规则的网络流量，才使用代理」
+              - 🚑故障转移
 
           - name: 🤖自动选择
             type: url-test
@@ -114,13 +366,32 @@ profileParsersText: >
             interval: 600
             lazy: true
             tolerance: 100
-
           - name: 💯负载均衡
             type: load-balance
             url: http://www.gstatic.com/generate_204
             interval: 600
+          # https://littleneko.cf/2021/07/01/Clash%E9%85%8D%E7%BD%AE%E5%9F%BA%E7%A1%80/
+          - name: 🚑故障转移
+            type: fallback
+            url: 'http://www.gstatic.com/generate_204'
+            interval: 300
 
-          - name: 🛑 广告拦截
+          - name: 🔯代理模式(漏网之鱼)
+            type: select
+            proxies:
+              - 🔰选择节点 # 白名单模式，意为「没有命中规则的网络流量，统统使用代理」
+              - DIRECT # 黑名单模式，意为「只有命中规则的网络流量，才使用代理」
+
+          - name: 🎵网易云解锁
+            type: select
+            proxies:
+              - 🎵网易云解锁(本地)
+              - 🎵网易云解锁(如风)
+              - 🎵网易云解锁(Aiden)
+              - 🎵网易云解锁(星梦)
+              - DIRECT
+
+          - name: 🛑广告拦截
             type: select
             proxies:
               - 🔰选择节点
@@ -128,24 +399,90 @@ profileParsersText: >
               - REJECT
 
         commands:
-          - proxy-groups.(🔰选择节点).proxies.2+[]proxyNames # 向指定策略组添加订阅中的节点名，可使用正则过滤
-          - proxy-groups.(🤖自动选择).proxies=[]proxyNames
-          - proxy-groups.(💯负载均衡).proxies=[]proxyNames
-
           # 一些可能用到的正则过滤节点示例，使分组更细致
           # []proxyNames|a                         # 包含a
           # []proxyNames|^(.*)(a|b)+(.*)$          # 包含a或b
           # []proxyNames|^(?=.*a)(?=.*b).*$        # 包含a和b
           # []proxyNames|^((?!b).)*a((?!b).)*$     # 包含a且不包含b
           # []proxyNames|^((?!b|c).)*a((?!b|c).)*$ # 包含a且不包含b或c
+          # 向指定策略组添加订阅中的节点名，可使用正则过滤
+          - proxy-groups.(🔰选择节点).proxies.4+[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(🤖自动选择).proxies=[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(💯负载均衡).proxies=[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(🚑故障转移).proxies=[]proxyNames |^((?!网易云解锁).)*$
+
+        # append-proxies:
+        #   - name: test # proxies最后面增加一个服务
+        #     type: http
+        #     server: 123.123.123.123
+        #     port: 456
+        append-proxies:
+          - name: 🎵网易云解锁(本地)
+            server: 127.0.0.1
+            port: 16375
+            type: http
+            username: ""
+            password: ""
+            tls: false
+          - name: 🎵网易云解锁(如风)
+            server: music.desperadoj.com
+            port: 30001
+            type: ss
+            cipher: aes-128-gcm
+            password: desperadoj.com_free_proxy_x80j
+          - name: 🎵网易云解锁(Aiden)
+            server: taron.top
+            port: 200
+            type: http
+            username: ""
+            password: ""
+            tls: false
+          - name: 🎵网易云解锁(星梦)
+            server: unblock.xmshuju.xyz
+            port: 1024
+            type: http
+            username: ""
+            password: ""
+            tls: false
 
         # 添加规则
         prepend-rules: # 规则由上往下遍历，如上面规则已经命中，则不再往下处理
-          - RULE-SET,applications,DIRECT
+          # 解决 NewBing 重定向回国问题
+          - DOMAIN-SUFFIX,bing.com,GLOBAL
+
+          - DOMAIN-SUFFIX,163yun.com,🎵网易云解锁
+          - DOMAIN-SUFFIX,api.iplay.163.com,🎵网易云解锁
+          - DOMAIN-SUFFIX,hz.netease.com,🎵网易云解锁
+          - DOMAIN-SUFFIX,mam.netease.com,🎵网易云解锁
+          - DOMAIN-SUFFIX,music.163.com,🎵网易云解锁
+          - IP-CIDR,39.105.63.80/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,45.254.48.1/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,47.100.127.239/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.21.14/31,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.160.195/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.160.197/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.179.214/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.181.35/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.181.38/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.181.60/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,59.111.238.29/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,101.71.154.241/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,103.126.92.132/31,🎵网易云解锁,no-resolve
+          - IP-CIDR,112.13.119.17/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,112.13.122.1/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,115.236.118.33/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,115.236.121.1/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,118.24.63.156/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,193.112.159.225/32,🎵网易云解锁,no-resolve
+          - IP-CIDR,223.252.199.66/31,🎵网易云解锁,no-resolve
+
+          # 让下载软件走代理
+          # - RULE-SET,applications,DIRECT
+          - RULE-SET,applications,🔰选择节点
           - DOMAIN,clash.razord.top,DIRECT
           - DOMAIN,yacd.haishan.me,DIRECT
           - RULE-SET,private,DIRECT
-          - RULE-SET,reject,🛑 广告拦截
+          - RULE-SET,reject,🛑广告拦截
           - RULE-SET,icloud,DIRECT #
           - RULE-SET,apple,DIRECT # 这三个为国内可直连地址，如果希望走代理改为PROXY
           - RULE-SET,google,DIRECT #
@@ -155,7 +492,8 @@ profileParsersText: >
           - RULE-SET,telegramcidr,🔰选择节点
           - RULE-SET,lancidr,DIRECT
           - RULE-SET,cncidr,DIRECT
-          - GEOIP,,DIRECT
+          # - GEOIP,,DIRECT
+          - GEOIP,,🔰选择节点
           - GEOIP,CN,DIRECT
           - RULE-SET,direct,DIRECT
           - RULE-SET,proxy,🔯代理模式(漏网之鱼)
@@ -167,105 +505,111 @@ profileParsersText: >
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-            path: ./ruleset/reject.yaml
+            # path: ./ruleset/reject.yaml
             interval: 86400
 
           icloud: # iCloud 域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-            path: ./ruleset/icloud.yaml
+            # path: ./ruleset/icloud.yaml
             interval: 86400
 
           apple: # Apple 在中国大陆可直连的域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-            path: ./ruleset/apple.yaml
+            # path: ./ruleset/apple.yaml
             interval: 86400
 
           google: # Google 在中国大陆可直连的域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-            path: ./ruleset/google.yaml
+            # path: ./ruleset/google.yaml
             interval: 86400
 
           proxy: # 代理域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-            path: ./ruleset/proxy.yaml
+            # path: ./ruleset/proxy.yaml
             interval: 86400
 
           direct: # 直连域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-            path: ./ruleset/direct.yaml
+            # path: ./ruleset/direct.yaml
             interval: 86400
 
           private: # 私有网络专用域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-            path: ./ruleset/private.yaml
+            # path: ./ruleset/private.yaml
             interval: 86400
 
           gfw: # GFWList 域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-            path: ./ruleset/gfw.yaml
+            # path: ./ruleset/gfw.yaml
             interval: 86400
 
           greatfire: # GreatFire 域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
-            path: ./ruleset/greatfire.yaml
+            # path: ./ruleset/greatfire.yaml
             interval: 86400
 
           tld-not-cn: # 非中国大陆使用的顶级域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-            path: ./ruleset/tld-not-cn.yaml
+            # path: ./ruleset/tld-not-cn.yaml
             interval: 86400
 
           telegramcidr: # Telegram 使用的 IP 地址列表
             type: http
             behavior: ipcidr
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-            path: ./ruleset/telegramcidr.yaml
+            # path: ./ruleset/telegramcidr.yaml
             interval: 86400
 
           cncidr: # 中国大陆 IP 地址列表
             type: http
             behavior: ipcidr
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-            path: ./ruleset/cncidr.yaml
+            # path: ./ruleset/cncidr.yaml
             interval: 86400
 
           lancidr: # 局域网 IP 及保留 IP 地址列表
             type: http
             behavior: ipcidr
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-            path: ./ruleset/lancidr.yaml
+            # path: ./ruleset/lancidr.yaml
             interval: 86400
 
           applications: # 需要直连的常见软件列表
             type: http
             behavior: classical
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-            path: ./ruleset/applications.yaml
+            # path: ./ruleset/applications.yaml
             interval: 86400
+
+        # # experimental hosts, support wildcard (e.g. *.clash.dev Even *.foo.*.example.com)
+        # # static domain has a higher priority than wildcard domain (foo.example.com > *.example.com)
+        # hosts:
+        #   '*.clash.dev': 127.0.0.1
+        #   'alpha.clash.dev': '::1'
 mixinType: 0
 mixinCode: |-
   module.exports.parse = ({ content, name, url }, { yaml, axios, notify }) => {
     return content
   }
-shortcutShowHideDashboard: Alt+c
+shortcutShowHideDashboard: ""
 systemTheme: false
 hideTrayIcon: false
 connShowProcess: true
@@ -273,3 +617,8 @@ showTrayProxyDelayIndicator: true
 randomMixedPort: false
 headersText: |
   headers: # object
+editProfileWithCFWEditor: true
+scriptsText: |
+  scripts:
+    proxy: {}
+    profile: {}

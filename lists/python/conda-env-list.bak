@@ -1,8 +1,7 @@
 # conda environments:
 #
-                         D:\Scoop\apps\anaconda3\2023.03
-base                  *  D:\Scoop\apps\anaconda3\current
-centerpoint              D:\Scoop\apps\anaconda3\current\envs\centerpoint
-python                   D:\Scoop\apps\anaconda3\current\envs\python
-tools                    D:\Scoop\apps\anaconda3\current\envs\tools
+                         D:\Scoop\apps\miniconda3\23.3.1-0
+base                     D:\Scoop\apps\miniconda3\current
+py27                     D:\Scoop\apps\miniconda3\current\envs\py27
+py310                    D:\Scoop\apps\miniconda3\current\envs\py310
 

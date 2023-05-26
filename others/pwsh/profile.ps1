@@ -15,6 +15,10 @@
 # ======================================================================== #
 #                               pwsh配置
 # ======================================================================== #
+# 解决这种报错: WARNING: The prediction 'ListView' is temporarily disabled because the current window size of the console is too small. To use the 'ListView', please make
+# https://stackoverflow.com/questions/73864754/why-do-i-get-a-warning-about-listview-in-terminal-powershell-in-vscode
+$WarningPreference = "SilentlyContinue"
+
 # 设置主题 (Get-PoshThemes $env:SCOOP\persist\oh-my-posh\themes) / https://ohmyposh.dev/docs/themes
 # oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/powerlevel10k_rainbow.omp.json" | Invoke-Expression
 # oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/iterm2.omp.json" | Invoke-Expression
@@ -65,21 +69,12 @@ function killer{taskkill /F /im $args}
 Invoke-Expression (&scoop-search-multisource --hook) -ErrorAction SilentlyContinue
 
 function sct{scoop status}
-function scl{scoop list}
-function sccl{
-  Foreach($argv in $args) {
-    scoop cleanup $argv
-    echo ========================================================================
-  }
-}
 function scu{
   Foreach($argv in $args) {
     scoop update $argv -s
-    scoop cleanup $argv
     echo ========================================================================
   }
 }
-function scun{scoop uninstall $args}
 function scs{scoop search $args}
 function sci{
   Foreach($argv in $args) {
@@ -87,7 +82,7 @@ function sci{
     echo ========================================================================
   }
 }
-function scin{scoop info $args}
+function scc{scoop cat $args}
 
 # Import-Module $env:SCOOP\modules\scoop-completion
 Import-Module scoop-completion

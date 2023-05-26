@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"637850"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Confess My Love"
+	"StateFlags"		"4"
+	"installdir"		"ConfessMyLove"
+	"LastUpdated"		"1685107940"
+	"SizeOnDisk"		"39164200"
+	"StagingSize"		"0"
+	"buildid"		"6577890"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"37372880"
+	"BytesDownloaded"		"37372880"
+	"BytesToStage"		"39164200"
+	"BytesStaged"		"39164200"
+	"TargetBuildID"		"6577890"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"637851"
+		{
+			"manifest"		"1372859067059436974"
+			"size"		"30899228"
+		}
+		"637853"
+		{
+			"manifest"		"8402985228540316104"
+			"size"		"8264972"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}
