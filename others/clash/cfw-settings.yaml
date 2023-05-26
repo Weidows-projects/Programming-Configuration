@@ -398,6 +398,24 @@ profileParsersText: >
               - DIRECT
               - REJECT
 
+          - name: 😇NewBing
+            type: select
+            proxies:
+              - 🔰选择节点
+              - DIRECT
+
+          - name: 👀Github
+            type: select
+            proxies:
+              - 🔰选择节点
+              - DIRECT
+
+          - name: 🎮Steam
+            type: select
+            proxies:
+              - 🔰选择节点
+              - DIRECT
+
         commands:
           # 一些可能用到的正则过滤节点示例，使分组更细致
           # []proxyNames|a                         # 包含a
@@ -448,7 +466,7 @@ profileParsersText: >
         # 添加规则
         prepend-rules: # 规则由上往下遍历，如上面规则已经命中，则不再往下处理
           # 解决 NewBing 重定向回国问题
-          - DOMAIN-SUFFIX,bing.com,GLOBAL
+          - DOMAIN-SUFFIX,bing.com,😇NewBing
 
           - DOMAIN-SUFFIX,163yun.com,🎵网易云解锁
           - DOMAIN-SUFFIX,api.iplay.163.com,🎵网易云解锁
@@ -476,8 +494,14 @@ profileParsersText: >
           - IP-CIDR,193.112.159.225/32,🎵网易云解锁,no-resolve
           - IP-CIDR,223.252.199.66/31,🎵网易云解锁,no-resolve
 
+          - DOMAIN,store.steampowered.com,🎮Steam
+          - DOMAIN-SUFFIX,steamcommunity.com,🎮Steam
+          - DOMAIN-SUFFIX,steamserver.net,🎮Steam
+          - DOMAIN-SUFFIX,cm.steampowered.com,🎮Steam
+
           # 让下载软件走代理
           # - RULE-SET,applications,DIRECT
+          - RULE-SET,github,👀Github
           - RULE-SET,applications,🔰选择节点
           - DOMAIN,clash.razord.top,DIRECT
           - DOMAIN,yacd.haishan.me,DIRECT
@@ -597,6 +621,13 @@ profileParsersText: >
             behavior: classical
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
             # path: ./ruleset/applications.yaml
+            interval: 86400
+
+          github: # Github 域名列表
+            type: http
+            behavior: domain
+            url: "https://cdn.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@latest/others/clash/github.txt"
+            # path: ./ruleset/github.yaml
             interval: 86400
 
         # # experimental hosts, support wildcard (e.g. *.clash.dev Even *.foo.*.example.com)
