@@ -1,0 +1,36 @@
+parsers: # array
+  - reg: ^.*$
+    code: |
+      module.exports.parse = async (raw, { axios, yaml, notify, console }) => {
+        const rawObj = yaml.parse(raw);
+        var hosts = {};
+
+        await axios
+          .get("https://raw.hellogithub.com/hosts.json")
+          .then(function (response) {
+            response.data.forEach((element) => {
+              let ip = element[0];
+              let domain = element[1];
+              hosts[domain] = ip;
+            });
+          });
+
+        let finConfig = yaml.stringify({
+          ...rawObj,
+          hosts,
+        });
+
+        return finConfig;
+      };
+
+    yaml:
+      prepend-rules:
+        - RULE-SET,github,DIRECT
+
+      mix-rule-providers:
+        github: # Github 域名列表
+          type: http
+          behavior: domain
+          url: "https://cdn.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@latest/others/clash/github.txt"
+          # path: ./ruleset/github.yaml
+          interval: 86400
