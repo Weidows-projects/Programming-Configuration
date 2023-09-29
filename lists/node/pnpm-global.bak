@@ -1,19 +1,24 @@
 Legend: production dependency, optional only, dev only
 
-D:\Scoop\apps\nvm\current\global\5
+D:\Scoop\apps\nvm\current\pnpm\global\5
 
 dependencies:
+@gauseen/gum 1.0.5
 @lzwme/dir-fast-copy 1.4.1
 @vscode/vsce 2.19.0
 @vue/cli 5.0.8
+cnpm 9.2.0
+composerize 1.2.0
 cross-env 7.0.3
 eslint 8.40.0
+gre3000-cli 1.0.3
 hexo-cli 4.3.0
 hint 7.1.8
 husky 8.0.3
-logo.svg 1.0.1
+node-gyp 9.4.0
 npm-check 6.0.1
-pnpm 8.5.0
+pake-cli 2.1.12
+pnpm 8.8.0
 release-it 15.10.3
 tldr 3.3.8
 typescript 5.0.4
@@ -21,4 +26,5 @@ uglify-js 3.17.4
 vite-cli 1.0.0
 webpack 5.82.1
 webpack-cli 5.1.1
+yarn 1.22.19
 yrm 1.0.6

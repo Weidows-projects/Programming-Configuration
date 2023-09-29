@@ -65,11 +65,13 @@ childProcessText: >
     - command: D:\Scoop\apps\steam\current\steamapps\common\MyDockFinder\Dock_64.exe
     - command: D:\Scoop\apps\mouseinc\current\MouseInc.exe
     - command: D:\Scoop\apps\utools-persist\current\uTools.exe
-    - command: D:\Scoop\apps\RunCat-zhiyin\current\RunCat.exe
-    - command: D:\Scoop\apps\PanJi-GreenTools\current\ACGTools\bLend.exe
+    # - command: D:\Scoop\apps\RunCat-zhiyin\current\RunCat.exe
     - command: D:\Scoop\apps\Foxmail\current\Foxmail.exe
-    - command: D:\Scoop\apps\tickeys\current\TicKeys.exe
+    - command: D:\Scoop\apps\Windhawk-Portable\current\Windhawk\windhawk.exe
+    - command: TicKeys.exe
     - command: memreduct.exe
+    - command: rainmeter.exe
+    - command: bLend.exe
     - command: dsg.exe
       args:
         - "F:"
@@ -363,7 +365,7 @@ profileParsersText: >
           - name: 🤖自动选择
             type: url-test
             url: http://www.gstatic.com/generate_204
-            interval: 600
+            interval: 300
             lazy: true
             tolerance: 100
           - name: 💯负载均衡
@@ -382,14 +384,14 @@ profileParsersText: >
               - 🔰选择节点 # 白名单模式，意为「没有命中规则的网络流量，统统使用代理」
               - DIRECT # 黑名单模式，意为「只有命中规则的网络流量，才使用代理」
 
-          - name: 🎵网易云解锁
-            type: select
-            proxies:
-              - 🎵网易云解锁(本地)
-              - 🎵网易云解锁(如风)
-              - 🎵网易云解锁(Aiden)
-              - 🎵网易云解锁(星梦)
-              - DIRECT
+          # - name: 🎵网易云解锁
+          #   type: select
+          #   proxies:
+          #     - 🎵网易云解锁(本地)
+          #     - 🎵网易云解锁(如风)
+          #     - 🎵网易云解锁(Aiden)
+          #     - 🎵网易云解锁(星梦)
+          #     - DIRECT
 
           - name: 🛑广告拦截
             type: select
@@ -416,6 +418,18 @@ profileParsersText: >
               - 🔰选择节点
               - DIRECT
 
+          - name: 🌏爱奇艺&哔哩哔哩
+            type: select
+            proxies:
+              - DIRECT
+              - 🔰选择节点
+
+          - name: 📺动画疯
+            type: select
+            proxies:
+              - 🔰选择节点
+              - DIRECT
+
         commands:
           # 一些可能用到的正则过滤节点示例，使分组更细致
           # []proxyNames|a                         # 包含a
@@ -430,74 +444,130 @@ profileParsersText: >
           - proxy-groups.(🚑故障转移).proxies=[]proxyNames |^((?!网易云解锁).)*$
 
         # append-proxies:
-        #   - name: test # proxies最后面增加一个服务
+        #   - name: 🎵网易云解锁(本地)
+        #     server: 127.0.0.1
+        #     port: 16375
         #     type: http
-        #     server: 123.123.123.123
-        #     port: 456
-        append-proxies:
-          - name: 🎵网易云解锁(本地)
-            server: 127.0.0.1
-            port: 16375
-            type: http
-            username: ""
-            password: ""
-            tls: false
-          - name: 🎵网易云解锁(如风)
-            server: music.desperadoj.com
-            port: 30001
-            type: ss
-            cipher: aes-128-gcm
-            password: desperadoj.com_free_proxy_x80j
-          - name: 🎵网易云解锁(Aiden)
-            server: taron.top
-            port: 200
-            type: http
-            username: ""
-            password: ""
-            tls: false
-          - name: 🎵网易云解锁(星梦)
-            server: unblock.xmshuju.xyz
-            port: 1024
-            type: http
-            username: ""
-            password: ""
-            tls: false
+        #     username: ""
+        #     password: ""
+        #     tls: false
+        #   - name: 🎵网易云解锁(如风)
+        #     server: music.desperadoj.com
+        #     port: 30001
+        #     type: ss
+        #     cipher: aes-128-gcm
+        #     password: desperadoj.com_free_proxy_x80j
+        #   - name: 🎵网易云解锁(Aiden)
+        #     server: taron.top
+        #     port: 200
+        #     type: http
+        #     username: ""
+        #     password: ""
+        #     tls: false
+        #   - name: 🎵网易云解锁(星梦)
+        #     server: unblock.xmshuju.xyz
+        #     port: 1024
+        #     type: http
+        #     username: ""
+        #     password: ""
+        #     tls: false
 
         # 添加规则
         prepend-rules: # 规则由上往下遍历，如上面规则已经命中，则不再往下处理
           # 解决 NewBing 重定向回国问题
           - DOMAIN-SUFFIX,bing.com,😇NewBing
 
-          - DOMAIN-SUFFIX,163yun.com,🎵网易云解锁
-          - DOMAIN-SUFFIX,api.iplay.163.com,🎵网易云解锁
-          - DOMAIN-SUFFIX,hz.netease.com,🎵网易云解锁
-          - DOMAIN-SUFFIX,mam.netease.com,🎵网易云解锁
-          - DOMAIN-SUFFIX,music.163.com,🎵网易云解锁
-          - IP-CIDR,39.105.63.80/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,45.254.48.1/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,47.100.127.239/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.21.14/31,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.160.195/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.160.197/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.179.214/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.181.35/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.181.38/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.181.60/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,59.111.238.29/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,101.71.154.241/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,103.126.92.132/31,🎵网易云解锁,no-resolve
-          - IP-CIDR,112.13.119.17/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,112.13.122.1/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,115.236.118.33/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,115.236.121.1/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,118.24.63.156/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,193.112.159.225/32,🎵网易云解锁,no-resolve
-          - IP-CIDR,223.252.199.66/31,🎵网易云解锁,no-resolve
+          # - DOMAIN-SUFFIX,163yun.com,🎵网易云解锁
+          # - DOMAIN-SUFFIX,api.iplay.163.com,🎵网易云解锁
+          # - DOMAIN-SUFFIX,hz.netease.com,🎵网易云解锁
+          # - DOMAIN-SUFFIX,mam.netease.com,🎵网易云解锁
+          # - DOMAIN-SUFFIX,music.163.com,🎵网易云解锁
+          # - IP-CIDR,39.105.63.80/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,45.254.48.1/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,47.100.127.239/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.21.14/31,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.160.195/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.160.197/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.179.214/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.181.35/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.181.38/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.181.60/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,59.111.238.29/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,101.71.154.241/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,103.126.92.132/31,🎵网易云解锁,no-resolve
+          # - IP-CIDR,112.13.119.17/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,112.13.122.1/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,115.236.118.33/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,115.236.121.1/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,118.24.63.156/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,193.112.159.225/32,🎵网易云解锁,no-resolve
+          # - IP-CIDR,223.252.199.66/31,🎵网易云解锁,no-resolve
 
-          - DOMAIN,store.steampowered.com,🎮Steam
           - DOMAIN-SUFFIX,steamcommunity.com,🎮Steam
           - DOMAIN-SUFFIX,steamserver.net,🎮Steam
+          - DOMAIN-SUFFIX,steamstatic.com,🎮Steam
+          - DOMAIN-SUFFIX,steamstat.us,🎮Steam
+          - DOMAIN,steambroadcast.akamaized.net,🎮Steam
+          - DOMAIN,steamcdn-a.akamaihd.net,🎮Steam
+          - DOMAIN,steamcommunity-a.akamaihd.net,🎮Steam
+          - DOMAIN,steamstore-a.akamaihd.net,🎮Steam
+          - DOMAIN,steamusercontent-a.akamaihd.net,🎮Steam
+          - DOMAIN,steamuserimages-a.akamaihd.net,🎮Steam
+          - DOMAIN,store.steampowered.com,🎮Steam
           - DOMAIN-SUFFIX,cm.steampowered.com,🎮Steam
+
+          - IP-CIDR,103.151.150.0/23,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,app.biliapi.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,grpc.biliapi.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,p-bstarstatic.akamaized.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,p.bstarstatic.com,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏爱奇艺&哔哩哔哩
+          - DOMAIN-SUFFIX,acgvideo.com,🌏爱奇艺&哔哩哔哩
+          - DOMAIN-SUFFIX,bilibili.com,🌏爱奇艺&哔哩哔哩
+          - DOMAIN-SUFFIX,bilibili.tv,🌏爱奇艺&哔哩哔哩
+          - IP-CIDR,45.43.32.234/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,103.151.150.0/23,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,119.29.29.29/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,128.1.62.200/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,128.1.62.201/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,150.116.92.250/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,164.52.33.178/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,164.52.33.182/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,164.52.76.18/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,203.107.1.33/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,203.107.1.34/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,203.107.1.65/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - IP-CIDR,203.107.1.66/32,🌏爱奇艺&哔哩哔哩,no-resolve
+          - DOMAIN,cache.video.iqiyi.com,🌏爱奇艺&哔哩哔哩
+          - DOMAIN-SUFFIX,iq.com,🌏爱奇艺&哔哩哔哩
+          - DOMAIN-SUFFIX,b23.tv,🌏爱奇艺&哔哩哔哩
+
+          - DOMAIN,bahamut.akamaized.net,📺动画疯
+          - DOMAIN,gamer-cds.cdn.hinet.net,📺动画疯
+          - DOMAIN,gamer2-cds.cdn.hinet.net,📺动画疯
+          - DOMAIN-SUFFIX,bahamut.com.tw,📺动画疯
+          - DOMAIN-SUFFIX,gamer.com.tw,📺动画疯
+
+          - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+          - DOMAIN-SUFFIX,steamchina.com,DIRECT
+          - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,DIRECT
+          - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,DIRECT
+          - DOMAIN-SUFFIX,steampipe.akamaized.net,DIRECT
+          - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+          - DOMAIN-SUFFIX,csgo.wmsj.cn,DIRECT
+          - DOMAIN-SUFFIX,dota2.wmsj.cn,DIRECT
+          - DOMAIN-SUFFIX,wmsjsteam.com,DIRECT
+          - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
+          - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
+          - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
+          - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
+          - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
+          - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,DIRECT
+          - DOMAIN-SUFFIX,steampowered.com.8686c.com,DIRECT
+          - DOMAIN-SUFFIX,steamstatic.com.8686c.com,DIRECT
+          - DOMAIN-SUFFIX,steamchina.com,DIRECT
 
           # 让下载软件走代理
           # - RULE-SET,applications,DIRECT

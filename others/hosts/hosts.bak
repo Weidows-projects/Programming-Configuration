@@ -1,50 +1,6 @@
-#-------- 公共配置 --------
-
-# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-#
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
-127.0.0.1 localhost
-
-#-------- github520 --------
-
-
-
-
-#-------- usb --------
-
-119.28.36.181 www.epicgames.com #UHE_
-119.28.36.181 epicgames.com #UHE_
-104.26.0.199 hcaptcha.com #UHE_
-104.26.0.199 www.hcaptcha.com #UHE_
-104.26.0.199 assets.hcaptcha.com #UHE_
-104.26.0.199 imgs.hcaptcha.com #UHE_
-104.26.0.199 newassets.hcaptcha.com #UHE_
-104.26.0.199 js.hcaptcha.com #UHE_
-104.26.0.199 hcaptcha-assets.ecosec.on.epicgames.com #UHE_
-104.26.0.199 caldera-service-prod.ecosec.on.epicgames.com #UHE_
-104.26.0.199 hcaptcha-api.ecosec.on.epicgames.com #UHE_
-104.26.0.199 nelly-service-prod-cloudflare.ecosec.on.epicgames.com #UHE_
-104.26.0.199 hcaptcha-reportapi.ecosec.on.epicgames.com #UHE_
-104.26.0.199 hcaptcha-js.ecosec.on.epicgames.com #UHE_
-104.26.0.199 talon-service-prod.ecosec.on.epicgames.com #UHE_
-104.26.0.199 hcaptcha-imgs.ecosec.on.epicgames.com #UHE_
-104.26.0.199 hcaptcha-endpoint.ecosec.on.epicgames.com #UHE_
-104.26.0.199 talon-website-prod.ecosec.on.epicgames.com #UHE_
+﻿# Added by Docker Desktop
+192.168.1.5 host.docker.internal
+192.168.1.5 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section

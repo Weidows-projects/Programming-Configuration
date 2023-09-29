@@ -12,7 +12,9 @@ gopls.exe
 gopls.exe~
 gotests.exe
 jpu.exe
+powerline-go.exe
 protoc-gen-auxo.exe
 protoc-gen-go.exe
 revive.exe
 staticcheck.exe
+wails.exe

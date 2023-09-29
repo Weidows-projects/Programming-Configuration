@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-04-11T12:12:24.918-00:00",
+	"CreationDate" : "2023-09-30T01:56:49.011-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,47 +8,75 @@
 			[
 				{
 					"PackageIdentifier" : "DMM.GamePlayer",
-					"Version" : "5.2.4"
+					"Version" : "5.2.24"
+				},
+				{
+					"PackageIdentifier" : "Xiaomi.MIUI+",
+					"Version" : "3.2.0.464"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop",
+					"Version" : "4.23.0"
 				},
 				{
 					"PackageIdentifier" : "Qingfeng.HeyboxAccelerator",
-					"Version" : "1.1.22"
+					"Version" : "1.1.30"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.RustRover",
+					"Version" : "2023.2 EAP"
 				},
 				{
 					"PackageIdentifier" : "Kingsoft.WPSOffice.CN",
-					"Version" : "11.1.0.14036"
+					"Version" : "12.1.0.15712"
+				},
+				{
+					"PackageIdentifier" : "Xiaomi.MiService",
+					"Version" : "3.3.1.306"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "112.0.1722.39"
+					"Version" : "117.0.2045.43"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "112.0.1722.34"
+					"Version" : "117.0.2045.43"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.16.10262.0"
+					"Version" : "1.17.11461.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive",
+					"Version" : "23.184.0903.0002"
 				},
 				{
 					"PackageIdentifier" : "Sogou.SogouInput",
-					"Version" : "13.1.0.6834"
+					"Version" : "13.6.0.7891"
 				},
 				{
 					"PackageIdentifier" : "DigitalExtremes.Warframe",
 					"Version" : "Unknown"
 				},
 				{
+					"PackageIdentifier" : "Treexy.DriverFusion",
+					"Version" : "Unknown"
+				},
+				{
+					"PackageIdentifier" : "ShareX.ShareX",
+					"Version" : "Unknown"
+				},
+				{
 					"PackageIdentifier" : "Tencent.TencentMeeting",
-					"Version" : "3.15.5.404"
+					"Version" : "3.19.22.426"
 				},
 				{
 					"PackageIdentifier" : "Yuanli.uTools",
-					"Version" : "3.3.0"
+					"Version" : "4.0.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
-					"Version" : "17.4.5"
+					"Version" : "17.7.4"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -57,10 +85,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.30501.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.15"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
@@ -75,12 +99,24 @@
 					"Version" : "3.1.32"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.22"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64",
 					"Version" : "10.0.40219"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
+					"Version" : "12.0.30501.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5",
 					"Version" : "5.0.17"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
+					"Version" : "12.0.40664.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
@@ -91,8 +127,16 @@
 					"Version" : "15.0.2000.5"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.36.32532.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
 					"Version" : "3.1.32"
+				},
+				{
+					"PackageIdentifier" : "Billfish.Billfish",
+					"Version" : "3.0.33.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64",
@@ -107,12 +151,24 @@
 					"Version" : "Unknown"
 				},
 				{
+					"PackageIdentifier" : "AsaphaHalifa.AudioRelay",
+					"Version" : "0.27.5"
+				},
+				{
 					"PackageIdentifier" : "EpicGames.EpicGamesLauncher",
 					"Version" : "1.3.51.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
+					"Version" : "14.36.32532.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86",
 					"Version" : "9.0.30729.7523"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
+					"Version" : "11.0.61030.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -127,12 +183,20 @@
 					"Version" : "10.0.40219"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
+					"Version" : "11.0.61030.0"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK",
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000",
 					"Version" : "10.0.22000.832"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
+					"Version" : "12.0.40664.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
@@ -148,5 +212,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.4.10173"
+	"WinGetVersion" : "1.5.1881"
 }

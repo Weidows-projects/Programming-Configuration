@@ -1,4 +1,4 @@
-## Copyright (c) 1993-2001 Microsoft Corp.
+# Copyright (c) 1993-2001 Microsoft Corp.
 #
 # This file has been automatically generated for use by Microsoft Internet
 # Connection Sharing. It contains the mappings of IP addresses to host names
@@ -7,6 +7,11 @@
 # local network.
 #
 
-#192.168.137.1 Weidows-win11.mshome.net # 2027 10 0 24 8 14 6 397
-#192.168.137.228 WeidowsdeMBP.mshome.net # 2022 11 2 1 8 10 38 884
+192.168.137.220 Mi-11.mshome.net # 2023 9 6 30 9 4 33 142
+172.29.96.1 Weidows-win11.mshome.net # 2028 9 1 25 12 7 41 952
 
+
+
+
+
+ 15 0 56 32

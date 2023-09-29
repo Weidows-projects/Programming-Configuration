@@ -43,3 +43,25 @@
 104.26.0.199 hcaptcha-imgs.ecosec.on.epicgames.com #UHE_
 104.26.0.199 hcaptcha-endpoint.ecosec.on.epicgames.com #UHE_
 104.26.0.199 talon-website-prod.ecosec.on.epicgames.com #UHE_
+151.101.108.133 raw.githubusercontent.com #UHE_
+151.101.108.133 raw.github.com #UHE_
+151.101.108.133 camo.githubusercontent.com #UHE_
+151.101.108.133 cloud.githubusercontent.com #UHE_
+151.101.108.133 avatars.githubusercontent.com #UHE_
+151.101.108.133 avatars0.githubusercontent.com #UHE_
+151.101.108.133 avatars1.githubusercontent.com #UHE_
+151.101.108.133 avatars2.githubusercontent.com #UHE_
+151.101.108.133 avatars3.githubusercontent.com #UHE_
+151.101.108.133 user-images.githubusercontent.com #UHE_
+
+
+
+#-------- docker --------
+
+# Added by Docker Desktop
+192.168.1.5 host.docker.internal
+192.168.1.5 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+

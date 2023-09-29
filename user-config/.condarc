@@ -1,3 +1,4 @@
+# https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html
 channels:
   - conda-forge
   - pytorch
@@ -15,5 +16,12 @@ custom_channels:
   pytorch: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch-lts: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+# 路径不对的话, 有可能是 envs 目录权限问题
 envs_dirs:
   - D:\Scoop\apps\miniconda3\current\envs
+pkgs_dirs:
+  - D:\Scoop\apps\miniconda3\current\pkgs
+proxy_servers:
+    http: http://127.0.0.1:7890
+    https: https://127.0.0.1:7890
+ssl_verify: False

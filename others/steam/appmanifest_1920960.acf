@@ -1,32 +1,30 @@
 "AppState"
 {
-	"appid"		"365670"
+	"appid"		"1920960"
 	"Universe"		"1"
 	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
-	"name"		"Blender"
+	"name"		"VPet"
 	"StateFlags"		"4"
-	"installdir"		"Blender"
-	"LastUpdated"		"1695762066"
-	"SizeOnDisk"		"1139316003"
+	"installdir"		"VPet"
+	"LastUpdated"		"1695920796"
+	"SizeOnDisk"		"615217841"
 	"StagingSize"		"0"
-	"buildid"		"12282274"
+	"buildid"		"12309168"
 	"LastOwner"		"76561198321099712"
-	"UpdateResult"		"0"
-	"BytesToDownload"		"35681008"
-	"BytesDownloaded"		"35681008"
-	"BytesToStage"		"945577970"
-	"BytesStaged"		"945577970"
-	"TargetBuildID"		"12282274"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
 	"InstalledDepots"
 	{
-		"365671"
+		"1920961"
 		{
-			"manifest"		"2515479382630842463"
-			"size"		"1139316003"
+			"manifest"		"3924166181046668006"
+			"size"		"615217841"
 		}
+	}
+	"SharedDepots"
+	{
+		"229007"		"228980"
 	}
 	"UserConfig"
 	{

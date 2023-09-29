@@ -1,3 +1,2 @@
-Chocolatey v1.2.1
-Directory 'D:\Scoop\apps\WingetUI\current\choco-cli\lib' does not exist.
-0 packages installed.
+Chocolatey v2.2.2
+Invalid argument -l. This argument has been removed from the list command and cannot be used.

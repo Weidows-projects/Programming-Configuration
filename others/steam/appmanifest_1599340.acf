@@ -4,29 +4,28 @@
 	"Universe"		"1"
 	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"Lost Ark"
-	"StateFlags"		"1030"
+	"StateFlags"		"4"
 	"installdir"		"Lost Ark"
-	"LastUpdated"		"1676741509"
-	"SizeOnDisk"		"79618135202"
-	"StagingSize"		"1222787068"
-	"buildid"		"10543655"
+	"LastUpdated"		"1695919421"
+	"SizeOnDisk"		"88571104660"
+	"StagingSize"		"0"
+	"buildid"		"12293391"
 	"LastOwner"		"76561198321099712"
-	"UpdateResult"		"4"
-	"BytesToDownload"		"331082624"
-	"BytesDownloaded"		"9306800"
-	"BytesToStage"		"1223297090"
-	"BytesStaged"		"144560521"
-	"TargetBuildID"		"10608846"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"417807216"
+	"BytesDownloaded"		"417807216"
+	"BytesToStage"		"1181921658"
+	"BytesStaged"		"1181921658"
+	"TargetBuildID"		"12293391"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
-	"FullValidateAfterNextUpdate"		"1"
 	"InstalledDepots"
 	{
 		"1599341"
 		{
-			"manifest"		"6643227259079312420"
-			"size"		"79618135202"
+			"manifest"		"1381597595969615839"
+			"size"		"88571104660"
 		}
 	}
 	"InstallScripts"
@@ -36,15 +35,6 @@
 	"SharedDepots"
 	{
 		"228988"		"228980"
-	}
-	"StagedDepots"
-	{
-		"1599341"
-		{
-			"manifest"		"6516826914674184246"
-			"size"		"79617085882"
-			"dlcappid"		"0"
-		}
 	}
 	"UserConfig"
 	{
