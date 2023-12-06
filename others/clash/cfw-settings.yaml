@@ -25,14 +25,17 @@ bypassText: |
     - 172.30.*
     - 172.31.*
     - 192.168.*
-    - '*sharepoint.com'
-    - 'web.lpan.cc'
-    - '*helloimg.com'
-    - "login.microsoftonline.com"
+    - "*akamaized.net"
     - "*cygames.jp"
-    - "*epicgames.com"
+    - "*dmm.com"
+    - "login.microsoftonline.com"
+    - "*helloimg.com"
+    - "*sharepoint.com"
+    - "web.lpan.cc"
     - "*imagehub.cc"
     - "*jm-comic.org"
+    - "*graph.microsoft.com"
+    - "zukijourney.xyzbot.net"
     - <local>
 connProfile: true
 showNotifications: false
@@ -51,7 +54,7 @@ shortcutSystemProxy: ""
 specifyHttpProxyProtocol: false
 runTimeFormat: "hh : mm : ss"
 interfaceName: WLAN
-childProcessText: >
+childProcessText: |
   processes:
     # - command: bark-helper-go.exe # 程序名称
     #   args:
@@ -62,22 +65,21 @@ childProcessText: >
     #   log: true # 将在 cwd 目录生成输出日志
 
     # 开机软件
-    - command: D:\Scoop\apps\steam\current\steamapps\common\MyDockFinder\Dock_64.exe
+    - command: sfp_ui.exe
+    - command: memreduct.exe
+    # - command: common-starter.exe
+    #   args:
+    #     - D:\Scoop\apps\steampp\current\Steam++.exe
     - command: D:\Scoop\apps\mouseinc\current\MouseInc.exe
     - command: D:\Scoop\apps\utools-persist\current\uTools.exe
-    # - command: D:\Scoop\apps\RunCat-zhiyin\current\RunCat.exe
-    - command: D:\Scoop\apps\Foxmail\current\Foxmail.exe
-    - command: D:\Scoop\apps\Windhawk-Portable\current\Windhawk\windhawk.exe
-    - command: TicKeys.exe
-    - command: memreduct.exe
-    - command: rainmeter.exe
-    - command: bLend.exe
-    - command: dsg.exe
+    - command: mactray.exe
+    - command: common-starter.exe
       args:
-        - "F:"
+        - D:\Repos\Weidows-projects\Keeper\utils.bat
+    # 打不开 
 trayColorTransparent: true
 latencyUrl: ""
-lightweightMode: true
+lightweightMode: false
 showProxyFilter: true
 hideUnselectableGroup: true
 useSystemEmoji: true
@@ -86,64 +88,62 @@ trayOrders:
   - - status
     - traffic
     - text
-mixinText: >
-  mixin: # object
-    # https://github.com/txyyh/ClashFiles
-    # 1. clash DNS 请求逻辑：
-    #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
-    #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
-    #   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
-    #
-    #   因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
-    #   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
-    #
-    # 2. clash DNS 配置注意事项：
-    #   (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 或 https:// 开头的 DNS 服务器，但是通常对于国内域名没有必要。
-    #   (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
-    #
-    # 3. 关于 DNS over HTTPS (DoH) 和 DNS over TLS (DoT) 的选择：
-    #   对于两项技术双方各执一词，而且会无休止的争论，各有利弊。各位请根据具体需求自行选择，但是配置文件内默认启用 DoT，因为目前国内没有封锁或管制。
-    #   DoH: 以 https:// 开头的 DNS 服务器。拥有更好的伪装性，且几乎不可能被运营商或网络管理封锁，但查询效率和安全性可能略低。
-    #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
-    #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
-    dns:
-      enable: true # 是否启用dns false
-      ipv6: false
-      enhanced-mode: fake-ip # 模式：redir-host或fake-ip
-      fake-ip-range: 198.18.0.1/16
-      fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-        - '*.lan'
-        - localhost.ptlogin2.qq.com
-      default-nameserver:
-        - 223.5.5.5 # 阿里DNS
-        - 119.29.29.29 # 腾讯DNS
-        #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-      nameserver:
-        #- 180.76.76.76 # 百度DNS
-        #- 119.29.29.29 # 腾讯DNS
-        #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-        #- 114.114.114.114 # 114DNS
-        - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-        - https://doh.pub/dns-query #腾讯DNSPod DOH
-        #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
-        #- https://dns.nextdns.io/dns-query # NextDNS DOH
-        #- https://doh.360.cn/dns-query # 360 DoH DNS
-      fallback:
-        #- 8.8.8.8 # Google DNS
-        #- 1.1.1.1 # Cloudflare DNS
-        #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
-        #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
-        #- https://dns.nextdns.io/dns-query # NextDNS DOH
-        #- https://cloudflare-dns.com/dns-query # Cloudflare DoH DNS
-        - tls://b.iqiq.io:853              # iQDNS DoT
-        - https://i.233py.com/dns-query    # GEEKDNS China DoH
-        - https://doh.opendns.com/dns-query # OpenDNS DoH
-        #- https://doh.dns.sb/dns-query # DNS.sb DoH
-        #- https://dns.google/dns-query # Google DoH DNS
-      fallback-filter:
-        geoip: true # 默认
-        ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-          - 240.0.0.0/4
+mixinText: |-
+  dns:
+    enable: false # 是否启用dns false
+    ipv6: false
+    enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+    fake-ip-range: 198.18.0.1/16
+    fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+      - '*.lan'
+      - localhost.ptlogin2.qq.com
+    default-nameserver:
+      - 114.114.114.114
+      - 8.8.8.8
+      - 223.5.5.5 # 阿里DNS
+      - 119.29.29.29 # 腾讯DNS
+      #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
+    nameserver:
+      - https://dns.rubyfish.cn/dns-query
+      - https://223.5.5.5/dns-query
+      #- 180.76.76.76 # 百度DNS
+      #- 119.29.29.29 # 腾讯DNS
+      #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
+      #- 114.114.114.114 # 114DNS
+      - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+      - https://doh.pub/dns-query #腾讯DNSPod DOH
+      #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
+      #- https://dns.nextdns.io/dns-query # NextDNS DOH
+      #- https://doh.360.cn/dns-query # 360 DoH DNS
+    fallback:
+      - https://1.0.0.1/dns-query
+      - https://public.dns.iij.jp/dns-query
+      - https://dns.twnic.tw/dns-query
+      #- 8.8.8.8 # Google DNS
+      #- 1.1.1.1 # Cloudflare DNS
+      #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
+      #- https://dns.rubyfish.cn/dns-query # 红鱼 DoH DNS
+      #- https://dns.nextdns.io/dns-query # NextDNS DOH
+      #- https://cloudflare-dns.com/dns-query # Cloudflare DoH DNS
+      - tls://b.iqiq.io:853              # iQDNS DoT
+      - https://i.233py.com/dns-query    # GEEKDNS China DoH
+      - https://doh.opendns.com/dns-query # OpenDNS DoH
+      #- https://doh.dns.sb/dns-query # DNS.sb DoH
+      #- https://dns.google/dns-query # Google DoH DNS
+    fallback-filter:
+      geoip: true # 默认
+      ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+        - 240.0.0.0/4
+        - 0.0.0.0/32
+        - 127.0.0.1/32
+      domain:
+        - +.google.com
+        - +.facebook.com
+        - +.youtube.com
+        - +.xn--ngstr-lra8j.com
+        - +.google.cn
+        - +.googleapis.cn
+        - +.gvt1.com
 profileParsersText: >
   # https://docs.cfw.lbyczf.com/contents/parser.html
 
@@ -381,8 +381,8 @@ profileParsersText: >
           - name: 🔯代理模式(漏网之鱼)
             type: select
             proxies:
-              - 🔰选择节点 # 白名单模式，意为「没有命中规则的网络流量，统统使用代理」
               - DIRECT # 黑名单模式，意为「只有命中规则的网络流量，才使用代理」
+              - 🔰选择节点 # 白名单模式，意为「没有命中规则的网络流量，统统使用代理」
 
           # - name: 🎵网易云解锁
           #   type: select
@@ -396,52 +396,39 @@ profileParsersText: >
           - name: 🛑广告拦截
             type: select
             proxies:
-              - 🔰选择节点
               - DIRECT
               - REJECT
+              - 🔰选择节点
 
           - name: 😇NewBing
             type: select
             proxies:
-              - 🔰选择节点
               - DIRECT
+              - 🔰选择节点
 
           - name: 👀Github
             type: select
             proxies:
-              - 🔰选择节点
               - DIRECT
+              - 🔰选择节点
 
           - name: 🎮Steam
             type: select
             proxies:
-              - 🔰选择节点
               - DIRECT
+              - 🔰选择节点
 
           - name: 🌏爱奇艺&哔哩哔哩
             type: select
             proxies:
-              - DIRECT
               - 🔰选择节点
+              - DIRECT
 
           - name: 📺动画疯
             type: select
             proxies:
-              - 🔰选择节点
               - DIRECT
-
-        commands:
-          # 一些可能用到的正则过滤节点示例，使分组更细致
-          # []proxyNames|a                         # 包含a
-          # []proxyNames|^(.*)(a|b)+(.*)$          # 包含a或b
-          # []proxyNames|^(?=.*a)(?=.*b).*$        # 包含a和b
-          # []proxyNames|^((?!b).)*a((?!b).)*$     # 包含a且不包含b
-          # []proxyNames|^((?!b|c).)*a((?!b|c).)*$ # 包含a且不包含b或c
-          # 向指定策略组添加订阅中的节点名，可使用正则过滤
-          - proxy-groups.(🔰选择节点).proxies.4+[]proxyNames |^((?!网易云解锁).)*$
-          - proxy-groups.(🤖自动选择).proxies=[]proxyNames |^((?!网易云解锁).)*$
-          - proxy-groups.(💯负载均衡).proxies=[]proxyNames |^((?!网易云解锁).)*$
-          - proxy-groups.(🚑故障转移).proxies=[]proxyNames |^((?!网易云解锁).)*$
+              - 🔰选择节点
 
         # append-proxies:
         #   - name: 🎵网易云解锁(本地)
@@ -471,6 +458,20 @@ profileParsersText: >
         #     username: ""
         #     password: ""
         #     tls: false
+
+        commands:
+          # 一些可能用到的正则过滤节点示例，使分组更细致
+          # []proxyNames|a                         # 包含a
+          # []proxyNames|^(.*)(a|b)+(.*)$          # 包含a或b
+          # []proxyNames|^(?=.*a)(?=.*b).*$        # 包含a和b
+          # []proxyNames|^((?!b).)*a((?!b).)*$     # 包含a且不包含b
+          # []proxyNames|^((?!b|c).)*a((?!b|c).)*$ # 包含a且不包含b或c
+          # 向指定策略组添加订阅中的节点名，可使用正则过滤
+          - proxy-groups.(🔰选择节点).proxies.4+[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(🤖自动选择).proxies=[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(💯负载均衡).proxies=[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(🚑故障转移).proxies=[]proxyNames |^((?!网易云解锁).)*$
+          - proxy-groups.(🎮Steam).proxies.2+[]proxyNames |^((?!网易云解锁).)*$
 
         # 添加规则
         prepend-rules: # 规则由上往下遍历，如上面规则已经命中，则不再往下处理
@@ -503,18 +504,11 @@ profileParsersText: >
           # - IP-CIDR,193.112.159.225/32,🎵网易云解锁,no-resolve
           # - IP-CIDR,223.252.199.66/31,🎵网易云解锁,no-resolve
 
-          - DOMAIN-SUFFIX,steamcommunity.com,🎮Steam
-          - DOMAIN-SUFFIX,steamserver.net,🎮Steam
-          - DOMAIN-SUFFIX,steamstatic.com,🎮Steam
-          - DOMAIN-SUFFIX,steamstat.us,🎮Steam
-          - DOMAIN,steambroadcast.akamaized.net,🎮Steam
-          - DOMAIN,steamcdn-a.akamaihd.net,🎮Steam
-          - DOMAIN,steamcommunity-a.akamaihd.net,🎮Steam
-          - DOMAIN,steamstore-a.akamaihd.net,🎮Steam
-          - DOMAIN,steamusercontent-a.akamaihd.net,🎮Steam
-          - DOMAIN,steamuserimages-a.akamaihd.net,🎮Steam
-          - DOMAIN,store.steampowered.com,🎮Steam
-          - DOMAIN-SUFFIX,cm.steampowered.com,🎮Steam
+          - RULE-SET,SteamCN,DIRECT
+          - RULE-SET,Steam,🎮Steam
+          - PROCESS-NAME,steam.exe,🎮Steam
+          - PROCESS-NAME,steamservice.exe,🎮Steam
+          - PROCESS-NAME,steamwebhelper.exe,🎮Steam
 
           - IP-CIDR,103.151.150.0/23,🌏爱奇艺&哔哩哔哩
           - DOMAIN,app.biliapi.net,🌏爱奇艺&哔哩哔哩
@@ -550,31 +544,13 @@ profileParsersText: >
           - DOMAIN-SUFFIX,bahamut.com.tw,📺动画疯
           - DOMAIN-SUFFIX,gamer.com.tw,📺动画疯
 
-          - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
-          - DOMAIN-SUFFIX,steamchina.com,DIRECT
-          - DOMAIN-SUFFIX,steampipe-kr.akamaized.net,DIRECT
-          - DOMAIN-SUFFIX,steampipe-partner.akamaized.net,DIRECT
-          - DOMAIN-SUFFIX,steampipe.akamaized.net,DIRECT
-          - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-          - DOMAIN-SUFFIX,csgo.wmsj.cn,DIRECT
-          - DOMAIN-SUFFIX,dota2.wmsj.cn,DIRECT
-          - DOMAIN-SUFFIX,wmsjsteam.com,DIRECT
-          - DOMAIN-SUFFIX,dl.steam.clngaa.com,DIRECT
-          - DOMAIN-SUFFIX,dl.steam.ksyna.com,DIRECT
-          - DOMAIN-SUFFIX,st.dl.bscstorage.net,DIRECT
-          - DOMAIN-SUFFIX,st.dl.eccdnx.com,DIRECT
-          - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,DIRECT
-          - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com,DIRECT
-          - DOMAIN-SUFFIX,steampowered.com.8686c.com,DIRECT
-          - DOMAIN-SUFFIX,steamstatic.com.8686c.com,DIRECT
-          - DOMAIN-SUFFIX,steamchina.com,DIRECT
-
-          # 让下载软件走代理
-          # - RULE-SET,applications,DIRECT
-          - RULE-SET,github,👀Github
-          - RULE-SET,applications,🔰选择节点
           - DOMAIN,clash.razord.top,DIRECT
           - DOMAIN,yacd.haishan.me,DIRECT
+
+          - GEOIP,CN,DIRECT
+          - RULE-SET,direct,DIRECT
+          - RULE-SET,github,👀Github
+          - RULE-SET,applications,🔰选择节点 # 让下载软件走代理
           - RULE-SET,private,DIRECT
           - RULE-SET,reject,🛑广告拦截
           - RULE-SET,icloud,DIRECT #
@@ -586,15 +562,19 @@ profileParsersText: >
           - RULE-SET,telegramcidr,🔰选择节点
           - RULE-SET,lancidr,DIRECT
           - RULE-SET,cncidr,DIRECT
-          # - GEOIP,,DIRECT
-          - GEOIP,,🔰选择节点
-          - GEOIP,CN,DIRECT
-          - RULE-SET,direct,DIRECT
+          - GEOIP,,🔰选择节点 # - GEOIP,,DIRECT
           - RULE-SET,proxy,🔯代理模式(漏网之鱼)
           - MATCH,🔯代理模式(漏网之鱼) # 规则之外的
 
         # 添加规则集
         mix-rule-providers:
+          github: # Github 域名列表
+            type: http
+            behavior: domain
+            url: "https://cdn.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@latest/others/clash/github.txt"
+            # path: ./ruleset/github.yaml
+            interval: 86400
+
           reject: # 广告域名列表
             type: http
             behavior: domain
@@ -623,18 +603,18 @@ profileParsersText: >
             # path: ./ruleset/google.yaml
             interval: 86400
 
-          proxy: # 代理域名列表
-            type: http
-            behavior: domain
-            url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-            # path: ./ruleset/proxy.yaml
-            interval: 86400
-
           direct: # 直连域名列表
             type: http
             behavior: domain
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
             # path: ./ruleset/direct.yaml
+            interval: 86400
+
+          proxy: # 代理域名列表
+            type: http
+            behavior: domain
+            url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+            # path: ./ruleset/proxy.yaml
             interval: 86400
 
           private: # 私有网络专用域名列表
@@ -692,12 +672,18 @@ profileParsersText: >
             url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
             # path: ./ruleset/applications.yaml
             interval: 86400
-
-          github: # Github 域名列表
+            
+          # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/SteamCN/README.md
+          SteamCN:
             type: http
-            behavior: domain
-            url: "https://cdn.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@latest/others/clash/github.txt"
-            # path: ./ruleset/github.yaml
+            behavior: classical
+            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml"
+            interval: 86400
+          # https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Steam/README.md
+          Steam:
+            type: http
+            behavior: classical
+            url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml"
             interval: 86400
 
         # # experimental hosts, support wildcard (e.g. *.clash.dev Even *.foo.*.example.com)
@@ -718,8 +704,12 @@ showTrayProxyDelayIndicator: true
 randomMixedPort: false
 headersText: |
   headers: # object
-editProfileWithCFWEditor: true
+editProfileWithCFWEditor: false
 scriptsText: |
   scripts:
     proxy: {}
     profile: {}
+useModeIcons: false
+trayProxiesStyle: 2
+proxyDelayType: 1
+checkForUpdates: true

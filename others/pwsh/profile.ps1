@@ -11,12 +11,12 @@
 # Function OPENHERE    { Start-Process -FilePath "explorer" -ArgumentList "."}
 # Function CODEHERE    { Start-Process -FilePath "code-insiders" -ArgumentList "."}
 
-
 # ======================================================================== #
 #                               pwsh 配置
 # ======================================================================== #
 # 设置主题 (Get-PoshThemes $env:SCOOP\persist\oh-my-posh\themes) / https://ohmyposh.dev/docs/themes
 oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/markbull.omp.json" | Invoke-Expression
+# Invoke-Expression (&starship init powershell)
 
 # 解决这种报错: WARNING: The prediction 'ListView' is temporarily disabled because the current window size of the console is too small. To use the 'ListView', please make
 # https://stackoverflow.com/questions/73864754/why-do-i-get-a-warning-about-listview-in-terminal-powershell-in-vscode
@@ -24,7 +24,7 @@ $WarningPreference = "SilentlyContinue"
 iex "$(thefuck --alias)"
 
 # 设置终端代理 (终端默认不会走代理)
-# $Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="https://127.0.0.1:7890"
+$Env:http_proxy="http://127.0.0.1:7890";$Env:https_proxy="http://127.0.0.1:7890"
 
 # Enable Prediction History
 Set-PSReadLineOption -PredictionSource History
@@ -71,10 +71,13 @@ Import-Module posh-git
 Import-Module posh-docker
 # Import-Module PowerShellAI
 Import-Module yarn-completion
+
+Import-Module $env:SCOOP\apps\vcpkg\current\scripts\posh-vcpkg
 # Import-Module posh-cd
 # Import-Module posh-maven
 Set-PSReadlineKeyHandler -Key Tab -ScriptBlock { Invoke-GuiCompletion }
-Invoke-Expression (&scoop-search-multisource --hook) -ErrorAction SilentlyContinue
+# Invoke-Expression (&scoop-search-multisource --hook) -ErrorAction SilentlyContinue
+Invoke-Expression (&scoop-search --hook)
 
 function sct{scoop status}
 function scu{

@@ -2,15 +2,21 @@
 {
 	"appid"		"1920960"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"VPet"
 	"StateFlags"		"4"
 	"installdir"		"VPet"
-	"LastUpdated"		"1695920796"
-	"SizeOnDisk"		"615217841"
+	"LastUpdated"		"1701206367"
+	"SizeOnDisk"		"1220755495"
 	"StagingSize"		"0"
-	"buildid"		"12309168"
+	"buildid"		"12820402"
 	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"43705930"
+	"BytesStaged"		"43705930"
+	"TargetBuildID"		"12820402"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -18,8 +24,14 @@
 	{
 		"1920961"
 		{
-			"manifest"		"3924166181046668006"
-			"size"		"615217841"
+			"manifest"		"915177299726216231"
+			"size"		"711506110"
+		}
+		"2607351"
+		{
+			"manifest"		"7490087927479169012"
+			"size"		"509249385"
+			"dlcappid"		"2607350"
 		}
 	}
 	"SharedDepots"
@@ -29,9 +41,13 @@
 	"UserConfig"
 	{
 		"language"		"english"
+		"optionaldlc"		""
+		"DisabledDLC"		"2639250"
 	}
 	"MountedConfig"
 	{
 		"language"		"english"
+		"optionaldlc"		""
+		"DisabledDLC"		"2639250"
 	}
 }

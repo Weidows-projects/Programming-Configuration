@@ -18,13 +18,14 @@ husky 8.0.3
 node-gyp 9.4.0
 npm-check 6.0.1
 pake-cli 2.1.12
-pnpm 8.8.0
+pnpm 8.10.5
 release-it 15.10.3
 tldr 3.3.8
+ts-node 10.9.1
 typescript 5.0.4
 uglify-js 3.17.4
 vite-cli 1.0.0
 webpack 5.82.1
 webpack-cli 5.1.1
-yarn 1.22.19
+yarn 1.22.21
 yrm 1.0.6

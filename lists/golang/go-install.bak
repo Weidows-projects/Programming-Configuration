@@ -1,7 +1,6 @@
 air.exe
+common-starter.exe
 dlv.exe
-dsg.exe
-dsg.exe~
 gmm.exe
 go-outline.exe
 goctl.exe
@@ -10,11 +9,14 @@ gopkgs.exe
 goplay.exe
 gopls.exe
 gopls.exe~
+goreadme.exe
 gotests.exe
-jpu.exe
+keep-runner.exe
+pkgsite.exe
 powerline-go.exe
 protoc-gen-auxo.exe
 protoc-gen-go.exe
 revive.exe
 staticcheck.exe
+subdir-extracter.exe
 wails.exe

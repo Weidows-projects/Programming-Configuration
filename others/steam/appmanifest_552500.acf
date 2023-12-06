@@ -2,21 +2,21 @@
 {
 	"appid"		"552500"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"Warhammer: Vermintide 2"
 	"StateFlags"		"4"
 	"installdir"		"Warhammer Vermintide 2"
-	"LastUpdated"		"1693171714"
-	"SizeOnDisk"		"104396581754"
+	"LastUpdated"		"1699554991"
+	"SizeOnDisk"		"60234892300"
 	"StagingSize"		"0"
-	"buildid"		"11558194"
+	"buildid"		"12610298"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"11375067360"
-	"BytesDownloaded"		"11375067360"
-	"BytesToStage"		"16071802869"
-	"BytesStaged"		"16071802869"
-	"TargetBuildID"		"11558194"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"68257058"
+	"BytesStaged"		"68257058"
+	"TargetBuildID"		"12610298"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,18 +24,18 @@
 	{
 		"552501"
 		{
-			"manifest"		"2743374045327100798"
-			"size"		"104246158351"
+			"manifest"		"6108224137418995406"
+			"size"		"59907169614"
 		}
 		"552502"
 		{
-			"manifest"		"6453449150827243472"
-			"size"		"44539346"
+			"manifest"		"7838755887426284"
+			"size"		"118121116"
 		}
 		"552503"
 		{
-			"manifest"		"8378810090124834676"
-			"size"		"105884057"
+			"manifest"		"211455963358286942"
+			"size"		"209601570"
 		}
 	}
 	"InstallScripts"

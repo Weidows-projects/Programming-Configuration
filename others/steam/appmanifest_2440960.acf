@@ -1,40 +1,37 @@
 "AppState"
 {
-	"appid"		"1599340"
+	"appid"		"2440960"
 	"Universe"		"1"
 	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
-	"name"		"Lost Ark"
+	"name"		"Life Makeover"
 	"StateFlags"		"6"
-	"installdir"		"Lost Ark"
-	"LastUpdated"		"1700341983"
-	"SizeOnDisk"		"95198795440"
+	"installdir"		"LifeMakeoverCN"
+	"LastUpdated"		"1700162591"
+	"SizeOnDisk"		"5533796979"
 	"StagingSize"		"0"
-	"buildid"		"12712789"
+	"buildid"		"12671835"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"13874595"
+	"BytesToDownload"		"445482386"
 	"BytesDownloaded"		"0"
-	"BytesToStage"		"2064005258"
+	"BytesToStage"		"9741368618"
 	"BytesStaged"		"0"
-	"TargetBuildID"		"12768649"
+	"TargetBuildID"		"12823626"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
-	"ScheduledAutoUpdate"		"1701803447"
+	"ScheduledAutoUpdate"		"1702333365"
 	"InstalledDepots"
 	{
-		"1599341"
+		"2440961"
 		{
-			"manifest"		"1882756160704138397"
-			"size"		"95198795440"
+			"manifest"		"7255016917914439555"
+			"size"		"5533796979"
 		}
-	}
-	"InstallScripts"
-	{
-		"1599341"		"Binaries\\Win64\\installscript.vdf"
 	}
 	"SharedDepots"
 	{
-		"228988"		"228980"
+		"228989"		"228980"
+		"228990"		"228980"
 	}
 	"UserConfig"
 	{

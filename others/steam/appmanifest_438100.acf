@@ -2,21 +2,21 @@
 {
 	"appid"		"438100"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"VRChat"
 	"StateFlags"		"4"
 	"installdir"		"VRChat"
-	"LastUpdated"		"1694661948"
-	"SizeOnDisk"		"1052062691"
+	"LastUpdated"		"1699554978"
+	"SizeOnDisk"		"1119984448"
 	"StagingSize"		"0"
-	"buildid"		"12126361"
+	"buildid"		"12655303"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"40761840"
-	"BytesDownloaded"		"40761840"
-	"BytesToStage"		"695650754"
-	"BytesStaged"		"695650754"
-	"TargetBuildID"		"12126361"
+	"BytesToDownload"		"33995488"
+	"BytesDownloaded"		"33995488"
+	"BytesToStage"		"246349037"
+	"BytesStaged"		"246349037"
+	"TargetBuildID"		"12655303"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,8 +24,8 @@
 	{
 		"438101"
 		{
-			"manifest"		"8008128395415543089"
-			"size"		"1052062691"
+			"manifest"		"7827598541883284945"
+			"size"		"1119984448"
 		}
 	}
 	"InstallScripts"
@@ -40,9 +40,11 @@
 	"UserConfig"
 	{
 		"language"		"english"
+		"BetaKey"		"l-test"
 	}
 	"MountedConfig"
 	{
 		"language"		"english"
+		"BetaKey"		"l-test"
 	}
 }

@@ -1,0 +1,45 @@
+debug: false
+parallel:
+  dsg: true
+  ol: true
+
+dsg:
+  disk:
+    - "F:"
+  #  delay: 这样不设置会置空, 而不是取 default
+  delay: 30
+
+ol:
+  delay: 2
+  patterns:
+    - title: "xyplorer"
+      opacity: 200
+    - title: "XYplorer"
+      opacity: 200
+    - title: "- Microsoft​ Edge$"
+      opacity: 200
+    - title: "Work"
+      opacity: 180
+    - title: "- Visual Studio Code"
+      opacity: 180
+
+    # windows terminal
+    - title: "cmd.exe"
+      opacity: 210
+    - title: "PowerShell"
+      opacity: 210
+
+    # app
+    - title: "微信"
+      opacity: 200
+    - title: "Steam"
+      opacity: 200
+    - title: "WingetUI"
+      opacity: 200
+
+    # Jetbrains
+    - title: "wutils"
+      opacity: 200
+
+    - title: "设置"
+      opacity: 200

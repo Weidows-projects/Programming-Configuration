@@ -1,1 +1,37 @@
 scanning packages ..
+[0m[35;1mcmake-3.26.4[0m:[0m
+[0m[35;1mfreeglut-v3.4.0[0m:[0m
+[0m  -> [33maa973b1de3654d9ebafd7b6b1250f003[0m: [32mwindows, x64[0m
+    -> {debug=false,pic=true,shared=true,vs_runtime="MT"}
+[0m  -> [33mecd1b0da1bea4fa7a65d89199e84198d[0m: [32m, [0m[0m, [31mempty[0m
+[0m[35;1mglad-v0.1.36[0m:[0m
+[0m  -> [33mc0f19a086c6248ac8fac6bbf06ba2db5[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33md58ee23747ff411aae74b40986460499[0m: [32mwindows, x64[0m
+    -> {debug=false,pic=true,shared=false,vs_runtime="MT"}
+[0m[35;1mglew-2.2.0[0m:[0m
+[0m  -> [33m618c7b92c819453eaa1a00a41d1d32e3[0m: [32mwindows, x64[0m
+    -> {debug=false,pic=true,shared=false,vs_runtime="MT"}
+[0m[35;1mglfw-3.3.8[0m:[0m
+[0m  -> [33mcabc5c835c6c46aba3e482b035438c4d[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33md12e591897c9472fb7d3725fa5811388[0m: [32mwindows, x64[0m
+    -> {debug=false,glfw_include="none",pic=true,shared=false,vs_runtime="MT"}
+[0m[35;1mglm-0.9.9+8[0m:[0m
+[0m  -> [33m7e3521425ef9429c8e009a2a7406e499[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33m8335bab7c0314ab9921440de58961aac[0m: [32mwindows, x64[0m
+    -> {debug=false,pic=true,shared=false,vs_runtime="MT"}
+[0m[35;1mglu-latest[0m:[0m
+[0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33ma4f953d54b5d41c8a5d485c82005b2bd[0m: [32m, [0m[0m, [31mempty[0m
+[0m[35;1mjsoncpp-1.9.5[0m:[0m
+[0m  -> [33m781d6f706fec49f9b590716bd85e7f42[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33me6618a0d6df14abea03ff7386675b09a[0m: [32mwindows, x64[0m
+    -> {debug=false,pic=true,shared=false,vs_runtime="MT"}
+[0m[35;1mopencv-4.8.0[0m:[0m
+[0m  -> [33m02ae2c0e3f3549399f27b610f868d60e[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33m69684747aed04b64833b165b90454f36[0m: [32mwindows, x64[0m
+    -> {["1394"]=true,bundled=true,cuda=false,debug=false,dynamic_parallel=false,eigen=true,ffmpeg=true,gstreamer=false,gtk=false,halide=false,ipp=false,itt=false,jasper=false,jpeg=true,obsensor=false,openexr=false,opengl=true,openjpeg=false,openmp=false,pic=true,png=true,protobuf=true,quirc=true,shared=false,tbb=false,tesseract=false,tiff=true,vs_runtime="MT",vtk=false,vulkan=false,webp=true}
+[0m[35;1mopengl-latest[0m:[0m
+[0m  -> [33m8574311f4b544fa89a3d8c3ee79d1929[0m: [32m, [0m[0m, [31mempty[0m
+[0m  -> [33ma4f953d54b5d41c8a5d485c82005b2bd[0m: [32m, [0m[0m, [31mempty[0m
+[0m[35;1mpython-3.11.3[0m:[0m
+[0m  -> [33mb63acf141c4647adafd6ef6d617033af[0m: [32m, [0m[0m, [31munused[0m

@@ -2,7 +2,7 @@
 {
 	"appid"		"400040"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"ShareX"
 	"StateFlags"		"4"
 	"installdir"		"ShareX"
