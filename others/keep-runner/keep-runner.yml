@@ -39,7 +39,11 @@ ol:
 
     # Jetbrains
     - title: "wutils"
-      opacity: 200
+      opacity: 210
+    - title: "Database"
+      opacity: 210
+    - title: "FM-APIs – "
+      opacity: 210
 
     - title: "设置"
       opacity: 200

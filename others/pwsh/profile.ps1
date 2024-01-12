@@ -14,6 +14,8 @@
 # ======================================================================== #
 #                               pwsh 配置
 # ======================================================================== #
+# https://lamirs.vercel.app/index-powershell/
+
 # 设置主题 (Get-PoshThemes $env:SCOOP\persist\oh-my-posh\themes) / https://ohmyposh.dev/docs/themes
 oh-my-posh init pwsh --config "$env:SCOOP/persist/oh-my-posh/themes/markbull.omp.json" | Invoke-Expression
 # Invoke-Expression (&starship init powershell)
