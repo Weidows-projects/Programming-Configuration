@@ -1,1 +1,41 @@
-D:\Scoop\global\shims;C:\WINDOWS\system32\WBEM;C:\WINDOWS\system32\WBEM;C:\WINDOWS\system32\WBEM;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Scoop\apps\latex\current\texmfs\install\miktex\bin\x64;D:\Scoop\apps\winlibs-mingw-llvm-msvcrt\current\bin;D:\Scoop\apps\nvm\current\nodejs\nodejs;D:\Scoop\apps\nvm\current\bin;D:\Scoop\apps\anaconda3\current\Scripts;D:\Scoop\apps\anaconda3\current\Library\bin;D:\Scoop\apps\openjdk8-redhat\current\bin;D:\Scoop\apps\openjdk\current\bin;D:\Scoop\apps\maven\current\bin;D:\Scoop\apps\go-cn\current\global_path\bin;D:\Scoop\apps\cudnn\current\bin;D:\Scoop\apps\cuda11.3\current\bin;D:\Scoop\apps\cuda11.3\current\libnvvp;D:\Scoop\apps\OneCommander\current;D:\Scoop\shims;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Administrator\.dotnet\tools;c:\users\administrator\.local\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\Scoop\apps\docker-desktop\nightly-20230715\resources\bin;D:\Scoop\apps\docker-desktop-with-compose\nightly-20230715\resources\bin;D:\Scoop\apps\docker-desktop-with-compose\nightly-20230716\resources\bin;D:\Scoop\apps\docker-desktop-with-compose\nightly-20230919\resources\bin;D:\Scoop\apps\docker-desktop-with-compose\nightly-20230919\docker\resources\bin;D:\Scoop\apps\docker-desktop-with-compose\nightly-20230920\docker\resources\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;D:\Scoop\apps\docker-desktop-with-compose\124339\docker\resources\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Scoop\apps\encore\current\bin;D:\Scoop\apps\openjdk\current\bin;D:\Scoop\apps\nvm\current\nodejs\nodejs;D:\Scoop\apps\nvm\current\pnpm\bin;D:\Scoop\apps\nvm\current\yarn\global\node_modules\.bin;D:\Scoop\apps\cygwin-libs-hentai\current\root\bin;D:\Scoop\apps\miktex\current\texmfs\install\miktex\bin\x64;D:\Scoop\apps\WingetUI\current\choco-cli\bin;D:\Scoop\apps\git-all\current\usr\bin;D:\Scoop\apps\gvm\current\.g\go\bin;D:\Scoop\apps\gvm\current\.go\GOPATH\bin;D:\Scoop\apps\miniconda3\current\scripts;D:\Scoop\apps\miniconda3\current\Library\bin;C:\Users\Administrator\.console-ninja\.bin;D:\Scoop\apps\rustup\current\.cargo\bin;D:\Scoop\apps\nvm\current\bin;D:\Scoop\apps\openjdk8-redhat\current\bin;D:\Scoop\apps\cudnn\current\bin;D:\Scoop\apps\cuda11.3\current\bin;D:\Scoop\apps\cuda11.3\current\libnvvp;D:\Scoop\apps\OneCommander\current;D:\Scoop\shims;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Administrator\.dotnet\tools;c:\users\administrator\.local\bin
+C:\WINDOWS\system32\WBEM
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\OpenSSH
+C:\Program Files\dotnet
+C:\Program Files (x86)\dotnet
+C:\WINDOWS\System32\WindowsPowerShell\v1.0
+C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts
+C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+C:\Users\Administrator\.dotnet\tools
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0
+C:\Program Files\dotnet\
+D:\Scoop\apps\gvm\current\.g\go\bin
+D:\Scoop\apps\gvm\current\.go\GOPATH\bin
+D:\Scoop\apps\encore\current\bin
+D:\Scoop\apps\vscode\current\bin
+D:\Scoop\shims
+D:\Scoop\apps\cygwin-libs-hentai\current\root\bin
+D:\Scoop\apps\latex\current\texmfs\install\miktex\bin\x64
+D:\Scoop\apps\jvms\current\store\current\bin
+D:\Scoop\apps\nvm\current\nodejs\nodejs
+D:\Scoop\apps\nvm\current\pnpm\bin
+D:\Scoop\apps\nvm\current\yarn\global\node_modules\.bin
+D:\Scoop\apps\nvm\current\bin
+D:\Scoop\apps\miktex\current\texmfs\install\miktex\bin\x64
+D:\Scoop\apps\WingetUI\current\choco-cli\bin
+D:\Scoop\apps\miniconda3\current\scripts
+D:\Scoop\apps\miniconda3\current\Library\bin
+D:\Scoop\apps\rustup\current\.cargo\bin
+D:\Scoop\apps\cudnn\current\bin
+D:\Scoop\apps\cuda11.3\current\bin
+D:\Scoop\apps\cuda11.3\current\libnvvp
+D:\Scoop\apps\OneCommander\current
+C:\Users\Administrator\.console-ninja\.bin
+C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps
+C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\scripts
+C:\Users\Administrator\.dotnet\tools
+c:\users\administrator\.local\bin

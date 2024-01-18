@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-12-01T03:45:30.125-00:00",
+	"CreationDate" : "2024-01-12T22:33:12.945-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,19 +8,15 @@
 			[
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools",
-					"Version" : "17.8.2"
+					"Version" : "17.8.4"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community",
-					"Version" : "17.8.2"
+					"Version" : "17.8.4"
 				},
 				{
 					"PackageIdentifier" : "DMM.GamePlayer",
-					"Version" : "5.2.32"
-				},
-				{
-					"PackageIdentifier" : "Xiaomi.MIUI+",
-					"Version" : "3.2.0.464"
+					"Version" : "5.2.34"
 				},
 				{
 					"PackageIdentifier" : "Docker.DockerDesktop",
@@ -28,27 +24,35 @@
 				},
 				{
 					"PackageIdentifier" : "Qingfeng.HeyboxAccelerator",
-					"Version" : "1.1.42"
+					"Version" : "1.1.45"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.RustRover",
+					"PackageIdentifier" : "JetBrains.RustRover.EAP",
 					"Version" : "2023.2 EAP"
 				},
 				{
-					"PackageIdentifier" : "Kingsoft.WPSOffice.CN",
-					"Version" : "12.1.0.15990"
-				},
-				{
-					"PackageIdentifier" : "Xiaomi.MiService",
-					"Version" : "3.3.1.306"
+					"PackageIdentifier" : "Kingsoft.WPSOffice",
+					"Version" : "12.1.0.16120"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "119.0.2151.97"
+					"Version" : "120.0.2210.133"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "119.0.2151.72"
+					"Version" : "120.0.2210.121"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
+					"Version" : "7.2208.15002.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
+					"Version" : "8.2310.30001.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
+					"Version" : "14.0.32530.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -72,7 +76,11 @@
 				},
 				{
 					"PackageIdentifier" : "Tencent.TencentMeeting",
-					"Version" : "3.19.30.495"
+					"Version" : "3.21.3.430"
+				},
+				{
+					"PackageIdentifier" : "Peppy.Osu!",
+					"Version" : "2023.1130.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -89,10 +97,6 @@
 				{
 					"PackageIdentifier" : "Cloudflare.Warp",
 					"Version" : "23.9.248.0"
-				},
-				{
-					"PackageIdentifier" : "VMware.WorkstationPro",
-					"Version" : "17.0.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.3_1",
@@ -187,8 +191,16 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
+					"Version" : "6.0.26"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.6",
+					"Version" : "6.0.26"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
@@ -197,10 +209,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
 					"Version" : "12.0.30501.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6",
-					"Version" : "6.0.25"
 				}
 			],
 			"SourceDetails" : 
@@ -212,5 +220,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.2771"
+	"WinGetVersion" : "1.6.3482"
 }

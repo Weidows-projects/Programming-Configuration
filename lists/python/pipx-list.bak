@@ -1,0 +1,18 @@
+venvs are in D:\Scoop\persist\pipx-poetry\pipx\venvs
+apps are exposed on your $PATH at D:\Scoop\shims
+manual pages are exposed at C:\Users\Administrator\.local\share\man
+   package open-interpreter 0.1.17, installed using Python 3.10.12
+    - interpreter.exe
+   package poetry 1.7.1, installed using Python 3.10.12
+    - poetry.exe
+   package pycowsay 0.0.0.2, installed using Python 3.10.12
+    - pycowsay.exe
+   package reflex 0.3.7, installed using Python 3.10.12
+    - reflex.exe
+   package snowmachine 2.0.1, installed using Python 3.10.12
+    - snowmachine.exe
+   package stitching 0.5.3, installed using Python 3.10.12
+    - stitch.exe
+   package thefuck 3.32, installed using Python 3.10.12
+    - fuck.exe
+    - thefuck.exe
