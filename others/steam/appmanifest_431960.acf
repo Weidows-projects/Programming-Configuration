@@ -2,14 +2,15 @@
 {
 	"appid"		"431960"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"Wallpaper Engine"
 	"StateFlags"		"4"
 	"installdir"		"wallpaper_engine"
-	"LastUpdated"		"1696404404"
-	"SizeOnDisk"		"8315862392"
+	"LastUpdated"		"1709006758"
+	"LastPlayed"		"1715107476"
+	"SizeOnDisk"		"8318695867"
 	"StagingSize"		"0"
-	"buildid"		"12348119"
+	"buildid"		"13565722"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
 	"BytesToDownload"		"0"
@@ -24,8 +25,8 @@
 	{
 		"431961"
 		{
-			"manifest"		"8073540000234746430"
-			"size"		"552892342"
+			"manifest"		"3682614711587149074"
+			"size"		"555725817"
 		}
 		"1790230"
 		{

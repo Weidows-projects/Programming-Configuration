@@ -1,0 +1,40 @@
+"AppState"
+{
+	"appid"		"1984350"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"打工吧！天使酱 ~天使在魔界的劳改生活~"
+	"StateFlags"		"4"
+	"installdir"		"打工吧！天使酱 ~天使在魔界的劳改生活~"
+	"LastUpdated"		"1715439155"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"375069409"
+	"StagingSize"		"0"
+	"buildid"		"9236497"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"179221680"
+	"BytesDownloaded"		"179221680"
+	"BytesToStage"		"375069409"
+	"BytesStaged"		"375069409"
+	"TargetBuildID"		"9236497"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1984351"
+		{
+			"manifest"		"2058356647171843103"
+			"size"		"375069409"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

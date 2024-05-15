@@ -5,23 +5,21 @@ parallel:
 
 dsg:
   disk:
-    - "F:"
+    - "E:"
   #  delay: 这样不设置会置空, 而不是取 default
   delay: 30
 
 ol:
   delay: 2
   patterns:
-    - title: "xyplorer"
+    - title: "(XY|xy)plorer"
       opacity: 200
-    - title: "XYplorer"
+    - title: "- Microsoft​ Edge Beta$"
+      # opacity: 200
+      opacity: 255
+    - title: "- Visual Studio Code$"
+      # opacity: 180
       opacity: 200
-    - title: "- Microsoft​ Edge$"
-      opacity: 200
-    - title: "Work"
-      opacity: 180
-    - title: "- Visual Studio Code"
-      opacity: 180
 
     # windows terminal
     - title: "cmd.exe"
@@ -30,20 +28,24 @@ ol:
       opacity: 210
 
     # app
-    - title: "微信"
+    - title: "^微信$"
       opacity: 200
-    - title: "Steam"
-      opacity: 200
+    - title: "^Steam$"
+      opacity: 220
+      # opacity: 255
     - title: "WingetUI"
+      opacity: 200
+    - title: "- WPS Office$"
       opacity: 200
 
     # Jetbrains
-    - title: "wutils"
-      opacity: 210
-    - title: "Database"
+    # - title: "^wutils –"
+    #   opacity: 210
+    - title: "^Database$"
       opacity: 210
     - title: "FM-APIs – "
       opacity: 210
 
-    - title: "设置"
+    - title: "^设置$"
       opacity: 200
+      # opacity: 255

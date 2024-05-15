@@ -36,6 +36,9 @@ bypassText: |
     - "*jm-comic.org"
     - "*graph.microsoft.com"
     - "zukijourney.xyzbot.net"
+    - "api.vrchat.cloud"
+    - "files.vrchat.cloud"
+    - "*dm5.fun"
     - <local>
 connProfile: true
 showNotifications: false
@@ -43,7 +46,7 @@ connProxy: 0
 connMode: true
 hideAfterStartup: true
 randomControllerPort: false
-editor: 0
+editor: 1
 iconSpeed: false
 systemProxyTypeIndex: 0
 pacContentText: >-
@@ -55,28 +58,7 @@ specifyHttpProxyProtocol: false
 runTimeFormat: "hh : mm : ss"
 interfaceName: WLAN
 childProcessText: |
-  processes:
-    # - command: bark-helper-go.exe # 程序名称
-    #   args:
-    #     - "-t" # 运行参数1
-    #     - "abcdefghijk" # 运行参数2
-    #   options:
-    #     cwd: C:\bark-helper # 子进程工作目录
-    #   log: true # 将在 cwd 目录生成输出日志
-
-    # 开机软件
-    - command: sfp_ui.exe
-    - command: memreduct.exe
-    # - command: common-starter.exe
-    #   args:
-    #     - D:\Scoop\apps\steampp\current\Steam++.exe
-    - command: D:\Scoop\apps\mouseinc\current\MouseInc.exe
-    - command: D:\Scoop\apps\utools-persist\current\uTools.exe
-    - command: mactray.exe
-    - command: common-starter.exe
-      args:
-        - D:\Repos\Weidows-projects\Keeper\utils.bat
-    # 打不开 
+  processes: # array
 trayColorTransparent: true
 latencyUrl: ""
 lightweightMode: false

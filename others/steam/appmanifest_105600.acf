@@ -2,11 +2,12 @@
 {
 	"appid"		"105600"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"Terraria"
 	"StateFlags"		"4"
 	"installdir"		"Terraria"
 	"LastUpdated"		"1669197158"
+	"LastPlayed"		"0"
 	"SizeOnDisk"		"687925078"
 	"StagingSize"		"0"
 	"buildid"		"9965506"
@@ -14,6 +15,7 @@
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
+	"FullValidateAfterNextUpdate"		"1"
 	"InstalledDepots"
 	{
 		"105601"

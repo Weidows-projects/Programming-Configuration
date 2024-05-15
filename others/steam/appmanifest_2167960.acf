@@ -1,0 +1,40 @@
+"AppState"
+{
+	"appid"		"2167960"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"买个可乐饼吧！ - Buy a Croquette!"
+	"StateFlags"		"4"
+	"installdir"		"买个可乐饼吧！ - Buy a Croquette!"
+	"LastUpdated"		"1715458885"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"453790005"
+	"StagingSize"		"0"
+	"buildid"		"14278418"
+	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"279180928"
+	"BytesDownloaded"		"279180928"
+	"BytesToStage"		"453790005"
+	"BytesStaged"		"453790005"
+	"TargetBuildID"		"14278418"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"2167961"
+		{
+			"manifest"		"1601879233228557052"
+			"size"		"453790005"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

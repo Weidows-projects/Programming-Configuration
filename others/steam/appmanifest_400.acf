@@ -6,17 +6,17 @@
 	"name"		"Portal"
 	"StateFlags"		"4"
 	"installdir"		"Portal"
-	"LastUpdated"		"1672124851"
-	"SizeOnDisk"		"4184287691"
+	"LastUpdated"		"1705480908"
+	"SizeOnDisk"		"4184288203"
 	"StagingSize"		"0"
-	"buildid"		"9970151"
+	"buildid"		"13095453"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"0"
-	"BytesDownloaded"		"0"
-	"BytesToStage"		"0"
-	"BytesStaged"		"0"
-	"TargetBuildID"		"9970151"
+	"BytesToDownload"		"14854336"
+	"BytesDownloaded"		"14854336"
+	"BytesToStage"		"100565385"
+	"BytesStaged"		"100565385"
+	"TargetBuildID"		"13095453"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,12 +24,12 @@
 	{
 		"402"
 		{
-			"manifest"		"2535652127986385917"
-			"size"		"154940489"
+			"manifest"		"6701711451045533038"
+			"size"		"154941001"
 		}
 		"409"
 		{
-			"manifest"		"5984360824509444405"
+			"manifest"		"5732988426771657197"
 			"size"		"3693457142"
 		}
 		"410"
@@ -39,7 +39,7 @@
 		}
 		"401"
 		{
-			"manifest"		"5882167507999820297"
+			"manifest"		"3566636281151658894"
 			"size"		"4029341322"
 		}
 	}

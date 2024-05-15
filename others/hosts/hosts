@@ -1,4 +1,4 @@
-﻿#-------- 公共配置 --------
+#-------- 公共配置 --------
 
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
@@ -21,14 +21,82 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
+
 127.0.0.1 localhost
+
 
 #-------- docker --------
 
 # Added by Docker Desktop
-192.168.1.5 host.docker.internal
-192.168.1.5 gateway.docker.internal
+192.168.73.1 host.docker.internal
+192.168.73.1 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section
 
+
+
+#-------- UsbEAm --------
+
+172.67.72.252 vrchat.com #UHE_
+172.67.72.252 www.vrchat.com #UHE_
+172.67.72.252 docs.vrchat.com #UHE_
+172.67.72.252 ask.vrchat.com #UHE_
+172.67.72.252 help.vrchat.com #UHE_
+172.67.72.252 redirect.vrchat.com #UHE_
+172.67.72.252 green.vrchat.com #UHE_
+172.67.72.252 blue.vrchat.com #UHE_
+172.67.72.252 packages.vrchat.com #UHE_
+172.67.72.252 recover.vrchat.com #UHE_
+172.67.72.252 vrcpm.vrchat.cloud #UHE_
+172.67.72.252 api.vrchat.cloud #UHE_
+172.67.72.252 cherry.vrchat.cloud #UHE_
+172.67.72.252 green.vrchat.cloud #UHE_
+172.67.72.252 blue.vrchat.cloud #UHE_
+172.67.72.252 grape.vrchat.cloud #UHE_
+172.67.72.252 build.vrchat.cloud #UHE_
+172.67.72.252 bots.vrchat.cloud #UHE_
+172.67.72.252 pipeline.vrchat.cloud #UHE_
+172.67.72.252 static.zdassets.com #UHE_
+172.67.72.252 p19.zdassets.com #UHE_
+172.67.72.252 theme.zdassets.com #UHE_
+172.67.72.252 use.fontawesome.com #UHE_
+172.67.72.252 vrchat.zendesk.com #UHE_
+99.84.54.33 d348imysud55la.cloudfront.net #UHE_
+99.84.54.33 files.vrchat.cloud #UHE_
+99.84.54.33 assets.vrchat.com #UHE_
+99.84.54.33 dtuitjyhwcl5y.cloudfront.net #UHE_
+99.84.54.33 sjc3.discourse-cdn.com #UHE_
+99.84.54.33 sea2.discourse-cdn.com #UHE_
+99.84.54.33 sea1.discourse-cdn.com #UHE_
+99.84.54.33 europe1.discourse-cdn.com #UHE_
+99.84.54.33 sjc1.discourse-cdn.com #UHE_
+99.84.54.33 sjc6.discourse-cdn.com #UHE_
+99.84.54.33 dub1.discourse-cdn.com #UHE_
+99.84.54.33 dub2.discourse-cdn.com #UHE_
+99.84.54.33 redhat.discourse-cdn.com #UHE_
+99.84.54.33 sjc4.discourse-cdn.com #UHE_
+99.84.54.33 sjc6-new.discourse-cdn.com #UHE_
+99.84.54.33 dub1-new.discourse-cdn.com #UHE_
+99.84.54.33 sea2-new.discourse-cdn.com #UHE_
+99.84.54.33 sjc5-new.discourse-cdn.com #UHE_
+99.84.54.33 corp.discourse-cdn.com #UHE_
+99.84.54.33 sjc2.discourse-cdn.com #UHE_
+99.84.54.33 sea1-new.discourse-cdn.com #UHE_
+99.84.54.33 corp-new.discourse-cdn.com #UHE_
+99.84.54.33 yyz2-new.discourse-cdn.com #UHE_
+99.84.54.33 canada1.discourse-cdn.com #UHE_
+99.84.54.33 yyz2.discourse-cdn.com #UHE_
+99.84.54.33 corp1.discourse-cdn.com #UHE_
+99.84.54.33 corp1-new.discourse-cdn.com #UHE_
+99.84.54.33 sjc2-new.discourse-cdn.com #UHE_
+99.84.54.33 sjc3-new.discourse-cdn.com #UHE_
+99.84.54.33 globaltest.discourse-cdn.com #UHE_
+99.84.54.33 sjc5.discourse-cdn.com #UHE_
+99.84.54.33 yyz1-new.discourse-cdn.com #UHE_
+99.84.54.33 sjc4-new.discourse-cdn.com #UHE_
+99.84.54.33 dub2-new.discourse-cdn.com #UHE_
+99.84.54.33 static.discourse-cdn.com #UHE_
+99.84.54.33 corp2.discourse-cdn.com #UHE_
+99.84.54.33 yyz1.discourse-cdn.com #UHE_
+99.84.54.33 sjc1-new.discourse-cdn.com #UHE_

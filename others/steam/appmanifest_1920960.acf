@@ -2,21 +2,22 @@
 {
 	"appid"		"1920960"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"VPet"
 	"StateFlags"		"4"
 	"installdir"		"VPet"
-	"LastUpdated"		"1703686976"
-	"SizeOnDisk"		"1221759750"
+	"LastUpdated"		"1715439342"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"1435096979"
 	"StagingSize"		"0"
-	"buildid"		"13040606"
+	"buildid"		"14315366"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"2984144"
-	"BytesDownloaded"		"2984144"
-	"BytesToStage"		"44827824"
-	"BytesStaged"		"44827824"
-	"TargetBuildID"		"13040606"
+	"BytesToDownload"		"14930016"
+	"BytesDownloaded"		"14930016"
+	"BytesToStage"		"61110979"
+	"BytesStaged"		"61110979"
+	"TargetBuildID"		"14315366"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,19 +25,20 @@
 	{
 		"1920961"
 		{
-			"manifest"		"4777215752066336519"
-			"size"		"712510365"
+			"manifest"		"5442329466603756441"
+			"size"		"709402517"
+		}
+		"1920963"
+		{
+			"manifest"		"8473915986026344807"
+			"size"		"214412072"
 		}
 		"2607351"
 		{
-			"manifest"		"7490087927479169012"
-			"size"		"509249385"
+			"manifest"		"2985320799517382541"
+			"size"		"511282390"
 			"dlcappid"		"2607350"
 		}
-	}
-	"SharedDepots"
-	{
-		"229007"		"228980"
 	}
 	"UserConfig"
 	{

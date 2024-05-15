@@ -18,10 +18,7 @@
 	directory = *
 [url "git@codeup.aliyun.com:"]
 	insteadOf = https://codeup.aliyun.com/
-[credential "helperselector"]
-	selected = wincred
-[credential "https://github.com"]
-	selected = wincred
+
 [difftool "sourcetree"]
 	cmd = "'' "
 [mergetool "sourcetree"]
@@ -36,3 +33,10 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
+[credential]
+	helper = manager
+[credential "helperselector"]
+	selected = manager
+[credential "https://github.com"]
+	selected = manager

@@ -2,11 +2,12 @@
 {
 	"appid"		"1832640"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"Mirror 2: Project X"
 	"StateFlags"		"4"
 	"installdir"		"Mirror 2 Project X"
 	"LastUpdated"		"1674060942"
+	"LastPlayed"		"0"
 	"SizeOnDisk"		"13162054968"
 	"StagingSize"		"0"
 	"buildid"		"10345617"

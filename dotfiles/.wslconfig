@@ -2,9 +2,15 @@
 
 # Settings apply across all Linux distros running on WSL 2
 [wsl2]
+#debugConsole = true
+#localhostforwarding = true
+#pageReporting = false
+#swap = 8GB
+#kernel = C:\\temp\\myCustomKernel
+#processors = 8
 
 # Limits VM memory to use no more than 4 GB, this can be set as whole numbers using GB or MB
-memory=6GB
+memory = 6GB
 
 # Sets the VM to use two virtual processors
 # processors=8
@@ -19,26 +25,32 @@ kernelCommandLine = vsyscall=emulate
 # swap=8GB
 
 # Sets swapfile path location, default is %USERPROFILE%\AppData\Local\Temp\swap.vhdx
-swapfile=D:\\Documents\\Virtual Machines\\wsl\\wsl-swap.vhdx
+swapfile = D:\\Documents\\Virtual Machines\\wsl\\wsl-swap.vhdx
 
 # 一个布尔值，用于在 WSL 中打开或关闭对 GUI 应用程序 (WSLg) 的支持。 仅适用于 Windows 11。
-guiApplications=true
+guiApplications = true
 
 # Disable page reporting so WSL retains all allocated memory claimed from Windows and releases none back when free
-pageReporting=false
+# pageReporting = true
 
 # Turn off default connection to bind WSL 2 localhost to Windows localhost
-localhostforwarding=true
+# localhostforwarding=true
 
 # Disables nested virtualization 用于打开或关闭嵌套虚拟化的布尔值，使其他嵌套 VM 能够在 WSL 2 中运行。 仅适用于 Windows 11。
-nestedVirtualization=true
+nestedVirtualization = true
 
 # Turns on output console showing contents of dmesg when opening a WSL 2 distro for debugging
 # debugConsole=true
 
 # Enable experiemntal features
 [experimental]
-sparseVhd=true
+sparseVhd = true
 
 # 检测空闲 CPU 使用率后，自动释放缓存的内存。 设置为 gradual 以慢速释放，设置为 dropcache 以立即释放缓存的内存。
-autoMemoryReclaim=gradual
+autoMemoryReclaim = gradual
+
+# https://blog.csdn.net/weixin_62355896/article/details/134458330
+networkingMode = mirrored
+dnsTunneling = true
+firewall = true
+autoProxy = true

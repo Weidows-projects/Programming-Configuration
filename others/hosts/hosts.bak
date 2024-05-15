@@ -1,4 +1,4 @@
-﻿#-------- 公共配置 --------
+#-------- 公共配置 --------
 
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
@@ -23,11 +23,107 @@
 #	::1             localhost
 127.0.0.1 localhost
 
+#-------- usb --------
+
+104.26.0.100 vrchat.com #UHE_
+104.26.0.100 www.vrchat.com #UHE_
+104.26.0.100 docs.vrchat.com #UHE_
+104.26.0.100 ask.vrchat.com #UHE_
+104.26.0.100 help.vrchat.com #UHE_
+104.26.0.100 redirect.vrchat.com #UHE_
+104.26.0.100 green.vrchat.com #UHE_
+104.26.0.100 blue.vrchat.com #UHE_
+104.26.0.100 packages.vrchat.com #UHE_
+104.26.0.100 recover.vrchat.com #UHE_
+104.26.0.100 vrcpm.vrchat.cloud #UHE_
+104.26.0.100 api.vrchat.cloud #UHE_
+104.26.0.100 cherry.vrchat.cloud #UHE_
+104.26.0.100 green.vrchat.cloud #UHE_
+104.26.0.100 blue.vrchat.cloud #UHE_
+104.26.0.100 grape.vrchat.cloud #UHE_
+104.26.0.100 build.vrchat.cloud #UHE_
+104.26.0.100 bots.vrchat.cloud #UHE_
+104.26.0.100 pipeline.vrchat.cloud #UHE_
+104.26.0.100 static.zdassets.com #UHE_
+104.26.0.100 p19.zdassets.com #UHE_
+104.26.0.100 theme.zdassets.com #UHE_
+104.26.0.100 use.fontawesome.com #UHE_
+104.26.0.100 vrchat.zendesk.com #UHE_
+99.84.54.183 d348imysud55la.cloudfront.net #UHE_
+99.84.54.183 files.vrchat.cloud #UHE_
+99.84.54.183 assets.vrchat.com #UHE_
+99.84.54.183 dtuitjyhwcl5y.cloudfront.net #UHE_
+99.84.54.183 sjc3.discourse-cdn.com #UHE_
+99.84.54.183 sea2.discourse-cdn.com #UHE_
+99.84.54.183 sea1.discourse-cdn.com #UHE_
+99.84.54.183 europe1.discourse-cdn.com #UHE_
+99.84.54.183 sjc1.discourse-cdn.com #UHE_
+99.84.54.183 sjc6.discourse-cdn.com #UHE_
+99.84.54.183 dub1.discourse-cdn.com #UHE_
+99.84.54.183 dub2.discourse-cdn.com #UHE_
+99.84.54.183 redhat.discourse-cdn.com #UHE_
+99.84.54.183 sjc4.discourse-cdn.com #UHE_
+99.84.54.183 sjc6-new.discourse-cdn.com #UHE_
+99.84.54.183 dub1-new.discourse-cdn.com #UHE_
+99.84.54.183 sea2-new.discourse-cdn.com #UHE_
+99.84.54.183 sjc5-new.discourse-cdn.com #UHE_
+99.84.54.183 corp.discourse-cdn.com #UHE_
+99.84.54.183 sjc2.discourse-cdn.com #UHE_
+99.84.54.183 sea1-new.discourse-cdn.com #UHE_
+99.84.54.183 corp-new.discourse-cdn.com #UHE_
+99.84.54.183 yyz2-new.discourse-cdn.com #UHE_
+99.84.54.183 canada1.discourse-cdn.com #UHE_
+99.84.54.183 yyz2.discourse-cdn.com #UHE_
+99.84.54.183 corp1.discourse-cdn.com #UHE_
+99.84.54.183 corp1-new.discourse-cdn.com #UHE_
+99.84.54.183 sjc2-new.discourse-cdn.com #UHE_
+99.84.54.183 sjc3-new.discourse-cdn.com #UHE_
+99.84.54.183 globaltest.discourse-cdn.com #UHE_
+99.84.54.183 sjc5.discourse-cdn.com #UHE_
+99.84.54.183 yyz1-new.discourse-cdn.com #UHE_
+99.84.54.183 sjc4-new.discourse-cdn.com #UHE_
+99.84.54.183 dub2-new.discourse-cdn.com #UHE_
+99.84.54.183 static.discourse-cdn.com #UHE_
+99.84.54.183 corp2.discourse-cdn.com #UHE_
+99.84.54.183 yyz1.discourse-cdn.com #UHE_
+99.84.54.183 sjc1-new.discourse-cdn.com #UHE_
+20.27.177.113 github.com #UHE_
+20.27.177.116 api.github.com #UHE_
+203.208.43.97 dl.google.com #UHE_
+172.67.72.158 gitlab.com #UHE_
+172.67.72.158 www.gitlab.com #UHE_
+172.67.72.158 packages.gitlab.com #UHE_
+172.67.72.158 page.gitlab.com #UHE_
+172.67.72.158 support.gitlab.com #UHE_
+172.67.72.158 customers.gitlab.com #UHE_
+172.67.72.158 staging.gitlab.com #UHE_
+172.67.72.158 federal-support.gitlab.com #UHE_
+172.67.72.158 registry.gitlab.com #UHE_
+172.67.72.158 levelup.gitlab.com #UHE_
+172.67.72.158 chef.gitlab.com #UHE_
+2606:50c0:8000::154 objects.githubusercontent.com #UHE_
+2606:50c0:8002::154 raw.githubusercontent.com #UHE_
+2606:50c0:8002::154 raw.github.com #UHE_
+2606:50c0:8002::154 camo.githubusercontent.com #UHE_
+2606:50c0:8002::154 cloud.githubusercontent.com #UHE_
+2606:50c0:8002::154 avatars.githubusercontent.com #UHE_
+2606:50c0:8002::154 avatars0.githubusercontent.com #UHE_
+2606:50c0:8002::154 avatars1.githubusercontent.com #UHE_
+2606:50c0:8002::154 avatars2.githubusercontent.com #UHE_
+2606:50c0:8002::154 avatars3.githubusercontent.com #UHE_
+2606:50c0:8002::154 user-images.githubusercontent.com #UHE_
+2606:50c0:8002::154 private-user-images.githubusercontent.com #UHE_
+2606:50c0:8002::154 github-releases.githubusercontent.com #UHE_
+2606:50c0:8002::154 analytics.githubassets.com #UHE_
+2606:50c0:8002::154 desktop.githubusercontent.com #UHE_
+185.199.108.153 assets-cdn.github.com #UHE_
+
+
 #-------- docker --------
 
 # Added by Docker Desktop
-192.168.1.5 host.docker.internal
-192.168.1.5 gateway.docker.internal
+192.168.73.1 host.docker.internal
+192.168.73.1 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section

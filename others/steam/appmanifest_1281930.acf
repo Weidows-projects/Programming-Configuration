@@ -2,21 +2,16 @@
 {
 	"appid"		"1281930"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"tModLoader"
 	"StateFlags"		"4"
 	"installdir"		"tModLoader"
-	"LastUpdated"		"1701772051"
-	"SizeOnDisk"		"153366103"
+	"LastUpdated"		"1715768251"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"188644231"
 	"StagingSize"		"0"
-	"buildid"		"12844545"
+	"buildid"		"14369720"
 	"LastOwner"		"76561198321099712"
-	"UpdateResult"		"0"
-	"BytesToDownload"		"0"
-	"BytesDownloaded"		"0"
-	"BytesToStage"		"0"
-	"BytesStaged"		"0"
-	"TargetBuildID"		"0"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,8 +19,8 @@
 	{
 		"1281932"
 		{
-			"manifest"		"2860834313519666217"
-			"size"		"153366103"
+			"manifest"		"9066961018864762462"
+			"size"		"188644231"
 		}
 		"1281931"
 		{

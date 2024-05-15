@@ -1,7 +1,9 @@
 # conda environments:
 #
-                         D:\Scoop\apps\miniconda3\23.5.2-0
-base                     D:\Scoop\apps\miniconda3\current
-py27                     D:\Scoop\apps\miniconda3\current\envs\py27
-py310                    D:\Scoop\apps\miniconda3\current\envs\py310
+                         D:\Scoop\apps\anaconda3\2024.02-1\App
+base                     D:\Scoop\apps\anaconda3\current\App
+py27                     D:\Scoop\apps\anaconda3\current\App\envs\py27
+py310                    D:\Scoop\apps\anaconda3\current\App\envs\py310
+py37                     D:\Scoop\apps\anaconda3\current\App\envs\py37
+py39                     D:\Scoop\apps\anaconda3\current\App\envs\py39
 

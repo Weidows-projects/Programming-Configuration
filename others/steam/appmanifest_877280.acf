@@ -2,21 +2,22 @@
 {
 	"appid"		"877280"
 	"Universe"		"1"
-	"LauncherPath"		"D:\\scoop\\apps\\steam\\current\\steam.exe"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"SAO Utils 2: Progressive"
 	"StateFlags"		"4"
 	"installdir"		"SAO Utils 2"
-	"LastUpdated"		"1684728486"
-	"SizeOnDisk"		"305476858"
+	"LastUpdated"		"1713098849"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"359553414"
 	"StagingSize"		"0"
-	"buildid"		"11179120"
+	"buildid"		"13951162"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"912320"
-	"BytesDownloaded"		"912320"
-	"BytesToStage"		"3050385"
-	"BytesStaged"		"3050385"
-	"TargetBuildID"		"11179120"
+	"BytesToDownload"		"629008"
+	"BytesDownloaded"		"629008"
+	"BytesToStage"		"14735823"
+	"BytesStaged"		"14735823"
+	"TargetBuildID"		"13951162"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,18 +25,18 @@
 	{
 		"877281"
 		{
-			"manifest"		"6444210915904028226"
-			"size"		"44074157"
+			"manifest"		"7872289885973396683"
+			"size"		"44075510"
 		}
 		"877283"
 		{
-			"manifest"		"5256028114865856238"
-			"size"		"241383557"
+			"manifest"		"9185071734234833357"
+			"size"		"295096447"
 		}
 		"877285"
 		{
-			"manifest"		"7209606611426643066"
-			"size"		"19304962"
+			"manifest"		"415988959096510184"
+			"size"		"19667275"
 		}
 		"877286"
 		{
