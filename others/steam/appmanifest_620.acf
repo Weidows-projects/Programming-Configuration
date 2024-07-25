@@ -6,17 +6,18 @@
 	"name"		"Portal 2"
 	"StateFlags"		"4"
 	"installdir"		"Portal 2"
-	"LastUpdated"		"1708117214"
-	"SizeOnDisk"		"12753874736"
+	"LastUpdated"		"1719638486"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"12754926352"
 	"StagingSize"		"0"
-	"buildid"		"13373316"
+	"buildid"		"14822445"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"759440"
-	"BytesDownloaded"		"759440"
-	"BytesToStage"		"47016576"
-	"BytesStaged"		"47016576"
-	"TargetBuildID"		"13373316"
+	"BytesToDownload"		"632624"
+	"BytesDownloaded"		"632624"
+	"BytesToStage"		"52144294"
+	"BytesStaged"		"52144294"
+	"TargetBuildID"		"14822445"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -24,18 +25,18 @@
 	{
 		"624"
 		{
-			"manifest"		"3827516183944812575"
-			"size"		"20560928"
+			"manifest"		"3424755177872399455"
+			"size"		"20560416"
 		}
 		"622"
 		{
-			"manifest"		"1491521577655160363"
-			"size"		"62737622"
+			"manifest"		"4757917213956179710"
+			"size"		"62738134"
 		}
 		"621"
 		{
-			"manifest"		"509609885769144553"
-			"size"		"12672253530"
+			"manifest"		"1984162035723785493"
+			"size"		"12673305146"
 		}
 	}
 	"UserConfig"

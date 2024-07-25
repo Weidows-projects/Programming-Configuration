@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"385800"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"NEKOPARA Vol. 0"
+	"StateFlags"		"4"
+	"installdir"		"NEKOPARA Vol. 0"
+	"LastUpdated"		"1718527465"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"1634662818"
+	"StagingSize"		"0"
+	"buildid"		"3841011"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"324494848"
+	"BytesDownloaded"		"324494848"
+	"BytesToStage"		"1634662818"
+	"BytesStaged"		"1634662818"
+	"TargetBuildID"		"3841011"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"385801"
+		{
+			"manifest"		"8640820770296307102"
+			"size"		"1634662818"
+		}
+	}
+	"SharedDepots"
+	{
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

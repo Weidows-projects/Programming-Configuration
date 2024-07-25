@@ -1,0 +1,40 @@
+"AppState"
+{
+	"appid"		"893720"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"One Hand Clapping"
+	"StateFlags"		"4"
+	"installdir"		"One Hand Clapping"
+	"LastUpdated"		"1718298933"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"955203415"
+	"StagingSize"		"0"
+	"buildid"		"8393246"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"549618816"
+	"BytesDownloaded"		"549618816"
+	"BytesToStage"		"955203415"
+	"BytesStaged"		"955203415"
+	"TargetBuildID"		"8393246"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"893721"
+		{
+			"manifest"		"2325184922364840645"
+			"size"		"955203415"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

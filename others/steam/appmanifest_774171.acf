@@ -1,0 +1,46 @@
+"AppState"
+{
+	"appid"		"774171"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Muse Dash"
+	"StateFlags"		"4"
+	"installdir"		"Muse Dash"
+	"LastUpdated"		"1719601150"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"3558216510"
+	"StagingSize"		"0"
+	"buildid"		"14626620"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"405807808"
+	"BytesDownloaded"		"405807808"
+	"BytesToStage"		"593851006"
+	"BytesStaged"		"593851006"
+	"TargetBuildID"		"14626620"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"774172"
+		{
+			"manifest"		"7637329734128114162"
+			"size"		"3558216510"
+		}
+		"1055810"
+		{
+			"manifest"		"3071104558056225302"
+			"size"		"0"
+			"dlcappid"		"1055810"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

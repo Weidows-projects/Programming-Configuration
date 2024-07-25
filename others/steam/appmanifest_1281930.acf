@@ -6,12 +6,18 @@
 	"name"		"tModLoader"
 	"StateFlags"		"4"
 	"installdir"		"tModLoader"
-	"LastUpdated"		"1715768251"
+	"LastUpdated"		"1721084415"
 	"LastPlayed"		"0"
-	"SizeOnDisk"		"188644231"
+	"SizeOnDisk"		"188754487"
 	"StagingSize"		"0"
-	"buildid"		"14369720"
+	"buildid"		"14971566"
 	"LastOwner"		"76561198321099712"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1897024"
+	"BytesDownloaded"		"1897024"
+	"BytesToStage"		"31995063"
+	"BytesStaged"		"31995063"
+	"TargetBuildID"		"14971566"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -19,8 +25,8 @@
 	{
 		"1281932"
 		{
-			"manifest"		"9066961018864762462"
-			"size"		"188644231"
+			"manifest"		"3067085065344314841"
+			"size"		"188754487"
 		}
 		"1281931"
 		{

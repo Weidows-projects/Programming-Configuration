@@ -1,0 +1,56 @@
+"AppState"
+{
+	"appid"		"601150"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Devil May Cry 5"
+	"StateFlags"		"4"
+	"installdir"		"Devil May Cry 5"
+	"LastUpdated"		"1718523908"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"36381553380"
+	"StagingSize"		"0"
+	"buildid"		"11025947"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"35333105136"
+	"BytesDownloaded"		"35333105136"
+	"BytesToStage"		"36381553380"
+	"BytesStaged"		"36381553380"
+	"TargetBuildID"		"11025947"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"601151"
+		{
+			"manifest"		"5034340940015103443"
+			"size"		"36243803797"
+		}
+		"601152"
+		{
+			"manifest"		"37045512487732505"
+			"size"		"137749400"
+		}
+		"1432640"
+		{
+			"manifest"		"5156559174384676617"
+			"size"		"183"
+			"dlcappid"		"1432640"
+		}
+	}
+	"SharedDepots"
+	{
+		"228987"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}

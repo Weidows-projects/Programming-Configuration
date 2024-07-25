@@ -16,11 +16,11 @@ set GOOS=windows
 set GOPATH=D:\Scoop\apps\gvm\current\.go\GOPATH
 set GOPRIVATE=codeup.aliyun.com
 set GOPROXY=https://repo.huaweicloud.com/repository/goproxy,direct
-set GOROOT=D:\Scoop\persist\gvm\.g\go
+set GOROOT=D:\scoop\persist\gvm\.g\go
 set GOSUMDB=sum.golang.google.cn
 set GOTMPDIR=
 set GOTOOLCHAIN=auto
-set GOTOOLDIR=D:\Scoop\persist\gvm\.g\go\pkg\tool\windows_amd64
+set GOTOOLDIR=D:\scoop\persist\gvm\.g\go\pkg\tool\windows_amd64
 set GOVCS=
 set GOVERSION=go1.21.6
 set GCCGO=gccgo
@@ -37,4 +37,4 @@ set CGO_CXXFLAGS=-O2 -g
 set CGO_FFLAGS=-O2 -g
 set CGO_LDFLAGS=-O2 -g
 set PKG_CONFIG=pkg-config
-set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\Weidows\AppData\Local\Temp\go-build1157538103=/tmp/go-build -gno-record-gcc-switches
+set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\Weidows\AppData\Local\Temp\go-build1162022532=/tmp/go-build -gno-record-gcc-switches

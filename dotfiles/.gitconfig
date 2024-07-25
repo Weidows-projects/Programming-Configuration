@@ -5,11 +5,13 @@
 	editor = code.exe
 [user]
 	name = Weidows
-	email = utsuko27@qq.com
+	# email = utsuko27@qq.com
+	email = ceo@weidows.tech
 	signingkey = ~/.ssh/liuwei_rsa.pub
 [http]
 	sslVerify = false
 	proxy = http://127.0.0.1:7890
+	sslBackend = openssl
 [https]
 	proxy = http://127.0.0.1:7890
 [pull]

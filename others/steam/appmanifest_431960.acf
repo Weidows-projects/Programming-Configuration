@@ -6,11 +6,11 @@
 	"name"		"Wallpaper Engine"
 	"StateFlags"		"4"
 	"installdir"		"wallpaper_engine"
-	"LastUpdated"		"1709006758"
-	"LastPlayed"		"1715107476"
-	"SizeOnDisk"		"8318695867"
+	"LastUpdated"		"1717614127"
+	"LastPlayed"		"1721648096"
+	"SizeOnDisk"		"8381137773"
 	"StagingSize"		"0"
-	"buildid"		"13565722"
+	"buildid"		"14603215"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
 	"BytesToDownload"		"0"
@@ -25,8 +25,8 @@
 	{
 		"431961"
 		{
-			"manifest"		"3682614711587149074"
-			"size"		"555725817"
+			"manifest"		"5465725012314299548"
+			"size"		"618167723"
 		}
 		"1790230"
 		{

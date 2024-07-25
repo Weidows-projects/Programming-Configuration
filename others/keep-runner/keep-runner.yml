@@ -14,18 +14,27 @@ ol:
   patterns:
     - title: "(XY|xy)plorer"
       opacity: 200
+    - title: "设置$"
+      opacity: 220
+
     - title: "- Microsoft​ Edge Beta$"
       # opacity: 200
       opacity: 255
-    - title: "- Visual Studio Code$"
-      # opacity: 180
-      opacity: 200
+    - title: "AIO$"
+      # opacity: 200
+      opacity: 240
 
-    # windows terminal
-    - title: "cmd.exe"
+    - title: "- Visual Studio Code$"
+      # opacity: 240
+      opacity: 220
+
+    # terminal
+    - title: "cmd.exe$"
       opacity: 210
-    - title: "PowerShell"
+    - title: "PowerShell$"
       opacity: 210
+    - title: "^Xterminal$"
+      opacity: 230
 
     # app
     - title: "^微信$"
@@ -33,19 +42,9 @@ ol:
     - title: "^Steam$"
       opacity: 220
       # opacity: 255
-    - title: "WingetUI"
-      opacity: 200
+    - title: "^UniGetUI$"
+      opacity: 240
     - title: "- WPS Office$"
       opacity: 200
-
-    # Jetbrains
-    # - title: "^wutils –"
-    #   opacity: 210
-    - title: "^Database$"
-      opacity: 210
-    - title: "FM-APIs – "
-      opacity: 210
-
-    - title: "^设置$"
-      opacity: 200
-      # opacity: 255
+    - title: "- PotPlayer$"
+      opacity: 250

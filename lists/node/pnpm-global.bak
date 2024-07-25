@@ -18,8 +18,11 @@ husky 9.0.11
 kill-port 2.0.1
 node-gyp 10.0.1
 npm-check 6.0.1
+nrm 1.2.6
+pageres-cli 8.0.0
 pake-cli 2.3.6
-pnpm 8.15.4
+pm2 5.4.1
+pnpm 9.5.0
 release-it 17.1.1
 tldr 3.4.0
 ts-node 10.9.2
@@ -29,4 +32,3 @@ vite-cli 1.0.0
 webpack 5.90.3
 webpack-cli 5.1.4
 yarn 1.22.21
-yrm 1.0.6

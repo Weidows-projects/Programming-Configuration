@@ -6,18 +6,18 @@
 	"name"		"SAO Utils 2: Progressive"
 	"StateFlags"		"4"
 	"installdir"		"SAO Utils 2"
-	"LastUpdated"		"1713098849"
+	"LastUpdated"		"1719638495"
 	"LastPlayed"		"0"
-	"SizeOnDisk"		"359553414"
+	"SizeOnDisk"		"359726345"
 	"StagingSize"		"0"
-	"buildid"		"13951162"
+	"buildid"		"14863661"
 	"LastOwner"		"76561198321099712"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"629008"
-	"BytesDownloaded"		"629008"
-	"BytesToStage"		"14735823"
-	"BytesStaged"		"14735823"
-	"TargetBuildID"		"13951162"
+	"BytesToDownload"		"1198464"
+	"BytesDownloaded"		"1198464"
+	"BytesToStage"		"4143880"
+	"BytesStaged"		"4143880"
+	"TargetBuildID"		"14863661"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -25,18 +25,18 @@
 	{
 		"877281"
 		{
-			"manifest"		"7872289885973396683"
-			"size"		"44075510"
+			"manifest"		"900181796496800140"
+			"size"		"44075502"
 		}
 		"877283"
 		{
-			"manifest"		"9185071734234833357"
-			"size"		"295096447"
+			"manifest"		"2383746989909065723"
+			"size"		"295089279"
 		}
 		"877285"
 		{
-			"manifest"		"415988959096510184"
-			"size"		"19667275"
+			"manifest"		"4390943313817007970"
+			"size"		"19847382"
 		}
 		"877286"
 		{

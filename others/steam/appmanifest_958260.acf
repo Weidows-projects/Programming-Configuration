@@ -4,20 +4,20 @@
 	"Universe"		"1"
 	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
 	"name"		"DEAD OR ALIVE Xtreme Venus Vacation"
-	"StateFlags"		"4"
+	"StateFlags"		"1030"
 	"installdir"		"DOAX-VenusVacation"
-	"LastUpdated"		"1715459198"
+	"LastUpdated"		"1720393232"
 	"LastPlayed"		"0"
-	"SizeOnDisk"		"20065320467"
-	"StagingSize"		"0"
-	"buildid"		"14310458"
+	"SizeOnDisk"		"21464284821"
+	"StagingSize"		"236617516"
+	"buildid"		"14926087"
 	"LastOwner"		"76561198321099712"
-	"UpdateResult"		"0"
-	"BytesToDownload"		"64528672"
-	"BytesDownloaded"		"64528672"
-	"BytesToStage"		"129773886"
-	"BytesStaged"		"129773886"
-	"TargetBuildID"		"14310458"
+	"UpdateResult"		"4"
+	"BytesToDownload"		"162621200"
+	"BytesDownloaded"		"28427712"
+	"BytesToStage"		"247336476"
+	"BytesStaged"		"105727028"
+	"TargetBuildID"		"15071949"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -25,8 +25,8 @@
 	{
 		"958261"
 		{
-			"manifest"		"8108024408760392793"
-			"size"		"20065320467"
+			"manifest"		"1619504254800630724"
+			"size"		"21464284821"
 		}
 	}
 	"InstallScripts"
@@ -37,6 +37,15 @@
 	{
 		"228987"		"228980"
 		"228990"		"228980"
+	}
+	"StagedDepots"
+	{
+		"958261"
+		{
+			"manifest"		"4879461383473623625"
+			"size"		"20333250745"
+			"dlcappid"		"0"
+		}
 	}
 	"UserConfig"
 	{

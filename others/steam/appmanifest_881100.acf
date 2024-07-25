@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"881100"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Noita"
+	"StateFlags"		"4"
+	"installdir"		"Noita"
+	"LastUpdated"		"1718429518"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"1639164481"
+	"StagingSize"		"0"
+	"buildid"		"14220662"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1390950736"
+	"BytesDownloaded"		"1390950736"
+	"BytesToStage"		"1639164481"
+	"BytesStaged"		"1639164481"
+	"TargetBuildID"		"14220662"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"881101"
+		{
+			"manifest"		"3404464859817643674"
+			"size"		"1639164481"
+		}
+	}
+	"SharedDepots"
+	{
+		"228985"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

@@ -1,6 +1,12 @@
 venvs are in D:\Scoop\persist\pipx-poetry\pipx\venvs
 apps are exposed on your $PATH at D:\Scoop\shims
 manual pages are exposed at C:\Users\Weidows\.local\share\man
+   package dvc 3.51.2, installed using Python 3.11.7
+    - dvc.exe
+   package huggingface-hub 0.23.2, installed using Python 3.11.7
+    - huggingface-cli.exe
+   package leptonai 0.19.0, installed using Python 3.11.7
+    - lep.exe
    package open-interpreter 0.2.5, installed using Python 3.11.7
     - i.exe
     - interpreter.exe
@@ -15,6 +21,11 @@ manual pages are exposed at C:\Users\Weidows\.local\share\man
     - snowmachine.exe
    package stitching 0.5.3, installed using Python 3.11.7
     - stitch.exe
+   package tccli 3.0.1148.1, installed using Python 3.11.7
+    - tccli.exe
+    - tccli_completer.exe
    package thefuck 3.32, installed using Python 3.11.7
     - fuck.exe
     - thefuck.exe
+   package toolong 1.5.0, installed using Python 3.11.7
+    - tl.exe

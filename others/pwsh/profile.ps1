@@ -1,4 +1,3 @@
-
 # ======================================================================== #
 #                             alias & function
 # ======================================================================== #
@@ -40,13 +39,7 @@ function killer{taskkill /F /im $args}
 # -q, --quiet               Hide extraneous messages
 # -a, --all                 Update all apps (alternative to '*')
 function scs{scoop search $args}
-function sci{
-  Foreach($argv in $args) {
-    scoop install $argv
-    echo ========================================================================
-  }
-}
-function sct{scoop status}
+function sct{scoop update && scoop status}
 function scu{
   Foreach($argv in $args) {
     scoop update $argv -s
@@ -75,16 +68,15 @@ function ya {
     Remove-Item -Path $tmp
 }
 
-
-
-
 # ======================================================================== #
 #                                  pwsh
 # ======================================================================== #
 # https://lamirs.vercel.app/index-powershell/
 
 # 设置主题 | https://ohmyposh.dev/docs/themes
-oh-my-posh init pwsh --config "https://fastly.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@master/others/pwsh/weidows.omp.json" | Invoke-Expression
+# 网不好时可能不会生效
+# oh-my-posh init pwsh --config "https://fastly.jsdelivr.net/gh/Weidows-projects/Programming-Configuration@master/others/pwsh/weidows.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "D:/Repos/Weidows-projects/Keeper/Programming-Configuration/others/pwsh/weidows.omp.json" | Invoke-Expression
 $env:POSH_GIT_ENABLED = $true
 Enable-PoshTooltips
 
@@ -139,31 +131,33 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 #     $standardOut
 # }
 
-
-
 # ======================================================================== #
-#                            scoop & completion
+#                                 scoop
 # ======================================================================== #
+Import-Module scoop-ext
 Import-Module scoop-completion
 Invoke-Expression (&scoop-search-multisource --hook)
 # Invoke-Expression (&scoop-search --hook)
 
 # Import-Module Microsoft.WinGet.Client
 Import-Module posh-git
-Import-Module bottom/_btm.ps1
-Import-Module Terminal-Icons
+# Import-Module bottom/_btm.ps1
+# Import-Module Terminal-Icons
 # Import-Module PowerShellAI
 # Import-Module posh-docker
 # Import-Module yarn-completion
 # Import-Module $env:SCOOP\apps\vcpkg\current\scripts\posh-vcpkg
 # Import-Module posh-maven
 
-
+# ======================================================================== #
+#                              completion
+# ======================================================================== #
 # https://gist.github.com/kid1412621/e9bafc5362acbded0f6b726402c40d62#file-microsoft-powershell_profile-ps1
 # Github CLI
 Invoke-Expression -Command $(gh completion -s powershell | Out-String)
-
 Invoke-Expression -Command $(fav completion powershell | Out-String)
+# tdl completion powershell | Out-String | Invoke-Expression
+Invoke-Expression -Command $(tdl completion powershell | Out-String)
 
 # Winget
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
@@ -201,8 +195,6 @@ Register-ArgumentCompleter -Native -CommandName aws -ScriptBlock {
         Remove-Item Env:\COMP_LINE
                 Remove-Item Env:\COMP_POINT
 }
-
-
 
 # ======================================================================== #
                                 # clear

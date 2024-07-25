@@ -1,0 +1,40 @@
+"AppState"
+{
+	"appid"		"1206610"
+	"Universe"		"1"
+	"LauncherPath"		"D:\\Scoop\\apps\\steam\\current\\steam.exe"
+	"name"		"Rubber Bandits"
+	"StateFlags"		"4"
+	"installdir"		"RubberBandits"
+	"LastUpdated"		"1718299395"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"1310703167"
+	"StagingSize"		"0"
+	"buildid"		"14022975"
+	"LastOwner"		"76561198363330150"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"853288544"
+	"BytesDownloaded"		"853288544"
+	"BytesToStage"		"1310703167"
+	"BytesStaged"		"1310703167"
+	"TargetBuildID"		"14022975"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1206611"
+		{
+			"manifest"		"5373023622985560085"
+			"size"		"1310703167"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"schinese"
+	}
+	"MountedConfig"
+	{
+		"language"		"schinese"
+	}
+}
