@@ -28,7 +28,6 @@ function ...{cd ../..}
 function ~{cd $env:USERPROFILE}
 function /{cd \}
 function \{cd \}
-function killer{taskkill /F /im $args}
 
 # scoop
 # -f, --force               Force update even when there isn't a newer version
