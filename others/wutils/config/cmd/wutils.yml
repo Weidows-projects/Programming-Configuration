@@ -20,9 +20,6 @@ ol:
     - title: "- Microsoft​ Edge Beta$"
       # opacity: 200
       opacity: 255
-    - title: "AIO$"
-      # opacity: 200
-      opacity: 240
 
     - title: "- Visual Studio Code$"
       # opacity: 240

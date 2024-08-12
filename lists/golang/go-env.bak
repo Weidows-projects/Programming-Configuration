@@ -22,7 +22,7 @@ set GOTMPDIR=
 set GOTOOLCHAIN=auto
 set GOTOOLDIR=D:\scoop\persist\gvm\.g\go\pkg\tool\windows_amd64
 set GOVCS=
-set GOVERSION=go1.21.6
+set GOVERSION=go1.22.5
 set GCCGO=gccgo
 set GOAMD64=v1
 set AR=ar
@@ -37,4 +37,4 @@ set CGO_CXXFLAGS=-O2 -g
 set CGO_FFLAGS=-O2 -g
 set CGO_LDFLAGS=-O2 -g
 set PKG_CONFIG=pkg-config
-set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\Weidows\AppData\Local\Temp\go-build1162022532=/tmp/go-build -gno-record-gcc-switches
+set GOGCCFLAGS=-m64 -mthreads -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=C:\Users\Weidows\AppData\Local\Temp\go-build106081510=/tmp/go-build -gno-record-gcc-switches
