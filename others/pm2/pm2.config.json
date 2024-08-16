@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "wutils-ol",
+      "script": "wutils.exe",
+      "cwd": "./wutils",
+      "args": "ol",
+      "exec_mode": "fork",
+      "watch": true
+    },
+    {
+      "name": "wutils-dsg",
+      "script": "wutils.exe",
+      "cwd": "./wutils",
+      "args": "dsg",
+      "exec_mode": "fork",
+      "watch": true
+    }
+  ]
+}

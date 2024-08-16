@@ -32,6 +32,8 @@ ol:
       opacity: 210
     - title: "^Xterminal$"
       opacity: 230
+    - title: "- WindTerm$"
+      opacity: 200
 
     # app
     - title: "^微信$"

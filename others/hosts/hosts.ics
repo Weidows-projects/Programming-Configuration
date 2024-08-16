@@ -1,4 +1,4 @@
-# Copyright (c) 1993-2001 Microsoft Corp.
+## Copyright (c) 1993-2001 Microsoft Corp.
 #
 # This file has been automatically generated for use by Microsoft Internet
 # Connection Sharing. It contains the mappings of IP addresses to host names
@@ -7,11 +7,6 @@
 # local network.
 #
 
-172.18.112.1 X13.mshome.net # 2029 5 4 31 5 40 36 267
-
-
-29 772
-172.18.112.1 X13.mshome.net # 2029 5 5 18 4 48 49 890
-
-
-9 3 6 3 19 23 25 157
+#192.168.137.155 Mi-11.mshome.net # 2024 8 0 11 21 3 6 530
+#192.168.137.12 raspberrypi.mshome.net # 2024 8 0 11 21 2 58 311
+#192.168.137.1 X13.mshome.net # 2029 8 5 3 21 8 24 557

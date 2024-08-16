@@ -1,4 +1,4 @@
-#-------- 公共配置 --------
+﻿#-------- 公共配置 --------
 
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
@@ -26,10 +26,9 @@
 
 
 #-------- docker --------
-
 # Added by Docker Desktop
-192.168.73.1 host.docker.internal
-192.168.73.1 gateway.docker.internal
+192.168.84.1 host.docker.internal
+192.168.84.1 gateway.docker.internal
 # To allow the same kube context to work on the host and the container:
 127.0.0.1 kubernetes.docker.internal
 # End of section

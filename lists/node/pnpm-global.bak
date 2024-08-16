@@ -28,6 +28,7 @@ tldr 3.4.0
 ts-node 10.9.2
 typescript 5.3.3
 uglify-js 3.17.4
+vercel 35.2.1
 vite-cli 1.0.0
 webpack 5.90.3
 webpack-cli 5.1.4
