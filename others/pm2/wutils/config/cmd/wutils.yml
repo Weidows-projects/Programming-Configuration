@@ -14,16 +14,19 @@ ol:
   patterns:
     - title: "(XY|xy)plorer"
       opacity: 200
-    - title: "设置$"
-      opacity: 220
+    # - title: "设置$"
+    #   opacity: 220
 
     - title: "- Microsoft​ Edge Beta$"
       # opacity: 200
-      opacity: 255
+      opacity: 240
 
-    - title: "- Visual Studio Code$"
-      # opacity: 240
+    - title: " - VSC$"
+      # opacity: 220
       opacity: 220
+    - title: " - Cursor$"
+      # opacity: 220
+      opacity: 200
 
     # terminal
     - title: "cmd.exe$"

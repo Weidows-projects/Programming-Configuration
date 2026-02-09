@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-07-22T19:36:19.044-00:00",
+	"CreationDate" : "2024-08-08T21:44:01.675-00:00",
 	"Sources" : 
 	[
 		{
@@ -40,7 +40,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "127.0.2651.61"
+					"Version" : "127.0.2651.86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
@@ -104,7 +104,7 @@
 				},
 				{
 					"PackageIdentifier" : "Alibaba.QuarkCloudDrive",
-					"Version" : "3.2.7"
+					"Version" : "3.7.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller",
